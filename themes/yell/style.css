@@ -334,6 +334,13 @@ th {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../roboto-thin-webfont.eot");
+  src: url("../../roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../../roboto-thin-webfont.woff2") format("woff2"), url("../../roboto-thin-webfont.woff") format("woff"), url("../../roboto-thin-webfont.ttf") format("truetype"), url("../../roboto-thin-webfont.svg#robotothin") format("svg");
+  font-weight: lighter;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -773,3 +780,19 @@ a {
 
 h1, h2 {
   font-family: "Rubik", sans; }
+
+.bluebtn {
+  width: 270px;
+  height: 49px;
+  background-color: #8DC0D0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  border-color: #E8E8E8;
+  text-transform: uppercase; }

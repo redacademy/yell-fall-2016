@@ -6,3 +6,21 @@ a {
 h1, h2 {
     font-family:$accent-font-family;
 }
+
+.bluebtn {
+width: 270px;
+height: 49px;
+background-color: $theme-blue-color;
+box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF;
+font-family: $accent-font-family;
+text-shadow: none;
+border-color: $btn-border-color;
+text-transform: uppercase;
+}
+
