@@ -15,12 +15,19 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
 			<?php endwhile; // End of the loop. ?>
-              <div class="btn-div"> 
-                <button class="bluebtn"> More About Yell ></button>
+				<h2> What is YELL</h2>
+             
+                <button class="more-about"> More About Yell ></button>
 
 				<h2> Impact </h2>
-				
-              </div>
+				<h4> Student Impact</h4>
+
+				 <button class="more-about"> More Results ></button>
+			<div class="testimonial">
+				<div class="student-name">
+					</div>
+			</div>
+				  <button class="get-involved"> Get Involved! </button>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
