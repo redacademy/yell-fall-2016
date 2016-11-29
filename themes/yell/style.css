@@ -786,6 +786,13 @@ object {
 .site-footer {
   display: -ms-flexbox;
   display: flex; }
+  .site-footer ul {
+    list-style-type: none;
+    text-decoration: none; }
+    .site-footer ul a {
+      text-decoration: none;
+      color: #E48C3D;
+      text-align: left; }
   .site-footer .footer-nav-left {
     -ms-flex-pack: start;
         justify-content: flex-start; }
@@ -794,7 +801,8 @@ object {
         justify-content: flex-end; }
 
 .copyright p {
-  text-align: center; }
+  -ms-flex-line-pack: center;
+      align-content: center; }
 
 .home {
   text-align: center;

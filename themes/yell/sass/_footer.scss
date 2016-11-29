@@ -12,6 +12,15 @@
 
 .site-footer {
     display: flex;
+    ul {
+  list-style-type: none;
+  text-decoration: none;
+  a {
+      text-decoration: none;
+      color: $h2-orange-color;
+      text-align: left;
+  }
+}
 
     .footer-nav-left{
         justify-content: flex-start;
@@ -25,7 +34,7 @@
 
 .copyright {
     p{
-    text-align: center
+        align-content: center;    
     
 
 }
