@@ -796,43 +796,25 @@ object {
 .copyright p {
   text-align: center; }
 
-.home {
+.more-about {
+  width: 270px;
+  height: 49px;
+  background-color: #8DC0D0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
   text-align: center;
-  font-family: "Rubik", sans; }
-  .home a {
-    font-family: "Roboto", sans; }
-  .home h4 {
-    font-family: "Rubik", sans;
-    font-weight: 100;
-    color: #9B9B9B;
-    font-size: 14px;
-    margin-top: -30px; }
-  .home h2 {
-    font-family: "Rubik", sans;
-    font-weight: 300;
-    font-size: 36px;
-    color: #E48C3D; }
-  .home h1 {
-    font-family: "Rubik", sans; }
-  .home .more-about {
-    width: 270px;
-    height: 49px;
-    background-color: #8DC0D0;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 22px;
-    color: #FFFFFF;
-    font-family: "Rubik", sans;
-    text-shadow: none;
-    text-transform: uppercase;
-    box-shadow: none;
-    border: 3px solid #E8E8E8;
-    margin-bottom: 2%; }
-    .home .more-about:hover {
-      border-color: #E8E8E8;
-      box-shadow: none; }
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin-bottom: 2%; }
+  .more-about:hover {
+    border-color: #E8E8E8;
+    box-shadow: none; }
 
 .get-involved {
   width: 270px;
@@ -868,5 +850,5 @@ object {
   height: 70px;
   background-color: #F1F1F1;
   position: absolute;
-  top: 540px;
+  top: 546px;
   border-radius: 6px; }
