@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.site-footer{
+
+	background-color: $footer-bg-grey;
+    width: 100vw;
+    height: 263px;
+   
+}
+
+.site-footer {
+    display: flex;
+
+    .footer-nav-left{
+        justify-content: flex-start;
+    }
+
+    .fotter-nav-right{
+        justify-content: flex-end;
+    }
+}
+
+
+.copyright {
+    p{
+    text-align: center
+    
+
+}
+}
+@include desktop {
+
+
+}
