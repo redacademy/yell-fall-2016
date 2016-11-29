@@ -1,33 +1,18 @@
-
 .home {
-
     text-align: center;
-    font-family: $accent-font-family;
-    
-    a {
-    font-family:$main-font-family;
-}
+    h2 {
+        font-family:$accent-font-family;
+        color:$theme-orange-color;
+        font-weight: 300;
+        font-size: 36px;
+    }
 
-h4 {
-    font-family:$accent-font-family;
-    font-weight: 100;
-    color:$main-body-color;
-    font-size: $h4-font-size;
-    margin-top: -30px;
-}
-
-h2 {
-    font-family:$accent-font-family;
-    font-weight: 300;
-    font-size: $h2-font-size;
-    color: $theme-orange-color;
-}
-
-h1 {
-    font-family:$accent-font-family;
-}
-
-//button styles=====================================
+    h4 {
+        font-family:$accent-font-family;
+        color:$h4-color;
+        font-size: $h4-font-size;
+        font-weight: 300;
+    }
 
 .more-about {
 width: 270px;
@@ -38,7 +23,7 @@ font-size: 18px;
 font-weight: lighter;
 text-align: center;
 line-height: 22px;
-color: #FFFFFF;
+color: #FFFFFF ;
 font-family: $accent-font-family;
 text-shadow: none;
 text-transform: uppercase;
@@ -46,11 +31,10 @@ box-shadow: none;
 border: 3px solid $btn-border-color;
 margin-bottom: 2%;
 
-    &:hover{
-        border-color:$btn-border-color;
-        box-shadow:none;
-    }
-}
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+   }
 }
 
 
@@ -63,7 +47,7 @@ font-size: 18px;
 font-weight: lighter;
 text-align: center;
 line-height: 22px;
-color: #FFFFFF;
+color: #FFFFFF ;
 font-family: $accent-font-family;
 text-shadow: none;
 text-transform: uppercase;
@@ -71,18 +55,17 @@ box-shadow: none;
 border: 3px solid $btn-border-color;
 margin-bottom: 2%;
 
-    &:hover{
-        border-color:$btn-border-color;
-        box-shadow:none;
-    }
-
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+   }
 }
 
 //testimonial styles ====================
 .testimonial {
 width: 345px;
 height: 209px;
-background-color: #F9F9F9;
+background-color: #F9F9F9 ;
 box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 border-radius: 6px;
 margin: 0 auto;
@@ -92,10 +75,9 @@ margin-bottom: 2%;
 .student-name {
 width: 345px;
 height: 70px;
-background-color: #F1F1F1;
+background-color: #F1F1F1 ;
 position: absolute;
-top: 540px;
+top: 546px;
 border-radius: 6px;
 }
-
-
+}

@@ -805,23 +805,17 @@ object {
       align-content: center; }
 
 .home {
-  text-align: center;
-  font-family: "Rubik", sans; }
-  .home a {
-    font-family: "Roboto", sans; }
-  .home h4 {
-    font-family: "Rubik", sans;
-    font-weight: 100;
-    color: #9B9B9B;
-    font-size: 14px;
-    margin-top: -30px; }
+  text-align: center; }
   .home h2 {
     font-family: "Rubik", sans;
+    color: #E48C3D;
     font-weight: 300;
-    font-size: 36px;
-    color: #E48C3D; }
-  .home h1 {
-    font-family: "Rubik", sans; }
+    font-size: 36px; }
+  .home h4 {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 300; }
   .home .more-about {
     width: 270px;
     height: 49px;
@@ -841,40 +835,37 @@ object {
     .home .more-about:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
-
-.get-involved {
-  width: 270px;
-  height: 49px;
-  background-color: #E48C3D;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
-  line-height: 22px;
-  color: #FFFFFF;
-  font-family: "Rubik", sans;
-  text-shadow: none;
-  text-transform: uppercase;
-  box-shadow: none;
-  border: 3px solid #E8E8E8;
-  margin-bottom: 2%; }
-  .get-involved:hover {
-    border-color: #E8E8E8;
-    box-shadow: none; }
-
-.testimonial {
-  width: 345px;
-  height: 209px;
-  background-color: #F9F9F9;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 6px;
-  margin: 0 auto;
-  margin-bottom: 2%; }
-
-.student-name {
-  width: 345px;
-  height: 70px;
-  background-color: #F1F1F1;
-  position: absolute;
-  top: 540px;
-  border-radius: 6px; }
+  .home .get-involved {
+    width: 270px;
+    height: 49px;
+    background-color: #E48C3D;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid #E8E8E8;
+    margin-bottom: 2%; }
+    .home .get-involved:hover {
+      border-color: #E8E8E8;
+      box-shadow: none; }
+  .home .testimonial {
+    width: 345px;
+    height: 209px;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 2%; }
+  .home .student-name {
+    width: 345px;
+    height: 70px;
+    background-color: #F1F1F1;
+    position: absolute;
+    top: 546px;
+    border-radius: 6px; }
