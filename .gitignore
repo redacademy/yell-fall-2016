@@ -47,3 +47,4 @@ themes/yell/node_modules/*
 # Ignore build files #
 # ================== #
 themes/yell/build/*
+themes/yell/gulpfile.js
