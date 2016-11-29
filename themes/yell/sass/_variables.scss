@@ -57,7 +57,7 @@ $testimonial-bg-grey: #f1f1f1;
 
 //body background-colors
 $header-bg-grey: #D8D8D8;
-$footer-bg-grey: #e2e2e2;
+$footer-bg-grey: #f2f2f2;
 
 //Read more font link colors 
 $rdmore-blue: #83A3B3;
@@ -78,5 +78,12 @@ $tiny-body-font: 10px;
 
 $main-font-family: "Roboto", sans;
 $accent-font-family: "Rubik", sans;
+
+// page Width in mobile and desktop
+
+$dexktop-max-width:1850px;
+$dexktop-min-width: 600px;
+$mobile-max-width:600px;
+$mobile-min-width:375px;
 
 
