@@ -26,11 +26,9 @@
 					<li class="nav-list"><a href="#Info for Students">Info for Students</a></li>
 				</ul>
 			</div>
-			
 			<div class="copyright">
 				<p>Copyright © 2016 Yell</p>
 			</div>
-
 	</div>
 	<!-- .site-info -->
 	</footer>
