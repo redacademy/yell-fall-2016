@@ -1,3 +1,19 @@
+.home {
+    text-align: center;
+    h2 {
+        font-family:$accent-font-family;
+        color:$theme-orange-color;
+        font-weight: 300;
+        font-size: 36px;
+    }
+
+    h4 {
+        font-family:$accent-font-family;
+        color:$h4-color;
+        font-size: $h4-font-size;
+        font-weight: 300;
+    }
+
 .more-about {
 width: 270px;
 height: 49px;
@@ -64,4 +80,5 @@ background-color: #F1F1F1 ;
 position: absolute;
 top: 546px;
 border-radius: 6px;
+}
 }
