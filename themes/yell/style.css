@@ -775,6 +775,27 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.site-footer {
+  background-color: #f2f2f2;
+  width: 100vw;
+  height: 263px; }
+
+.site-footer {
+  display: -ms-flexbox;
+  display: flex; }
+  .site-footer .footer-nav-left {
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  .site-footer .fotter-nav-right {
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+
+.copyright p {
+  text-align: center; }
+
 .home {
   text-align: center;
   font-family: "Rubik", sans; }
