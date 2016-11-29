@@ -775,24 +775,32 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-a {
-  font-family: "Roboto", sans; }
-
-h1, h2 {
-  font-family: "Rubik", sans; }
-
-.bluebtn {
-  width: 270px;
-  height: 49px;
-  background-color: #8DC0D0;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: lighter;
+.home {
   text-align: center;
-  line-height: 22px;
-  color: #FFFFFF;
-  font-family: "Rubik", sans;
-  text-shadow: none;
-  border-color: #E8E8E8;
-  text-transform: uppercase; }
+  font-family: "Rubik", sans; }
+  .home a {
+    font-family: "Roboto", sans; }
+  .home h2 {
+    font-family: "Rubik", sans;
+    font-weight: 300;
+    color: #E48C3D; }
+  .home h1 {
+    font-family: "Rubik", sans; }
+  .home .bluebtn {
+    width: 270px;
+    height: 49px;
+    background-color: #8DC0D0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid #E8E8E8; }
+    .home .bluebtn:hover {
+      border-color: #E8E8E8;
+      box-shadow: none; }

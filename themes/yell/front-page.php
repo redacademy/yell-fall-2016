@@ -16,7 +16,10 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
               <div class="btn-div"> 
-                <button class="bluebtn"> More About Yell</button>
+                <button class="bluebtn"> More About Yell ></button>
+
+				<h2> Impact </h2>
+				
               </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
