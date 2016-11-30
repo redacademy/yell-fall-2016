@@ -10,8 +10,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 <div class="homepg-bg1">
 	<div class="homepg-bg2">
-		<div class="homepg-bg3">
-<?php
+		<div class="homepg-bg3"><?php
     $props = CFS()->get_field_info( 'what_yell' );
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
