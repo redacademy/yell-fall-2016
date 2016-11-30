@@ -245,8 +245,8 @@ th {
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../font/rubik-light-webfont.eot");
-  src: url("../../font/rubik-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/rubik-light-webfont.woff") format("woff"), url("../../font/rubik-light-webfont.ttf") format("truetype"), url("../../font/rubik-light-webfont.svg#rubiklight") format("svg");
+  src: url("../../fonts/rubik-light-webfont.eot");
+  src: url("../../fonts/rubik-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/rubik-light-webfont.woff") format("woff"), url("../../fonts/rubik-light-webfont.ttf") format("truetype"), url("../../fonts/rubik-light-webfont.svg#rubiklight") format("svg");
   font-weight: lighter;
   font-style: normal; }
 
@@ -830,6 +830,22 @@ object {
 
 .home {
   text-align: center; }
+  .home .homepg-bg1 {
+    background-color: #F9f9f9;
+    background-image: url(../../images/orange-splash.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 10%; }
+  .home .homepg-bg2 {
+    background-image: url(../../images/blue-splash.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 50%; }
+  .home .homepg-bg3 {
+    background-image: url(../../images/orange-splash2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 90%; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -840,6 +856,12 @@ object {
     color: #6D6D6D;
     font-size: 14px;
     font-weight: 300; }
+  .home p {
+    font-size: 16px;
+    width: 300px;
+    color: #9B9B9B;
+    margin: 0 auto;
+    padding-bottom: 2%; }
   .home .more-about {
     width: 270px;
     height: 49px;
@@ -859,6 +881,13 @@ object {
     .home .more-about:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
+  .home .impact p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
   .home .get-involved {
     width: 270px;
     height: 49px;
@@ -874,22 +903,39 @@ object {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8;
-    margin-bottom: 2%; }
+    margin: 2%; }
     .home .get-involved:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
+  .home .testimonial-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 2%;
+    margin: 0 auto;
+    max-width: 345px; }
   .home .testimonial {
     width: 345px;
     height: 209px;
-    background-color: #F9F9F9;
+    background-color: #f1f1f1;
+    color: #9B9B9B;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
-    margin-bottom: 2%; }
+    padding: 1%;
+    font-family: "Roboto", sans; }
   .home .student-name {
+    font-family: "Roboto", sans;
+    opacity: 0.33;
+    padding: 1%;
+    margin: 0 auto;
+    position: absolute;
     width: 345px;
     height: 70px;
-    background-color: #F1F1F1;
-    position: absolute;
-    top: 546px;
-    border-radius: 6px; }
+    background-color: #d8d8d8;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    border-radius: 6px;
+    color: #4A4A4A; }
