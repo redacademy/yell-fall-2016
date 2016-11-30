@@ -5,17 +5,16 @@
 .site-footer{
 
 	background-color: $footer-bg-grey;
-
 }
 
-.site-footer {
+.footer-content {
     display: flex;
     ul {
   list-style-type: none;
   text-decoration: none;
     justify-content: flex-start;
         margin-left: 3px;
-        margin-top: 75px;
+        // margin-top: 75px;
         padding-left: 0px;
         text-align: left;
         width: 200px;
@@ -30,13 +29,22 @@
     font-weight: normal;
     line-height: 2.5;
     }
-    .icons{
+}
+}
+ .icons {
+     display: flex;
+   margin-left: 150px;
+
         i{
-        font-color: white;
-        size: 18px;
+        color: white;
+        font-size: 34px;
+        padding: 9px;
+
+        }
+        .fa {
+         
         }
     }
-}
 
     .footer-nav-left{
         ul{
@@ -57,14 +65,12 @@
         width: 200px;
         }
     }
-}
 
 
-.copyright {
+.home .copyright {
     p{
         align-content: center; 
         margin-left: -300px;
-        color: $h2-orange-color;
             font-size: 10px;
 
 

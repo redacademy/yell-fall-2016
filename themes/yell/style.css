@@ -781,20 +781,19 @@ object {
 .site-footer {
   background-color: #f2f2f2; }
 
-.site-footer {
+.footer-content {
   display: -ms-flexbox;
   display: flex; }
-  .site-footer ul {
+  .footer-content ul {
     list-style-type: none;
     text-decoration: none;
     -ms-flex-pack: start;
         justify-content: flex-start;
     margin-left: 3px;
-    margin-top: 75px;
     padding-left: 0px;
     text-align: left;
     width: 200px; }
-    .site-footer ul a {
+    .footer-content ul a {
       text-decoration: none;
       color: #E48C3D;
       text-align: left;
@@ -803,29 +802,36 @@ object {
       font-size: 14px;
       font-weight: normal;
       line-height: 2.5; }
-    .site-footer ul .icons i {
-      font-color: white;
-      size: 18px; }
-  .site-footer .footer-nav-left ul {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    margin-left: 80px;
-    padding-left: 0px;
-    text-align: left;
-    width: 200px; }
-  .site-footer .fotter-nav-right ul {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    margin-right: 43px;
-    padding-right: 0px;
-    text-align: left;
-    width: 200px; }
 
-.copyright p {
+.icons {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px; }
+  .icons i {
+    color: white;
+    font-size: 34px;
+    padding: 9px; }
+
+.footer-nav-left ul {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  margin-left: 80px;
+  padding-left: 0px;
+  text-align: left;
+  width: 200px; }
+
+.fotter-nav-right ul {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-right: 43px;
+  padding-right: 0px;
+  text-align: left;
+  width: 200px; }
+
+.home .copyright p {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-left: -300px;
-  color: #E48C3D;
   font-size: 10px; }
 
 .home {
