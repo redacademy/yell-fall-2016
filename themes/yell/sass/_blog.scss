@@ -1,0 +1,97 @@
+.blog {
+    background-color:  $testimonial-bg-lightgrey;
+
+    .readmore {
+    margin-left: 75%;
+    margin-top: 10%;
+    
+
+        a{
+            text-decoration: none;
+            font-family:$accent-font-family;
+            color: $theme-orange-color;
+
+            &:hover {
+                color: darken($theme-orange-color, 10%);
+            }
+        }
+    }
+
+
+    header, .entry-content {
+        width: 355px;
+    }
+
+    .entry-title {
+        margin: 2%;
+        a{
+    text-decoration: none;
+    font-family: $accent-font-family;
+    font-weight: 300;
+    color: $main-body-color;
+        }
+        
+    }
+
+    .entry-content {
+        p{
+            font-size: 14px;
+            font-family:$main-font-family;
+            color:$main-body-color;
+            margin: 2%;
+        }
+    }
+    .entry-date {
+    position: relative;
+    top: 263px;
+    margin-left: 2%;
+    font-family:$main-font-family;
+    text-transform: uppercase;
+    color: $main-body-color;
+
+    }
+
+}
+
+
+    .flexwrapper-blog{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+    }
+
+    .type-post {
+    border: 1px solid #F9F9F9;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.25);
+    background-color:$testimonial-bg-grey;
+    padding-bottom: 10%;
+        }
+    
+
+.back-top {
+    font-family: $accent-font-family;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: $link-to-top-grey;
+    display:flex;
+    justify-content:center;
+         &:hover {
+       color: darken($link-to-top-grey, 10%);
+         }
+}
+
+.entry-meta {
+    h4 {
+    text-transform: uppercase;
+    font-family: $main-font-family;
+    color: $h4-color;
+    font-weight: 200;
+    margin-top: -10%;
+    margin: 2%;
+    }
+
+    .byline {
+        display:none;
+    }
+}
