@@ -816,6 +816,12 @@ object {
     color: #6D6D6D;
     font-size: 14px;
     font-weight: 300; }
+  .home p {
+    font-size: 16px;
+    width: 300px;
+    color: #9B9B9B;
+    margin: 0 auto;
+    padding-bottom: 2%; }
   .home .more-about {
     width: 270px;
     height: 49px;
@@ -835,6 +841,13 @@ object {
     .home .more-about:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
+  .home .impact p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
   .home .get-involved {
     width: 270px;
     height: 49px;
@@ -854,18 +867,35 @@ object {
     .home .get-involved:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
+  .home .testimonial-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 2%;
+    margin: 0 auto;
+    max-width: 345px; }
   .home .testimonial {
     width: 345px;
     height: 209px;
-    background-color: #F9F9F9;
+    background-color: #F9f9f9;
+    color: #9B9B9B;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
-    margin-bottom: 2%; }
+    padding: 1%;
+    font-family: "Roboto", sans; }
   .home .student-name {
+    font-family: "Roboto", sans;
+    opacity: 0.33;
+    padding: 1%;
+    margin: 0 auto;
+    position: absolute;
     width: 345px;
     height: 70px;
-    background-color: #F1F1F1;
-    position: absolute;
-    top: 546px;
-    border-radius: 6px; }
+    background-color: #f1f1f1;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    border-radius: 6px;
+    color: #4A4A4A; }
