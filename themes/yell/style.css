@@ -950,6 +950,27 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
+.home .nav-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 5rem;
+  background-color: #E8E8E8; }
+  .nav-bar button {
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    background-color: transparent;
+    box-shadow: none; }
+    .home .nav-bar button i {
+      font-size: 3rem;
+      color: #ffffff; }
+  .home .nav-bar img {
+    height: 5rem;
+    width: 5rem; }
+
+
 .blog {
   background-color: #F9f9f9; }
   .blog .readmore {
