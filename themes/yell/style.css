@@ -996,13 +996,6 @@ object {
     font-family: "Roboto", sans;
     color: #9B9B9B;
     margin: 2%; }
-  .blog .entry-date {
-    position: relative;
-    top: 263px;
-    margin-left: 2%;
-    font-family: "Roboto", sans;
-    text-transform: uppercase;
-    color: #9B9B9B; }
 
 .flexwrapper-blog {
   display: -ms-flexbox;
@@ -1042,3 +1035,40 @@ object {
 .entry-meta .byline {
   display: none; }
 
+.entry-date {
+  position: relative;
+  top: 263px;
+  margin-left: 2%;
+  font-family: "Roboto", sans;
+  text-transform: uppercase;
+  color: #9B9B9B; }
+
+.single-post .entry-title {
+  font-family: "Rubik", sans;
+  text-transform: uppercase;
+  padding: 5%;
+  font-weight: 300;
+  color: #4A4A4A; }
+
+.single-post .entry-meta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.single-post .entry-date {
+  top: 0;
+  margin-left: 0; }
+
+.single-post .entry-content {
+  padding: 5%;
+  font-size: 14px;
+  font-family: "Roboto", sans;
+  color: #9B9B9B; }
+  .single-post .entry-content h4 {
+    font-weight: 600; }
+  .single-post .entry-content a {
+    text-decoration: none;
+    color: #9B9B9B; }

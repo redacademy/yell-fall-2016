@@ -1,5 +1,5 @@
 .blog {
-    background-color:  $testimonial-bg-lightgrey;
+    background-color: $testimonial-bg-lightgrey;
 
     .readmore {
     margin-left: 75%;
@@ -23,7 +23,8 @@
     }
 
     .entry-title {
-        margin: 2%;
+    margin: 2%;
+
         a{
     text-decoration: none;
     font-family: $accent-font-family;
@@ -41,15 +42,7 @@
             margin: 2%;
         }
     }
-    .entry-date {
-    position: relative;
-    top: 263px;
-    margin-left: 2%;
-    font-family:$main-font-family;
-    text-transform: uppercase;
-    color: $main-body-color;
-
-    }
+ 
 
 }
 
@@ -95,3 +88,13 @@
         display:none;
     }
 }
+
+   .entry-date {
+    position: relative;
+    top: 263px;
+    margin-left: 2%;
+    font-family:$main-font-family;
+    text-transform: uppercase;
+    color: $main-body-color;
+
+    }
