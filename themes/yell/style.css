@@ -856,7 +856,8 @@ object {
     margin-bottom: 2%; }
     .home .more-about:hover {
       border-color: #E8E8E8;
-      box-shadow: none; }
+      box-shadow: none;
+      background-color: #69acc1; }
   .home .impact p {
     display: -ms-flexbox;
     display: flex;
@@ -882,7 +883,8 @@ object {
     margin: 2%; }
     .home .get-involved:hover {
       border-color: #E8E8E8;
-      box-shadow: none; }
+      box-shadow: none;
+      background-color: #d1721d; }
   .home .testimonial-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -900,12 +902,14 @@ object {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
-    padding: 1%;
     font-family: "Roboto", sans; }
+    .home .testimonial p {
+      margin-top: 12px;
+      padding-left: 1%; }
   .home .student-name {
     font-family: "Roboto", sans;
     opacity: 0.33;
-    padding: 1%;
+    padding: 2.5%;
     margin: 0 auto;
     position: absolute;
     width: 345px;

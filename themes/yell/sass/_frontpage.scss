@@ -67,6 +67,7 @@ margin-bottom: 2%;
    &:hover{
        border-color:$btn-border-color;
        box-shadow:none;
+       background-color: darken($theme-blue-color, 10%);
    }
 }
 
@@ -100,7 +101,9 @@ margin: 2%;
    &:hover{
        border-color:$btn-border-color;
        box-shadow:none;
+      background-color: darken($theme-orange-color, 10%);
    }
+   
 }
 
 //testimonial styles ====================
@@ -122,14 +125,18 @@ color: $main-body-color;
 box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 border-radius: 6px;
 margin: 0 auto;
-padding: 1%;
 font-family:$main-font-family;
+
+    p {
+        margin-top:12px;
+        padding-left:1%;
+    }
 
 }
 .student-name {
 font-family:$main-font-family;
 opacity: 0.33;
-padding: 1%;
+padding: 2.5%;
 margin: 0 auto;
 position: absolute;
 width: 345px;

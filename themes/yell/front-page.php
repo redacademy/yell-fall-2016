@@ -30,7 +30,7 @@ get_header(); ?>
 
 	<div class="testimonial-wrapper">
 		<div class="testimonial">
-   		 <?php echo CFS()->get( 'testimonial' ); ?>
+   		<p> <?php echo CFS()->get( 'testimonial' ); ?></p>
 		</div>
 			<div class="student-name">
 				<?php echo CFS()->get('student_name'); ?>
