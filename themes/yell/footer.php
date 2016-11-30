@@ -17,7 +17,7 @@
 			</div>
 			<div class="footer-content">
 			<div class="footer-nav-left">
-				<ul class="nav-bar">
+				<ul class="footer-nav-bar">
 					<li class="nav-list"><a href="#Home">Home</a></li>
 					<li class="nav-list"><a href="#About Us">About Us</a></li>
 					<li class="nav-list"><a href="#Program Details">Program Details</a></li>
@@ -25,7 +25,7 @@
 				</ul>
 			</div>
 			<div class="footer-nav-right">
-				<ul class="nav-bar">
+				<ul class="footer-nav-bar">
 					<li class="nav-list"><a href="#Be an Expert">Be an Expert</a></li>
 					<li class="nav-list"><a href="#Become a Partner">Become a Partner</a></li>
 					<li class="nav-list"><a href="#Press and Stories">Press and Stories</a></li>
