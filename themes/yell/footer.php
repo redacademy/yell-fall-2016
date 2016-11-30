@@ -15,7 +15,7 @@
 				<i class="fa fa-twitter" aria-hidden="true"></i>
 				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</div>
-			
+			<div class="footer-content">
 			<div class="footer-nav-left">
 				<ul class="nav-bar">
 					<li class="nav-list"><a href="#Home">Home</a></li>
@@ -34,6 +34,7 @@
 			
 			<div class="copyright">
 				<p>Copyright © 2016 YELL</p>
+			</div>
 			</div>
 			</div>
 			
