@@ -953,7 +953,7 @@ object {
 .blog {
   background-color: #F9f9f9; }
   .blog .readmore {
-    margin-left: 75%;
+    margin-left: 72%;
     margin-top: 10%; }
     .blog .readmore a {
       text-decoration: none;
@@ -1036,10 +1036,13 @@ object {
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center; }
+  .single-post .entry-meta h4 {
+    color: #E48C3D; }
 
 .single-post .entry-date {
   top: 0;
-  margin-left: 0; }
+  margin-left: 0;
+  color: #E48C3D; }
 
 .single-post .entry-content {
   padding: 5%;
