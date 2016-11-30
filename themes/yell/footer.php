@@ -10,6 +10,12 @@
 	<!--Site Footer-->
 	<div class="site-info">
 		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="icons">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</div>
+			
 			<div class="footer-nav-left">
 				<ul class="nav-bar">
 					<li class="nav-list"><a href="#Home">Home</a></li>
@@ -23,13 +29,14 @@
 					<li class="nav-list"><a href="#Be an Expert">Be an Expert</a></li>
 					<li class="nav-list"><a href="#Become a Partner">Become a Partner</a></li>
 					<li class="nav-list"><a href="#Press and Stories">Press and Stories</a></li>
-					<li class="nav-list"><a href="#Info for Students">Info for Students</a></li>
+					<li class="nav-list"><a href="#Contact Us">Contact Us</a></li>
 				</ul>
+			
+			<div class="copyright">
+				<p>Copyright © 2016 YELL</p>
 			</div>
-			<!--<div class="copyright">
-				<p>Copyright © 2016 Yell</p>
-			</div>-->
-	</div>
+			</div>
+			
 	<!-- .site-info -->
 	</footer>
 	<!-- #colophon -->

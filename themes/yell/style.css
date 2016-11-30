@@ -779,30 +779,54 @@ object {
 # Widgets
 --------------------------------------------------------------*/
 .site-footer {
-  background-color: #f2f2f2;
-  width: 100vw;
-  height: 263px; }
+  background-color: #f2f2f2; }
 
 .site-footer {
   display: -ms-flexbox;
   display: flex; }
   .site-footer ul {
     list-style-type: none;
-    text-decoration: none; }
+    text-decoration: none;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    margin-left: 3px;
+    margin-top: 75px;
+    padding-left: 0px;
+    text-align: left;
+    width: 200px; }
     .site-footer ul a {
       text-decoration: none;
       color: #E48C3D;
-      text-align: left; }
-  .site-footer .footer-nav-left {
+      text-align: left;
+      height: 19px;
+      font-family: "Rubik", sans;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 2.5; }
+    .site-footer ul .icons i {
+      font-color: white;
+      size: 18px; }
+  .site-footer .footer-nav-left ul {
     -ms-flex-pack: start;
-        justify-content: flex-start; }
-  .site-footer .fotter-nav-right {
+        justify-content: flex-start;
+    margin-left: 80px;
+    padding-left: 0px;
+    text-align: left;
+    width: 200px; }
+  .site-footer .fotter-nav-right ul {
     -ms-flex-pack: end;
-        justify-content: flex-end; }
+        justify-content: flex-end;
+    margin-right: 43px;
+    padding-right: 0px;
+    text-align: left;
+    width: 200px; }
 
 .copyright p {
   -ms-flex-line-pack: center;
-      align-content: center; }
+      align-content: center;
+  margin-left: -300px;
+  color: #E48C3D;
+  font-size: 10px; }
 
 .home {
   text-align: center; }
