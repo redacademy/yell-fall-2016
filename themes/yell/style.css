@@ -958,24 +958,28 @@ object {
     .blog .readmore a {
       text-decoration: none;
       font-family: "Rubik", sans;
-      color: #9B9B9B; }
+      color: #E48C3D; }
       .blog .readmore a:hover {
-        color: #828282; }
+        color: #d1721d; }
   .blog header, .blog .entry-content {
     width: 355px; }
-  .blog .entry-title a {
-    text-decoration: none;
-    font-family: "Rubik", sans;
-    font-weight: 300;
-    color: #9B9B9B; }
+  .blog .entry-title {
+    margin: 2%; }
+    .blog .entry-title a {
+      text-decoration: none;
+      font-family: "Rubik", sans;
+      font-weight: 300;
+      color: #9B9B9B; }
   .blog .entry-content p {
     font-size: 14px;
     font-family: "Roboto", sans;
-    color: #9B9B9B; }
+    color: #9B9B9B;
+    margin: 2%; }
   .blog .entry-date {
     position: relative;
-    top: 230px;
+    top: 263px;
     margin-left: 2%;
+    font-family: "Roboto", sans;
     text-transform: uppercase;
     color: #9B9B9B; }
 
@@ -1005,3 +1009,14 @@ object {
       justify-content: center; }
   .back-top:hover {
     color: rgba(130, 130, 130, 0.52); }
+
+.entry-meta h4 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans;
+  color: #6D6D6D;
+  font-weight: 200;
+  margin-top: -10%;
+  margin: 2%; }
+
+.entry-meta .byline {
+  display: none; }
