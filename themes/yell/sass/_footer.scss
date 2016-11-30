@@ -30,13 +30,19 @@
     font-weight: normal;
     line-height: 2.5;
     }
-    .icons{
+}
+ .icons {
         i{
-        font-color: white;
-        size: 18px;
+        color: white;
+        font-size: 34px;
+        padding: 12% 12%;
+
+        }
+        .fa {
+            display: flex;
+            flex-direction: row;
         }
     }
-}
 
     .footer-nav-left{
         ul{
@@ -60,11 +66,10 @@
 }
 
 
-.copyright {
+.home .copyright {
     p{
         align-content: center; 
         margin-left: -300px;
-        color: $h2-orange-color;
             font-size: 10px;
 
 

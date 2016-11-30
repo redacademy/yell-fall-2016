@@ -803,9 +803,15 @@ object {
       font-size: 14px;
       font-weight: normal;
       line-height: 2.5; }
-    .site-footer ul .icons i {
-      font-color: white;
-      size: 18px; }
+  .site-footer .icons i {
+    color: white;
+    font-size: 34px;
+    padding: 12% 12%; }
+  .site-footer .icons .fa {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row; }
   .site-footer .footer-nav-left ul {
     -ms-flex-pack: start;
         justify-content: flex-start;
@@ -821,11 +827,10 @@ object {
     text-align: left;
     width: 200px; }
 
-.copyright p {
+.home .copyright p {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-left: -300px;
-  color: #E48C3D;
   font-size: 10px; }
 
 .home {
