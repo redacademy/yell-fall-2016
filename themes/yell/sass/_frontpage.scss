@@ -1,5 +1,30 @@
 .home {
-    text-align: center;
+       text-align: center;
+    .homepg-bg1 {
+        background-color:  $testimonial-bg-lightgrey;
+        background-image: url(../../images/orange-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 350px;
+        background-position-y:10%;
+    }
+
+    .homepg-bg2 {
+       
+        background-image: url(../../images/blue-splash.png); 
+        background-repeat: no-repeat;
+        background-size: 100% 350px;
+        background-position-y:50%;
+    }
+
+      .homepg-bg3 {
+       
+        background-image: url(../../images/orange-splash2.png); 
+        background-repeat: no-repeat;
+        background-size: 100% 350px;
+        background-position-y:90%;
+    }
+
+    
     h2 {
         font-family:$accent-font-family;
         color:$theme-orange-color;
@@ -70,7 +95,7 @@ text-shadow: none;
 text-transform: uppercase;
 box-shadow: none;
 border: 3px solid $btn-border-color;
-margin-bottom: 2%;
+margin: 2%;
 
    &:hover{
        border-color:$btn-border-color;
@@ -92,7 +117,7 @@ max-width: 345px;
 .testimonial {
 width: 345px;
 height: 209px;
-background-color: $testimonial-bg-lightgrey;
+background-color:#f1f1f1;
 color: $main-body-color;
 box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 border-radius: 6px;
@@ -109,7 +134,7 @@ margin: 0 auto;
 position: absolute;
 width: 345px;
 height: 70px;
-background-color:$testimonial-bg-grey;
+background-color:#d8d8d8;
 align-self: flex-end;
 border-radius: 6px;
 color: $testimonial-name-color;

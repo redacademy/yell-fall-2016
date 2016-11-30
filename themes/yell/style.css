@@ -245,8 +245,8 @@ th {
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../font/rubik-light-webfont.eot");
-  src: url("../../font/rubik-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/rubik-light-webfont.woff") format("woff"), url("../../font/rubik-light-webfont.ttf") format("truetype"), url("../../font/rubik-light-webfont.svg#rubiklight") format("svg");
+  src: url("../../fonts/rubik-light-webfont.eot");
+  src: url("../../fonts/rubik-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/rubik-light-webfont.woff") format("woff"), url("../../fonts/rubik-light-webfont.ttf") format("truetype"), url("../../fonts/rubik-light-webfont.svg#rubiklight") format("svg");
   font-weight: lighter;
   font-style: normal; }
 
@@ -806,6 +806,22 @@ object {
 
 .home {
   text-align: center; }
+  .home .homepg-bg1 {
+    background-color: #F9f9f9;
+    background-image: url(../../images/orange-splash.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 10%; }
+  .home .homepg-bg2 {
+    background-image: url(../../images/blue-splash.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 50%; }
+  .home .homepg-bg3 {
+    background-image: url(../../images/orange-splash2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-position-y: 90%; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -863,7 +879,7 @@ object {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8;
-    margin-bottom: 2%; }
+    margin: 2%; }
     .home .get-involved:hover {
       border-color: #E8E8E8;
       box-shadow: none; }
@@ -879,7 +895,7 @@ object {
   .home .testimonial {
     width: 345px;
     height: 209px;
-    background-color: #F9f9f9;
+    background-color: #f1f1f1;
     color: #9B9B9B;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -894,7 +910,7 @@ object {
     position: absolute;
     width: 345px;
     height: 70px;
-    background-color: #f1f1f1;
+    background-color: #d8d8d8;
     -ms-flex-item-align: end;
         align-self: flex-end;
     border-radius: 6px;
