@@ -14,11 +14,16 @@
         display:flex;
         justify-content:space-around;
         align-items:center;
+
+        h4 {
+        color:$theme-orange-color;
+        }
     }
     
     .entry-date {
         top:0;
         margin-left: 0;
+        color: $theme-orange-color;
 
     }
     .entry-content {
