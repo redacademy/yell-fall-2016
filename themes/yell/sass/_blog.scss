@@ -1,6 +1,20 @@
 .blog {
     background-color: $testimonial-bg-lightgrey;
 
+    .site-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-around;
+
+    header {
+        display:none;
+    }
+}
+    
+
     .readmore {
     margin-left: 72%;
     margin-top: 10%;

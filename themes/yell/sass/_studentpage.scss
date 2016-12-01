@@ -67,3 +67,28 @@
 
   }
   }
+
+  .yell-at {
+width: 270px;
+height: 49px;
+background-color: $theme-blue-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 15%;
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+       background-color: darken($theme-blue-color, 10%);
+
+   }
+}
