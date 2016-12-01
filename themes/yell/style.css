@@ -951,23 +951,31 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
-.home .nav-bar {
+.home .nav-bar, .page-template-page-about .nav-bar,
+.page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
+.page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
-  .home .nav-bar button {
+  .home .nav-bar button, .page-template-page-about .nav-bar button,
+  .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
+  .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button {
     height: 5rem;
     width: 5rem;
     border: none;
     background-color: transparent;
     box-shadow: none; }
-    .home .nav-bar button i {
+    .home .nav-bar button i, .page-template-page-about .nav-bar button i,
+    .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
+    .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i {
       font-size: 3rem;
       color: #ffffff; }
-  .home .nav-bar img {
+  .home .nav-bar img, .page-template-page-about .nav-bar img,
+  .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
+  .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
