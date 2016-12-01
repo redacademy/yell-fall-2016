@@ -37,10 +37,10 @@ a {
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		height:15rem;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
 			position: absolute;
 			top: $base__space-unit;
 			left: -999em;
@@ -77,8 +77,9 @@ a {
 		}
 	}
 	li {
-		float: left;
 		position: relative;
+		text-align: left;
+        padding-left: 1.2rem;
 
 		&:hover > a,
 		&.focus > a {

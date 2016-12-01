@@ -547,10 +547,10 @@ a {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    height: 15rem; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
       position: absolute;
       top: 1.5em;
       left: -999em;
@@ -567,8 +567,9 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
-    position: relative; }
+    position: relative;
+    text-align: left;
+    padding-left: 1.2rem; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
