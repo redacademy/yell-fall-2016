@@ -1,10 +1,13 @@
 .single-post {
 
+img {
+    padding-left: 5%;
+}
    
     .entry-title {
         font-family:$accent-font-family;
         text-transform: uppercase;
-        padding: 5%;
+        padding: 0 5% 0 5%;
         font-weight: 300;
         color: $testimonial-name-color;
 
@@ -27,7 +30,7 @@
 
     }
     .entry-content {
-        padding: 5%;
+        padding: 0 5% 0 5%;
         font-size: 14px;
         font-family: $main-font-family;
         color: $main-body-color;
