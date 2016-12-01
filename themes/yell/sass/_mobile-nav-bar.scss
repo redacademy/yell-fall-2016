@@ -12,6 +12,7 @@
             border:none;
             background-color: transparent;
             box-shadow:none;
+                outline:none;
 
             i{
                 font-size:3rem;
@@ -23,6 +24,25 @@
             width:5rem;
          }
         }
+}
+#primary-menu ul{
+    height:75%;
+    width:80%;
+    z-index:1;
+     li{
+        border-bottom: 1px solid $link-to-top-grey;;
+        line-height:3rem;
+        text-transform: uppercase;
+        &:nth-last-child(-n+1){
+            background-color:$h2-orange-color;
+            a{
+                color:white;
+            }
+        }
+        a{
+        color:$h3-grey-color;
+        }
+    }
 }
 /*.page-template-page-about {
 .nav-bar {
