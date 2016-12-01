@@ -979,6 +979,30 @@ object {
     height: 5rem;
     width: 5rem; }
 
+/*.page-template-page-about {
+.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:5rem;
+        background-color:transparent;
+        button{
+            height:5rem;
+            width:5rem;
+            border:none;
+            background-color: transparent;
+            box-shadow:none;
+
+            i{
+                font-size:3rem;
+                color:$hero-font-color;
+            }
+        }
+        img {
+            height:5rem;
+            width:5rem;
+         }
+        }
+}*/
 .blog {
   background-color: #F9f9f9; }
   .blog .readmore {
