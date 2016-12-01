@@ -4,6 +4,11 @@
     .readmore {
     margin-left: 72%;
     margin-top: 10%;
+
+    .hfeed{
+    display: flex;
+    flex-direction: column;
+    }
     
 
         a{
@@ -41,6 +46,11 @@
             color:$main-body-color;
             margin: 2%;
         }
+    }
+
+        .hfeed{
+    display: flex;
+    flex-direction: column;
     }
  
 

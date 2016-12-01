@@ -864,7 +864,7 @@ object {
     font-weight: 300; }
   .home p {
     font-size: 16px;
-    max-width: 50%;
+    max-width: 80%;
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%; }
@@ -975,6 +975,11 @@ object {
   .blog .readmore {
     margin-left: 72%;
     margin-top: 10%; }
+    .blog .readmore .hfeed {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
     .blog .readmore a {
       text-decoration: none;
       font-family: "Rubik", sans;
@@ -995,6 +1000,11 @@ object {
     font-family: "Roboto", sans;
     color: #9B9B9B;
     margin: 2%; }
+  .blog .hfeed {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
 
 .flexwrapper-blog {
   display: -ms-flexbox;
@@ -1104,7 +1114,7 @@ object {
     text-transform: uppercase; }
   .page-template-page-student .site-main p {
     font-size: 16px;
-    max-width: 50%;
+    max-width: 60%;
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%;
