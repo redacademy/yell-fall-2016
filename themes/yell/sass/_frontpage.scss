@@ -1,5 +1,6 @@
 .home {
        text-align: center;
+       
     .homepg-bg1 {
         background-color:  $testimonial-bg-lightgrey;
         background-image: url(../../images/orange-splash.png);
@@ -44,7 +45,7 @@
 
     p {
         font-size: 16px;
-        width: 300px;
+        max-width: 50%;
         color:$main-body-color;
         margin: 0 auto;
         padding-bottom: 2%;
