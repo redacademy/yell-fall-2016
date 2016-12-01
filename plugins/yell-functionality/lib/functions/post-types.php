@@ -9,10 +9,10 @@
 function custom_people_type() {
 
 	$labels = array(
-		'name'                  => _x( 'People Types', 'Post Type General Name', 'text_domain' ),
-		'singular_name'         => _x( 'People Type', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'             => __( 'People Types', 'text_domain' ),
-		'name_admin_bar'        => __( 'People Type', 'text_domain' ),
+		'name'                  => _x( 'People', 'Post Type General Name', 'text_domain' ),
+		'singular_name'         => _x( 'Pearson', 'Post Type Singular Name', 'text_domain' ),
+		'menu_name'             => __( 'People', 'text_domain' ),
+		'name_admin_bar'        => __( 'People ', 'text_domain' ),
 		'archives'              => __( 'People Archives', 'text_domain' ),
 		'parent_item_colon'     => __( 'Parent Person:', 'text_domain' ),
 		'all_items'             => __( 'All People', 'text_domain' ),
@@ -36,7 +36,7 @@ function custom_people_type() {
 		'filter_items_list'     => __( 'Filter People list', 'text_domain' ),
 	);
 	$args = array(
-		'label'                 => __( 'People Type', 'text_domain' ),
+		'label'                 => __( 'Pearson', 'text_domain' ),
 		'description'           => __( 'Post People Description', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
