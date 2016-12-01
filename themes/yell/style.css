@@ -957,7 +957,7 @@ object {
       justify-content: space-between;
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
-  .nav-bar button {
+  .home .nav-bar button {
     height: 5rem;
     width: 5rem;
     border: none;
@@ -969,7 +969,6 @@ object {
   .home .nav-bar img {
     height: 5rem;
     width: 5rem; }
-
 
 .blog {
   background-color: #F9f9f9; }

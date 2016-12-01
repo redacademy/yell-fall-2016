@@ -13,11 +13,30 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php
+    $props = CFS()->get_field_info( 'what_yell' );
+    echo '<h2>' . $props['label'] . '</h2>';
+    ?>
+		<div class="what-yell">
+    <?php echo CFS()->get( 'what_yell' ); ?>
+		</div>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+	<?php
+    $props = CFS()->get_field_info( 'yell_program' );
+    echo '<h2>' . $props['label'] . '</h2>';
+    ?>
+		<div class="yell-program">
+    <?php echo CFS()->get( 'yell_program' ); ?>
+		</div>
 
-			<?php endwhile; // End of the loop. ?>
+		<?php
+    $props = CFS()->get_field_info( 'program_structure' );
+    echo '<h2>' . $props['label'] . '</h2>';
+    ?>
+		<div class="program-structure">
+    <?php echo CFS()->get( 'program_structure' ); ?>
+		</div>
+		
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
