@@ -547,10 +547,10 @@ a {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    height: 15rem; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
       position: absolute;
       top: 1.5em;
       left: -999em;
@@ -567,8 +567,9 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
-    position: relative; }
+    position: relative;
+    text-align: left;
+    padding-left: 1.2rem; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
@@ -864,7 +865,7 @@ object {
     font-weight: 300; }
   .home p {
     font-size: 16px;
-    width: 300px;
+    max-width: 50%;
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%; }
@@ -1074,3 +1075,51 @@ object {
   .single-post .entry-content a {
     text-decoration: none;
     color: #9B9B9B; }
+
+.page-template-page-student {
+  color: #9B9B9B;
+  text-align: center;
+  background-color: #F9f9f9;
+  width: 100%; }
+  .page-template-page-student img {
+    height: 250px; }
+  .page-template-page-student .site-main h2 {
+    font-family: "Rubik", sans;
+    color: #E48C3D;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center; }
+  .page-template-page-student .site-main h3 {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 300;
+    font-size: 24px; }
+  .page-template-page-student .site-main h5 {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .page-template-page-student .site-main p {
+    font-size: 16px;
+    max-width: 50%;
+    color: #9B9B9B;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    font-family: "Roboto", sans;
+    text-align: left; }
+  .page-template-page-student .what-yell p {
+    font-size: 14px;
+    text-align: center; }
+  .page-template-page-student .register-blurb
+p {
+    font-size: 14px; }
+  .page-template-page-student .pglabel
+h3 {
+    text-transform: uppercase;
+    font-family: "Rubik", sans;
+    font-weight: 300;
+    margin-bottom: 10%; }
