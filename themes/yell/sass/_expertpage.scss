@@ -1,0 +1,143 @@
+.page-template-page-expert {
+
+    ul {
+        text-align: left;
+    }
+    .mentor-ul {
+        margin-left: 22%;
+        width:300px
+    }
+
+    .mentor {
+    width: 300px;
+    margin: 0 auto;
+
+
+    p{
+        font-size: 12px;
+        text-align:center;
+    }
+
+    h5 {
+        border-bottom: 1px solid $h2-orange-color;
+    }
+
+}
+
+    .teacher-btn {
+
+width: 100%;
+height: 90px;
+background-color: #CEE0EC;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+font-weight:300;
+text-transform: uppercase;
+border: 1px solid $btn-border-color;
+
+
+   &:hover{
+       border-color:$btn-border-color;
+       background-color: darken(#CEE0EC, 10%);
+
+   }
+}
+
+  .mentor-btn {
+
+width: 100%;
+height: 90px;
+background-color: #A8C4D3;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+font-weight:300;
+text-transform: uppercase;
+border: 1px solid $btn-border-color;
+
+
+   &:hover{
+       border-color:$btn-border-color;
+       background-color: darken(#A8C4D3, 10%);
+
+   }
+}
+  .speaker-btn {
+
+width: 100%;
+height: 90px;
+background-color: #84A4B3;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+font-weight: 300;
+text-transform: uppercase;
+border: 1px solid $btn-border-color;
+
+
+   &:hover{
+       border-color:$btn-border-color;
+       background-color: darken(#84A4B3, 10%);
+
+   }
+}
+
+.speaker-btn, .mentor-btn, .teacher-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+
+
+//testimonial styles ====================
+
+.testimonial-wrapper {
+display:flex;
+flex-wrap: wrap;
+text-align:left;
+margin-bottom: 2%;
+margin: 0 auto;
+max-width: 345px;
+
+}
+.testimonial {
+width: 345px;
+height: 209px;
+background-color:#f1f1f1;
+color: $main-body-color;
+box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+border-radius: 6px;
+margin: 0 auto;
+font-family:$main-font-family;
+
+    p {
+        margin-top:12px;
+        padding-left:1%;
+    }
+
+}
+.student-name {
+font-family:$main-font-family;
+opacity: 0.33;
+padding: 2.5%;
+margin: 0 auto;
+position: absolute;
+width: 345px;
+height: 70px;
+background-color:#d8d8d8;
+align-self: flex-end;
+border-radius: 6px;
+color: $testimonial-name-color;
+}
