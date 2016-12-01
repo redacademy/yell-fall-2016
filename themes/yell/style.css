@@ -1203,3 +1203,64 @@ h3 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
+
+.homepg-bg1 {
+  background-color: #F9f9f9;
+  background-image: url(../../images/orange-splash-about-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  background-position-y: 10%; }
+
+.homepg-bg2 {
+  background-image: url(../../images/blue-splash-about-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  background-position-y: 50%; }
+
+.homepg-bg3 {
+  background-image: url(../../images/blue-splash-about-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  background-position-y: 90%; }
+
+.aboutpage-button .contact-us {
+  width: 270px;
+  height: 49px;
+  background-color: #8DC0D0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin-bottom: 2%; }
+  .aboutpage-button .contact-us:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #69acc1; }
+
+.aboutpage-button .programs {
+  width: 270px;
+  height: 49px;
+  background-color: #E48C3D;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 15%; }
+  .aboutpage-button .programs:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #d1721d; }
