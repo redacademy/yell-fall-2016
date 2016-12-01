@@ -1,0 +1,69 @@
+   .homepg-bg1 {
+       background-color: $testimonial-bg-lightgrey;
+       background-image: url(../../images/orange-splash-about-desktop.png);
+       background-repeat: no-repeat;
+       background-size: 100% 350px;
+       background-position-y: 10%;
+   }
+   
+   .homepg-bg2 {
+       background-image: url(../../images/blue-splash-about-mobile.png);
+       background-repeat: no-repeat;
+       background-size: 100% 350px;
+       background-position-y: 50%;
+   }
+   
+   .homepg-bg3 {
+       background-image: url(../../images/blue-splash-about-desktop.png);
+       background-repeat: no-repeat;
+       background-size: 100% 350px;
+       background-position-y: 90%;
+   }
+   .aboutpage-button {
+   .contact-us {
+       width: 270px;
+       height: 49px;
+       background-color: $theme-blue-color;
+       border-radius: 6px;
+       font-size: 18px;
+       font-weight: lighter;
+       text-align: center;
+       line-height: 22px;
+       color: #FFFFFF;
+       font-family: $accent-font-family;
+       text-shadow: none;
+       text-transform: uppercase;
+       box-shadow: none;
+       border: 3px solid $btn-border-color;
+       margin-bottom: 2%;
+       &:hover {
+           border-color: $btn-border-color;
+           box-shadow: none;
+           background-color: darken($theme-blue-color, 10%);
+       }
+   }
+   
+   .programs {
+       width: 270px;
+       height: 49px;
+       background-color: $theme-orange-color;
+       border-radius: 6px;
+       font-size: 18px;
+       font-weight: lighter;
+       text-align: center;
+       line-height: 22px;
+       color: #FFFFFF;
+       font-family: $accent-font-family;
+       text-shadow: none;
+       text-transform: uppercase;
+       box-shadow: none;
+       border: 3px solid $btn-border-color;
+       margin: 15%;
+       &:hover {
+           border-color: $btn-border-color;
+           box-shadow: none;
+           background-color: darken($theme-orange-color, 10%);
+       }
+   }
+   }
+   
