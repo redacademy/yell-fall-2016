@@ -22,7 +22,7 @@ function red_starter_body_classes( $classes ) {
 add_filter( 'body_class', 'red_starter_body_classes' );
 
 
-// add a readmore buttom to posts
+//////////////// add a readmore buttom to posts///////////////////
 
 function new_excerpt_more($more) {
        global $post;
@@ -31,7 +31,7 @@ function new_excerpt_more($more) {
 add_filter('excerpt_more', 'new_excerpt_more');
 
 
-//Custom About Page background Image (hero banner)
+/////////////Custom About Page background Image (hero banner)////////////
 function my_styles_method() {
     
     if(!is_page_template( 'page-about.php' )){
@@ -65,7 +65,7 @@ function my_login_logo() {?>
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 
-//change URL of custom logo on login page
+////////////change URL of custom logo on login page///////////
 
 function my_loginURL() {
     return '#';
@@ -73,7 +73,7 @@ function my_loginURL() {
 add_filter('login_headerurl', 'my_loginURL');
 
 
-//change the title tag of this link
+/////////////change the title tag of this link////////////
 
 function my_loginURLtext() {
     return 'YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD';
