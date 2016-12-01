@@ -547,10 +547,10 @@ a {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    height: 15rem; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
       position: absolute;
       top: 1.5em;
       left: -999em;
@@ -567,8 +567,9 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
-    position: relative; }
+    position: relative;
+    text-align: left;
+    padding-left: 1.2rem; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
@@ -950,26 +951,58 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
-.home .nav-bar {
+.home .nav-bar, .page-template-page-about .nav-bar,
+.page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
+.page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
-  .home .nav-bar button {
+  .home .nav-bar button, .page-template-page-about .nav-bar button,
+  .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
+  .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button {
     height: 5rem;
     width: 5rem;
     border: none;
     background-color: transparent;
     box-shadow: none; }
-    .home .nav-bar button i {
+    .home .nav-bar button i, .page-template-page-about .nav-bar button i,
+    .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
+    .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i {
       font-size: 3rem;
       color: #ffffff; }
-  .home .nav-bar img {
+  .home .nav-bar img, .page-template-page-about .nav-bar img,
+  .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
+  .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
+/*.page-template-page-about {
+.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:5rem;
+        background-color:transparent;
+        button{
+            height:5rem;
+            width:5rem;
+            border:none;
+            background-color: transparent;
+            box-shadow:none;
+
+            i{
+                font-size:3rem;
+                color:$hero-font-color;
+            }
+        }
+        img {
+            height:5rem;
+            width:5rem;
+         }
+        }
+}*/
 .blog {
   background-color: #F9f9f9; }
   .blog .readmore {
