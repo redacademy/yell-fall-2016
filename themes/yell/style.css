@@ -808,7 +808,7 @@ object {
   display: flex;
   margin-left: 150px; }
   .icons i {
-    color: white;
+    color: #E48C3D;
     font-size: 34px;
     padding: 9px; }
 
@@ -818,18 +818,21 @@ object {
   padding-left: 0px;
   text-align: left; }
 
-.fotter-nav-right ul {
+.footer-nav-right ul {
   -ms-flex-pack: end;
       justify-content: flex-end;
   margin-right: 43px;
   padding-right: 0px;
   text-align: left; }
 
-.home .copyright p {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin-left: -300px;
-  font-size: 10px; }
+.copy {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  margin-left: -115px;
+  color: #E48C3D;
+  font-size: 8px; }
 
 .home {
   text-align: center; }

@@ -33,7 +33,7 @@
    margin-left: 150px;
 
         i{
-        color: white;
+        color: $h2-orange-color;
         font-size: 34px;
         padding: 9px;
 
@@ -51,7 +51,7 @@
         }
     }
 
-    .fotter-nav-right{
+    .footer-nav-right{
         ul{
         justify-content: flex-end;
         margin-right: 43px;
@@ -61,16 +61,17 @@
     }
 
 
-.home .copyright {
-    p{
-        align-content: center; 
-        margin-left: -300px;
-            font-size: 10px;
+.copy {
+        display: flex;
+        align-content: flex-end; 
+        margin-left: -115px;
+        color: $h2-orange-color;
+        font-size: 8px;
 
 
     
 
-}
+
 }
 
 @include desktop {
