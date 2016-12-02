@@ -21,7 +21,7 @@ get_header(); ?>
 			<?php endwhile; // End of the loop. ?>
 
 
-						<p><?php echo CFS()->get( 'expert_paragraph' ); ?></p>
+					
 
 		
 					<div class="testimonial-wrapper">
@@ -32,16 +32,21 @@ get_header(); ?>
 									<p><?php echo $field['testimonial_text'];  ?></p></div>
 										<div class="student-name"><?php echo $field['testimonial_name']; } ?>
 										</div>
+
 					</div>
+
+											<p><?php echo CFS()->get( 'expert_paragraph' ); ?></p>
 						<div class="speaker-btn"> 
 						Guest Speakers at YELL
 						</div>
-
+						<div class="speaker-info">
 						<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
-						
+						<button class="get-involved"> Be a guest speaker! </button>
+						</div> 
 						<div class="mentor-btn"> 
 						Mentors at YELL
 						</div>
+						<div class="mentor-info">
 						
 						<p> 
 
@@ -63,13 +68,14 @@ get_header(); ?>
 										<h5><?php echo $field['mentor_type']; ?></h5>
 									<p><?php echo $field['mentor_description']; } ?></p>
 									</div>
-					
+									<button class="get-involved"> Be a YELL Mentor! </button>
+					</div>
 
 
 				<div class="teacher-btn"> 
 						Details For Teachers
-						</div>
-
+				</div>
+		<div class="teacher-info">
 					<div class="what-yell">
 			<?php echo CFS()->get( 'what_yell' ); ?>
 				</div>
@@ -81,7 +87,7 @@ get_header(); ?>
 				<div class="yell-program">
 			<?php echo CFS()->get( 'yell_program' ); ?>
 				</div>
-					
+		
 			<h2> Program Structure</h2>
 					<div class="program">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/guage.png" alt= "accelerator">  
@@ -102,8 +108,9 @@ get_header(); ?>
 					<h3> Venture Challenge</h3>
 					<h5> Spring</h5>
 				<?php echo CFS()->get( 'spring' ); ?>
+				<button class="get-involved"> YELL at your school! </button>
 					</div>
-
+</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

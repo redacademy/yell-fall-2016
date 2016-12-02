@@ -1,5 +1,38 @@
 .page-template-page-expert {
 
+ .get-involved {
+width: 270px;
+height: 49px;
+background-color: $theme-orange-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 5%;
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+      background-color: darken($theme-orange-color, 10%);
+   }
+   
+}
+    h1 {
+        font-family:$accent-font-family;
+        color:$theme-orange-color;
+        text-transform:uppercase;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+    }
+
     ul {
         text-align: left;
     }
@@ -45,6 +78,19 @@ border: 1px solid $btn-border-color;
        background-color: darken(#CEE0EC, 10%);
 
    }
+}
+
+.teacher-info{
+   display:none;
+   height:2800px;
+}
+.mentor-info{
+   display:none;
+   height:1300px;
+}
+.speaker-info{
+   display:none;
+   height:800px;
 }
 
   .mentor-btn {
@@ -153,4 +199,3 @@ border-radius: 6px;
 color: $testimonial-name-color;
 }
 
- 
