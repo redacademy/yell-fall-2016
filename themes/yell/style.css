@@ -336,8 +336,8 @@ th {
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../../roboto-thin-webfont.eot");
-  src: url("../../roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../../roboto-thin-webfont.woff2") format("woff2"), url("../../roboto-thin-webfont.woff") format("woff"), url("../../roboto-thin-webfont.ttf") format("truetype"), url("../../roboto-thin-webfont.svg#robotothin") format("svg");
+  src: url("../../fonts/roboto-thin-webfont.eot");
+  src: url("../../fonts/roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-thin-webfont.woff2") format("woff2"), url("../../fonts/roboto-thin-webfont.woff") format("woff"), url("../../fonts/roboto-thin-webfont.ttf") format("truetype"), url("../../fonts/roboto-thin-webfont.svg#robotothin") format("svg");
   font-weight: lighter;
   font-style: normal; }
 
@@ -1276,6 +1276,14 @@ h3 {
     box-shadow: none;
     background-color: #d1721d; }
 
+.page-template-page-expert .expert-info {
+  text-align: center;
+  text-align: center;
+  margin-top: 5%;
+  width: 60%;
+  margin: 0 auto;
+  padding: 5%; }
+
 .page-template-page-expert .get-involved {
   width: 270px;
   height: 49px;
@@ -1338,17 +1346,28 @@ h3 {
     border-color: #E8E8E8;
     background-color: #a9c9de; }
 
-.page-template-page-expert .teacher-info {
-  display: none;
-  height: 2800px; }
-
 .page-template-page-expert .mentor-info {
   display: none;
-  height: 1300px; }
+  height: 600px;
+  margin-left: 10%; }
+  .page-template-page-expert .mentor-info img {
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px; }
+  @media (min-width: 600px) {
+    .page-template-page-expert .mentor-info {
+      display: block;
+      -ms-flex-order: 0;
+          order: 0; } }
 
 .page-template-page-expert .speaker-info {
   display: none;
-  height: 800px; }
+  height: 800px;
+  -ms-flex-order: 1;
+      order: 1; }
+  @media (min-width: 600px) {
+    .page-template-page-expert .speaker-info {
+      display: block; } }
 
 .page-template-page-expert .mentor-btn {
   width: 100%;
@@ -1368,7 +1387,6 @@ h3 {
     background-color: #86adc2; }
 
 .page-template-page-expert .speaker-btn {
-  width: 100%;
   height: 90px;
   background-color: #84A4B3;
   font-size: 18px;
@@ -1385,12 +1403,22 @@ h3 {
     background-color: #648da0; }
 
 .page-template-page-expert .speaker-btn, .page-template-page-expert .mentor-btn, .page-template-page-expert .teacher-btn {
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  max-width: 400px;
   -ms-flex-pack: center;
       justify-content: center; }
+  @media (min-width: 600px) {
+    .page-template-page-expert .speaker-btn, .page-template-page-expert .mentor-btn, .page-template-page-expert .teacher-btn {
+      display: none; } }
+
+@media (min-width: 600px) {
+  .expert-wrapper {
+    display: -ms-flexbox;
+    display: flex; } }
 
 .testimonial-wrapper {
   display: -ms-flexbox;
@@ -1432,3 +1460,21 @@ h3 {
       align-self: flex-end;
   border-radius: 6px;
   color: #4A4A4A; }
+
+@media (min-width: 600px) {
+  .testimonial-flex {
+    display: -ms-flexbox;
+    display: flex; } }
+
+.testimonial-wrapper3, .testimonial-wrapper2 {
+  display: none; }
+  @media (min-width: 600px) {
+    .testimonial-wrapper3, .testimonial-wrapper2 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      text-align: left;
+      margin-bottom: 2%;
+      margin: 0 auto;
+      max-width: 345px; } }
