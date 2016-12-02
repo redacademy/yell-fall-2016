@@ -791,10 +791,8 @@ object {
     text-decoration: none;
     -ms-flex-pack: start;
         justify-content: flex-start;
-    margin-left: 3px;
     padding-left: 0px;
-    text-align: left;
-    width: 200px; }
+    text-align: left; }
     .footer-content ul a {
       text-decoration: none;
       color: #E48C3D;
@@ -817,18 +815,15 @@ object {
 .footer-nav-left ul {
   -ms-flex-pack: start;
       justify-content: flex-start;
-  margin-left: 80px;
   padding-left: 0px;
-  text-align: left;
-  width: 200px; }
+  text-align: left; }
 
 .fotter-nav-right ul {
   -ms-flex-pack: end;
       justify-content: flex-end;
   margin-right: 43px;
   padding-right: 0px;
-  text-align: left;
-  width: 200px; }
+  text-align: left; }
 
 .home .copyright p {
   -ms-flex-line-pack: center;
