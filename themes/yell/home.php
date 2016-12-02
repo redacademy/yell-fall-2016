@@ -1,4 +1,5 @@
 <?php
+/* Template Name: News & Stories Page */
 /**
  * The template for displaying all pages.
  *
