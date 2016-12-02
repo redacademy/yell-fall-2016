@@ -33,18 +33,53 @@ add_filter('excerpt_more', 'new_excerpt_more');
 
 /////////////Custom About Page background Image (hero banner)////////////
 function my_styles_method() {
-    
-    if(!is_page_template( 'page-about.php' )){
-        return;
-    }
-    $url = CFS()->get('about_page_photo');
-    $custom_css = "
-    .about_photo{
-        background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url( {$url});
-    }";
-    wp_add_inline_style( 'red-starter-style', $custom_css );
-}
-add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+
+  if(is_page( 'about' )){
+
+       $url = CFS()->get( 'aboout_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .about-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
+
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+}elseif(is_page( 'programs' )){
+
+       $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .program-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
+
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+ }elseif(is_page( '' )){
+
+       $url = CFS()->get( 'home_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .home-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
+
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+ }elseif(is_page( 'professionals' )){
+
+       $url = CFS()->get( 'professionals_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .expert-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
+
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+}}
+     add_action( 'wp_enqueue_scripts', 'my_styles_method' );
 
 
 /////////logo in log in page///////////
