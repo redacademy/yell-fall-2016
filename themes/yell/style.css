@@ -1250,7 +1250,10 @@ object {
   .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p, .page-template-page-program .what-yell p {
     font-size: 14px;
     text-align: center;
-    margin-top: 5%; }
+    margin-top: 5%;
+    max-width: 100%; }
+  .page-template-page-student .what-yell img, .page-template-page-expert .what-yell img, .page-template-page-program .what-yell img {
+    width: 400px; }
   .page-template-page-student .register-blurb
 p, .page-template-page-expert .register-blurb
 p, .page-template-page-program .register-blurb
@@ -1569,3 +1572,26 @@ h3 {
       margin-bottom: 2%;
       margin: 0 auto;
       max-width: 345px; } }
+
+.text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  width: 400px; }
+
+.page-template-page-supporters {
+  color: #9B9B9B;
+  text-align: center;
+  background-color: #F9f9f9;
+  width: 100%; }
+  .page-template-page-supporters h3 {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 300;
+    font-size: 24px; }
+  .page-template-page-supporters .support-img {
+    text-align: center; }
+    .page-template-page-supporters .support-img img {
+      width: 42%; }

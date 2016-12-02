@@ -1,0 +1,23 @@
+.page-template-page-supporters {
+    color:$main-body-color;
+      text-align:center;
+       background-color:  $testimonial-bg-lightgrey;
+       width: 100%;
+
+        h3 {
+        font-family:$accent-font-family;
+        color:$h4-color;
+        font-size: $h4-font-size;
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+.support-img {
+
+    text-align:center;
+
+    img {
+        width:42%;
+    }
+}
+}

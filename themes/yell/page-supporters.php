@@ -18,6 +18,42 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
 			<?php endwhile; // End of the loop. ?>
+		
+			<div class="support-img">
+				<?php echo CFS()->get( 'our_supporters' ); ?>
+			</div>
+			<div class="yell">
+			<?php
+    $props = CFS()->get_field_info( 'the_young' );
+    echo '<h3>' . $props['label'] . '</h3>';
+    ?>
+
+    <?php echo CFS()->get( 'the_young' ); ?>
+			</div>
+
+				<?php $fields=CFS()->get( 'our_board' );
+							foreach ( $fields as $field ) {  ?>
+
+					
+							<div class="our-board">
+								<h3> Our Board </h3>
+								<?php echo '<img src="' . $field['board_member_image'] . '" class="board-img">';  ?>
+								<div class="board-name">
+									<?php echo $field['board_memeber_name'];  ?>
+								</div>
+								<div class="board-pos">
+									<?php echo $field['board_member_position']; } ?>
+								</div>
+							
+							</div>
+							<div class="resource">
+								<h3> Resources</h3>
+								<?php echo CFS()->get( 'annual_report_hyperlink' ); ?>
+								<p><?php echo CFS()->get( 'resources_text' ); ?></p>
+							</div>
+
+							<h3> Become a Partner</h3>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

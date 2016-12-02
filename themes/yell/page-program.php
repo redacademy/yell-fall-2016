@@ -52,53 +52,31 @@ get_header(); ?>
 	</div>
 
 <!--testimonials-->
-<div class="testimonial-flex">
-				<div class="testimonial-wrapper">
-					<div class="testimonial">
+				<div class="testimonial-wrap">
+
 						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
+							foreach ( $fields as $field ) {  ?>
+
 					
-						<p>
-							<?php echo $field['testimonial_text'];  ?>
-						</p>
-					</div>
-					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
-					</div>
-				</div>
-				<div class="testimonial-wrapper2">
-					<div class="testimonial">
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
-						<p>
-							<?php echo $field['testimonial_text'];  ?>
-						</p>
-					</div>
-					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
-					</div>
-				</div>
-				<div class="testimonial-wrapper3">
-					<div class="testimonial">
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
+							<div class="text">
+								<div class="text-test"><?php echo $field['testimonial_text'];  ?></div>
 						
-						<p>
-							<?php echo $field['testimonial_text'];  ?>
-						</p>
-					</div>
-					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
-					</div>
-				</div>
-			</div>
+								<div class="name"><?php echo $field['testimonial_name']; } ?></div>
+							</div>
+						
+
+			        </div>
+						
 
 			<!--impact charts-->
+			
+		</main><!-- #main -->
+
+			<div class ="charts">
 			<?php $fields=CFS()->get( 'impact_loop' );
 							foreach ( $fields as $field ) { ?>
 						<?php echo '<img src="' . $field['impact_chart'] . '" class="impact-chart">';  ?>
 						<?php echo '<img src="' . $field['impact_desc'] . '" class="impact-chart">'; } ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+				</div>
+	<!-- #primary -->
 <?php get_footer(); ?>
