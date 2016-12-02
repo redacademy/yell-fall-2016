@@ -27,6 +27,12 @@
 		}
 	}
 }
+.footer-button {
+	display: none;
+}
+.copyright-desktop {
+	display: none;
+}
 
 .icons {
 	display: flex;
@@ -71,11 +77,26 @@
 }
 
 @include desktop {
-	.site-footer {
-		.icons {
-			margin: 100px 200px 0 25;
-		}
+	.site-footer{
+		display: flex;
 	}
+
+		.icons-block {
+			align-items: flex-end;
+			order: 2;
+		}
+		.footer-content {
+			order: 1;
+		}
+		.copyright {
+			display: none;
+		}
+		.copyright-desktop {
+			display: 
+			span{
+			
+		}
+		}
 
 	
 }
