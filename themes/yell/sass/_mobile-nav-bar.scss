@@ -44,9 +44,10 @@
     z-index:1;
         @include min-desktop {
             display:flex;
+            padding-top:2rem;
             height:10%;
             justify-content: flex-end;
-            width:95%;
+            width:1200px;
         }
      li{
         border-bottom: 1px solid $link-to-top-grey;;
@@ -55,9 +56,11 @@
         text-align: center;
         @include min-desktop {
             border:none;
+            text-transform:none;
+            line-height:2rem;
         }
         &:nth-last-child(-n+1){
-            background-color:$h2-orange-color;
+            background-color:$theme-peach-color;
             @include min-desktop {
                 background-color:transparent;
             }
@@ -67,8 +70,9 @@
                     color:$h2-orange-color;
                     border:2px solid $h2-orange-color;
                     border-radius: 10px;
-                    padding-left:2rem;
-                    padding-right:2rem;
+                    padding-left:4rem;
+                    padding-right:4rem;
+                    text-transform: uppercase;
                 }
             }
         }

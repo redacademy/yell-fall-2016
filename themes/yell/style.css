@@ -1002,10 +1002,11 @@ object {
     #primary-menu ul {
       display: -ms-flexbox;
       display: flex;
+      padding-top: 2rem;
       height: 10%;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      width: 95%; } }
+      width: 1200px; } }
   #primary-menu ul li {
     border-bottom: 1px solid rgba(155, 155, 155, 0.52);
     line-height: 3rem;
@@ -1013,9 +1014,11 @@ object {
     text-align: center; }
     @media (min-width: 600px) {
       #primary-menu ul li {
-        border: none; } }
+        border: none;
+        text-transform: none;
+        line-height: 2rem; } }
     #primary-menu ul li:nth-last-child(-n+1) {
-      background-color: #E48C3D; }
+      background-color: #F4B473; }
       @media (min-width: 600px) {
         #primary-menu ul li:nth-last-child(-n+1) {
           background-color: transparent; } }
@@ -1026,8 +1029,9 @@ object {
             color: #E48C3D;
             border: 2px solid #E48C3D;
             border-radius: 10px;
-            padding-left: 2rem;
-            padding-right: 2rem; } }
+            padding-left: 4rem;
+            padding-right: 4rem;
+            text-transform: uppercase; } }
     #primary-menu ul li a {
       color: rgba(74, 74, 74, 0.85); }
       @media (min-width: 600px) {
