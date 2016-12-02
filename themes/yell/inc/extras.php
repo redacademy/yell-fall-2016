@@ -79,4 +79,3 @@ function my_loginURLtext() {
     return 'YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD';
 }
 add_filter('login_headertitle', 'my_loginURLtext');
-
