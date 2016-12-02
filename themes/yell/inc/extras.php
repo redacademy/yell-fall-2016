@@ -34,9 +34,8 @@ add_filter('excerpt_more', 'new_excerpt_more');
 /////////////Custom About Page background Image (hero banner)////////////
 function my_styles_method() {
 
-  if(!is_page_template( 'page-about.php' )){
-    return;
-  }
+  if(is_page( 'about' )){
+
        $url = CFS()->get( 'aboout_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .about-hero{
@@ -44,11 +43,10 @@ function my_styles_method() {
          height:100vh;
          background-size: cover, cover;
        }";
+
        wp_add_inline_style( 'red-starter-style', $custom_css );
-     }
-         if(!is_page_template( 'page-program.php' )){
-             return;
-             }
+}elseif(is_page( 'programs' )){
+
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .program-hero{
@@ -56,8 +54,11 @@ function my_styles_method() {
          height:100vh;
          background-size: cover, cover;
        }";
+
        wp_add_inline_style( 'red-starter-style', $custom_css );
+}}
      add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+
 
 /////////logo in log in page///////////
 function my_login_logo() {?>
