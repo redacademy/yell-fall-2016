@@ -15,8 +15,8 @@ get_header(); ?>
 					<div class="homepg-bg3">
 						<?php echo CFS()->get( 'Want to learn more?' ); ?>
 						<div class="aboutpage-button">
-						<button class="contact-us"> Contact Us ></button>
-						<button class="programs"> Programs ></button>
+							<button class="contact-us"> Contact Us ></button>
+							<button class="programs"> Programs ></button>
 						</div>
 					</div>
 				</div>

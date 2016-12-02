@@ -792,7 +792,8 @@ object {
     -ms-flex-pack: start;
         justify-content: flex-start;
     padding-left: 0px;
-    text-align: left; }
+    text-align: left;
+    font-family: "Rubik", sans; }
     .footer-content ul a {
       text-decoration: none;
       color: #E48C3D;
@@ -806,7 +807,8 @@ object {
 .icons {
   display: -ms-flexbox;
   display: flex;
-  margin-left: 150px; }
+  margin-left: 125px;
+  height: 65px; }
   .icons i {
     color: #E48C3D;
     font-size: 34px;
@@ -815,14 +817,16 @@ object {
 .footer-nav-left ul {
   -ms-flex-pack: start;
       justify-content: flex-start;
-  padding-left: 0px;
+  font-family: "Rubik", sans;
+  font-weight: lighter;
+  margin-right: 28px;
   text-align: left; }
 
 .footer-nav-right ul {
   -ms-flex-pack: end;
       justify-content: flex-end;
+  font-family: "Rubik", sans;
   margin-right: 43px;
-  padding-right: 0px;
   text-align: left; }
 
 .copy {
@@ -830,9 +834,12 @@ object {
   display: flex;
   -ms-flex-line-pack: end;
       align-content: flex-end;
-  margin-left: -115px;
+  margin-left: -140px;
   color: #E48C3D;
   font-size: 8px; }
+
+.copyright {
+  height: 35px; }
 
 .home {
   text-align: center; }
