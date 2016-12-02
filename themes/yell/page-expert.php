@@ -28,9 +28,9 @@ get_header(); ?>
 						<div class="testimonial">
 						<?php $fields=CFS()->get( 'testimonial' );
 							foreach ( $fields as $field ) { ?>
-							
-									<p><?php echo $field['testimonial_text']; } ?></p></div>
-										<div class="student-name"><?php echo $field['testimonial_name']; ?>
+								  <?php echo '<img src="' . $field['testimonial_image'] . '" class="testimonial-img">';  ?>
+									<p><?php echo $field['testimonial_text'];  ?></p></div>
+										<div class="student-name"><?php echo $field['testimonial_name']; } ?>
 										</div>
 					</div>
 						<div class="speaker-btn"> 

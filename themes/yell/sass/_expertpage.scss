@@ -104,6 +104,7 @@ border: 1px solid $btn-border-color;
 //testimonial styles ====================
 
 .testimonial-wrapper {
+
 display:flex;
 flex-wrap: wrap;
 text-align:left;
@@ -113,6 +114,13 @@ max-width: 345px;
 
 }
 .testimonial {
+
+
+      img {
+    height: 100px;
+    padding: 3%;
+    }
+
 width: 345px;
 height: 209px;
 background-color:#f1f1f1;
@@ -122,9 +130,12 @@ border-radius: 6px;
 margin: 0 auto;
 font-family:$main-font-family;
 
+
+
     p {
         margin-top:12px;
         padding-left:1%;
+        float: right;
     }
 
 }
@@ -141,3 +152,5 @@ align-self: flex-end;
 border-radius: 6px;
 color: $testimonial-name-color;
 }
+
+ 
