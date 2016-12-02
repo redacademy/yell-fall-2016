@@ -841,6 +841,10 @@ object {
 .copyright {
   height: 35px; }
 
+@media (min-width: 600px) {
+  .site-footer .icons {
+    margin: 100px 200px 0 25; } }
+
 .home {
   text-align: center; }
   .home .homepg-bg1 {
