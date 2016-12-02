@@ -804,6 +804,12 @@ object {
       font-weight: normal;
       line-height: 2.5; }
 
+.footer-button {
+  display: none; }
+
+.copyright-desktop {
+  display: none; }
+
 .icons {
   display: -ms-flexbox;
   display: flex;
@@ -842,8 +848,21 @@ object {
   height: 35px; }
 
 @media (min-width: 600px) {
-  .site-footer .icons {
-    margin: 100px 200px 0 25; } }
+  .site-footer {
+    display: -ms-flexbox;
+    display: flex; }
+  .icons-block {
+    -ms-flex-align: end;
+        align-items: flex-end;
+    -ms-flex-order: 2;
+        order: 2; }
+  .footer-content {
+    -ms-flex-order: 1;
+        order: 1; }
+  .copyright {
+    display: none; }
+  .copyright-desktop {
+    display: span; } }
 
 .home {
   text-align: center; }
