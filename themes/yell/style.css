@@ -1374,11 +1374,19 @@ h3 {
   text-align: center; }
 
 .page-template-page-expert ul {
-  text-align: left; }
+  text-align: left;
+  margin-left: 0; }
+  @media (min-width: 600px) {
+    .page-template-page-expert ul {
+      margin-left: 5%; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
   width: 300px; }
+
+@media (min-width: 600px) {
+  .page-template-page-expert .mentor-ul {
+    margin-left: 2%; } }
 
 .page-template-page-expert .mentor {
   width: 300px;
@@ -1408,26 +1416,36 @@ h3 {
 
 .page-template-page-expert .mentor-info {
   display: none;
-  height: 600px;
-  margin-left: 10%; }
+  height: 800px; }
   .page-template-page-expert .mentor-info img {
-    width: 100%;
+    width: 400px;
+    margin-top: 5%;
     border: 1px solid #E8E8E8;
     border-radius: 4px; }
+  .page-template-page-expert .mentor-info h2 {
+    color: #84A4B3; }
   @media (min-width: 600px) {
     .page-template-page-expert .mentor-info {
       display: block;
+      margin-left: 10%;
       -ms-flex-order: 0;
-          order: 0; } }
+          order: 0; }
+      .page-template-page-expert .mentor-info img {
+        width: 100%; } }
 
 .page-template-page-expert .speaker-info {
   display: none;
   height: 800px;
   -ms-flex-order: 1;
       order: 1; }
+  .page-template-page-expert .speaker-info h2 {
+    color: #84A4B3; }
   @media (min-width: 600px) {
     .page-template-page-expert .speaker-info {
       display: block; } }
+  .page-template-page-expert .speaker-info p {
+    margin-top: 5%;
+    margin-bottom: 5%; }
 
 .page-template-page-expert .mentor-btn {
   width: 100%;
