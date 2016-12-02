@@ -86,4 +86,10 @@ $dexktop-min-width: 600px;
 $mobile-max-width:600px;
 $mobile-min-width:375px;
 
+@mixin min-desktop {
+    @media(min-width:$dexktop-min-width){
+         @content;
+    }
+}
+
 
