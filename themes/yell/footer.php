@@ -33,7 +33,7 @@
 				</ul>
 			
 			<div class="copyright">
-				<p>Copyright © 2016 YELL</p>
+				<span class="copy">Copyright © 2016 COPYRIGHT YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD</span>
 			</div>
 			</div>
 			</div>
