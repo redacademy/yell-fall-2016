@@ -70,4 +70,12 @@
 	height: 35px;
 }
 
-@include desktop {}
+@include desktop {
+	.site-footer {
+		.icons {
+			margin: 100px 200px 0 25;
+		}
+	}
+
+	
+}
