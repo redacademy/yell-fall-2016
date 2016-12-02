@@ -1202,6 +1202,12 @@ object {
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
+    @media (min-width: 600px) {
+      .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2 {
+        border-bottom: 1px solid #D0D0D0;
+        border-bottom: 1px solid #d0d0d0;
+        width: 300px;
+        margin: 0 auto; } }
   .page-template-page-student .site-main h3, .page-template-page-expert .site-main h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
@@ -1225,11 +1231,14 @@ object {
     text-align: left; }
   .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p {
     font-size: 14px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .register-blurb
 p, .page-template-page-expert .register-blurb
 p {
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .pglabel
 h3, .page-template-page-expert .pglabel
 h3 {
