@@ -1282,6 +1282,35 @@ h3 {
     box-shadow: none;
     background-color: #d1721d; }
 
+.page-template-page-expert .get-involved {
+  width: 270px;
+  height: 49px;
+  background-color: #E48C3D;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  .page-template-page-expert .get-involved:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #d1721d; }
+
+.page-template-page-expert h1 {
+  font-family: "Rubik", sans;
+  color: #E48C3D;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center; }
+
 .page-template-page-expert ul {
   text-align: left; }
 
@@ -1314,6 +1343,18 @@ h3 {
   .page-template-page-expert .teacher-btn:hover {
     border-color: #E8E8E8;
     background-color: #a9c9de; }
+
+.page-template-page-expert .teacher-info {
+  display: none;
+  height: 2800px; }
+
+.page-template-page-expert .mentor-info {
+  display: none;
+  height: 1300px; }
+
+.page-template-page-expert .speaker-info {
+  display: none;
+  height: 800px; }
 
 .page-template-page-expert .mentor-btn {
   width: 100%;
