@@ -17,6 +17,7 @@
             i{
                 font-size:3rem;
                 color:$hero-font-color;
+                
             }
         }
         img {
@@ -26,12 +27,14 @@
         }
 }
 #primary-menu ul{
+    height:75%;
     width:80%;
     z-index:1;
      li{
         border-bottom: 1px solid $link-to-top-grey;;
         line-height:3rem;
         text-transform: uppercase;
+        text-align: center;
         &:nth-last-child(-n+1){
             background-color:$h2-orange-color;
             a{
