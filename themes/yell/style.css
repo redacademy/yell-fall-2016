@@ -1012,10 +1012,11 @@ object {
     #primary-menu ul {
       display: -ms-flexbox;
       display: flex;
+      padding-top: 2rem;
       height: 10%;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      width: 95%; } }
+      width: 1200px; } }
   #primary-menu ul li {
     border-bottom: 1px solid rgba(155, 155, 155, 0.52);
     line-height: 3rem;
@@ -1023,9 +1024,11 @@ object {
     text-align: center; }
     @media (min-width: 600px) {
       #primary-menu ul li {
-        border: none; } }
+        border: none;
+        text-transform: none;
+        line-height: 2rem; } }
     #primary-menu ul li:nth-last-child(-n+1) {
-      background-color: #E48C3D; }
+      background-color: #F4B473; }
       @media (min-width: 600px) {
         #primary-menu ul li:nth-last-child(-n+1) {
           background-color: transparent; } }
@@ -1036,8 +1039,9 @@ object {
             color: #E48C3D;
             border: 2px solid #E48C3D;
             border-radius: 10px;
-            padding-left: 2rem;
-            padding-right: 2rem; } }
+            padding-left: 4rem;
+            padding-right: 4rem;
+            text-transform: uppercase; } }
     #primary-menu ul li a {
       color: rgba(74, 74, 74, 0.85); }
       @media (min-width: 600px) {
@@ -1212,6 +1216,12 @@ object {
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
+    @media (min-width: 600px) {
+      .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2 {
+        border-bottom: 1px solid #D0D0D0;
+        border-bottom: 1px solid #d0d0d0;
+        width: 300px;
+        margin: 0 auto; } }
   .page-template-page-student .site-main h3, .page-template-page-expert .site-main h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
@@ -1235,11 +1245,14 @@ object {
     text-align: left; }
   .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p {
     font-size: 14px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .register-blurb
 p, .page-template-page-expert .register-blurb
 p {
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .pglabel
 h3, .page-template-page-expert .pglabel
 h3 {

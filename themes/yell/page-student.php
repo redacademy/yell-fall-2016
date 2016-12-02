@@ -12,6 +12,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+	<div class="studentflex-wrapper">
 		<span class="pglabel"> <h3>Students Apply</h3></span>
 			<?php
     $props = CFS()->get_field_info( 'what_yell' );
@@ -30,6 +31,7 @@ get_header(); ?>
 		</div>
 
 	<h2> Program Structure</h2>
+	<div class="expert-wrapper">
 		<div class="program">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/guage.png" alt= "accelerator">  
     <h3> Business Accelerator</h3>
@@ -50,15 +52,21 @@ get_header(); ?>
 	     <h5> Spring</h5>
     <?php echo CFS()->get( 'spring' ); ?>
 		</div>
+	</div>
+	<div class="timeline">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt= "timeline">  
+	</div>
+	<div class="register-sect">	
 		<h2> How do I register?</h2>
 		<span class="register-blurb"> 
 			<p>Select your school district below for details on how you can register for YELL!</p>
-		</span>
+		
 		<h3> Didn't find your school district?</h3>
 		<p>We are working to expand YELL all the time. Contact us HERE to let us know you’re interested!</p>
-		
+</span>
+	</div>	
 		<button class="yell-at"> YELL at us! ></button>
+	</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>
