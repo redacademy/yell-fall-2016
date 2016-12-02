@@ -30,13 +30,12 @@ get_header(); ?>
 
     <?php echo CFS()->get( 'the_young' ); ?>
 			</div>
-
+<h3> Our Board </h3>
+<div class="ourboard-wrapper">
 				<?php $fields=CFS()->get( 'our_board' );
 							foreach ( $fields as $field ) {  ?>
-
-					
 							<div class="our-board">
-								<h3> Our Board </h3>
+								
 								<?php echo '<img src="' . $field['board_member_image'] . '" class="board-img">';  ?>
 								<div class="board-name">
 									<?php echo $field['board_memeber_name'];  ?>
@@ -44,16 +43,19 @@ get_header(); ?>
 								<div class="board-pos">
 									<?php echo $field['board_member_position']; } ?>
 								</div>
-							
+</div>
 							</div>
 							<div class="resource">
 								<h3> Resources</h3>
-								<?php echo CFS()->get( 'annual_report_hyperlink' ); ?>
+								<button class="get-involved"><?php echo CFS()->get( 'annual_report_hyperlink' ); ?></button>
 								<p><?php echo CFS()->get( 'resources_text' ); ?></p>
 							</div>
 
 							<h3> Become a Partner</h3>
-
+							<div class="btn-partners">
+							<button class="get-involved">Get In Touch</button>
+							<button class="get-involved2">Donate</button>
+							</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -1,9 +1,13 @@
 .page-template-page-supporters {
+
+
     color:$main-body-color;
       text-align:center;
        background-color:  $testimonial-bg-lightgrey;
        width: 100%;
-
+.entry-title {
+    display:none;
+}
         h3 {
         font-family:$accent-font-family;
         color:$h4-color;
@@ -17,7 +21,101 @@
     text-align:center;
 
     img {
-        width:42%;
+        width:350px;
+
+        @include desktop {
+            width: 550px;
+        }
     }
 }
+
+.our-board {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        
+        height: auto;
+    }
+}
+
+.yell {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.get-involved {
+width: 270px;
+height: 49px;
+background-color: $theme-orange-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 5%;
+
+    a{
+        color: #FFFFFF ;
+        text-decoration: none;
+
+    }
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+      background-color: darken($theme-orange-color, 10%);
+   }
+   
+}
+.resource {
+    p {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+}
+
+.get-involved2 {
+width: 270px;
+height: 49px;
+background-color: $theme-blue-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 5%;
+
+    a{
+        color: #FFFFFF ;
+        text-decoration: none;
+
+    }
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+      background-color: darken($theme-blue-color, 10%);
+   }
+   
+}
+
+.btn-partners {
+     @include desktop {
+       display:flex;
+   }
 }

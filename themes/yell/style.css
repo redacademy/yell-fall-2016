@@ -1592,18 +1592,13 @@ h3 {
       margin: 0 auto;
       max-width: 345px; } }
 
-.text {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column wrap;
-      flex-flow: column wrap;
-  width: 400px; }
-
 .page-template-page-supporters {
   color: #9B9B9B;
   text-align: center;
   background-color: #F9f9f9;
   width: 100%; }
+  .page-template-page-supporters .entry-title {
+    display: none; }
   .page-template-page-supporters h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
@@ -1613,4 +1608,74 @@ h3 {
   .page-template-page-supporters .support-img {
     text-align: center; }
     .page-template-page-supporters .support-img img {
-      width: 42%; }
+      width: 350px; }
+      @media (min-width: 600px) {
+        .page-template-page-supporters .support-img img {
+          width: 550px; } }
+  .page-template-page-supporters .our-board {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+    .page-template-page-supporters .our-board img {
+      height: auto; }
+  .page-template-page-supporters .yell {
+    width: 70%;
+    margin: 0 auto; }
+  .page-template-page-supporters .get-involved {
+    width: 270px;
+    height: 49px;
+    background-color: #E48C3D;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid #E8E8E8;
+    margin: 5%; }
+    .page-template-page-supporters .get-involved a {
+      color: #FFFFFF;
+      text-decoration: none; }
+    .page-template-page-supporters .get-involved:hover {
+      border-color: #E8E8E8;
+      box-shadow: none;
+      background-color: #d1721d; }
+  .page-template-page-supporters .resource p {
+    width: 70%;
+    margin: 0 auto; }
+
+.get-involved2 {
+  width: 270px;
+  height: 49px;
+  background-color: #8DC0D0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  .get-involved2 a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .get-involved2:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #69acc1; }
+
+@media (min-width: 600px) {
+  .btn-partners {
+    display: -ms-flexbox;
+    display: flex; } }
