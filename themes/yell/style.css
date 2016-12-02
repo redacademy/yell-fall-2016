@@ -982,7 +982,8 @@ object {
   #primary-menu ul li {
     border-bottom: 1px solid rgba(155, 155, 155, 0.52);
     line-height: 3rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
     #primary-menu ul li:nth-last-child(-n+1) {
       background-color: #E48C3D; }
       #primary-menu ul li:nth-last-child(-n+1) a {
