@@ -56,6 +56,17 @@ function my_styles_method() {
        }";
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
+ }elseif(is_page( '' )){
+
+       $url = CFS()->get( 'home_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .home-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
+
+       wp_add_inline_style( 'red-starter-style', $custom_css );
 }}
      add_action( 'wp_enqueue_scripts', 'my_styles_method' );
 
