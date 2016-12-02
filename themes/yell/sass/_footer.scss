@@ -2,79 +2,80 @@
 # Widgets
 --------------------------------------------------------------*/
 
-.site-footer{
-
+.site-footer {
 	background-color: $footer-bg-grey;
 }
 
 .footer-content {
-    display: flex;
-    ul {
-  list-style-type: none;
-  text-decoration: none;
-    justify-content: flex-start;
-        padding-left: 0px;
-        text-align: left;
-
-  a {
-      text-decoration: none;
-      color: $h2-orange-color;
-      text-align: left;
-      height: 19px;
-    font-family: $accent-font-family;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 2.5;
-    }
+	display: flex;
+	ul {
+		list-style-type: none;
+		text-decoration: none;
+		justify-content: flex-start;
+		padding-left: 0px;
+		text-align: left;
+		font-family: $accent-font-family;
+		a {
+			text-decoration: none;
+			color: $h2-orange-color;
+			text-align: left;
+			height: 19px;
+			font-family: $accent-font-family;
+			font-size: 14px;
+			font-weight: normal;
+			line-height: 2.5;
+		}
+	}
 }
+
+.icons {
+	display: flex;
+	margin-left: 125px;
+	height: 65px;
+	i {
+		color: $h2-orange-color;
+		font-size: 34px;
+		padding: 9px;
+	}
 }
- .icons {
-     display: flex;
-   margin-left: 150px;
 
-        i{
-        color: $h2-orange-color;
-        font-size: 34px;
-        padding: 9px;
+.footer-nav-left {
+	ul {
+		justify-content: flex-start;
+		font-family: $accent-font-family;
+		font-weight: lighter;
+		margin-right: 28px;
+		text-align: left;
+	}
+}
 
-        }
-        .fa {
-         
-        }
-    }
-
-    .footer-nav-left{
-        ul{
-        justify-content: flex-start;
-        padding-left: 0px;
-        text-align: left;
-        }
-    }
-
-    .footer-nav-right{
-        ul{
-        justify-content: flex-end;
-        margin-right: 43px;
-        padding-right: 0px;
-        text-align: left;
-        }
-    }
-
+.footer-nav-right {
+	ul {
+		justify-content: flex-end;
+		font-family: $accent-font-family;
+		margin-right: 43px;
+		text-align: left;
+	}
+}
 
 .copy {
-        display: flex;
-        align-content: flex-end; 
-        margin-left: -115px;
-        color: $h2-orange-color;
-        font-size: 8px;
+	display: flex;
+	align-content: flex-end;
+	margin-left: -140px;
+	color: $h2-orange-color;
+	font-size: 8px;
+}
 
-
-    
-
-
+.copyright {
+	height: 35px;
 }
 
 @include desktop {
+	.site-footer {
+		.icons {
+			margin: 100px 200px 0 25;
+		}
+	}
 
-
-} 
+	
+}

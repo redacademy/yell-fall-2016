@@ -792,7 +792,8 @@ object {
     -ms-flex-pack: start;
         justify-content: flex-start;
     padding-left: 0px;
-    text-align: left; }
+    text-align: left;
+    font-family: "Rubik", sans; }
     .footer-content ul a {
       text-decoration: none;
       color: #E48C3D;
@@ -806,7 +807,8 @@ object {
 .icons {
   display: -ms-flexbox;
   display: flex;
-  margin-left: 150px; }
+  margin-left: 125px;
+  height: 65px; }
   .icons i {
     color: #E48C3D;
     font-size: 34px;
@@ -815,14 +817,16 @@ object {
 .footer-nav-left ul {
   -ms-flex-pack: start;
       justify-content: flex-start;
-  padding-left: 0px;
+  font-family: "Rubik", sans;
+  font-weight: lighter;
+  margin-right: 28px;
   text-align: left; }
 
 .footer-nav-right ul {
   -ms-flex-pack: end;
       justify-content: flex-end;
+  font-family: "Rubik", sans;
   margin-right: 43px;
-  padding-right: 0px;
   text-align: left; }
 
 .copy {
@@ -830,9 +834,16 @@ object {
   display: flex;
   -ms-flex-line-pack: end;
       align-content: flex-end;
-  margin-left: -115px;
+  margin-left: -140px;
   color: #E48C3D;
   font-size: 8px; }
+
+.copyright {
+  height: 35px; }
+
+@media (min-width: 600px) {
+  .site-footer .icons {
+    margin: 100px 200px 0 25; } }
 
 .home {
   text-align: center; }
@@ -1195,34 +1206,40 @@ object {
     text-decoration: none;
     color: #9B9B9B; }
 
-.page-template-page-student, .page-template-page-expert {
+.page-template-page-student, .page-template-page-expert, .page-template-page-program {
   color: #9B9B9B;
   text-align: center;
   background-color: #F9f9f9;
   width: 100%; }
-  .page-template-page-student img, .page-template-page-expert img {
+  .page-template-page-student img, .page-template-page-expert img, .page-template-page-program img {
     height: 250px; }
-  .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2 {
+  .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2, .page-template-page-program .site-main h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
-  .page-template-page-student .site-main h3, .page-template-page-expert .site-main h3 {
+    @media (min-width: 600px) {
+      .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2, .page-template-page-program .site-main h2 {
+        border-bottom: 1px solid #D0D0D0;
+        border-bottom: 1px solid #d0d0d0;
+        width: 300px;
+        margin: 0 auto; } }
+  .page-template-page-student .site-main h3, .page-template-page-expert .site-main h3, .page-template-page-program .site-main h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
     font-size: 14px;
     font-weight: 300;
     font-size: 24px; }
-  .page-template-page-student .site-main h5, .page-template-page-expert .site-main h5 {
+  .page-template-page-student .site-main h5, .page-template-page-expert .site-main h5, .page-template-page-program .site-main h5 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
     font-size: 14px;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase; }
-  .page-template-page-student .site-main p, .page-template-page-expert .site-main p {
+  .page-template-page-student .site-main p, .page-template-page-expert .site-main p, .page-template-page-program .site-main p {
     font-size: 16px;
     max-width: 60%;
     color: #9B9B9B;
@@ -1230,15 +1247,20 @@ object {
     padding-bottom: 2%;
     font-family: "Roboto", sans;
     text-align: left; }
-  .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p {
+  .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p, .page-template-page-program .what-yell p {
     font-size: 14px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .register-blurb
 p, .page-template-page-expert .register-blurb
+p, .page-template-page-program .register-blurb
 p {
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5%; }
   .page-template-page-student .pglabel
 h3, .page-template-page-expert .pglabel
+h3, .page-template-page-program .pglabel
 h3 {
     text-transform: uppercase;
     font-family: "Rubik", sans;
@@ -1365,11 +1387,19 @@ h3 {
   text-align: center; }
 
 .page-template-page-expert ul {
-  text-align: left; }
+  text-align: left;
+  margin-left: 0; }
+  @media (min-width: 600px) {
+    .page-template-page-expert ul {
+      margin-left: 5%; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
   width: 300px; }
+
+@media (min-width: 600px) {
+  .page-template-page-expert .mentor-ul {
+    margin-left: 2%; } }
 
 .page-template-page-expert .mentor {
   width: 300px;
@@ -1399,26 +1429,36 @@ h3 {
 
 .page-template-page-expert .mentor-info {
   display: none;
-  height: 600px;
-  margin-left: 10%; }
+  height: 800px; }
   .page-template-page-expert .mentor-info img {
-    width: 100%;
+    width: 400px;
+    margin-top: 5%;
     border: 1px solid #E8E8E8;
     border-radius: 4px; }
+  .page-template-page-expert .mentor-info h2 {
+    color: #84A4B3; }
   @media (min-width: 600px) {
     .page-template-page-expert .mentor-info {
       display: block;
+      margin-left: 10%;
       -ms-flex-order: 0;
-          order: 0; } }
+          order: 0; }
+      .page-template-page-expert .mentor-info img {
+        width: 100%; } }
 
 .page-template-page-expert .speaker-info {
   display: none;
   height: 800px;
   -ms-flex-order: 1;
       order: 1; }
+  .page-template-page-expert .speaker-info h2 {
+    color: #84A4B3; }
   @media (min-width: 600px) {
     .page-template-page-expert .speaker-info {
       display: block; } }
+  .page-template-page-expert .speaker-info p {
+    margin-top: 5%;
+    margin-bottom: 5%; }
 
 .page-template-page-expert .mentor-btn {
   width: 100%;

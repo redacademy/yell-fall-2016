@@ -47,10 +47,22 @@ margin: 5%;
 
     ul {
         text-align: left;
+        margin-left:0;
+
+        @include desktop {
+            margin-left:5%;
+        }
     }
     .mentor-ul {
         margin-left: 22%;
         width:300px
+        
+    }
+
+    @include desktop {
+        .mentor-ul {
+            margin-left: 2%;
+        }
     }
 
     .mentor {
@@ -94,27 +106,44 @@ border: 1px solid $btn-border-color;
 
 .mentor-info{
    display:none;
-   height:600px;
-   margin-left: 10%;
+   height:800px;
+   
 
    img {
-       width: 100%;
+       width: 400px;
+       margin-top:5%;
        border: 1px solid $btn-border-color;
        border-radius: 4px;
    }
+    h2 {
+        color: $theme-darkblue-color;
+    }
 
    @include desktop {
        display:block;
+       margin-left: 10%;
        order: 0;
+   
+   img {
+       width:100%;
+   }
    }
 }
 .speaker-info{
    display:none;
    height:800px;
    order: 1;
+    h2 {
+        color: $theme-darkblue-color;
+    }
 
    @include desktop{
        display:block;
+   }
+
+   p {
+       margin-top: 5%;
+       margin-bottom: 5%;
    }
 }
 
@@ -180,6 +209,8 @@ border: 1px solid $btn-border-color;
     @include desktop {
     display:flex;
     }
+
+   
 }
 
 

@@ -1,4 +1,4 @@
-  .page-template-page-student, .page-template-page-expert {  
+  .page-template-page-student, .page-template-page-expert, .page-template-page-program{  
       color:$main-body-color;
       text-align:center;
        background-color:  $testimonial-bg-lightgrey;
@@ -16,6 +16,14 @@
         font-weight: 300;
         font-size: 24px;
         text-align: center;
+      
+
+        @include desktop {
+            border-bottom: 1px solid $border-bottom-color;
+            border-bottom: 1px solid #d0d0d0;
+            width: 300px;
+            margin: 0 auto;
+        }
     }
 
     h3 {
@@ -33,6 +41,7 @@
         font-size: $h4-font-size;
         font-weight: 300;
         text-transform: uppercase;
+
     }
 
     p {
@@ -50,12 +59,15 @@
       p {
           font-size: 14px;
           text-align:center;
+          margin-top: 5%;
       }
   }
 
   .register-blurb 
     p{
       font-size: 14px;
+      text-align:center;
+      margin-top: 5%;
   }
 
   .pglabel

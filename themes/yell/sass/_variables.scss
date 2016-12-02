@@ -38,6 +38,7 @@ $h3-darkgrey-color: #4A4A4A;
 $h4-color: #6D6D6D;
 $main-body-color: #9B9B9B;
 $testimonial-name-color: #4A4A4A;
+$border-bottom-color: #D0D0D0;
 
 //button accent colours
 $btn-font-color: #ffffff;
@@ -81,15 +82,11 @@ $accent-font-family: "Rubik", sans;
 
 // page Width in mobile and desktop
 
-$dexktop-max-width:1850px;
-$dexktop-min-width: 600px;
+$desktop-max-width:1850px;
+$desktop-min-width: 600px;
 $mobile-max-width:600px;
 $mobile-min-width:375px;
 
-@mixin min-desktop {
-    @media(min-width:$dexktop-min-width){
-         @content;
-    }
-}
+
 
 
