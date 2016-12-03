@@ -36,6 +36,8 @@
 	})
 })( jQuery );
 
+
+
 ( function( $ ) {
 
 	$('.speaker-btn').on('click', function(event) {

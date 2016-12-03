@@ -28,7 +28,7 @@
 					
 					  </div>
 				  	 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/yell-logo.png" alt= "Yell Logo">  
+							<img src="<?php echo get_template_directory_uri(); ?>/images/yell-logo.png" alt= "Yell Logo" class="logo">  
 						</a>
 				   </div>
 				</nav><!-- #site-navigation -->
