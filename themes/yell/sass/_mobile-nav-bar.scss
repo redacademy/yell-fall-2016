@@ -1,8 +1,7 @@
 .home, .page-template-page-about, 
 .page-template-page-contact, .page-template-page-expert, .blog,
-
-.page-template-page-program, .page-template-page-student, .page-template-page-supporters {
-    .nav-bar,  .single-post , .error404{
+.page-template-page-program, .page-template-page-student, .page-template-page-supporters, .single-post , .error404, .page-id-123 {
+    .nav-bar {
 
         display: flex; 
         justify-content: space-between;
@@ -38,7 +37,7 @@
                 
             }
          }
-        } 
+    }
 }
 #primary-menu ul{
     height:75%;
