@@ -1,5 +1,4 @@
 <?php
-/* Template Name: News & Stories Page */
 /**
  * The template for displaying all pages.
  *
@@ -10,6 +9,7 @@ get_header(); ?>
 <div class="flexwrapper-blog">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="press-hero"></div>
 
 			<?php if ( have_posts() ) : ?>
 
