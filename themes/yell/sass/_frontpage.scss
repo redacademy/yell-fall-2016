@@ -1,5 +1,12 @@
 .home {
        text-align: center;
+
+       .testimonial-wrapper, .testimonial-wrapper2, .testimonial-wrapper3 {
+           img {
+        height: 275px;
+        border-radius: 4%;
+           }
+       }
        
     .homepg-bg1 {
         background-color:  $testimonial-bg-lightgrey;
@@ -85,6 +92,20 @@ margin-bottom: 2%;
 
 }
 
+.chart-wrap {
+    img {
+        width:50%;
+    }
+}
+
+.bubble-chart {
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    align-items: center;
+}
+
+
 .get-involved {
 width: 270px;
 height: 49px;
@@ -129,6 +150,7 @@ color: $main-body-color;
 box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 border-radius: 6px;
 margin: 0 auto;
+margin-top: 5%;
 font-family:$main-font-family;
 
     p {
@@ -151,4 +173,6 @@ border-radius: 6px;
 color: $testimonial-name-color;
 }
 }
+
+
 

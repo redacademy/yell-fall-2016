@@ -866,6 +866,9 @@ object {
 
 .home {
   text-align: center; }
+  .home .testimonial-wrapper img, .home .testimonial-wrapper2 img, .home .testimonial-wrapper3 img {
+    height: 275px;
+    border-radius: 4%; }
   .home .homepg-bg1 {
     background-color: #F9f9f9;
     background-image: url(../../images/orange-splash.png);
@@ -925,6 +928,15 @@ object {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
+  .home .chart-wrap img {
+    width: 50%; }
+  .home .bubble-chart {
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    -ms-flex-align: center;
+        align-items: center; }
   .home .get-involved {
     width: 270px;
     height: 49px;
@@ -962,6 +974,7 @@ object {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
+    margin-top: 5%;
     font-family: "Roboto", sans; }
     .home .testimonial p {
       margin-top: 12px;
@@ -980,11 +993,13 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
-.home .nav-bar, .home .single-post, .page-template-page-about .nav-bar, .page-template-page-about .single-post,
+.home .nav-bar, .home .single-post, .home .error404, .page-template-page-about .nav-bar, .page-template-page-about .single-post, .page-template-page-about .error404,
 .page-template-page-contact .nav-bar,
-.page-template-page-contact .single-post, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .blog .nav-bar, .blog .single-post,
+.page-template-page-contact .single-post,
+.page-template-page-contact .error404, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .page-template-page-expert .error404, .blog .nav-bar, .blog .single-post, .blog .error404,
 .page-template-page-program .nav-bar,
-.page-template-page-program .single-post, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post {
+.page-template-page-program .single-post,
+.page-template-page-program .error404, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-student .error404, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post, .page-template-page-supporters .error404 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -992,47 +1007,57 @@ object {
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
   @media (min-width: 600px) {
-    .home .nav-bar, .home .single-post, .page-template-page-about .nav-bar, .page-template-page-about .single-post,
+    .home .nav-bar, .home .single-post, .home .error404, .page-template-page-about .nav-bar, .page-template-page-about .single-post, .page-template-page-about .error404,
     .page-template-page-contact .nav-bar,
-    .page-template-page-contact .single-post, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .blog .nav-bar, .blog .single-post,
+    .page-template-page-contact .single-post,
+    .page-template-page-contact .error404, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .page-template-page-expert .error404, .blog .nav-bar, .blog .single-post, .blog .error404,
     .page-template-page-program .nav-bar,
-    .page-template-page-program .single-post, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post {
+    .page-template-page-program .single-post,
+    .page-template-page-program .error404, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-student .error404, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post, .page-template-page-supporters .error404 {
       -ms-flex-pack: start;
           justify-content: flex-start;
       background-color: transparent;
       margin-top: 2rem;
       margin-left: 2rem; } }
-  .home .nav-bar button, .home .single-post button, .page-template-page-about .nav-bar button, .page-template-page-about .single-post button,
+  .home .nav-bar button, .home .single-post button, .home .error404 button, .page-template-page-about .nav-bar button, .page-template-page-about .single-post button, .page-template-page-about .error404 button,
   .page-template-page-contact .nav-bar button,
-  .page-template-page-contact .single-post button, .page-template-page-expert .nav-bar button, .page-template-page-expert .single-post button, .blog .nav-bar button, .blog .single-post button,
+  .page-template-page-contact .single-post button,
+  .page-template-page-contact .error404 button, .page-template-page-expert .nav-bar button, .page-template-page-expert .single-post button, .page-template-page-expert .error404 button, .blog .nav-bar button, .blog .single-post button, .blog .error404 button,
   .page-template-page-program .nav-bar button,
-  .page-template-page-program .single-post button, .page-template-page-student .nav-bar button, .page-template-page-student .single-post button, .page-template-page-supporters .nav-bar button, .page-template-page-supporters .single-post button {
+  .page-template-page-program .single-post button,
+  .page-template-page-program .error404 button, .page-template-page-student .nav-bar button, .page-template-page-student .single-post button, .page-template-page-student .error404 button, .page-template-page-supporters .nav-bar button, .page-template-page-supporters .single-post button, .page-template-page-supporters .error404 button {
     height: 5rem;
     width: 5rem;
     border: none;
     background-color: transparent;
     box-shadow: none;
     outline: none; }
-    .home .nav-bar button i, .home .single-post button i, .page-template-page-about .nav-bar button i, .page-template-page-about .single-post button i,
+    .home .nav-bar button i, .home .single-post button i, .home .error404 button i, .page-template-page-about .nav-bar button i, .page-template-page-about .single-post button i, .page-template-page-about .error404 button i,
     .page-template-page-contact .nav-bar button i,
-    .page-template-page-contact .single-post button i, .page-template-page-expert .nav-bar button i, .page-template-page-expert .single-post button i, .blog .nav-bar button i, .blog .single-post button i,
+    .page-template-page-contact .single-post button i,
+    .page-template-page-contact .error404 button i, .page-template-page-expert .nav-bar button i, .page-template-page-expert .single-post button i, .page-template-page-expert .error404 button i, .blog .nav-bar button i, .blog .single-post button i, .blog .error404 button i,
     .page-template-page-program .nav-bar button i,
-    .page-template-page-program .single-post button i, .page-template-page-student .nav-bar button i, .page-template-page-student .single-post button i, .page-template-page-supporters .nav-bar button i, .page-template-page-supporters .single-post button i {
+    .page-template-page-program .single-post button i,
+    .page-template-page-program .error404 button i, .page-template-page-student .nav-bar button i, .page-template-page-student .single-post button i, .page-template-page-student .error404 button i, .page-template-page-supporters .nav-bar button i, .page-template-page-supporters .single-post button i, .page-template-page-supporters .error404 button i {
       font-size: 3rem;
       color: #ffffff; }
-  .home .nav-bar img, .home .single-post img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img,
+  .home .nav-bar img, .home .single-post img, .home .error404 img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img, .page-template-page-about .error404 img,
   .page-template-page-contact .nav-bar img,
-  .page-template-page-contact .single-post img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .blog .nav-bar img, .blog .single-post img,
+  .page-template-page-contact .single-post img,
+  .page-template-page-contact .error404 img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .page-template-page-expert .error404 img, .blog .nav-bar img, .blog .single-post img, .blog .error404 img,
   .page-template-page-program .nav-bar img,
-  .page-template-page-program .single-post img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img {
+  .page-template-page-program .single-post img,
+  .page-template-page-program .error404 img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-student .error404 img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img, .page-template-page-supporters .error404 img {
     height: 5rem;
     width: 5rem; }
     @media (min-width: 600px) {
-      .home .nav-bar img, .home .single-post img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img,
+      .home .nav-bar img, .home .single-post img, .home .error404 img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img, .page-template-page-about .error404 img,
       .page-template-page-contact .nav-bar img,
-      .page-template-page-contact .single-post img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .blog .nav-bar img, .blog .single-post img,
+      .page-template-page-contact .single-post img,
+      .page-template-page-contact .error404 img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .page-template-page-expert .error404 img, .blog .nav-bar img, .blog .single-post img, .blog .error404 img,
       .page-template-page-program .nav-bar img,
-      .page-template-page-program .single-post img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img {
+      .page-template-page-program .single-post img,
+      .page-template-page-program .error404 img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-student .error404 img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img, .page-template-page-supporters .error404 img {
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
@@ -1195,7 +1220,6 @@ object {
 
 .entry-date {
   position: relative;
-  top: 263px;
   margin-left: 2%;
   font-family: "Roboto", sans;
   text-transform: uppercase;
@@ -1614,6 +1638,7 @@ h3 {
   .page-template-page-supporters h3, .page-template-page-contact h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
+    margin: 5%;
     font-size: 14px;
     font-weight: 300;
     font-size: 24px; }
@@ -1700,7 +1725,8 @@ h3 {
 
 .contactinfo {
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 3%; }
   @media (min-width: 600px) {
     .contactinfo {
       display: -ms-flexbox;
@@ -1709,20 +1735,50 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
       -ms-flex-pack: center;
-          justify-content: center; } }
+          justify-content: center;
+      margin-right: 35%; } }
 
 @media (min-width: 600px) {
   .child1, .child2, .child3 {
     display: -ms-flexbox;
     display: flex;
-    width: 950px;
+    width: 980px;
     -ms-flex-pack: end;
         justify-content: flex-end;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+        flex-wrap: wrap; }
+    .child1 p, .child2 p, .child3 p {
+      padding-right: 3%; } }
 
 .child1 p {
   margin-left: 6.5%; }
 
 .child2 p {
   margin-left: 22%; }
+
+.peachbtn {
+  width: 270px;
+  height: 49px;
+  background-color: #F4B473;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  @media (min-width: 600px) {
+    .peachbtn {
+      margin: 0; } }
+  .peachbtn a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .peachbtn:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #f09b44; }

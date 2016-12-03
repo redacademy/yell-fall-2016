@@ -2,9 +2,9 @@
 .page-template-page-contact, .page-template-page-expert, .blog,
 
 .page-template-page-program, .page-template-page-student, .page-template-page-supporters {
-    .nav-bar,  .single-post{
+    .nav-bar,  .single-post , .error404{
 
-        display: flex;
+        display: flex; 
         justify-content: space-between;
         margin-bottom:5rem;
         background-color:$btn-border-color;

@@ -24,7 +24,7 @@ get_header(); ?>
 			<div class="child1">
 				<p> Are you a professional who wants to take 
 				part of YELL?</p>
-			<button class="get-involved">Professionals</button>
+			<button class="peachbtn">Professionals</button>
 			</div>
 			<div class="child2">
 			<p> Are you a potential sponsor, business
