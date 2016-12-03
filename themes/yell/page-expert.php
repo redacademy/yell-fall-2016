@@ -15,47 +15,54 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 			<?php endwhile; // End of the loop. ?>
+
+			<!--testimonial section-->
 			<div class="testimonial-flex">
-				<div class="testimonial-wrapper">
+					<div class="testimonial-wrapper">
 					<div class="testimonial">
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
-						<?php echo '<img src="' . $field['testimonial_image'] . '" class="testimonial-img">';  ?>
+					
+					<img src="	<?php echo CFS()->get ('testimonial_1_image') ;  ?>" class="testimonial-img">
 						<p>
-							<?php echo $field['testimonial_text'];  ?>
+							<?php echo CFS()->get( 'testimonial_1_text' ); ?>
 						</p>
 					</div>
 					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
+						<?php echo CFS()->get( 'testimonial_1_name' ); ?>
 					</div>
 				</div>
-				<div class="testimonial-wrapper2">
+							
+							
+							<div class="testimonial-wrapper2">
 					<div class="testimonial">
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
-						<?php echo '<img src="' . $field['testimonial_image'] . '" class="testimonial-img">';  ?>
+					
+					<img src="	<?php echo CFS()->get ('testimonial_2_image') ;  ?>" class="testimonial-img">
 						<p>
-							<?php echo $field['testimonial_text'];  ?>
+							<?php echo CFS()->get( 'testimonial_2_text' ); ?>
 						</p>
 					</div>
 					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
+						<?php echo CFS()->get( 'testimonial_2_name' ); ?>
 					</div>
 				</div>
-				<div class="testimonial-wrapper3">
+
+		<div class="testimonial-wrapper3">
 					<div class="testimonial">
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) { ?>
-						<?php echo '<img src="' . $field['testimonial_image'] . '" class="testimonial-img">';  ?>
+					
+					<img src="	<?php echo CFS()->get ('testimonial_3_image') ;  ?>" class="testimonial-img">
 						<p>
-							<?php echo $field['testimonial_text'];  ?>
+							<?php echo CFS()->get( 'testimonial_3_text' ); ?>
 						</p>
 					</div>
 					<div class="student-name">
-						<?php echo $field['testimonial_name']; } ?>
+						<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 					</div>
 				</div>
+
+			
+
 			</div>
+<!--end of testimonial section-->
+
 			<div class="expert-info">
 				<?php echo CFS()->get( 'expert_paragraph' ); ?>
 			</div>

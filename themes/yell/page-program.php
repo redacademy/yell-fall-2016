@@ -52,20 +52,50 @@ get_header(); ?>
 	</div>
 
 <!--testimonials-->
-				<div class="testimonial-wrap">
-
-						<?php $fields=CFS()->get( 'testimonial' );
-							foreach ( $fields as $field ) {  ?>
-
+				<div class="testimonial-flex">
+					<div class="testimonial-wrapper">
+					<div class="testimonial">
 					
-							<div class="text">
-								<div class="text-test"><?php echo $field['testimonial_text'];  ?></div>
-						
-								<div class="name"><?php echo $field['testimonial_name']; } ?></div>
-							</div>
-						
+					<img src="	<?php echo CFS()->get ('testimonial_1_image') ;  ?>" class="testimonial-img">
+						<p>
+							<?php echo CFS()->get( 'testimonial_1_text' ); ?>
+						</p>
+					</div>
+					<div class="student-name">
+						<?php echo CFS()->get( 'testimonial_1_name' ); ?>
+					</div>
+				</div>
+							
+							
+							<div class="testimonial-wrapper2">
+					<div class="testimonial">
+					
+					<img src="	<?php echo CFS()->get ('testimonial_2_image') ;  ?>" class="testimonial-img">
+						<p>
+							<?php echo CFS()->get( 'testimonial_2_text' ); ?>
+						</p>
+					</div>
+					<div class="student-name">
+						<?php echo CFS()->get( 'testimonial_2_name' ); ?>
+					</div>
+				</div>
 
-			        </div>
+		<div class="testimonial-wrapper3">
+					<div class="testimonial">
+					
+					<img src="	<?php echo CFS()->get ('testimonial_3_image') ;  ?>" class="testimonial-img">
+						<p>
+							<?php echo CFS()->get( 'testimonial_3_text' ); ?>
+						</p>
+					</div>
+					<div class="student-name">
+						<?php echo CFS()->get( 'testimonial_3_name' ); ?>
+					</div>
+				</div>
+
+			
+
+			</div>
 						
 
 			<!--impact charts-->

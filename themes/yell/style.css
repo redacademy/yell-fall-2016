@@ -980,9 +980,11 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
-.home .nav-bar, .page-template-page-about .nav-bar,
-.page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
-.page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar {
+.home .nav-bar, .home .single-post, .page-template-page-about .nav-bar, .page-template-page-about .single-post,
+.page-template-page-contact .nav-bar,
+.page-template-page-contact .single-post, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .blog .nav-bar, .blog .single-post,
+.page-template-page-program .nav-bar,
+.page-template-page-program .single-post, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -990,37 +992,47 @@ object {
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
   @media (min-width: 600px) {
-    .home .nav-bar, .page-template-page-about .nav-bar,
-    .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
-    .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar {
+    .home .nav-bar, .home .single-post, .page-template-page-about .nav-bar, .page-template-page-about .single-post,
+    .page-template-page-contact .nav-bar,
+    .page-template-page-contact .single-post, .page-template-page-expert .nav-bar, .page-template-page-expert .single-post, .blog .nav-bar, .blog .single-post,
+    .page-template-page-program .nav-bar,
+    .page-template-page-program .single-post, .page-template-page-student .nav-bar, .page-template-page-student .single-post, .page-template-page-supporters .nav-bar, .page-template-page-supporters .single-post {
       -ms-flex-pack: start;
           justify-content: flex-start;
       background-color: transparent;
       margin-top: 2rem;
       margin-left: 2rem; } }
-  .home .nav-bar button, .page-template-page-about .nav-bar button,
-  .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
-  .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button {
+  .home .nav-bar button, .home .single-post button, .page-template-page-about .nav-bar button, .page-template-page-about .single-post button,
+  .page-template-page-contact .nav-bar button,
+  .page-template-page-contact .single-post button, .page-template-page-expert .nav-bar button, .page-template-page-expert .single-post button, .blog .nav-bar button, .blog .single-post button,
+  .page-template-page-program .nav-bar button,
+  .page-template-page-program .single-post button, .page-template-page-student .nav-bar button, .page-template-page-student .single-post button, .page-template-page-supporters .nav-bar button, .page-template-page-supporters .single-post button {
     height: 5rem;
     width: 5rem;
     border: none;
     background-color: transparent;
     box-shadow: none;
     outline: none; }
-    .home .nav-bar button i, .page-template-page-about .nav-bar button i,
-    .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
-    .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i {
+    .home .nav-bar button i, .home .single-post button i, .page-template-page-about .nav-bar button i, .page-template-page-about .single-post button i,
+    .page-template-page-contact .nav-bar button i,
+    .page-template-page-contact .single-post button i, .page-template-page-expert .nav-bar button i, .page-template-page-expert .single-post button i, .blog .nav-bar button i, .blog .single-post button i,
+    .page-template-page-program .nav-bar button i,
+    .page-template-page-program .single-post button i, .page-template-page-student .nav-bar button i, .page-template-page-student .single-post button i, .page-template-page-supporters .nav-bar button i, .page-template-page-supporters .single-post button i {
       font-size: 3rem;
       color: #ffffff; }
-  .home .nav-bar img, .page-template-page-about .nav-bar img,
-  .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
-  .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img {
+  .home .nav-bar img, .home .single-post img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img,
+  .page-template-page-contact .nav-bar img,
+  .page-template-page-contact .single-post img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .blog .nav-bar img, .blog .single-post img,
+  .page-template-page-program .nav-bar img,
+  .page-template-page-program .single-post img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img {
     height: 5rem;
     width: 5rem; }
     @media (min-width: 600px) {
-      .home .nav-bar img, .page-template-page-about .nav-bar img,
-      .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
-      .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img {
+      .home .nav-bar img, .home .single-post img, .page-template-page-about .nav-bar img, .page-template-page-about .single-post img,
+      .page-template-page-contact .nav-bar img,
+      .page-template-page-contact .single-post img, .page-template-page-expert .nav-bar img, .page-template-page-expert .single-post img, .blog .nav-bar img, .blog .single-post img,
+      .page-template-page-program .nav-bar img,
+      .page-template-page-program .single-post img, .page-template-page-student .nav-bar img, .page-template-page-student .single-post img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .single-post img {
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
@@ -1155,7 +1167,7 @@ object {
   border: 1px solid #F9F9F9;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
   background-color: #f1f1f1;
-  padding-bottom: 10%; }
+  padding-bottom: 3%; }
 
 .back-top {
   font-family: "Rubik", sans;
@@ -1265,7 +1277,7 @@ object {
     margin: 0 auto;
     padding-bottom: 2%;
     font-family: "Roboto", sans;
-    text-align: left; }
+    text-align: center; }
   .page-template-page-student .what-yell p, .page-template-page-expert .what-yell p, .page-template-page-program .what-yell p {
     font-size: 14px;
     text-align: center;
