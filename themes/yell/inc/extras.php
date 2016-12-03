@@ -71,7 +71,7 @@ function my_styles_method() {
 
        $url = CFS()->get( 'professionals_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
-       .expert-hero{
+       .professionals-hero{
          background: url({$url}) no-repeat center bottom;
          height:100vh;
          background-size: cover, cover;
