@@ -67,11 +67,12 @@ function my_styles_method() {
        }";
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
+
  }elseif(is_page( 'professionals' )){
 
        $url = CFS()->get( 'professionals_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
-       .professionals-hero{
+       .expert-hero{
          background: url({$url}) no-repeat center bottom;
          height:100vh;
          background-size: cover, cover;
@@ -80,7 +81,6 @@ function my_styles_method() {
        wp_add_inline_style( 'red-starter-style', $custom_css );
 }}
      add_action( 'wp_enqueue_scripts', 'my_styles_method' );
-
 
 /////////logo in log in page///////////
 function my_login_logo() {?>
