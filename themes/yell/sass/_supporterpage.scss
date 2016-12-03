@@ -1,4 +1,4 @@
-.page-template-page-supporters {
+.page-template-page-supporters, .page-template-page-contact {
 
 
     color:$main-body-color;
@@ -62,6 +62,10 @@ box-shadow: none;
 border: 3px solid $btn-border-color;
 margin: 5%;
 
+@include desktop {
+    margin: 0;
+}
+
     a{
         color: #FFFFFF ;
         text-decoration: none;
@@ -100,6 +104,10 @@ box-shadow: none;
 border: 3px solid $btn-border-color;
 margin: 5%;
 
+@include desktop {
+    margin: 0;
+}
+
     a{
         color: #FFFFFF ;
         text-decoration: none;
@@ -119,3 +127,37 @@ margin: 5%;
        display:flex;
    }
 }
+
+//contact styles ===============
+.contactinfo {
+    width: 300px;
+    margin: 0 auto;
+    
+    @include desktop {
+        display:flex;
+        width:800px;
+        flex-direction: column;
+        justify-content:center;
+    }
+}
+
+.child1, .child2, .child3 {
+    @include desktop {
+        display:flex;
+        width: 950px;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+                     }
+    }
+
+    .child1 {
+        p {
+        margin-left: 6.5%;
+        }
+    }
+
+    .child2 {
+        p{
+        margin-left:22%;
+        }
+    }
