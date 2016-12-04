@@ -8,7 +8,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<div class="home-hero">
+		<div class="home-hero"><h1>Empowering the next generation of Canadian problem solvers</h1>
 			 <div class="white-blob">
 			   <img src="<?php echo get_template_directory_uri(); ?>/images/white-blob-desktop.png" alt= "White Blob">  
 			 </div>

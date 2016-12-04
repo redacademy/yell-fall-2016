@@ -11,11 +11,15 @@
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="expert-hero"></div>
+			<div class="expert-hero"><h1>A bright future for all Canadian communities</h1></div>
+
+			<div class="homepg-bg1">
+	<div class="homepg-bg3">
+
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 			<?php endwhile; // End of the loop. ?>
-
+			<h2> Be an Expert</h2>
 			<!--testimonial section-->
 			<div class="testimonial-flex">
 					<div class="testimonial-wrapper">
@@ -132,6 +136,8 @@ get_header(); ?>
 					<button class="get-involved"> YELL at your school! </button>
 			</div>
 		</main>
+</div>
+</div>
 		<!-- #main -->
 	</div>
 	<!-- #primary -->

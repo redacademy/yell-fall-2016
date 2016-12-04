@@ -64,6 +64,7 @@ function my_styles_method() {
          background: url({$url}) no-repeat center bottom;
          height:100vh;
          background-size: cover, cover;
+         
        }";
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
@@ -85,6 +86,7 @@ function my_styles_method() {
          background: url({$url}) no-repeat center bottom;
          height:100vh;
          background-size: cover, cover;
+         
        }";
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
