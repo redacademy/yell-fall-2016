@@ -1080,6 +1080,8 @@ object {
         border: none;
         text-transform: none;
         line-height: 2rem; } }
+    #primary-menu ul li:nth-child(3) {
+      display: none; }
     #primary-menu ul li:nth-last-child(-n+1) {
       background-color: #F4B473; }
       @media (min-width: 600px) {

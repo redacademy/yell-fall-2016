@@ -70,6 +70,9 @@
             text-transform:none;
             line-height:2rem;
         }
+        &:nth-child(3) {
+            display:none;
+        }
         &:nth-last-child(-n+1){
             background-color:$theme-peach-color;
             @include min-desktop {
