@@ -1404,11 +1404,11 @@ h3 {
     background-color: #d1721d; }
 
 .white-blob {
-  height: 71px;
+  max-height: 76px;
   width: 1300px;
   max-width: 1450px;
   position: absolute;
-  bottom: 0; }
+  bottom: 0px; }
 
 .page-template-page-expert .expert-info {
   text-align: center;
