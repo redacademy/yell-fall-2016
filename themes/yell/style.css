@@ -1040,6 +1040,14 @@ object {
         height: 9rem;
         width: 9rem; } }
 
+.home .nav-bar, .page-template-page-about .nav-bar, .page-template-page-expert .nav-bar, .page-template-page-program .nav-bar,
+.page-template-page-supporters .nav-bar {
+  background-color: transparent; }
+  .home .nav-bar img, .page-template-page-about .nav-bar img, .page-template-page-expert .nav-bar img, .page-template-page-program .nav-bar img,
+  .page-template-page-supporters .nav-bar img {
+    height: 9rem;
+    width: 9rem; }
+
 #primary-menu ul {
   height: 75%;
   width: 80%;
@@ -1397,7 +1405,7 @@ h3 {
 
 .white-blob {
   height: 71px;
-  width: 100%;
+  width: 1300px;
   max-width: 1450px;
   position: absolute;
   bottom: 0; }
