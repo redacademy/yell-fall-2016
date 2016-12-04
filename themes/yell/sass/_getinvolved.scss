@@ -9,7 +9,9 @@
         font-size: $h4-font-size;
         font-weight: 300;
         font-size: 36px;
-        border: 1px solid $border-bottom-color;
+        border-bottom: 1px solid $border-bottom-color;
+        width:270px;
+        margin: 50px auto;
     }
     
     .involved-info {
@@ -59,6 +61,12 @@ p{
     text-align: left;
     font-size: 14px;
 }
+
+  &:hover{
+    
+       background-color: darken($theme-blue-color, 10%);
+
+   }
 }
 
 .expertbtn {
@@ -92,6 +100,11 @@ p{
     text-align: left;
     font-size: 14px;
 }
+
+  &:hover{
+       background-color: darken($theme-peach-color, 10%);
+
+   }
 }
 
 .supportbtn {
@@ -125,6 +138,12 @@ p{
     text-align: left;
     font-size: 14px;
 }
+
+  &:hover{
+       
+       background-color: darken($theme-orange-color, 10%);
+
+   }
 }
 
 h5{
@@ -140,7 +159,8 @@ h5{
     align-items: center;
     flex-direction: column;
 
-    @include desktop {
-        display:block;
+    @include min-desktop {
+    display: flex;
+    flex-direction: row;
     }
 }

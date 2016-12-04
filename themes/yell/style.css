@@ -1864,7 +1864,9 @@ h3 {
   font-size: 14px;
   font-weight: 300;
   font-size: 36px;
-  border: 1px solid #D0D0D0; }
+  border-bottom: 1px solid #D0D0D0;
+  width: 270px;
+  margin: 50px auto; }
 
 .page-template-page-get-involved .involved-info {
   margin: 0 auto;
@@ -1907,6 +1909,8 @@ h3 {
     text-transform: lowercase;
     text-align: left;
     font-size: 14px; }
+  .studentbtn:hover {
+    background-color: #69acc1; }
 
 .expertbtn {
   width: 270px;
@@ -1936,6 +1940,8 @@ h3 {
     text-transform: lowercase;
     text-align: left;
     font-size: 14px; }
+  .expertbtn:hover {
+    background-color: #f09b44; }
 
 .supportbtn {
   width: 270px;
@@ -1965,6 +1971,8 @@ h3 {
     text-transform: lowercase;
     text-align: left;
     font-size: 14px; }
+  .supportbtn:hover {
+    background-color: #d1721d; }
 
 h5 {
   margin-left: 38%;
@@ -1981,4 +1989,7 @@ h5 {
       flex-direction: column; }
   @media (min-width: 600px) {
     .btn-wrapper {
-      display: block; } }
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row; } }
