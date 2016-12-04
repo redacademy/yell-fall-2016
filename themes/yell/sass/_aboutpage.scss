@@ -1,5 +1,5 @@
    .homepg-bg1 {
-       background-color: $testimonial-bg-lightgrey;
+       background-color: white;
        background-image: url(../../images/orange-splash-about-desktop.png);
        background-repeat: no-repeat;
        background-size: 100% 350px;
@@ -67,9 +67,10 @@
    }
    }
 .white-blob{
-    width: 100%;
+    height: 30px;
+    width:1300px;
     max-width: 1450px;
     position: absolute;
-    bottom: -2.5rem;
+    bottom:0;
 }
 

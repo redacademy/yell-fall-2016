@@ -39,6 +39,16 @@
          }
     }
 }
+.home, .page-template-page-about, .page-template-page-expert, .page-template-page-program,
+.page-template-page-supporters {
+    .nav-bar{
+       background-color:transparent;
+       img {
+        height:9rem;
+        width:9rem;        
+       }
+    }
+}
 #primary-menu ul{
     height:75%;
     width:80%;
