@@ -1084,9 +1084,14 @@ object {
         #primary-menu ul li a {
           color: #E48C3D; } }
 
-.home #primary-menu ul li a, .page-template-page-about #primary-menu ul li a, .page-template-page-expert #primary-menu ul li a, .page-template-page-student #primary-menu ul li a,
-.page-template-page-supporters #primary-menu ul li a {
-  color: white; }
+@media (min-width: 600px) {
+  .home #primary-menu ul li a, .page-template-page-about #primary-menu ul li a, .page-template-page-expert #primary-menu ul li a,
+  .page-template-page-supporters #primary-menu ul li a, .error404 #primary-menu ul li a, .page-template-page-program #primary-menu ul li a {
+    color: white; }
+  .home #primary-menu ul li:nth-last-child(-n+1) a, .page-template-page-about #primary-menu ul li:nth-last-child(-n+1) a, .page-template-page-expert #primary-menu ul li:nth-last-child(-n+1) a,
+  .page-template-page-supporters #primary-menu ul li:nth-last-child(-n+1) a, .error404 #primary-menu ul li:nth-last-child(-n+1) a, .page-template-page-program #primary-menu ul li:nth-last-child(-n+1) a {
+    border: 2px solid white;
+    color: white; } }
 
 /*.page-template-page-about {
 .nav-bar {

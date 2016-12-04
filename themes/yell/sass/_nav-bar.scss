@@ -81,17 +81,26 @@
         color:$h3-grey-color;
         @include min-desktop {
             color:$h2-orange-color;
-        }
-        }
+         }
+       }
     }
-}
-.home, .page-template-page-about, .page-template-page-expert, .page-template-page-student,
-.page-template-page-supporters {
-    #primary-menu ul li a{
-        color:white;
-       
  }
-}
+.home, .page-template-page-about, .page-template-page-expert,
+.page-template-page-supporters, .error404, .page-template-page-program {
+  @include min-desktop {
+    #primary-menu ul li{
+        a{
+            color:white;
+        }
+        &:nth-last-child(-n+1){
+            a{
+                border:2px solid white;
+                color:white;
+            }  
+          }
+        }
+     }
+  }
 
 /*.page-template-page-about {
 .nav-bar {
