@@ -12,12 +12,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="program-hero">
+			<div class="program-hero"> <h1>Program Structure</h1>
 			 <div class="white-blob">
 			   <img src="<?php echo get_template_directory_uri(); ?>/images/white-blob-desktop.png" alt= "White Blob">  
 			 </div>
 			</div>
-
+<div class="homepg-bg1">
+	<div class="homepg-bg3">
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
@@ -55,7 +56,15 @@ get_header(); ?>
 		</div>
 	</div>
 
+
+<div class ="charts">
+			<?php $fields=CFS()->get( 'impact_loop' );
+							foreach ( $fields as $field ) { ?>
+						<?php echo '<img src="' . $field['impact_chart'] . '" class="impact-chart">';  ?>
+						<?php echo '<img src="' . $field['impact_desc'] . '" class="impact-chart">'; } ?>
+				</div>
 <!--testimonials-->
+				<h3> Student Testimonials</h3>
 				<div class="testimonial-flex">
 					<div class="testimonial-wrapper">
 					<div class="testimonial">
@@ -102,15 +111,11 @@ get_header(); ?>
 			</div>
 						
 
-			<!--impact charts-->
 			
 		</main><!-- #main -->
 
-			<div class ="charts">
-			<?php $fields=CFS()->get( 'impact_loop' );
-							foreach ( $fields as $field ) { ?>
-						<?php echo '<img src="' . $field['impact_chart'] . '" class="impact-chart">';  ?>
-						<?php echo '<img src="' . $field['impact_desc'] . '" class="impact-chart">'; } ?>
-				</div>
+			<button class="get-involved"> Get Involved! </button>
+		</div>
+	</div>
 	<!-- #primary -->
 <?php get_footer(); ?>

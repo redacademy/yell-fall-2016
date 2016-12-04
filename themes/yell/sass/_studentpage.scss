@@ -1,10 +1,23 @@
   .page-template-page-student, .page-template-page-expert, .page-template-page-program{  
+
+      h1 {
+          display:none;
+      }
+      .homepg-bg1 {
+
+          background-size: 100% 850px;
+      }
+
+      .homepg-bg3 {
+          background-size: 100% 850px;
+          background-position-y: 100%;
+      }
       color:$main-body-color;
       text-align:center;
        background-color:  white;
        width: 100%;
     img {
-        height: 250px;
+        height: 200px;
     }
 
       .site-main{
@@ -12,7 +25,6 @@
     h2 {
         font-family:$accent-font-family;
         color:$theme-orange-color;
-        text-transform:uppercase;
         font-weight: 300;
         font-size: 24px;
         text-align: center;
@@ -22,7 +34,7 @@
             border-bottom: 1px solid $border-bottom-color;
             border-bottom: 1px solid #d0d0d0;
             width: 300px;
-            margin: 0 auto;
+            margin: 4% auto;
         }
     }
 
@@ -31,7 +43,10 @@
         color:$h4-color;
         font-size: $h4-font-size;
         font-weight: 300;
-        font-size: 24px;
+        font-size: 36px;
+        border-bottom:1px solid $border-bottom-color;
+        width: 360px;
+        margin: 4% auto;
     }
     
     h5 {
@@ -61,6 +76,14 @@
           text-align:center;
           margin-top: 5%;
           max-width: 100%;
+      }
+
+      p:first-child {
+          @include desktop {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+      }
       }
 
       img {
@@ -111,4 +134,44 @@ margin: 15%;
 }
 .white-blob img{
     height:auto;
+}
+
+.get-involved {
+width: 270px;
+height: 49px;
+background-color: $theme-orange-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 15%;
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+      background-color: darken($theme-orange-color, 10%);
+   }
+   
+}
+
+.page-template-page-program {
+    .testimonial {
+        p{
+            text-align:left;
+            margin-top: -91px;
+             max-width: 100%;
+            margin-left: 7%;
+        }
+    }
+}
+
+.charts {
+    padding: 5%;
 }

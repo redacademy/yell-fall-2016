@@ -1,6 +1,12 @@
 .home {
        text-align: center;
 
+       .testimonial {
+           p {
+               margin-right: 14%;
+           }
+       }
+
        .testimonial-wrapper, .testimonial-wrapper2, .testimonial-wrapper3 {
            img {
         height: 275px;
@@ -131,6 +137,16 @@ margin: 15%;
    
 }
 
+.home-hero{
+     color: white;
+        text-transform: uppercase;
+        font-size: 66px;
+        text-align: center;
+        font-family:$accent-font-family;
+        font-weight:600;
+       
+}
+
 //testimonial styles ====================
 
 .testimonial-wrapper {
@@ -145,7 +161,7 @@ max-width: 345px;
 .testimonial {
 width: 345px;
 height: 209px;
-background-color:#f1f1f1;
+background-color:#f8f8f8;
 color: $main-body-color;
 box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
 border-radius: 6px;

@@ -12,6 +12,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
+				<div class="homepg-bg1">
+
 	<div class="studentflex-wrapper">
 		<span class="pglabel"> <h3>Students Apply</h3></span>
 			<?php
@@ -68,5 +71,6 @@ get_header(); ?>
 		<button class="yell-at"> YELL at us! ></button>
 	</div>
 		</main><!-- #main -->
+		</div>
 	</div><!-- #primary -->
 <?php get_footer(); ?>

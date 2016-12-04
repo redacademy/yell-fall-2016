@@ -866,6 +866,8 @@ object {
 
 .home {
   text-align: center; }
+  .home .testimonial p {
+    margin-right: 14%; }
   .home .testimonial-wrapper img, .home .testimonial-wrapper2 img, .home .testimonial-wrapper3 img {
     height: 275px;
     border-radius: 4%; }
@@ -957,6 +959,13 @@ object {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #d1721d; }
+  .home .home-hero {
+    color: white;
+    text-transform: uppercase;
+    font-size: 66px;
+    text-align: center;
+    font-family: "Rubik", sans;
+    font-weight: 600; }
   .home .testimonial-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -969,7 +978,7 @@ object {
   .home .testimonial {
     width: 345px;
     height: 209px;
-    background-color: #f1f1f1;
+    background-color: #f8f8f8;
     color: #9B9B9B;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -1184,8 +1193,9 @@ object {
 .type-post {
   border: 1px solid #F9F9F9;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #f1f1f1;
-  padding-bottom: 3%; }
+  background-color: white;
+  padding-bottom: 3%;
+  height: 750px; }
 
 .back-top {
   font-family: "Rubik", sans;
@@ -1259,12 +1269,18 @@ object {
   text-align: center;
   background-color: white;
   width: 100%; }
+  .page-template-page-student h1, .page-template-page-expert h1, .page-template-page-program h1 {
+    display: none; }
+  .page-template-page-student .homepg-bg1, .page-template-page-expert .homepg-bg1, .page-template-page-program .homepg-bg1 {
+    background-size: 100% 850px; }
+  .page-template-page-student .homepg-bg3, .page-template-page-expert .homepg-bg3, .page-template-page-program .homepg-bg3 {
+    background-size: 100% 850px;
+    background-position-y: 100%; }
   .page-template-page-student img, .page-template-page-expert img, .page-template-page-program img {
-    height: 250px; }
+    height: 200px; }
   .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2, .page-template-page-program .site-main h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
-    text-transform: uppercase;
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
@@ -1273,13 +1289,16 @@ object {
         border-bottom: 1px solid #D0D0D0;
         border-bottom: 1px solid #d0d0d0;
         width: 300px;
-        margin: 0 auto; } }
+        margin: 4% auto; } }
   .page-template-page-student .site-main h3, .page-template-page-expert .site-main h3, .page-template-page-program .site-main h3 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
     font-size: 14px;
     font-weight: 300;
-    font-size: 24px; }
+    font-size: 36px;
+    border-bottom: 1px solid #D0D0D0;
+    width: 360px;
+    margin: 4% auto; }
   .page-template-page-student .site-main h5, .page-template-page-expert .site-main h5, .page-template-page-program .site-main h5 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
@@ -1300,6 +1319,11 @@ object {
     text-align: center;
     margin-top: 5%;
     max-width: 100%; }
+  @media (min-width: 600px) {
+    .page-template-page-student .what-yell p:first-child, .page-template-page-expert .what-yell p:first-child, .page-template-page-program .what-yell p:first-child {
+      width: 800px;
+      text-align: center;
+      margin: 0 auto; } }
   .page-template-page-student .what-yell img, .page-template-page-expert .what-yell img, .page-template-page-program .what-yell img {
     width: 400px; }
   .page-template-page-student .register-blurb
@@ -1341,6 +1365,36 @@ h3 {
 
 .white-blob img {
   height: auto; }
+
+.get-involved {
+  width: 270px;
+  height: 49px;
+  background-color: #E48C3D;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 15%; }
+  .get-involved:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #d1721d; }
+
+.page-template-page-program .testimonial p {
+  text-align: left;
+  margin-top: -91px;
+  max-width: 100%;
+  margin-left: 7%; }
+
+.charts {
+  padding: 5%; }
 
 .homepg-bg1 {
   background-color: white;
@@ -1900,8 +1954,8 @@ h3 {
   text-align: center; }
 
 .studentbtn {
-  width: 270px;
-  height: 150px;
+  width: 345px;
+  height: 143px;
   background-color: #8DC0D0;
   border-radius: 6px;
   font-size: 18px;
@@ -1931,8 +1985,8 @@ h3 {
     background-color: #69acc1; }
 
 .expertbtn {
-  width: 270px;
-  height: 150px;
+  width: 345px;
+  height: 143px;
   background-color: #F4B473;
   border-radius: 6px;
   font-size: 18px;
@@ -1962,8 +2016,8 @@ h3 {
     background-color: #f09b44; }
 
 .supportbtn {
-  width: 270px;
-  height: 150px;
+  width: 345px;
+  height: 143px;
   background-color: #E48C3D;
   border-radius: 6px;
   font-size: 18px;
@@ -2011,3 +2065,14 @@ h5 {
       display: flex;
       -ms-flex-direction: row;
           flex-direction: row; } }
+
+.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero h1 {
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  font-size: 3.1rem;
+  text-align: center;
+  font-family: "Rubik", sans;
+  font-weight: 600;
+  margin: 0 auto;
+  width: 70%; }
