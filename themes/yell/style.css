@@ -1331,6 +1331,9 @@ h3 {
     box-shadow: none;
     background-color: #69acc1; }
 
+.white-blob img {
+  height: auto; }
+
 .homepg-bg1 {
   background-color: #F9f9f9;
   background-image: url(../../images/orange-splash-about-desktop.png);
@@ -1391,6 +1394,12 @@ h3 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #d1721d; }
+
+.white-blob {
+  width: 100%;
+  max-width: 1450px;
+  position: absolute;
+  bottom: -.5rem; }
 
 .page-template-page-expert .expert-info {
   text-align: center;
@@ -1616,7 +1625,7 @@ h3 {
 .page-template-page-supporters, .page-template-page-contact {
   color: #9B9B9B;
   text-align: center;
-  background-color: #F9f9f9;
+  background-color: white;
   width: 100%; }
   .page-template-page-supporters .entry-title, .page-template-page-contact .entry-title {
     display: none; }
