@@ -209,6 +209,13 @@ border: 1px solid $btn-border-color;
 }
 
 .expert-wrapper {
+
+&:first-child img{
+    
+        height: 165px;
+    
+}
+
     @include desktop {
     display:flex;
     }

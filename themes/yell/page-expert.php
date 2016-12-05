@@ -129,7 +129,7 @@ get_header(); ?>
 						<div class="program">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/fish.png" alt="fish bowls">
 							<h3> Venture Challenge</h3>
-							<h5> Spring</h5>
+							<h5> Spring Semester</h5>
 							<?php echo CFS()->get( 'spring' ); ?>
 						</div>
 					</div>

@@ -892,7 +892,7 @@ object {
     height: 275px;
     border-radius: 4%; }
   .home .homepg-bg1 {
-    background-color: white;
+    background-color: rgba(242, 242, 242, 0.5);
     background-image: url(../../images/orange-splash.png);
     background-repeat: no-repeat;
     background-size: 100% 350px;
@@ -1292,6 +1292,7 @@ object {
     color: #9B9B9B; }
 
 .page-template-page-student, .page-template-page-expert, .page-template-page-program {
+  background-color: #f2f2f2;
   color: #9B9B9B;
   text-align: center;
   background-color: white;
@@ -1299,6 +1300,7 @@ object {
   .page-template-page-student h1, .page-template-page-expert h1, .page-template-page-program h1 {
     display: none; }
   .page-template-page-student .homepg-bg1, .page-template-page-expert .homepg-bg1, .page-template-page-program .homepg-bg1 {
+    background-color: rgba(242, 242, 242, 0.5);
     background-size: 100% 850px; }
   .page-template-page-student .homepg-bg3, .page-template-page-expert .homepg-bg3, .page-template-page-program .homepg-bg3 {
     background-size: 100% 850px;
@@ -1422,6 +1424,19 @@ h3 {
 
 .charts {
   padding: 5%; }
+
+#dynamic_select {
+  background-color: white;
+  width: 305px;
+  margin: 10% auto;
+  color: #E48C3D;
+  height: 45px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  font-family: "Rubik", sans; }
+
+.timeline img {
+  height: 300px; }
 
 .homepg-bg1 {
   background-color: white;
@@ -1649,6 +1664,9 @@ h3 {
   @media (min-width: 1000px) {
     .page-template-page-expert .speaker-btn, .page-template-page-expert .mentor-btn, .page-template-page-expert .teacher-btn {
       display: none; } }
+
+.expert-wrapper:first-child img {
+  height: 165px; }
 
 @media (min-width: 1000px) {
   .expert-wrapper {
