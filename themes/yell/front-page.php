@@ -1,3 +1,5 @@
+
+
 <?php
 /** Template Name: Front Page 
  *
@@ -9,7 +11,13 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<div class="home-hero"><h1>Empowering the next generation of Canadian problem solvers</h1><h1> Young Entrepreneurial Leadership Launchpad</h1>
+		<!--embedding youtube video-->
+
+
+
+<iframe id="video" src="https://www.youtube.com/embed/DEiw8i6yu7Q" frameborder="0"></iframe>
 		<div id="playbtn"> <i class="fa fa-play" aria-hidden="true"></i></div>
+
 		<div class="home-hero-p"> The first unified effort to bring mentor - based entrepreneurship & leadership education to high schools across Canada</div>
 
 			 <div class="white-blob">
