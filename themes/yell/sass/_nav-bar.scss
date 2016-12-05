@@ -73,6 +73,12 @@
         &:nth-child(3),  {
             display:none;
         }
+        &:nth-child(4),  {
+            display:none;
+        }
+        &:nth-child(9),  {
+            display:none;
+        }
         &:nth-last-child(-n+1){
             background-color:$theme-peach-color;
             @include min-desktop {
