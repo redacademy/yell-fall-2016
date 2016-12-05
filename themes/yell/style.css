@@ -1177,30 +1177,6 @@ object {
     border: 2px solid white;
     color: white; } }
 
-/*.page-template-page-about {
-.nav-bar {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom:5rem;
-        background-color:transparent;
-        button{
-            height:5rem;
-            width:5rem;
-            border:none;
-            background-color: transparent;
-            box-shadow:none;
-
-            i{
-                font-size:3rem;
-                color:$hero-font-color;
-            }
-        }
-        img {
-            height:5rem;
-            width:5rem;
-         }
-        }
-}*/
 .blog {
   background-color: #F9f9f9; }
   .blog .site-main {
@@ -1539,13 +1515,13 @@ h3 {
     box-shadow: none;
     background-color: #d1721d; }
 
-.white-blob {
-  max-height: 76px;
-  width: 1300px;
-  max-width: 1450px;
-  position: absolute;
-  bottom: 0px; }
-
+/*.white-blob{
+    max-height: 76px;
+    width: 1300px;
+    max-width: 1450px;
+    position: absolute;
+    bottom: 0px;
+}*/
 .page-template-page-expert .expert-info {
   text-align: center;
   text-align: center;

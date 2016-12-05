@@ -13,9 +13,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="program-hero"> <h1>Program Structure</h1>
-			 <div class="white-blob">
+			 <!--<div class="white-blob">
 			   <img src="<?php echo get_template_directory_uri(); ?>/images/white-blob-desktop.png" alt= "White Blob">  
-			 </div>
+			 </div>-->
 			</div>
 <div class="homepg-bg1">
 	<div class="homepg-bg3">
