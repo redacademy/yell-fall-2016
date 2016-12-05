@@ -159,7 +159,7 @@ h5{
     align-items: center;
     flex-direction: column;
 
-    @include min-desktop {
+    @include desktop {
     display: flex;
     flex-direction: row;
     }

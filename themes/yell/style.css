@@ -847,7 +847,7 @@ object {
 .copyright {
   height: 35px; }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .site-footer {
     display: -ms-flexbox;
     display: flex;
@@ -938,7 +938,8 @@ object {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8;
-    margin-bottom: 2%; }
+    margin-bottom: 2%;
+    margin: 15%; }
     .home .more-about:hover {
       border-color: #E8E8E8;
       box-shadow: none;
@@ -1022,17 +1023,9 @@ object {
     border-radius: 6px;
     color: #4A4A4A; }
 
-<<<<<<< HEAD
-.home .nav-bar, .home .page, .page-template-page-about .nav-bar, .page-template-page-about .page,
-.page-template-page-contact .nav-bar,
-.page-template-page-contact .page, .page-template-page-expert .nav-bar, .page-template-page-expert .page, .blog .nav-bar, .blog .page,
-.page-template-page-program .nav-bar,
-.page-template-page-program .page, .page-template-page-student .nav-bar, .page-template-page-student .page, .page-template-page-supporters .nav-bar, .page-template-page-supporters .page, .single-post .nav-bar, .single-post .page, .error404 .nav-bar, .error404 .page, .page-id-123 .nav-bar, .page-id-123 .page {
-=======
 .home .nav-bar, .page-template-page-about .nav-bar,
 .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
 .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar {
->>>>>>> 0c4f97b173cd4a9f6d332052df4ec46561707063
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -1040,61 +1033,23 @@ object {
   margin-bottom: 5rem;
   background-color: #E8E8E8; }
   @media (min-width: 600px) {
-<<<<<<< HEAD
-    .home .nav-bar, .home .page, .page-template-page-about .nav-bar, .page-template-page-about .page,
-    .page-template-page-contact .nav-bar,
-    .page-template-page-contact .page, .page-template-page-expert .nav-bar, .page-template-page-expert .page, .blog .nav-bar, .blog .page,
-    .page-template-page-program .nav-bar,
-    .page-template-page-program .page, .page-template-page-student .nav-bar, .page-template-page-student .page, .page-template-page-supporters .nav-bar, .page-template-page-supporters .page, .single-post .nav-bar, .single-post .page, .error404 .nav-bar, .error404 .page, .page-id-123 .nav-bar, .page-id-123 .page {
-=======
     .home .nav-bar, .page-template-page-about .nav-bar,
     .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
     .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar {
->>>>>>> 0c4f97b173cd4a9f6d332052df4ec46561707063
       -ms-flex-pack: start;
           justify-content: flex-start;
       background-color: transparent;
       margin-top: 2rem;
       margin-left: 2rem; } }
-<<<<<<< HEAD
-  .home .nav-bar button, .home .page button, .page-template-page-about .nav-bar button, .page-template-page-about .page button,
-  .page-template-page-contact .nav-bar button,
-  .page-template-page-contact .page button, .page-template-page-expert .nav-bar button, .page-template-page-expert .page button, .blog .nav-bar button, .blog .page button,
-  .page-template-page-program .nav-bar button,
-  .page-template-page-program .page button, .page-template-page-student .nav-bar button, .page-template-page-student .page button, .page-template-page-supporters .nav-bar button, .page-template-page-supporters .page button, .single-post .nav-bar button, .single-post .page button, .error404 .nav-bar button, .error404 .page button, .page-id-123 .nav-bar button, .page-id-123 .page button {
-=======
   .home .nav-bar button, .page-template-page-about .nav-bar button,
   .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
   .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button, .single-post .nav-bar button, .error404 .nav-bar button, .page-id-123 .nav-bar button, .page-id-161 .nav-bar button {
->>>>>>> 0c4f97b173cd4a9f6d332052df4ec46561707063
     height: 5rem;
     width: 5rem;
     border: none;
     background-color: transparent;
     box-shadow: none;
     outline: none; }
-<<<<<<< HEAD
-    .home .nav-bar button i, .home .page button i, .page-template-page-about .nav-bar button i, .page-template-page-about .page button i,
-    .page-template-page-contact .nav-bar button i,
-    .page-template-page-contact .page button i, .page-template-page-expert .nav-bar button i, .page-template-page-expert .page button i, .blog .nav-bar button i, .blog .page button i,
-    .page-template-page-program .nav-bar button i,
-    .page-template-page-program .page button i, .page-template-page-student .nav-bar button i, .page-template-page-student .page button i, .page-template-page-supporters .nav-bar button i, .page-template-page-supporters .page button i, .single-post .nav-bar button i, .single-post .page button i, .error404 .nav-bar button i, .error404 .page button i, .page-id-123 .nav-bar button i, .page-id-123 .page button i {
-      font-size: 3rem;
-      color: #ffffff; }
-  .home .nav-bar img, .home .page img, .page-template-page-about .nav-bar img, .page-template-page-about .page img,
-  .page-template-page-contact .nav-bar img,
-  .page-template-page-contact .page img, .page-template-page-expert .nav-bar img, .page-template-page-expert .page img, .blog .nav-bar img, .blog .page img,
-  .page-template-page-program .nav-bar img,
-  .page-template-page-program .page img, .page-template-page-student .nav-bar img, .page-template-page-student .page img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .page img, .single-post .nav-bar img, .single-post .page img, .error404 .nav-bar img, .error404 .page img, .page-id-123 .nav-bar img, .page-id-123 .page img {
-    height: 5rem;
-    width: 5rem; }
-    @media (min-width: 600px) {
-      .home .nav-bar img, .home .page img, .page-template-page-about .nav-bar img, .page-template-page-about .page img,
-      .page-template-page-contact .nav-bar img,
-      .page-template-page-contact .page img, .page-template-page-expert .nav-bar img, .page-template-page-expert .page img, .blog .nav-bar img, .blog .page img,
-      .page-template-page-program .nav-bar img,
-      .page-template-page-program .page img, .page-template-page-student .nav-bar img, .page-template-page-student .page img, .page-template-page-supporters .nav-bar img, .page-template-page-supporters .page img, .single-post .nav-bar img, .single-post .page img, .error404 .nav-bar img, .error404 .page img, .page-id-123 .nav-bar img, .page-id-123 .page img {
-=======
     .home .nav-bar button i, .page-template-page-about .nav-bar button i,
     .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
     .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i, .single-post .nav-bar button i, .error404 .nav-bar button i, .page-id-123 .nav-bar button i, .page-id-161 .nav-bar button i {
@@ -1109,7 +1064,6 @@ object {
       .home .nav-bar img, .page-template-page-about .nav-bar img,
       .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
       .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img {
->>>>>>> 0c4f97b173cd4a9f6d332052df4ec46561707063
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
@@ -1357,7 +1311,7 @@ object {
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
-    @media (min-width: 600px) {
+    @media (min-width: 1000px) {
       .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2, .page-template-page-program .site-main h2 {
         border-bottom: 1px solid #D0D0D0;
         border-bottom: 1px solid #d0d0d0;
@@ -1392,7 +1346,7 @@ object {
     text-align: center;
     margin-top: 5%;
     max-width: 100%; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .page-template-page-student .what-yell p:first-child, .page-template-page-expert .what-yell p:first-child, .page-template-page-program .what-yell p:first-child {
       width: 800px;
       text-align: center;
@@ -1577,7 +1531,7 @@ h3 {
 .page-template-page-expert ul {
   text-align: left;
   margin-left: 0; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .page-template-page-expert ul {
       margin-left: 5%; } }
 
@@ -1585,7 +1539,7 @@ h3 {
   margin-left: 22%;
   width: 300px; }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .page-template-page-expert .mentor-ul {
     margin-left: 2%; } }
 
@@ -1625,7 +1579,7 @@ h3 {
     border-radius: 4px; }
   .page-template-page-expert .mentor-info h2 {
     color: #84A4B3; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .page-template-page-expert .mentor-info {
       display: block;
       margin-left: 10%;
@@ -1641,7 +1595,7 @@ h3 {
       order: 1; }
   .page-template-page-expert .speaker-info h2 {
     color: #84A4B3; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .page-template-page-expert .speaker-info {
       display: block; } }
   .page-template-page-expert .speaker-info p {
@@ -1690,11 +1644,11 @@ h3 {
   max-width: 400px;
   -ms-flex-pack: center;
       justify-content: center; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .page-template-page-expert .speaker-btn, .page-template-page-expert .mentor-btn, .page-template-page-expert .teacher-btn {
       display: none; } }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .expert-wrapper {
     display: -ms-flexbox;
     display: flex; } }
@@ -1740,14 +1694,14 @@ h3 {
   border-radius: 6px;
   color: #4A4A4A; }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .testimonial-flex {
     display: -ms-flexbox;
     display: flex; } }
 
 .testimonial-wrapper3, .testimonial-wrapper2 {
   display: none; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .testimonial-wrapper3, .testimonial-wrapper2 {
       display: -ms-flexbox;
       display: flex;
@@ -1776,7 +1730,7 @@ h3 {
     text-align: center; }
     .page-template-page-supporters .support-img img, .page-template-page-contact .support-img img {
       width: 350px; }
-      @media (min-width: 600px) {
+      @media (min-width: 1000px) {
         .page-template-page-supporters .support-img img, .page-template-page-contact .support-img img {
           width: 550px; } }
   .page-template-page-supporters .our-board, .page-template-page-contact .our-board {
@@ -1807,7 +1761,7 @@ h3 {
     box-shadow: none;
     border: 3px solid #E8E8E8;
     margin: 5%; }
-    @media (min-width: 600px) {
+    @media (min-width: 1000px) {
       .page-template-page-supporters .get-involved, .page-template-page-contact .get-involved {
         margin: 0; } }
     .page-template-page-supporters .get-involved a, .page-template-page-contact .get-involved a {
@@ -1837,7 +1791,7 @@ h3 {
   box-shadow: none;
   border: 3px solid #E8E8E8;
   margin: 5%; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .get-involved2 {
       margin: 0; } }
   .get-involved2 a {
@@ -1848,7 +1802,7 @@ h3 {
     box-shadow: none;
     background-color: #69acc1; }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .btn-partners {
     display: -ms-flexbox;
     display: flex; } }
@@ -1857,7 +1811,7 @@ h3 {
   width: 300px;
   margin: 0 auto;
   padding-bottom: 3%; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .contactinfo {
       display: -ms-flexbox;
       display: flex;
@@ -1868,7 +1822,7 @@ h3 {
           justify-content: center;
       margin-right: 35%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .child1, .child2, .child3 {
     display: -ms-flexbox;
     display: flex;
@@ -1880,11 +1834,13 @@ h3 {
     .child1 p, .child2 p, .child3 p {
       padding-right: 3%; } }
 
-.child1 p {
-  margin-left: 6.5%; }
+@media (min-width: 1000px) {
+  .child1 p {
+    margin-left: 6.5%; } }
 
-.child2 p {
-  margin-left: 22%; }
+@media (min-width: 1000px) {
+  .child2 p {
+    margin-left: 22%; } }
 
 .peachbtn {
   width: 270px;
@@ -1902,7 +1858,7 @@ h3 {
   box-shadow: none;
   border: 3px solid #E8E8E8;
   margin: 5%; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .peachbtn {
       margin: 0; } }
   .peachbtn a {
@@ -1995,7 +1951,7 @@ h3 {
 
 .btn-wrapper {
   text-align: center; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .btn-wrapper {
       display: -ms-flexbox;
       display: flex; } }
@@ -2132,7 +2088,7 @@ h5 {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .btn-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -2169,6 +2125,8 @@ h5 {
         flex-flow: column wrap;
     -ms-flex-align: center;
         align-items: center; }
+    .page-id-161 .wpcf7-form .wpcf7-text {
+      width: 100%; }
     .page-id-161 .wpcf7-form p {
       color: #E48C3D;
       font-family: "Rubik", sans;

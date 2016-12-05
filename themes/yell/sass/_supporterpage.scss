@@ -158,16 +158,21 @@ margin: 5%;
     }
 
     .child1 {
+
+        @include desktop {
         p {
         margin-left: 6.5%;
      
         }
+        }
     }
 
     .child2 {
+        @include desktop {
         p{
         margin-left:22%;
        
+        }
         }
     }
 

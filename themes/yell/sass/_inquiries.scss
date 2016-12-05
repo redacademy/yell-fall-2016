@@ -13,15 +13,17 @@
        
 
     }
-    // .logo {
-    //     height:100px;
-    // }
+ 
 
     .wpcf7-form {
     margin: 0 auto;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+
+    .wpcf7-text {
+        width:100%;
+    }
 
     p {
     color: $theme-orange-color;
