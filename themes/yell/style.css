@@ -907,6 +907,21 @@ object {
     background-repeat: no-repeat;
     background-size: 100% 350px;
     background-position-y: 90%; }
+  .home .white-blob img {
+    height: 95px;
+    width: 1300px;
+    max-width: 1450px; }
+    @media (min-width: 1000px) {
+      .home .white-blob img {
+        margin: 15.5% auto;
+        max-height: 76px; } }
+  .home #playbtn {
+    border: 3px solid white;
+    margin: 0 auto;
+    height: 99px;
+    width: 99px;
+    text-align: center;
+    border-radius: 50%; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -987,6 +1002,32 @@ object {
     text-align: center;
     font-family: "Rubik", sans;
     font-weight: 600; }
+    @media (min-width: 1000px) {
+      .home .home-hero {
+        height: 800px; } }
+    .home .home-hero h1:nth-child(1) {
+      display: none; }
+      @media (min-width: 1000px) {
+        .home .home-hero h1:nth-child(1) {
+          display: block; } }
+    .home .home-hero h1:nth-child(2) {
+      width: 100%;
+      font-size: 2.7rem; }
+      @media (min-width: 1000px) {
+        .home .home-hero h1:nth-child(2) {
+          display: none; } }
+  .home .home-hero-p {
+    display: none;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 50px auto;
+    width: 400px; }
+    @media (min-width: 1000px) {
+      .home .home-hero-p {
+        display: block; } }
   .home .testimonial-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1030,7 +1071,6 @@ object {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin-bottom: 5rem;
   background-color: #E8E8E8; }
   @media (min-width: 600px) {
     .home .nav-bar, .page-template-page-about .nav-bar,
