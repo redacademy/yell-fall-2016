@@ -1,7 +1,12 @@
 .home, .page-template-page-about, 
 .page-template-page-contact, .page-template-page-expert, .blog,
+
 .page-template-page-program, .page-template-page-student, .page-template-page-supporters, .single-post , .error404, .page-id-123 {
-    .nav-bar, .page {
+    .nav-bar {
+
+.page-template-page-program, .page-template-page-student, .page-template-page-supporters, .single-post , .error404, .page-id-123, .page-id-161 {
+    .nav-bar {
+
 
         display: flex; 
         justify-content: space-between;
@@ -70,7 +75,13 @@
             text-transform:none;
             line-height:2rem;
         }
-        &:nth-child(4) {
+        &:nth-child(3),  {
+            display:none;
+        }
+        &:nth-child(4),  {
+            display:none;
+        }
+        &:nth-child(9),  {
             display:none;
         }
         &:nth-last-child(-n+1){
