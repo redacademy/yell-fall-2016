@@ -5,7 +5,6 @@
 * @package RED_Starter_Theme
 */
 ?>
-	</div>
 	<!-- #content -->
 	<!--Site Footer-->
 	<div class="site-info">
