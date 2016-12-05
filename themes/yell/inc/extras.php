@@ -84,7 +84,7 @@ function my_styles_method() {
        $custom_css = "
        .home-hero{
          background: url({$url}) no-repeat center bottom;
-         height:100vh;
+         height:600px;
          background-size: cover, cover;
          
        }";

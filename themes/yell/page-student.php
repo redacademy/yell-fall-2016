@@ -52,7 +52,7 @@ get_header(); ?>
 		<div class="program">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/fish.png" alt= "fish bowls">  
 		 <h3> Venture Challenge</h3>
-	     <h5> Spring</h5>
+	     <h5> Spring Semester</h5>
     <?php echo CFS()->get( 'spring' ); ?>
 		</div>
 	</div>
@@ -63,7 +63,19 @@ get_header(); ?>
 		<h2> How do I register?</h2>
 		<span class="register-blurb"> 
 			<p>Select your school district below for details on how you can register for YELL!</p>
-		
+		<!--school district loop-->
+<select id="dynamic_select">
+  <option value="" selected>Your BC School District</option>
+			<?php $fields=CFS()->get( 'school_districts' );
+							foreach ( $fields as $field ) {  ?>
+						
+								
+								<?php echo '<option value="' . $field['redirect_url'] . '" >' . $field['school_district_name'] . '</option>'; } ?>
+								
+			</select>
+						
+
+								<!--end of school district loop-->
 		<h3> Didn't find your school district?</h3>
 		<p>We are working to expand YELL all the time. Contact us HERE to let us know you’re interested!</p>
 </span>

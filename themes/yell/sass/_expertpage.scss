@@ -56,8 +56,8 @@ margin: 5%;
     }
     .mentor-ul {
         margin-left: 22%;
-        width:300px
-        
+        width:300px;
+        margin-bottom:15%;
     }
 
     @include desktop {
@@ -108,6 +108,7 @@ border: 1px solid $btn-border-color;
 .mentor-info{
    display:none;
    height:850px;
+
    
 
    img {
@@ -118,6 +119,7 @@ border: 1px solid $btn-border-color;
    }
     h2 {
         color: $theme-darkblue-color;
+        margin-top: 8%;
     }
 
    @include desktop {
@@ -207,6 +209,13 @@ border: 1px solid $btn-border-color;
 }
 
 .expert-wrapper {
+
+&:first-child img{
+    
+        height: 165px;
+    
+}
+
     @include desktop {
     display:flex;
     }

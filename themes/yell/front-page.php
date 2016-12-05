@@ -8,7 +8,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<div class="home-hero"><h1>Empowering the next generation of Canadian problem solvers</h1>
+		<div class="home-hero"><h1>Empowering the next generation of Canadian problem solvers</h1><h1> Young Entrepreneurial Leadership Launchpad</h1>
+		<div id="playbtn"> <i class="fa fa-play" aria-hidden="true"></i></div>
+		<div class="home-hero-p"> The first unified effort to bring mentor - based entrepreneurship & leadership education to high schools across Canada</div>
+
 			 <div class="white-blob">
 			   <img src="<?php echo get_template_directory_uri(); ?>/images/white-blob-desktop.png" alt= "White Blob">  
 			 </div>

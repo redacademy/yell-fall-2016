@@ -76,7 +76,7 @@ get_header(); ?>
 				<div class="speaker-info">
 					<div class="speaker-infom">
 						<h2>Guest Speakers at YELL
-							<h2>
+							</h2>
 					</div>
 					<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
 					<button class="get-involved"> Be a guest speaker! </button>
@@ -129,7 +129,7 @@ get_header(); ?>
 						<div class="program">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/fish.png" alt="fish bowls">
 							<h3> Venture Challenge</h3>
-							<h5> Spring</h5>
+							<h5> Spring Semester</h5>
 							<?php echo CFS()->get( 'spring' ); ?>
 						</div>
 					</div>

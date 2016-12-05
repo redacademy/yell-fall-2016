@@ -1,10 +1,11 @@
   .page-template-page-student, .page-template-page-expert, .page-template-page-program{  
+      background-color: rgba(242, 242, 242, 1.0);
 
       h1 {
           display:none;
       }
       .homepg-bg1 {
-
+          background-color: rgba(242, 242, 242, .5);
           background-size: 100% 850px;
       }
 
@@ -174,4 +175,21 @@ margin: 15%;
 
 .charts {
     padding: 5%;
+}
+
+#dynamic_select {
+    background-color: white;
+    width: 305px;
+    margin: 10% auto;
+    color: $theme-orange-color;
+    height: 45px;
+    border: 1px solid $btn-border-color;
+    border-radius: 5px;
+    font-family: $accent-font-family;
+}
+
+.timeline {
+    img {
+        height:300px;
+    }
 }

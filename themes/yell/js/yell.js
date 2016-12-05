@@ -48,3 +48,17 @@
 		$('.speaker-info').animate({height:toggle});
 	})
 })( jQuery );
+
+// school district select bar============================
+
+    (function ( $ ) {
+      // bind change event to select
+      $('#dynamic_select').on('change', function () {
+		  console.log('working?');
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location = url; // redirect
+          }
+     
+      })
+    }) (jQuery);
