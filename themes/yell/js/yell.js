@@ -62,3 +62,28 @@
      
       })
     }) (jQuery);
+
+// video play==================================
+
+
+(function ( $ ) {
+$('#playbtn').on('click', function(e) {
+	 e.stopPropagation();
+//  $("#overlay").css('display', 'block');
+console.log('hey');
+
+    $("#video").css('display', 'block');
+   
+    $("#video")[0].src += "?autoplay=1";
+})
+})(jQuery);
+(function ( $ ) {
+$('.home-hero').on('click', function(e) {
+ e.stopPropagation();
+//  $("#overlay").css('display', 'none');
+   $('#video').css('display', 'none');
+$("#video")[0].src += "?pause=1";
+   
+   
+})
+})(jQuery);

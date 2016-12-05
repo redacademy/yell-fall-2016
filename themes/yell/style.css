@@ -917,7 +917,7 @@ object {
         max-height: 76px; } }
   .home #playbtn {
     border: 3px solid white;
-    margin: 0 auto;
+    margin: 10px auto;
     height: 99px;
     width: 99px;
     text-align: center;
@@ -1063,6 +1063,24 @@ object {
         align-self: flex-end;
     border-radius: 6px;
     color: #4A4A4A; }
+
+#video {
+  display: none;
+  z-index: 300000;
+  position: absolute;
+  top: 210px;
+  height: 55%;
+  width: 80%;
+  right: 50px; }
+  @media (min-width: 1000px) {
+    #video {
+      display: none;
+      height: 70%;
+      width: 80%;
+      top: 200px;
+      right: 8%;
+      position: absolute;
+      z-index: 30000; } }
 
 .home .nav-bar, .page-template-page-about .nav-bar,
 .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
