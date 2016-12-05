@@ -13,9 +13,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="supporters-hero"><h1> We are invested in building and keeping great entrepeneurial talent in Canada</h1>
-			  <!--<div class="white-blob">
-			   <img src="<?php echo get_template_directory_uri(); ?>/images/white-blob-desktop.png" alt= "White Blob">  
-			 </div>-->
 			</div>
 			<?php while ( have_posts() ) : the_post(); ?>
 
