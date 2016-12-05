@@ -76,7 +76,7 @@ get_header(); ?>
 				<div class="speaker-info">
 					<div class="speaker-infom">
 						<h2>Guest Speakers at YELL
-							<h2>
+							</h2>
 					</div>
 					<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
 					<button class="get-involved"> Be a guest speaker! </button>

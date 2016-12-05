@@ -1537,7 +1537,8 @@ h3 {
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
-  width: 300px; }
+  width: 300px;
+  margin-bottom: 15%; }
 
 @media (min-width: 1000px) {
   .page-template-page-expert .mentor-ul {
@@ -1578,7 +1579,8 @@ h3 {
     border: 1px solid #E8E8E8;
     border-radius: 4px; }
   .page-template-page-expert .mentor-info h2 {
-    color: #84A4B3; }
+    color: #84A4B3;
+    margin-top: 8%; }
   @media (min-width: 1000px) {
     .page-template-page-expert .mentor-info {
       display: block;
