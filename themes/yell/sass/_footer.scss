@@ -4,6 +4,7 @@
 
 .site-footer {
 	background-color: $footer-bg-grey;
+
 }
 
 .footer-content {
@@ -27,12 +28,15 @@
 		}
 	}
 }
-.footer-button {
-	display: none;
+@media screen and (max-width: 600px) {
+  .footer-button {
+    visibility: hidden;
+  }
+   .copyright-desktop {
+    visibility: hidden;
+  }
 }
-.copyright-desktop {
-	display: none;
-}
+
 
 .icons {
 	display: flex;
@@ -79,23 +83,47 @@
 @include desktop {
 	.site-footer{
 		display: flex;
+		justify-content: space-between;
 	}
 
 		.icons-block {
 			align-items: flex-end;
 			order: 2;
+			padding-top: 3%;
+			color: $h2-orange-color;
+		}
+		button {
+			color: $h2-orange-color;
+			margin-left: -68%;
+		}
+		.get-involved-footer {
+			background-color: transparent;
+			border-color: $h2-orange-color;
+			border-width: 2.3px;
+			height: 2.5rem;
+			width: 11rem;
+			text-transform: uppercase;
+			border-radius: 10px;
+			margin-right: 35%;
+			
+           
+		}
+		.icons{
+		margin-left: -30%;
+
 		}
 		.footer-content {
 			order: 1;
+			padding-top: 3%;
 		}
 		.copyright {
 			display: none;
 		}
 		.copyright-desktop {
-			display: 
-			span{
 			
-		}
+							margin-right: 30%;
+							padding-top: 8%;
+
 		}
 
 	
