@@ -12,7 +12,7 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="icons-block">
 			<div class="footer-button">
-				<button class="get-involved-footer"> Get Invlved ></button>
+				<button class="get-involved-footer"> Get Involved </button>
 			</div>
 			<div class="icons">
 				<i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -20,7 +20,7 @@
 				<i class="fa fa-instagram" aria-hidden="true"></i>
 			</div>
 			<div class="copyright-desktop">
-				<span class="copy">Copyright © 2016 COPYRIGHT YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD</span>
+				<span class="copy">Copyright © 2016 YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD</span>
 			</div>
 			</div>
 			<div class="footer-content">
