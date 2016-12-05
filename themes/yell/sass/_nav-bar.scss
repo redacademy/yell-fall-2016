@@ -1,8 +1,9 @@
 .home, .page-template-page-about, 
 .page-template-page-contact, .page-template-page-expert, .blog,
-.page-template-page-program, .page-template-page-student, .page-template-page-supporters {
+.page-template-page-program, .page-template-page-student, .page-template-page-supporters, .single-post , .error404, .page-id-123, .page-id-161 {
     .nav-bar {
-        display: flex;
+
+        display: flex; 
         justify-content: space-between;
         margin-bottom:5rem;
         background-color:$btn-border-color;
@@ -36,7 +37,17 @@
                 
             }
          }
-        } 
+    }
+}
+.home, .page-template-page-about, .page-template-page-expert, .page-template-page-program,
+.page-template-page-supporters {
+    .nav-bar{
+       background-color:transparent;
+       img {
+        height:9rem;
+        width:9rem;        
+       }
+    }
 }
 #primary-menu ul{
     height:75%;
@@ -59,6 +70,15 @@
             text-transform:none;
             line-height:2rem;
         }
+        &:nth-child(3),  {
+            display:none;
+        }
+        &:nth-child(4),  {
+            display:none;
+        }
+        &:nth-child(9),  {
+            display:none;
+        }
         &:nth-last-child(-n+1){
             background-color:$theme-peach-color;
             @include min-desktop {
@@ -80,10 +100,27 @@
         color:$h3-grey-color;
         @include min-desktop {
             color:$h2-orange-color;
-        }
-        }
+         }
+       }
     }
-}
+ }
+.home, .page-template-page-about, .page-template-page-expert,
+.page-template-page-supporters, .error404, .page-template-page-program {
+  @include min-desktop {
+    #primary-menu ul li{
+        a{
+            color:white;
+        }
+        &:nth-last-child(-n+1){
+            a{
+                border:2px solid white;
+                color:white;
+            }  
+          }
+        }
+     }
+  }
+
 /*.page-template-page-about {
 .nav-bar {
         display: flex;
