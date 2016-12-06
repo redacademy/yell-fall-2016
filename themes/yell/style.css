@@ -1161,12 +1161,6 @@ object {
         border: none;
         text-transform: none;
         line-height: 2rem; } }
-    .menu-primary-menu-container ul li:nth-child(3) {
-      display: none; }
-    .menu-primary-menu-container ul li:nth-child(4) {
-      display: none; }
-    .menu-primary-menu-container ul li:nth-child(9) {
-      display: none; }
     .menu-primary-menu-container ul li:nth-last-child(-n+1) {
       background-color: #F4B473; }
       @media (min-width: 600px) {
