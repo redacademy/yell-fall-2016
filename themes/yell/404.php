@@ -16,8 +16,8 @@ get_header(); ?>
 				<p> Sorry we’re having trouble finding what you’re looking for.
 Please don’t YELL at us!</p>
 			<div class="btn-wrapper">
-				<button class="backbtn">< Back </button>
-				<button class="contactbtn">Contact us</button>
+				<a href="http://yell.academy.red"><button class="backbtn">< Back </button></a>
+				<a href="http://yell.academy.red/contact"><button class="contactbtn">Contact us</button></a>
 			</div>
 			</section><!-- .error-404 -->
 
