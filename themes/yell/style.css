@@ -417,6 +417,9 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
   width: 100%; }
+  @media (min-width: 600px) {
+    body {
+      width: 1400px; } }
 
 blockquote, q {
   quotes: "" ""; }
