@@ -77,18 +77,19 @@ function my_styles_method() {
          height:100vh;
          background-size: cover, cover;
        }";
-           wp_add_inline_style( 'red-starter-style', $custom_css );
-        }elseif(is_page( 'thank-you' )){
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+
+ }elseif(is_page( 'thank-you' )){
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .thanks-hero{
-         background: url({$url}) no-repeat center bottom;
-         height:100vh;
+         background:linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url({$url}) no-repeat center bottom;
+ height:100vh;
          background-size: cover, cover;
-         
        }";
 
-       wp_add_inline_style( 'red-starter-style', $custom_css );
+   wp_add_inline_style( 'red-starter-style', $custom_css );
+
  }elseif(is_page( '' )){
        $url = CFS()->get( 'home_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
