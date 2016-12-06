@@ -53,7 +53,7 @@ get_header(); ?>
 							<button class="get-involved2">Donate</button>
 							</div>
 				       </div>
-			<div class="support-img">
+			 <div class="support-img">
 				<h3> Our Partners</h3>
 			  <img src="<?php echo get_template_directory_uri(); ?>/images/supporters.png" alt= "Partners"> 
 			</div>
