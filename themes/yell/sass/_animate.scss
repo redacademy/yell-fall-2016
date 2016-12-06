@@ -1,0 +1,21 @@
+
+/**********
+* Fade In *
+**********/ 
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;
+        display:block;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;
+        display:block;} 
+}
+.fadeIn{
+    opacity:0;
+}
+.fadeIn.go { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
