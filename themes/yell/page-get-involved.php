@@ -24,9 +24,9 @@ get_header(); ?>
 </div>
 
 <div class="btn-wrapper">
-	<div class="studentbtn"><h5>Student ></h5><p> Become a future student at YELL</p></div>
-	<div class="expertbtn"><h5>Expert ></h5><p> You are an entrepeneur or a guest speaker</p></div>
-	<div class="supportbtn"><h5>Supporter ></h5><p> Help support or fund  YELL</p></div>
+	<a href="http://yell.academy.red/students-get-involved"><div class="studentbtn"><h5>Student ></h5><p> Become a future student at YELL</p></div>
+	<a href="http://yell.academy.red/guest-speaker-form"><div class="expertbtn"><h5>Professional ></h5><p> You are an entrepeneur or a guest speaker</p></div></a>
+	<a href="http://yell.academy.red/get-involved"><div class="supportbtn"><h5>Supporter ></h5><p> Help support or fund  YELL</p></div></a>
 </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

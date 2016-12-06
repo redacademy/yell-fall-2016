@@ -11,7 +11,7 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="icons-block">
 			<div class="footer-button">
-				<button class="get-involved-footer"> Get Involved </button>
+			<a href="http://yell.academy.red/get-involved">	<button class="get-involved-footer"> Get Involved </button></a>
 			</div>
 			<div class="icons">
 				<i class="fa fa-facebook-square" aria-hidden="true"></i>

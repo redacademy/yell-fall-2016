@@ -128,11 +128,14 @@ margin: 5%;
      @include desktop {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 575px;
     height: 30vh;
     padding-bottom: 5rem;
     h3{
       flex-basis:100%;
+      margin-top:15%;
     }
    }
 }

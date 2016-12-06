@@ -1562,7 +1562,7 @@ h3 {
   padding: 5%; }
 
 .page-template-page-expert .get-involved {
-  width: 270px;
+  width: 320px;
   height: 49px;
   background-color: #E48C3D;
   border-radius: 6px;
@@ -1878,13 +1878,16 @@ h3 {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: center;
-        justify-content: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 auto;
+    width: 575px;
     height: 30vh;
     padding-bottom: 5rem; }
     .btn-partners h3 {
       -ms-flex-preferred-size: 100%;
-          flex-basis: 100%; } }
+          flex-basis: 100%;
+      margin-top: 15%; } }
 
 .contactinfo {
   width: 300px;
@@ -2105,6 +2108,7 @@ h3 {
     margin-left: 39%;
     text-transform: lowercase;
     text-align: left;
+    text-decoration: none;
     font-size: 14px; }
   .studentbtn:hover {
     background-color: #69acc1; }

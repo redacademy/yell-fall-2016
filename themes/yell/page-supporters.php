@@ -49,7 +49,7 @@ get_header(); ?>
 							</div>
 							<div class="btn-partners">
 							<h3> Become a Partner</h3>
-							<button class="get-involved">Get In Touch</button>
+							<a href="http://yell.academy.red/general-inquiries"><button class="get-involved">Get In Touch</button></a>
 							<button class="get-involved2">Donate</button>
 							</div>
 				       </div>
