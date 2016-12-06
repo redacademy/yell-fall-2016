@@ -20,32 +20,28 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 		
-			<!--<div class="support-img">
-				<?php echo CFS()->get( 'our_supporters' ); ?>
-			</div>-->
 			<div class="yell">
 			<?php
     $props = CFS()->get_field_info( 'the_young' );
     echo '<h3>' . $props['label'] . '</h3>';
     ?>
-
     <?php echo CFS()->get( 'the_young' ); ?>
 			</div>
-
-               <div class="ourboard-wrapper">
-			    <h3> Our Board </h3>
-				<?php $fields=CFS()->get( 'our_board' );
-					foreach ( $fields as $field ) {  ?>
-						    <div class="board-member-wrapper">
+			 <h3> Our Board </h3>
+  
+			     <section class="board-wrapper">
+				   <?php 
+				   $fields=CFS()->get( 'our_board' );
+					foreach ( $fields as $field ) :  
+					?>
+						 	<div class="board-members">
 								<?php echo '<img src="' . $field['board_member_image'] . '" class="board-img">';  ?>
-						
-									<?php echo $field['board_memeber_name'];  ?>
-							
-							
-									<?php echo $field['board_member_position']; } ?>
+								<p><?php echo $field['board_memeber_name'];  ?></p>
+								<p><?php echo $field['board_member_position']; ?></p>
 							</div>
-						</div>
-				<div class="resources-wrapper">
+					 <?php endforeach;?>
+					</section> 
+				     <div class="resources-wrapper">
 							<div class="resource">
 								<h3> Resources</h3>
 								<button class="get-involved"><?php echo CFS()->get( 'annual_report_hyperlink' ); ?></button>
@@ -56,7 +52,11 @@ get_header(); ?>
 							<button class="get-involved">Get In Touch</button>
 							<button class="get-involved2">Donate</button>
 							</div>
-				</div>
+				       </div>
+			<div class="support-img">
+				<h3> Our Partners</h3>
+			  <img src="<?php echo get_template_directory_uri(); ?>/images/supporters.png" alt= "Partners"> 
+			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

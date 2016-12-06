@@ -1793,21 +1793,15 @@ h3 {
     font-weight: 300;
     font-size: 24px; }
   .page-template-page-supporters .support-img, .page-template-page-contact .support-img {
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto; }
     .page-template-page-supporters .support-img img, .page-template-page-contact .support-img img {
-      width: 350px; }
+      width: 450px;
+      height: 200px; }
       @media (min-width: 1000px) {
         .page-template-page-supporters .support-img img, .page-template-page-contact .support-img img {
-          width: 550px; } }
-  .page-template-page-supporters .our-board, .page-template-page-contact .our-board {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center; }
-    .page-template-page-supporters .our-board img, .page-template-page-contact .our-board img {
-      height: auto; }
+          width: 850px;
+          height: 400px; } }
   .page-template-page-supporters .yell, .page-template-page-contact .yell {
     width: 70%;
     margin: 0 auto; }
@@ -1837,9 +1831,15 @@ h3 {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #d1721d; }
+  @media (min-width: 600px) {
+    .page-template-page-supporters .resource, .page-template-page-contact .resource {
+      height: 30vh; } }
   .page-template-page-supporters .resource p, .page-template-page-contact .resource p {
     width: 70%;
     margin: 0 auto; }
+    @media (min-width: 600px) {
+      .page-template-page-supporters .resource p, .page-template-page-contact .resource p {
+        padding-top: 3rem; } }
 
 .get-involved2 {
   width: 270px;
@@ -1871,7 +1871,16 @@ h3 {
 @media (min-width: 1000px) {
   .btn-partners {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    height: 30vh;
+    padding-bottom: 5rem; }
+    .btn-partners h3 {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; } }
 
 .contactinfo {
   width: 300px;
@@ -1934,6 +1943,23 @@ h3 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #f09b44; }
+
+@media (min-width: 600px) {
+  .board-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .board-wrapper img {
+      height: 200px; }
+    .board-wrapper p {
+      margin: 0; }
+    .board-wrapper .board-members {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      margin: 3rem; } }
 
 .error404 .logo {
   height: 100px; }
