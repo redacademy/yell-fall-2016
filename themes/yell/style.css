@@ -2166,9 +2166,11 @@ h5 {
   margin: 0 auto;
   width: 70%; }
 
-.page-id-161 {
+.page-id-161, .page-id-168 {
   background-color: #F9f9f9; }
-  .page-id-161 .entry-title {
+  .page-id-161 h3, .page-id-168 h3 {
+    display: none; }
+  .page-id-161 .entry-title, .page-id-168 .entry-title {
     text-align: center;
     border-bottom: 1px solid #D0D0D0;
     width: 400px;
@@ -2177,7 +2179,10 @@ h5 {
     font-size: 36px;
     margin: 0 auto;
     font-weight: 300; }
-  .page-id-161 .wpcf7-form {
+  .page-id-161 .nf-form-wrap, .page-id-168 .nf-form-wrap {
+    width: 300px;
+    margin: 0 auto; }
+  .page-id-161 .wpcf7-form, .page-id-168 .wpcf7-form {
     margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
@@ -2185,17 +2190,17 @@ h5 {
         flex-flow: column wrap;
     -ms-flex-align: center;
         align-items: center; }
-    .page-id-161 .wpcf7-form .wpcf7-text {
+    .page-id-161 .wpcf7-form .wpcf7-text, .page-id-168 .wpcf7-form .wpcf7-text {
       width: 100%; }
-    .page-id-161 .wpcf7-form p {
+    .page-id-161 .wpcf7-form p, .page-id-161 .wpcf7-form .nf-form-content, .page-id-168 .wpcf7-form p, .page-id-168 .wpcf7-form .nf-form-content {
       color: #E48C3D;
       font-family: "Rubik", sans;
       font-weight: 300;
       font-size: 14px; }
-    .page-id-161 .wpcf7-form textarea {
+    .page-id-161 .wpcf7-form textarea, .page-id-168 .wpcf7-form textarea {
       border-radius: 10px;
       background-color: rgba(255, 255, 255, 0.75); }
-    .page-id-161 .wpcf7-form .wpcf7-submit {
+    .page-id-161 .wpcf7-form .wpcf7-submit, .page-id-168 .wpcf7-form .wpcf7-submit {
       width: 300px;
       height: 54.25px;
       background-color: #8DC0D0;
@@ -2210,11 +2215,11 @@ h5 {
       text-transform: uppercase;
       box-shadow: none;
       border: 3px solid #E8E8E8; }
-      .page-id-161 .wpcf7-form .wpcf7-submit:hover {
+      .page-id-161 .wpcf7-form .wpcf7-submit:hover, .page-id-168 .wpcf7-form .wpcf7-submit:hover {
         border-color: #E8E8E8;
         box-shadow: none;
         background-color: #69acc1; }
-  .page-id-161 p {
+  .page-id-161 p, .page-id-168 p {
     font-size: 16px;
     max-width: 54%;
     color: #9B9B9B;

@@ -97,18 +97,6 @@ $('.home-hero').on('click', function(e) {
 			$('.home-hero-p').show();
         }
   
-//  $("#overlay").css('display', 'none');
-//    $('#video').css('display', 'none');
-//    $('.home-hero-txt').css('display', 'block');
-// 	$('.home-hero-p').css('display', 'block');
-// 	$('#playbtn').css('display','block');
-	// $('.home-hero-txt').show();
-	// $('.home-hero-mobile').show();
-	// $('.home-hero-p').show();
-	// $('#playbtn').show();
-
-
-// $("#video")[0].src += "?pause=1";
    
    
 })
