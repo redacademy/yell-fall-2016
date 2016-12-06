@@ -17,7 +17,7 @@ body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 	width:100%;
 	@include min-desktop{
-	width:1400px;
+	width:1300px;
 	}
 }
 
