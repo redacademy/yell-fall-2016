@@ -40,17 +40,17 @@
         background-position-y:90%;
     }
     
-    .white-blob {
-    img {
-    height: 95px;
-    width: 1300px;
-    max-width: 1450px;
-    @include desktop {
-    margin: 15.5% auto;
-    max-height: 76px;
-    }
-    }
-    }
+    // .white-blob {
+    // img {
+    // height: 95px;
+    // width: 1300px;
+    // max-width: 1450px;
+    // @include desktop {
+    // margin: 15.5% auto;
+    // max-height: 76px;
+    // }
+    // }
+    // }
     //===================play button and video styles=========
 #playbtn {
     border: 3px solid white;

@@ -907,14 +907,6 @@ object {
     background-repeat: no-repeat;
     background-size: 100% 350px;
     background-position-y: 90%; }
-  .home .white-blob img {
-    height: 95px;
-    width: 1300px;
-    max-width: 1450px; }
-    @media (min-width: 1000px) {
-      .home .white-blob img {
-        margin: 15.5% auto;
-        max-height: 76px; } }
   .home #playbtn {
     border: 3px solid white;
     margin: 10px auto;
@@ -1425,9 +1417,6 @@ h3 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
-
-.white-blob img {
-  height: auto; }
 
 .get-involved {
   width: 270px;
