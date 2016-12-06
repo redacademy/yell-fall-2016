@@ -69,13 +69,8 @@
 (function ( $ ) {
 $('#playbtn').on('click', function(e) {
 	 e.stopPropagation();
-//  $("#overlay").css('display', 'block');
-console.log('hey');
-
     $("#video").css('display', 'block');
-    // $('.home-hero-txt').css('display', 'none');
-	// $('.home-hero-p').css('display', 'none');
-	// $('#playbtn').css('display','none');
+	$('.home-hero').css('background','black');
 	$('.home-hero-mobile').hide();
 	$('.home-hero-p').hide();
 	$('#playbtn').hide();
@@ -88,6 +83,7 @@ $('.home-hero').on('click', function(e) {
  e.stopPropagation();
   $('#video').css('display', 'none');
   $("#video")[0].src += "?pause=1";
+  $('.home-hero').removeAttr('style');
 
         var windowSize = $(window).width();
 
