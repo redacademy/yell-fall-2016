@@ -416,7 +416,7 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
-  width: 1400px; }
+  width: 100%; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -1336,7 +1336,7 @@ img {
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 1400px; }
+  width: 100%; }
   .page-template-page-student h1, .page-template-page-expert h1, .page-template-page-program h1 {
     display: none; }
   .page-template-page-student .homepg-bg1, .page-template-page-expert .homepg-bg1, .page-template-page-program .homepg-bg1 {
@@ -1776,7 +1776,7 @@ h3 {
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 1400px; }
+  width: 100%; }
   .page-template-page-supporters .entry-title, .page-template-page-contact .entry-title {
     display: none; }
   .page-template-page-supporters h3, .page-template-page-contact h3 {
