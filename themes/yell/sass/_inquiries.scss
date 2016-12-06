@@ -1,5 +1,10 @@
-.page-id-161 {
+.page-id-161 , .page-id-168{
  background-color: $testimonial-bg-lightgrey;
+
+ h3 {
+     display:none;
+ }
+
 
     .entry-title {
        text-align:center;
@@ -13,9 +18,14 @@
        
 
     }
+
+    .nf-form-wrap {
+    width:300px;
+    margin: 0 auto;
+}
  
 
-    .wpcf7-form {
+    .wpcf7-form{
     margin: 0 auto;
     display: flex;
     flex-flow: column wrap;
@@ -25,7 +35,7 @@
         width:100%;
     }
 
-    p {
+    p , .nf-form-content{
     color: $theme-orange-color;
     font-family:$accent-font-family;
     font-weight: 300;
@@ -72,3 +82,4 @@ border: 3px solid $btn-border-color;
     }
 
 }
+

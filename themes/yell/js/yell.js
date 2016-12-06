@@ -69,20 +69,34 @@
 (function ( $ ) {
 $('#playbtn').on('click', function(e) {
 	 e.stopPropagation();
-//  $("#overlay").css('display', 'block');
-console.log('hey');
-
     $("#video").css('display', 'block');
-   
+	$('.home-hero').css('background','black');
+	$('.home-hero-mobile').hide();
+	$('.home-hero-p').hide();
+	$('#playbtn').hide();
+	$('.home-hero-txt').hide();
     $("#video")[0].src += "?autoplay=1";
 })
 })(jQuery);
 (function ( $ ) {
 $('.home-hero').on('click', function(e) {
  e.stopPropagation();
-//  $("#overlay").css('display', 'none');
-   $('#video').css('display', 'none');
-$("#video")[0].src += "?pause=1";
+  $('#video').css('display', 'none');
+  $("#video")[0].src += "?pause=1";
+  $('.home-hero').removeAttr('style');
+
+        var windowSize = $(window).width();
+
+        if (windowSize <= 1000) {
+            
+			$('.home-hero-mobile').show();
+        }
+        else if (windowSize >= 1000) {
+           
+			$('.home-hero-txt').show();
+			$('.home-hero-p').show();
+        }
+  
    
    
 })
