@@ -1077,7 +1077,8 @@ object {
 
 .home .nav-bar, .page-template-page-about .nav-bar,
 .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
-.page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar {
+.page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar,
+.page-id-173 .nav-bar {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -1086,7 +1087,8 @@ object {
   @media (min-width: 600px) {
     .home .nav-bar, .page-template-page-about .nav-bar,
     .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
-    .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar {
+    .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar,
+    .page-id-173 .nav-bar {
       -ms-flex-pack: start;
           justify-content: flex-start;
       background-color: transparent;
@@ -1094,7 +1096,8 @@ object {
       margin-left: 2rem; } }
   .home .nav-bar button, .page-template-page-about .nav-bar button,
   .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
-  .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button, .single-post .nav-bar button, .error404 .nav-bar button, .page-id-123 .nav-bar button, .page-id-161 .nav-bar button {
+  .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button, .single-post .nav-bar button, .error404 .nav-bar button, .page-id-123 .nav-bar button, .page-id-161 .nav-bar button,
+  .page-id-173 .nav-bar button {
     height: 5rem;
     width: 5rem;
     border: none;
@@ -1103,18 +1106,21 @@ object {
     outline: none; }
     .home .nav-bar button i, .page-template-page-about .nav-bar button i,
     .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
-    .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i, .single-post .nav-bar button i, .error404 .nav-bar button i, .page-id-123 .nav-bar button i, .page-id-161 .nav-bar button i {
+    .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i, .single-post .nav-bar button i, .error404 .nav-bar button i, .page-id-123 .nav-bar button i, .page-id-161 .nav-bar button i,
+    .page-id-173 .nav-bar button i {
       font-size: 3rem;
       color: #ffffff; }
   .home .nav-bar img, .page-template-page-about .nav-bar img,
   .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
-  .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img {
+  .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img,
+  .page-id-173 .nav-bar img {
     height: 5rem;
     width: 5rem; }
     @media (min-width: 600px) {
       .home .nav-bar img, .page-template-page-about .nav-bar img,
       .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
-      .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img {
+      .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img,
+      .page-id-173 .nav-bar img {
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
@@ -2164,7 +2170,6 @@ h5 {
   font-family: Rubik,sans;
   font-weight: 600;
   margin: 0 auto;
-  width: 70%;
   padding-top: 5rem; }
 
 .supporters-hero h1 {

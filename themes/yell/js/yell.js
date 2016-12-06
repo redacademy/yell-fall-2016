@@ -90,11 +90,13 @@ $('.home-hero').on('click', function(e) {
         if (windowSize <= 1000) {
             
 			$('.home-hero-mobile').show();
+			  $('#playbtn').show();
         }
         else if (windowSize >= 1000) {
            
 			$('.home-hero-txt').show();
 			$('.home-hero-p').show();
+			  $('#playbtn').show();
         }
   
    
