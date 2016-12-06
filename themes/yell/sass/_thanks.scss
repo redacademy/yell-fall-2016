@@ -15,6 +15,10 @@ height: 90vh;
     text-align: center;
     -ms-flex-item-align: end;
     align-self: flex-end;
+    @include min-desktop {
+      align-self: center;
+      width: 100%;
+     }
     }
   }
 }
@@ -29,6 +33,9 @@ h1 {
     font-size: 1rem;
     padding-top: 2rem;
     font-family:$main-font-family;
+    @include min-desktop {
+       flex-basis: 100%;
+    }
  }
 }
 .back-home a{
