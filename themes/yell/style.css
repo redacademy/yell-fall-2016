@@ -415,7 +415,8 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  width: 1400px; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -1343,7 +1344,7 @@ img {
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 100%; }
+  width: 1400px; }
   .page-template-page-student h1, .page-template-page-expert h1, .page-template-page-program h1 {
     display: none; }
   .page-template-page-student .homepg-bg1, .page-template-page-expert .homepg-bg1, .page-template-page-program .homepg-bg1 {
@@ -1761,10 +1762,13 @@ h3 {
   border-radius: 6px;
   color: #4A4A4A; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .testimonial-flex {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 1300px; } }
 
 .testimonial-wrapper3, .testimonial-wrapper2 {
   display: none; }
@@ -1783,7 +1787,7 @@ h3 {
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 100%; }
+  width: 1400px; }
   .page-template-page-supporters .entry-title, .page-template-page-contact .entry-title {
     display: none; }
   .page-template-page-supporters h3, .page-template-page-contact h3 {

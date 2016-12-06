@@ -20,7 +20,8 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 			<?php endwhile; // End of the loop. ?>
 			<h2> Be an Expert</h2>
-			<!--testimonial section-->
+<!--testimonial section-->
+
 			<div class="testimonial-flex">
 					<div class="testimonial-wrapper">
 					<div class="testimonial">
@@ -36,7 +37,7 @@ get_header(); ?>
 				</div>
 							
 							
-							<div class="testimonial-wrapper2">
+				<div class="testimonial-wrapper">
 					<div class="testimonial">
 					
 					<img src="	<?php echo CFS()->get ('testimonial_2_image') ;  ?>" class="testimonial-img">
@@ -49,7 +50,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-		<div class="testimonial-wrapper3">
+		<div class="testimonial-wrapper">
 					<div class="testimonial">
 					
 					<img src="	<?php echo CFS()->get ('testimonial_3_image') ;  ?>" class="testimonial-img">
@@ -61,9 +62,6 @@ get_header(); ?>
 						<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 					</div>
 				</div>
-
-			
-
 			</div>
 <!--end of testimonial section-->
 
