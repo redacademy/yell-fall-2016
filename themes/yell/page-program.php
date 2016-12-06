@@ -111,7 +111,7 @@ get_header(); ?>
 			
 		</main><!-- #main -->
 
-			<button class="get-involved"> Get Involved! </button>
+			<a href="http://yell.academy.red/get-involved"><button class="get-involved"> Get Involved! </button></a>
 		</div>
 	</div>
 	<!-- #primary -->

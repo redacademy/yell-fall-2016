@@ -24,16 +24,16 @@ get_header(); ?>
 			<div class="child1">
 				<p> Are you a professional who wants to take 
 				part of YELL?</p>
-			<button class="peachbtn">Professionals</button>
+		<a href="http://yell.academy.red/professionals">	<button class="peachbtn">Professionals</button></a>
 			</div>
 			<div class="child2">
 			<p> Are you a potential sponsor, business
  				or a community partner?</p>
-			<button class="get-involved">Supporters</button>
+			<a href="http://yell.academy.red/supporters"><button class="get-involved">Supporters</button></a>
 			</div>
 			<div class="child3">
 			<p> Have questions? Send us a message.</p>
-			<button class="get-involved2">General Inquiries</button>
+			<a href="http://yell.academy.red/general-inquiries"><button class="get-involved2">General Inquiries</button></a>
 			</div>
 
 

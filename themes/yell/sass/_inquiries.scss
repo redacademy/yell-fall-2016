@@ -81,5 +81,75 @@ border: 3px solid $btn-border-color;
         padding-bottom: 2%;
     }
 
+  
+
 }
 
+  .ninja-forms-field {
+    border: 1px solid $btn-border-color;
+    background-color: white;
+    color: $theme-orange-color;
+    font-family:$main-font-family;
+  
+    font-size: 14px;
+    }
+
+.nf-element {
+  height: 50px;
+}
+.nf-error {
+
+    .ninja-forms-field {
+    border:1px solid $theme-orange-color;
+    }
+}
+
+.nf-error-msg {
+    color: $theme-orange-color;
+}
+
+.nf-field-label{
+    label{
+        color:$theme-orange-color;
+        font-family:$main-font-family;
+         font-weight:lighter;
+    }
+}
+
+.nf-field-element input[type='button']{
+
+background-color:$theme-blue-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-align:right;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+margin: 5%;
+    a{
+        color: #FFFFFF ;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+p{
+    color: #fff;
+    margin-top: -11%;
+    margin-left: 39%;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 14px;
+}
+
+  &:hover{
+    
+       background-color: darken($theme-blue-color, 10%);
+
+   }
+}

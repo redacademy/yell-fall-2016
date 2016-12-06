@@ -77,7 +77,6 @@ function my_styles_method() {
          height:100vh;
          background-size: cover, cover;
        }";
-
        wp_add_inline_style( 'red-starter-style', $custom_css );
 
  }elseif(is_page( 'thank-you' )){
@@ -85,9 +84,8 @@ function my_styles_method() {
        $custom_css = "
        .thanks-hero{
          background:linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url({$url}) no-repeat center bottom;
-         height:100vh;
+ height:100vh;
          background-size: cover, cover;
-         
        }";
 
    wp_add_inline_style( 'red-starter-style', $custom_css );
@@ -101,6 +99,8 @@ function my_styles_method() {
          background-size: cover, cover;
          
        }";
+
+   
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
 
