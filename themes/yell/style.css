@@ -1225,7 +1225,7 @@ object {
       color: #E48C3D; }
       .blog .readmore a:hover {
         color: #d1721d; }
-  .blog header, .blog .entry-content {
+  .blog .entry-content {
     width: 355px; }
   .blog .entry-title {
     margin: 2%; }
@@ -1258,7 +1258,8 @@ object {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
   background-color: white;
   padding-bottom: 3%;
-  height: 750px; }
+  height: 750px;
+  width: 355px; }
 
 .back-top {
   font-family: "Rubik", sans;
@@ -2263,3 +2264,53 @@ h5 {
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%; }
+
+.ninja-forms-field {
+  border: 1px solid #E8E8E8;
+  background-color: white;
+  color: #E48C3D;
+  font-family: "Roboto", sans;
+  font-size: 14px; }
+
+.nf-element {
+  height: 50px; }
+
+.nf-error .ninja-forms-field {
+  border: 1px solid #E48C3D; }
+
+.nf-error-msg {
+  color: #E48C3D; }
+
+.nf-field-label label {
+  color: #E48C3D;
+  font-family: "Roboto", sans;
+  font-weight: lighter; }
+
+.nf-field-element input[type='button'] {
+  background-color: #8DC0D0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-align: right;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  .nf-field-element input[type='button'] a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .nf-field-element input[type='button'] p {
+    color: #fff;
+    margin-top: -11%;
+    margin-left: 39%;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 14px; }
+  .nf-field-element input[type='button']:hover {
+    background-color: #69acc1; }

@@ -77,6 +77,16 @@ function my_styles_method() {
          height:100vh;
          background-size: cover, cover;
        }";
+           wp_add_inline_style( 'red-starter-style', $custom_css );
+        }elseif(is_page( 'thank-you' )){
+       $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+       .thanks-hero{
+         background: url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+         
+       }";
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
  }elseif(is_page( '' )){
@@ -89,16 +99,7 @@ function my_styles_method() {
          
        }";
 
-       wp_add_inline_style( 'red-starter-style', $custom_css );
-        }elseif(is_page( 'thank-you' )){
-       $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
-       $custom_css = "
-       .thanks-hero{
-         background: url({$url}) no-repeat center bottom;
-         height:100vh;
-         background-size: cover, cover;
-         
-       }";
+   
 
        wp_add_inline_style( 'red-starter-style', $custom_css );
 
