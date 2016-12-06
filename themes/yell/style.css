@@ -415,7 +415,8 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  width: 1400px; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -1281,48 +1282,61 @@ object {
   text-transform: uppercase;
   color: #9B9B9B; }
 
-.single-post img {
-  padding-left: 5%; }
+/*.single-post {
 
-.single-post .entry-title {
-  font-family: "Rubik", sans;
-  text-transform: uppercase;
-  padding: 0 5% 0 5%;
-  font-weight: 300;
-  color: #4A4A4A; }
+img {
+    padding-left: 5%;
+}
+   
+    .entry-title {
+        font-family:$accent-font-family;
+        text-transform: uppercase;
+        padding: 0 5% 0 5%;
+        font-weight: 300;
+        color: $testimonial-name-color;
 
-.single-post .entry-meta {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center; }
-  .single-post .entry-meta h4 {
-    color: #E48C3D; }
+    }
 
-.single-post .entry-date {
-  top: 0;
-  margin-left: 0;
-  color: #E48C3D; }
+    .entry-meta {
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
 
-.single-post .entry-content {
-  padding: 0 5% 0 5%;
-  font-size: 14px;
-  font-family: "Roboto", sans;
-  color: #9B9B9B; }
-  .single-post .entry-content h4 {
-    font-weight: 600; }
-  .single-post .entry-content a {
-    text-decoration: none;
-    color: #9B9B9B; }
+        h4 {
+        color:$theme-orange-color;
+        }
+    }
+    
+    .entry-date {
+        top:0;
+        margin-left: 0;
+        color: $theme-orange-color;
 
+    }
+    .entry-content {
+        padding: 0 5% 0 5%;
+        font-size: 14px;
+        font-family: $main-font-family;
+        color: $main-body-color;
+
+        h4 {
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+            color:$main-body-color;
+
+        }
+    }
+
+}*/
 .page-template-page-student, .page-template-page-expert, .page-template-page-program {
   background-color: #f2f2f2;
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 100%; }
+  width: 1400px; }
   .page-template-page-student h1, .page-template-page-expert h1, .page-template-page-program h1 {
     display: none; }
   .page-template-page-student .homepg-bg1, .page-template-page-expert .homepg-bg1, .page-template-page-program .homepg-bg1 {
@@ -1737,10 +1751,13 @@ h3 {
   border-radius: 6px;
   color: #4A4A4A; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .testimonial-flex {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 1300px; } }
 
 .testimonial-wrapper3, .testimonial-wrapper2 {
   display: none; }
@@ -1759,7 +1776,7 @@ h3 {
   color: #9B9B9B;
   text-align: center;
   background-color: white;
-  width: 100%; }
+  width: 1400px; }
   .page-template-page-supporters .entry-title, .page-template-page-contact .entry-title {
     display: none; }
   .page-template-page-supporters h3, .page-template-page-contact h3 {
