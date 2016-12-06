@@ -1800,7 +1800,8 @@ h3 {
       height: 200px; }
       @media (min-width: 1000px) {
         .page-template-page-supporters .support-img img, .page-template-page-contact .support-img img {
-          width: 850px; } }
+          width: 850px;
+          height: 400px; } }
   .page-template-page-supporters .yell, .page-template-page-contact .yell {
     width: 70%;
     margin: 0 auto; }
