@@ -92,6 +92,10 @@
         color:$h3-grey-color;
         @include min-desktop {
             color:$h2-orange-color;
+            &:hover {
+                color:$theme-peach-color;
+                border-color: $theme-peach-color;
+            }
          }
        }
     }
@@ -102,11 +106,17 @@
    .menu-primary-menu-container ul li{
         a{
             color:white;
+            &:hover {
+                color:$theme-peach-color;
+            }
         }
         &:nth-last-child(-n+1){
             a{
                 border:2px solid white;
                 color:white;
+                &:hover {
+                border-color:$theme-peach-color;
+              }
             }  
           }
         }

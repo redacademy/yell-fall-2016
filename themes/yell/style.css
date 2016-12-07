@@ -912,12 +912,23 @@ object {
     background-size: 100% 350px;
     background-position-y: 90%; }
   .home #playbtn {
-    border: 3px solid white;
+    border: 9px solid #fff;
     margin: 10px auto;
-    height: 99px;
-    width: 99px;
+    height: 100px;
+    width: 100px;
     text-align: center;
-    border-radius: 50%; }
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .home #playbtn:hover {
+      border-color: #E48C3D; }
+    .home #playbtn i {
+      margin-left: 15px;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -1180,16 +1191,25 @@ object {
       color: rgba(74, 74, 74, 0.85); }
       @media (min-width: 600px) {
         .menu-primary-menu-container ul li a {
-          color: #E48C3D; } }
+          color: #E48C3D; }
+          .menu-primary-menu-container ul li a:hover {
+            color: #F4B473;
+            border-color: #F4B473; } }
 
 @media (min-width: 600px) {
   .home .menu-primary-menu-container ul li a, .page-template-page-about .menu-primary-menu-container ul li a, .page-template-page-expert .menu-primary-menu-container ul li a,
   .page-template-page-supporters .menu-primary-menu-container ul li a, .error404 .menu-primary-menu-container ul li a, .page-template-page-program .menu-primary-menu-container ul li a, .page-id-173 .menu-primary-menu-container ul li a {
     color: white; }
+    .home .menu-primary-menu-container ul li a:hover, .page-template-page-about .menu-primary-menu-container ul li a:hover, .page-template-page-expert .menu-primary-menu-container ul li a:hover,
+    .page-template-page-supporters .menu-primary-menu-container ul li a:hover, .error404 .menu-primary-menu-container ul li a:hover, .page-template-page-program .menu-primary-menu-container ul li a:hover, .page-id-173 .menu-primary-menu-container ul li a:hover {
+      color: #F4B473; }
   .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a, .page-template-page-about .menu-primary-menu-container ul li:nth-last-child(-n+1) a, .page-template-page-expert .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
   .page-template-page-supporters .menu-primary-menu-container ul li:nth-last-child(-n+1) a, .error404 .menu-primary-menu-container ul li:nth-last-child(-n+1) a, .page-template-page-program .menu-primary-menu-container ul li:nth-last-child(-n+1) a, .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a {
     border: 2px solid white;
-    color: white; } }
+    color: white; }
+    .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-about .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-expert .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
+    .page-template-page-supporters .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .error404 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-program .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover {
+      border-color: #F4B473; } }
 
 .blog {
   background-color: #F9f9f9; }
@@ -1349,6 +1369,9 @@ img {
   .page-template-page-student .homepg-bg3, .page-template-page-expert .homepg-bg3, .page-template-page-program .homepg-bg3 {
     background-size: 100% 850px;
     background-position-y: 100%; }
+  @media (min-width: 600px) {
+    .page-template-page-student, .page-template-page-expert, .page-template-page-program {
+      width: 1300px; } }
   .page-template-page-student img, .page-template-page-expert img, .page-template-page-program img {
     height: 200px; }
   .page-template-page-student .site-main h2, .page-template-page-expert .site-main h2, .page-template-page-program .site-main h2 {
@@ -1781,6 +1804,9 @@ h3 {
   text-align: center;
   background-color: white;
   width: 100%; }
+  @media (min-width: 600px) {
+    .page-template-page-supporters, .page-template-page-contact {
+      width: 1300px; } }
   .page-template-page-supporters .entry-title, .page-template-page-contact .entry-title {
     display: none; }
   .page-template-page-supporters h3, .page-template-page-contact h3 {

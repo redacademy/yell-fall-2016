@@ -53,13 +53,23 @@
     // }
     //===================play button and video styles=========
 #playbtn {
-    border: 3px solid white;
+    border: 9px solid #fff;
     margin: 10px auto;
-    height: 99px;
-    width: 99px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     border-radius: 50%;
-}
+    display: flex;
+    justify-content: center;
+    &:hover {
+        border-color: $theme-orange-color;
+    }
+
+    i{
+      margin-left:15px;
+      align-self:center;
+      }
+    }
 
     
     h2 {
