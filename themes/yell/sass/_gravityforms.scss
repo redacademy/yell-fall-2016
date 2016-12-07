@@ -2,15 +2,7 @@
      background-color: rgba(242, 242, 242, .5);
 
      h1 {
-         display:none;
-     }
-
-     .gform_heading {
-          
-     
-     
-     .gform_title {
-        font-family:$accent-font-family;
+         font-family:$accent-font-family;
         color:$h4-color;
         font-size: $h4-font-size;
         font-weight: 300;
@@ -20,13 +12,17 @@
         margin: 50px auto;
         text-align:center;
      }
-     }
+
 
      //============================progress bar styles=============================
 
 .gform_wrapper .percentbar_blue {
     background-color: $theme-orange-color;
     color: #FFF;
+        width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
 }
 .gf_progressbar_percentage {
     height: 50px;
@@ -46,6 +42,7 @@
  #gf_progressbar_wrapper_1{
       
     width: 300px;
+    margin: 0 auto;
 }
  
 
