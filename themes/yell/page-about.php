@@ -17,17 +17,22 @@ get_header(); ?>
 				<div class="homepg-bg2">
 					<div class="homepg-bg3">
 						<?php echo CFS()->get( 'Want to learn more?' ); ?>
-						<?php if (have_posts()) : ?>
-						<?php if ( is_home() && ! is_front_page() ) : ?>
-						<?php endif; ?>
-						<?php /* Start the Loop */ ?>
-						<?php while ( have_posts() ) : the_post(); ?>
-						<?php get_template_part( 'template-parts/content' ); ?>
-						<?php endwhile; ?>
-						<?php the_posts_navigation(); ?>
-						<?php else : ?>
-						<?php get_template_part( 'template-parts/content', 'none' ); ?>
-						<?php endif; ?>
+						<div class="boxes" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<?php while ( have_posts() ) : the_post(); ?>
+				<div class="people">
+					<div class="people-thumbnail">
+						<a href="<?php the_permalink() ; ?> ">
+							<?php the_post_thumbnail( 'large' ); ?>
+						</a>
+					</div>
+					<div class="people-info">
+						<?php the_title('<p class="people-title">'); ?>
+						
+					</div>
+				</div>
+				<?php endwhile ?>
+			</div>
+	</div>
 						<div class="aboutpage-button">
 							<button class="contact-us"> Contact Us ></button>
 							<button class="programs"> Programs ></button>
