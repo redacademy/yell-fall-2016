@@ -48,6 +48,7 @@
 
 
 //=============================textarea styles================================
+.page-id-177 {
     .gform_page_fields {
         h2 {
             color:$main-body-color;
@@ -64,7 +65,42 @@
               width:80%;
           }
         }
+    tbody {
+        tr {
+            width:80%;
+            td {
+                color: $theme-peach-color;
+            }
+          } 
+      }
+      
+}
+.gfrom_page_footer, input[type=button]{
+width: 77%!important;
+margin-left: 2rem!important;
+text-align: center;
+height: 49px;
+background-color: $theme-blue-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
 
-    
+
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+       background-color: darken($theme-blue-color, 10%);
+   }
+}
+
 
 
