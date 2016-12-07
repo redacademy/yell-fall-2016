@@ -865,8 +865,34 @@ object {
     padding-top: 3%;
     color: #E48C3D; }
   button {
-    color: #E48C3D;
-    margin-left: -68%; }
+    color: #E48C3D; }
+  .get-involved-footer {
+    background-color: transparent;
+    border-color: #E48C3D;
+    border-width: 2.3px;
+    height: 2.5rem;
+    width: 11rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-right: 35%; }
+  .footer-content {
+    -ms-flex-order: 1;
+        order: 1;
+    padding-top: 3%; }
+  .copyright {
+    display: none; }
+  .copyright-desktop {
+    margin-right: 30%;
+    padding-top: 8%; }
+  .icons-block {
+    -ms-flex-align: end;
+        align-items: flex-end;
+    -ms-flex-order: 2;
+        order: 2;
+    padding-top: 3%;
+    color: #E48C3D; }
+  button {
+    color: #E48C3D; }
   .get-involved-footer {
     background-color: transparent;
     border-color: #E48C3D;
