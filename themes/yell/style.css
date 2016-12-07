@@ -2180,6 +2180,8 @@ h5 {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-direction: column;
       flex-direction: column; }
   @media (min-width: 1000px) {
