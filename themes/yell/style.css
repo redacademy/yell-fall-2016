@@ -2429,3 +2429,33 @@ h5 {
 
 .fadeIn.go {
   animation-name: fadeIn; }
+
+.page-id-177 {
+  background-color: rgba(242, 242, 242, 0.5); }
+  .page-id-177 h1 {
+    display: none; }
+  .page-id-177 .gform_heading .gform_title {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 300;
+    font-size: 36px;
+    border-bottom: 1px solid #D0D0D0;
+    width: 470px;
+    margin: 50px auto;
+    text-align: center; }
+  .page-id-177 .gform_wrapper .percentbar_blue {
+    background-color: #E48C3D;
+    color: #FFF; }
+  .page-id-177 .gf_progressbar_percentage {
+    height: 50px;
+    text-align: right;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 0.813em !important;
+    z-index: 999;
+    vertical-align: middle;
+    border-radius: 20px 4px 4px 20px; }
+  .page-id-177 .gf_progressbar {
+    width: 300px; }
+  .page-id-177 #gf_progressbar_wrapper_1 {
+    width: 300px; }
