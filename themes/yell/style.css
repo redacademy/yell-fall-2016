@@ -2433,8 +2433,6 @@ h5 {
 .page-id-177 {
   background-color: rgba(242, 242, 242, 0.5); }
   .page-id-177 h1 {
-    display: none; }
-  .page-id-177 .gform_heading .gform_title {
     font-family: "Rubik", sans;
     color: #6D6D6D;
     font-size: 14px;
@@ -2446,7 +2444,10 @@ h5 {
     text-align: center; }
   .page-id-177 .gform_wrapper .percentbar_blue {
     background-color: #E48C3D;
-    color: #FFF; }
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; }
   .page-id-177 .gf_progressbar_percentage {
     height: 50px;
     text-align: right;
@@ -2458,6 +2459,7 @@ h5 {
   .page-id-177 .gf_progressbar {
     width: 300px; }
   .page-id-177 #gf_progressbar_wrapper_1 {
+<<<<<<< HEAD
     width: 300px; }
   .page-id-177 .gform_page_fields h2 {
     color: #9B9B9B;
@@ -2469,3 +2471,7 @@ h5 {
       color: #F4B473; }
     .page-id-177 .gform_page_fields li .ginput_container input {
       width: 80%; }
+=======
+    width: 300px;
+    margin: 0 auto; }
+>>>>>>> 74862f6e2fa08031680e4a2848c77041039a5f50
