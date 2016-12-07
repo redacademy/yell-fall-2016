@@ -18,6 +18,7 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php red_starter_posted_on(); ?> <h4> <?php the_subtitle(); ?> </h4>  <?php red_starter_posted_by(); ?>
+			<?php echo CFS()->get( 'read_more' ); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

@@ -42,13 +42,19 @@
     }
 
     .entry-title {
-    margin: 2%;
+         margin: 2%;
 
         a{
     text-decoration: none;
     font-family: $accent-font-family;
     font-weight: 300;
-    color: $main-body-color;
+    color: $theme-orange-color;
+
+    &:hover {
+        color:$theme-peach-color;
+    }
+
+        
         }
         
     }
