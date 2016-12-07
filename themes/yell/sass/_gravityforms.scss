@@ -42,11 +42,12 @@
  #gf_progressbar_wrapper_1{
       
     width: 300px;
+ } 
+}
  
 
 
 //=============================textarea styles================================
-
     .gform_page_fields {
         h2 {
             color:$main-body-color;
@@ -58,12 +59,12 @@
             label {
                 color:$theme-peach-color;
             }
+         }
           .ginput_container input{
               width:80%;
           }
         }
-    }
-}
 
+    
 
 

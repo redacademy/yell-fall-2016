@@ -2459,19 +2459,17 @@ h5 {
   .page-id-177 .gf_progressbar {
     width: 300px; }
   .page-id-177 #gf_progressbar_wrapper_1 {
-<<<<<<< HEAD
     width: 300px; }
-  .page-id-177 .gform_page_fields h2 {
-    color: #9B9B9B;
-    text-transform: uppercase; }
-  .page-id-177 .gform_page_fields li {
-    border-bottom: none;
-    margin-left: 2rem !important; }
-    .page-id-177 .gform_page_fields li label {
-      color: #F4B473; }
-    .page-id-177 .gform_page_fields li .ginput_container input {
-      width: 80%; }
-=======
-    width: 300px;
-    margin: 0 auto; }
->>>>>>> 74862f6e2fa08031680e4a2848c77041039a5f50
+
+.gform_page_fields h2 {
+  color: #9B9B9B;
+  text-transform: uppercase; }
+
+.gform_page_fields li {
+  border-bottom: none;
+  margin-left: 2rem !important; }
+  .gform_page_fields li label {
+    color: #F4B473; }
+
+.gform_page_fields .ginput_container input {
+  width: 80%; }
