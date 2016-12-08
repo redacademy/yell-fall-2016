@@ -2474,12 +2474,15 @@ h5 {
     width: 80%; }
     .page-id-177 tbody tr td {
       color: #F4B473; }
+      @media (min-width: 600px) {
+        .page-id-177 tbody tr td {
+          width: 25%; } }
   .page-id-177 #field_1_23 .gfield_label {
     color: #9B9B9B;
     text-transform: uppercase; }
   .page-id-177 .gform_wrapper .textarea {
     width: 80%; }
-  .page-id-177 input[type=button], .page-id-177 input[type=submit] {
+  .page-id-177 input[type=button] {
     width: 77% !important;
     margin-left: 2rem !important;
     text-align: center;
@@ -2496,10 +2499,44 @@ h5 {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8; }
-    .page-id-177 input[type=button]:hover, .page-id-177 input[type=submit]:hover {
+    @media (min-width: 600px) {
+      .page-id-177 input[type=button] {
+        width: 60% !important; } }
+    .page-id-177 input[type=button]:hover {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #69acc1; }
 
+input[type=submit] {
+  width: 77% !important;
+  margin-left: 2rem !important;
+  text-align: center;
+  height: 49px;
+  background-color: #E48C3D;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8; }
+  @media (min-width: 600px) {
+    input[type=submit] {
+      width: 60% !important; } }
+  input[type=submit]:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #69acc1; }
+
 .gform_heading h3 {
   display: none; }
+
+@media (min-width: 600px) {
+  .gform_page_footer {
+    display: -ms-flexbox;
+    display: flex;
+    width: 80.5% !important; } }
