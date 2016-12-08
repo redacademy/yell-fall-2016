@@ -48,6 +48,7 @@
 	}
 }
 
+
 .footer-nav-left {
 	ul {
 		justify-content: flex-start;
@@ -79,7 +80,7 @@
 	height: 35px;
 }
 
-@include desktop {
+@include min-desktop {
 	.site-footer {
 		display: flex;
 		justify-content: space-between;
