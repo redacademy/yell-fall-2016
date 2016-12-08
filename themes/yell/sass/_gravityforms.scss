@@ -36,7 +36,11 @@
 
 
 //=============================textarea styles================================
+.post-177 h1{
+    width:100%;
+}
 .gform_fields {
+
 
         h2 {
             color:$main-body-color;
@@ -48,6 +52,7 @@
             label {
                 color:$theme-peach-color;
                 font-family:$main-font-family;
+                width:80%;
             }
          }
           .ginput_container input{
@@ -67,6 +72,9 @@
         color:$main-body-color;
         text-transform: uppercase;
     }
+}
+.gform_wrapper .textarea{
+    width:80%;
 }
 .gfrom_page_footer, input[type=button]{
 width: 77%!important;
