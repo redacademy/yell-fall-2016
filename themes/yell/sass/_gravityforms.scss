@@ -76,7 +76,7 @@
 .gform_wrapper .textarea{
     width:80%;
 }
-.gfrom_page_footer, input[type=button]{
+input[type=button],input[type=submit]{
 width: 77%!important;
 margin-left: 2rem!important;
 text-align: center;
@@ -100,4 +100,7 @@ border: 3px solid $btn-border-color;
        background-color: darken($theme-blue-color, 10%);
    }
  }
+}
+.gform_heading h3{
+    display:none;
 }

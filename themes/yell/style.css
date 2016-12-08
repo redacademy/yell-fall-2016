@@ -971,7 +971,7 @@ object {
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%; }
-  .home .more-about, .home input[type=button] {
+  .home .more-about {
     width: 270px;
     height: 49px;
     background-color: #8DC0D0;
@@ -988,7 +988,7 @@ object {
     border: 3px solid #E8E8E8;
     margin-bottom: 2%;
     margin: 15%; }
-    .home .more-about:hover, .home input[type=button]:hover {
+    .home .more-about:hover {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #69acc1; }
@@ -2475,7 +2475,7 @@ h5 {
     text-transform: uppercase; }
   .page-id-177 .gform_wrapper .textarea {
     width: 80%; }
-  .page-id-177 .gfrom_page_footer, .page-id-177 input[type=button] {
+  .page-id-177 input[type=button], .page-id-177 input[type=submit] {
     width: 77% !important;
     margin-left: 2rem !important;
     text-align: center;
@@ -2492,7 +2492,10 @@ h5 {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8; }
-    .page-id-177 .gfrom_page_footer:hover, .page-id-177 input[type=button]:hover {
+    .page-id-177 input[type=button]:hover, .page-id-177 input[type=submit]:hover {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #69acc1; }
+
+.gform_heading h3 {
+  display: none; }
