@@ -2400,7 +2400,8 @@ h5 {
     margin: 50px auto;
     text-align: center; }
   .page-id-177 .post-177 h1, .page-id-179 .post-177 h1 {
-    width: 100%; }
+    width: 100%;
+    border-bottom: none !important; }
   .page-id-177 .gform_fields h2, .page-id-179 .gform_fields h2 {
     color: #9B9B9B;
     text-transform: uppercase; }
@@ -2469,7 +2470,7 @@ h5 {
   border: 3px solid #E8E8E8; }
   @media (min-width: 600px) {
     .gform_page_footer input[type=submit] {
-      width: 60% !important; } }
+      width: 40% !important; } }
   .gform_page_footer input[type=submit]:hover {
     border-color: #E8E8E8;
     box-shadow: none;
@@ -2482,12 +2483,21 @@ h5 {
   .gform_page_footer {
     display: -ms-flexbox;
     display: flex;
-    width: 80.5% !important; } }
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    width: 80.5% !important;
+    border-top: none !important; } }
 
 @media (min-width: 600px) {
-  .gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
-    display: block;
-    float: left;
-    width: 50%; }
-  .gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
-    display: none; } }
+  .gform_page_fields {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .gform_page_fields .gform_column {
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%; } }
