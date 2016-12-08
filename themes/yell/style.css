@@ -2476,9 +2476,7 @@ h5 {
       color: #F4B473; }
       @media (min-width: 600px) {
         .page-id-177 tbody tr td, .page-id-179 tbody tr td {
-
           width: 24.75%; } }
-
   .page-id-177 #field_1_23 .gfield_label, .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
     text-transform: uppercase; }
@@ -2542,3 +2540,11 @@ h5 {
     display: -ms-flexbox;
     display: flex;
     width: 80.5% !important; } }
+
+@media (min-width: 600px) {
+  .gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
+    display: block;
+    float: left;
+    width: 50%; }
+  .gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
+    display: none; } }
