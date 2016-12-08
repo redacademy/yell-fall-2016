@@ -62,7 +62,11 @@
     display: flex;
     justify-content: center;
     &:hover {
-        border-color: $theme-orange-color;
+        border-color: $theme-peach-color;
+
+        i {
+        color: $theme-peach-color;
+    }
     }
 
     i{

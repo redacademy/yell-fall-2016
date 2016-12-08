@@ -949,7 +949,9 @@ object {
     -ms-flex-pack: center;
         justify-content: center; }
     .home #playbtn:hover {
-      border-color: #E48C3D; }
+      border-color: #F4B473; }
+      .home #playbtn:hover i {
+        color: #F4B473; }
     .home #playbtn i {
       margin-left: 15px;
       -ms-flex-item-align: center;
@@ -1235,7 +1237,8 @@ object {
     color: white; }
     .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-about .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-expert .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
     .page-template-page-supporters .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .error404 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-template-page-program .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover, .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover {
-      border-color: #F4B473; } }
+      border-color: #F4B473;
+      color: #F4B473; } }
 
 .blog {
   background-color: #F9f9f9; }
