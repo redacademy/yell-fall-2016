@@ -1118,7 +1118,7 @@ object {
 .home .nav-bar, .page-template-page-about .nav-bar,
 .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
 .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar,
-.page-id-173 .nav-bar, .page-id-168 .nav-bar, .page-1d-179 .nav-bar, .page-id-177 .nav-bar {
+.page-id-173 .nav-bar, .page-id-168 .nav-bar, .page-1d-179 .nav-bar, .page-id-177 .nav-bar, .page-id-179 .nav-bar {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -1128,7 +1128,7 @@ object {
     .home .nav-bar, .page-template-page-about .nav-bar,
     .page-template-page-contact .nav-bar, .page-template-page-expert .nav-bar, .blog .nav-bar,
     .page-template-page-program .nav-bar, .page-template-page-student .nav-bar, .page-template-page-supporters .nav-bar, .single-post .nav-bar, .error404 .nav-bar, .page-id-123 .nav-bar, .page-id-161 .nav-bar,
-    .page-id-173 .nav-bar, .page-id-168 .nav-bar, .page-1d-179 .nav-bar, .page-id-177 .nav-bar {
+    .page-id-173 .nav-bar, .page-id-168 .nav-bar, .page-1d-179 .nav-bar, .page-id-177 .nav-bar, .page-id-179 .nav-bar {
       -ms-flex-pack: start;
           justify-content: flex-start;
       background-color: transparent;
@@ -1137,7 +1137,7 @@ object {
   .home .nav-bar button, .page-template-page-about .nav-bar button,
   .page-template-page-contact .nav-bar button, .page-template-page-expert .nav-bar button, .blog .nav-bar button,
   .page-template-page-program .nav-bar button, .page-template-page-student .nav-bar button, .page-template-page-supporters .nav-bar button, .single-post .nav-bar button, .error404 .nav-bar button, .page-id-123 .nav-bar button, .page-id-161 .nav-bar button,
-  .page-id-173 .nav-bar button, .page-id-168 .nav-bar button, .page-1d-179 .nav-bar button, .page-id-177 .nav-bar button {
+  .page-id-173 .nav-bar button, .page-id-168 .nav-bar button, .page-1d-179 .nav-bar button, .page-id-177 .nav-bar button, .page-id-179 .nav-bar button {
     height: 5rem;
     width: 5rem;
     border: none;
@@ -1147,20 +1147,20 @@ object {
     .home .nav-bar button i, .page-template-page-about .nav-bar button i,
     .page-template-page-contact .nav-bar button i, .page-template-page-expert .nav-bar button i, .blog .nav-bar button i,
     .page-template-page-program .nav-bar button i, .page-template-page-student .nav-bar button i, .page-template-page-supporters .nav-bar button i, .single-post .nav-bar button i, .error404 .nav-bar button i, .page-id-123 .nav-bar button i, .page-id-161 .nav-bar button i,
-    .page-id-173 .nav-bar button i, .page-id-168 .nav-bar button i, .page-1d-179 .nav-bar button i, .page-id-177 .nav-bar button i {
+    .page-id-173 .nav-bar button i, .page-id-168 .nav-bar button i, .page-1d-179 .nav-bar button i, .page-id-177 .nav-bar button i, .page-id-179 .nav-bar button i {
       font-size: 3rem;
       color: #ffffff; }
   .home .nav-bar img, .page-template-page-about .nav-bar img,
   .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
   .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img,
-  .page-id-173 .nav-bar img, .page-id-168 .nav-bar img, .page-1d-179 .nav-bar img, .page-id-177 .nav-bar img {
+  .page-id-173 .nav-bar img, .page-id-168 .nav-bar img, .page-1d-179 .nav-bar img, .page-id-177 .nav-bar img, .page-id-179 .nav-bar img {
     height: 5rem;
     width: 5rem; }
     @media (min-width: 600px) {
       .home .nav-bar img, .page-template-page-about .nav-bar img,
       .page-template-page-contact .nav-bar img, .page-template-page-expert .nav-bar img, .blog .nav-bar img,
       .page-template-page-program .nav-bar img, .page-template-page-student .nav-bar img, .page-template-page-supporters .nav-bar img, .single-post .nav-bar img, .error404 .nav-bar img, .page-id-123 .nav-bar img, .page-id-161 .nav-bar img,
-      .page-id-173 .nav-bar img, .page-id-168 .nav-bar img, .page-1d-179 .nav-bar img, .page-id-177 .nav-bar img {
+      .page-id-173 .nav-bar img, .page-id-168 .nav-bar img, .page-1d-179 .nav-bar img, .page-id-177 .nav-bar img, .page-id-179 .nav-bar img {
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
@@ -2432,9 +2432,9 @@ h5 {
 .fadeIn.go {
   animation-name: fadeIn; }
 
-.page-id-177 {
+.page-id-177, .page-id-179 {
   background-color: rgba(242, 242, 242, 0.5); }
-  .page-id-177 h1 {
+  .page-id-177 h1, .page-id-179 h1 {
     font-family: "Rubik", sans;
     color: #6D6D6D;
     font-size: 14px;
@@ -2444,30 +2444,30 @@ h5 {
     width: 470px;
     margin: 50px auto;
     text-align: center; }
-  .page-id-177 .progress-bar, .page-id-177 .progress-bar2, .page-id-177 .progress-bar3 {
+  .page-id-177 .progress-bar, .page-id-177 .progress-bar2, .page-id-177 .progress-bar3, .page-id-179 .progress-bar, .page-id-179 .progress-bar2, .page-id-179 .progress-bar3 {
     width: 350px;
     margin: 0 auto;
     height: 100%; }
-  .page-id-177 .progress-bar2 {
+  .page-id-177 .progress-bar2, .page-id-179 .progress-bar2 {
     display: none; }
-  .page-id-177 .progress-bar3 {
+  .page-id-177 .progress-bar3, .page-id-179 .progress-bar3 {
     display: none; }
-  .page-id-177 .page-id-177 .gform_page_fields h2 {
+  .page-id-177 .page-id-177 .gform_page_fields h2, .page-id-177 .page-id-179 .gform_page_fields h2, .page-id-179 .page-id-177 .gform_page_fields h2, .page-id-179 .page-id-179 .gform_page_fields h2 {
     color: #9B9B9B;
     text-transform: uppercase; }
-  .page-id-177 .page-id-177 .gform_page_fields li {
+  .page-id-177 .page-id-177 .gform_page_fields li, .page-id-177 .page-id-179 .gform_page_fields li, .page-id-179 .page-id-177 .gform_page_fields li, .page-id-179 .page-id-179 .gform_page_fields li {
     border-bottom: none;
     margin-left: 2rem !important; }
-    .page-id-177 .page-id-177 .gform_page_fields li label {
+    .page-id-177 .page-id-177 .gform_page_fields li label, .page-id-177 .page-id-179 .gform_page_fields li label, .page-id-179 .page-id-177 .gform_page_fields li label, .page-id-179 .page-id-179 .gform_page_fields li label {
       color: #F4B473;
       font-family: "Roboto", sans; }
-  .page-id-177 .page-id-177 .gform_page_fields .ginput_container input {
+  .page-id-177 .page-id-177 .gform_page_fields .ginput_container input, .page-id-177 .page-id-179 .gform_page_fields .ginput_container input, .page-id-179 .page-id-177 .gform_page_fields .ginput_container input, .page-id-179 .page-id-179 .gform_page_fields .ginput_container input {
     width: 80%; }
-  .page-id-177 .page-id-177 tbody tr {
+  .page-id-177 .page-id-177 tbody tr, .page-id-177 .page-id-179 tbody tr, .page-id-179 .page-id-177 tbody tr, .page-id-179 .page-id-179 tbody tr {
     width: 80%; }
-    .page-id-177 .page-id-177 tbody tr td {
+    .page-id-177 .page-id-177 tbody tr td, .page-id-177 .page-id-179 tbody tr td, .page-id-179 .page-id-177 tbody tr td, .page-id-179 .page-id-179 tbody tr td {
       color: #F4B473; }
-  .page-id-177 .gfrom_page_footer, .page-id-177 input[type=button] {
+  .page-id-177 .gfrom_page_footer, .page-id-177 input[type=button], .page-id-179 .gfrom_page_footer, .page-id-179 input[type=button] {
     width: 77% !important;
     margin-left: 2rem !important;
     text-align: center;
@@ -2484,7 +2484,7 @@ h5 {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8; }
-    .page-id-177 .gfrom_page_footer:hover, .page-id-177 input[type=button]:hover {
+    .page-id-177 .gfrom_page_footer:hover, .page-id-177 input[type=button]:hover, .page-id-179 .gfrom_page_footer:hover, .page-id-179 input[type=button]:hover {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #69acc1; }
