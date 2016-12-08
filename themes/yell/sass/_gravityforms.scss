@@ -40,45 +40,45 @@
     width:100%;
 }
 .gform_fields {
-
-
-        h2 {
-            color:$main-body-color;
-            text-transform: uppercase;
+    h2 {
+     color:$main-body-color;
+     text-transform: uppercase;
         }
-        li {
-            border-bottom: none;
-            margin-left:2rem!important;
-            label {
-                color:$theme-peach-color;
-                font-family:$main-font-family;
-                width:80%;
-            }
+    li {
+     border-bottom: none;
+     margin-left:2rem!important;
+      label {
+       color:$theme-peach-color;
+         font-family:$main-font-family;
+         width:80%;
          }
-          .ginput_container input{
-              width:80%;
+   }
+.ginput_container input{
+     width:80%;
+     }
+  }
+   tbody {
+     tr {
+       width:80%;
+       td {
+          color: $theme-peach-color;
+          @include min-desktop {
+          width:25%;
           }
-        }
-    tbody {
-        tr {
-            width:80%;
-            td {
-                color: $theme-peach-color;
-                @include min-desktop {
-                    width:25%;
-                }
-            }
-          } 
-      } 
+         }
+       } 
+     } 
 #field_1_23 {
-    .gfield_label{
-        color:$main-body-color;
-        text-transform: uppercase;
+  .gfield_label{
+     color:$main-body-color;
+     text-transform: uppercase;
     }
 }
+
 .gform_wrapper .textarea{
     width:80%;
 }
+
 input[type=button]{
 width: 77%!important;
 margin-left: 2rem!important;
@@ -130,10 +130,10 @@ border: 3px solid $btn-border-color;
     width:60%!important;
 }
 
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-       background-color: darken($theme-blue-color, 10%);
+  &:hover{
+     border-color:$btn-border-color;
+     box-shadow:none;
+     background-color: darken($theme-blue-color, 10%);
    }
  }  
 .gform_heading h3{
