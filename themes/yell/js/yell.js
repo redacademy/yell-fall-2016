@@ -78,6 +78,8 @@ $('#playbtn').on('click', function(e) {
     $("#video")[0].src += "?autoplay=1";
 })
 })(jQuery);
+
+
 (function ( $ ) {
 $('.home-hero').on('click', function(e) {
  e.stopPropagation();
@@ -102,4 +104,23 @@ $('.home-hero').on('click', function(e) {
    
    
 })
+})(jQuery);
+
+//=======gravity forms progress bar change=========
+
+(function ( $ ) {
+var url = $(location).attr('href');
+var fileName = url.slice(url.lastIndexOf('/') + 1);
+
+switch (fileName){
+   case '#gf_1':
+     $('.progress-bar').css('display','none');
+	 $('.progress-bar2').css('display','block');
+     break;
+   case '#gf_2':
+   	 $('.progress-bar').css('display','none');
+     $('.progress-bar2').css('display','none');
+	 $('.progress-bar3').css('display','block');
+     break;
+}
 })(jQuery);
