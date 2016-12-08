@@ -2476,7 +2476,9 @@ h5 {
       color: #F4B473; }
       @media (min-width: 600px) {
         .page-id-177 tbody tr td, .page-id-179 tbody tr td {
-          width: 25%; } }
+
+          width: 24.75%; } }
+
   .page-id-177 #field_1_23 .gfield_label, .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
     text-transform: uppercase; }
@@ -2507,7 +2509,7 @@ h5 {
       box-shadow: none;
       background-color: #69acc1; }
 
-input[type=submit] {
+.gform_page_footer input[type=submit] {
   width: 77% !important;
   margin-left: 2rem !important;
   text-align: center;
@@ -2525,9 +2527,9 @@ input[type=submit] {
   box-shadow: none;
   border: 3px solid #E8E8E8; }
   @media (min-width: 600px) {
-    input[type=submit] {
+    .gform_page_footer input[type=submit] {
       width: 60% !important; } }
-  input[type=submit]:hover {
+  .gform_page_footer input[type=submit]:hover {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
