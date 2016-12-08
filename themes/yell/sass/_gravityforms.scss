@@ -36,8 +36,8 @@
 
 
 //=============================textarea styles================================
-.page-id-177 {
-    .gform_page_fields { 
+.gform_fields {
+
         h2 {
             color:$main-body-color;
             text-transform: uppercase;
@@ -61,8 +61,12 @@
                 color: $theme-peach-color;
             }
           } 
-      }
-      
+      } 
+#field_1_23 {
+    .gfield_label{
+        color:$main-body-color;
+        text-transform: uppercase;
+    }
 }
 .gfrom_page_footer, input[type=button]{
 width: 77%!important;
@@ -81,8 +85,6 @@ text-shadow: none;
 text-transform: uppercase;
 box-shadow: none;
 border: 3px solid $btn-border-color;
-
-
 
    &:hover{
        border-color:$btn-border-color;
