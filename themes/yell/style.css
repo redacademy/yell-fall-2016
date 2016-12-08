@@ -2483,3 +2483,11 @@ h5 {
     display: -ms-flexbox;
     display: flex;
     width: 80.5% !important; } }
+
+@media (min-width: 600px) {
+  .gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
+    display: block;
+    float: left;
+    width: 50%; }
+  .gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
+    display: none; } }

@@ -133,3 +133,13 @@ border: 3px solid $btn-border-color;
 
   }
 }
+@include min-desktop {
+.gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
+display: block;
+float: left;
+width: 50%;
+}
+.gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
+display: none;
+}
+}
