@@ -1534,20 +1534,24 @@ h3 {
   background-color: white;
   background-image: url(../../images/orange-splash-about-desktop.png);
   background-repeat: no-repeat;
-  background-size: 100% 350px;
+  background-size: 100% 750px;
   background-position-y: 10%; }
-
-.aboutpg-bg2 {
-  background-image: url(../../images/blue-splash-about-mobile.png);
-  background-repeat: no-repeat;
-  background-size: 100% 350px;
-  background-position-y: 50%; }
 
 .aboutpg-bg3 {
   background-image: url(../../images/blue-splash-about-desktop.png);
   background-repeat: no-repeat;
-  background-size: 100% 350px;
+  background-size: 100% 750px;
   background-position-y: 90%; }
+
+.people-post {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .people-post img {
+    border-radius: 50%; }
 
 .aboutpage-button .contact-us {
   width: 270px;
