@@ -2444,7 +2444,6 @@ h5 {
     width: 470px;
     margin: 50px auto;
     text-align: center; }
-
   .page-id-177 .progress-bar, .page-id-177 .progress-bar2, .page-id-177 .progress-bar3 {
     width: 350px;
     margin: 0 auto;
@@ -2453,45 +2452,39 @@ h5 {
     display: none; }
   .page-id-177 .progress-bar3 {
     display: none; }
-
-.page-id-177 .gform_page_fields h2 {
-  color: #9B9B9B;
-  text-transform: uppercase; }
-
-.page-id-177 .gform_page_fields li {
-  border-bottom: none;
-  margin-left: 2rem !important; }
-  .page-id-177 .gform_page_fields li label {
-    color: #F4B473;
-    font-family: "Roboto", sans; }
-
-.page-id-177 .gform_page_fields .ginput_container input {
-  width: 80%; }
-
-.page-id-177 tbody tr {
-  width: 80%; }
-
-  .page-id-177 tbody tr td {
-    color: #F4B473; }
-
-.gfrom_page_footer, input[type=button] {
-  width: 77% !important;
-  margin-left: 2rem !important;
-  text-align: center;
-  height: 49px;
-  background-color: #8DC0D0;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
-  line-height: 22px;
-  color: #FFFFFF;
-  font-family: "Rubik", sans;
-  text-shadow: none;
-  text-transform: uppercase;
-  box-shadow: none;
-  border: 3px solid #E8E8E8; }
-  .gfrom_page_footer:hover, input[type=button]:hover {
-    border-color: #E8E8E8;
+  .page-id-177 .page-id-177 .gform_page_fields h2 {
+    color: #9B9B9B;
+    text-transform: uppercase; }
+  .page-id-177 .page-id-177 .gform_page_fields li {
+    border-bottom: none;
+    margin-left: 2rem !important; }
+    .page-id-177 .page-id-177 .gform_page_fields li label {
+      color: #F4B473;
+      font-family: "Roboto", sans; }
+  .page-id-177 .page-id-177 .gform_page_fields .ginput_container input {
+    width: 80%; }
+  .page-id-177 .page-id-177 tbody tr {
+    width: 80%; }
+    .page-id-177 .page-id-177 tbody tr td {
+      color: #F4B473; }
+  .page-id-177 .gfrom_page_footer, .page-id-177 input[type=button] {
+    width: 77% !important;
+    margin-left: 2rem !important;
+    text-align: center;
+    height: 49px;
+    background-color: #8DC0D0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans;
+    text-shadow: none;
+    text-transform: uppercase;
     box-shadow: none;
-    background-color: #69acc1; }
+    border: 3px solid #E8E8E8; }
+    .page-id-177 .gfrom_page_footer:hover, .page-id-177 input[type=button]:hover {
+      border-color: #E8E8E8;
+      box-shadow: none;
+      background-color: #69acc1; }
