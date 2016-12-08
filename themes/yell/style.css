@@ -2499,3 +2499,9 @@ h5 {
 
 .gform_heading h3 {
   display: none; }
+
+@media (min-width: 600px) {
+  .gform_page_footer {
+    display: -ms-flexbox;
+    display: flex;
+    width: 80.5% !important; } }
