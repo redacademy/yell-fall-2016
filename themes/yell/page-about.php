@@ -41,8 +41,8 @@ get_header(); ?>
 						</div>
 						<div class="aboutpage-button">
 							<h2>Want to learn more?</h2>
-							<button class="contact-us"> Contact Us ></button>
-							<button class="programs"> Programs ></button>
+							<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="contact-us"> Contact Us ></button></a>
+							<a href="<?php echo esc_url( site_url( '/program/' ) ); ?>" rel="program"><button class="programs"> Programs ></button></a>
 						</div>
 					</div>
 				</div>

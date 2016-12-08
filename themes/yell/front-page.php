@@ -35,7 +35,7 @@ get_header(); ?>
 
     <?php echo CFS()->get( 'what_yell' ); ?>
 		
-		 <button class="more-about"> More About Yell ></button>
+		 <a href="<?php echo esc_url( site_url( '/about/' ) ); ?>" rel="about"><button class="more-about"> More About Yell ></button></a>
 
 	<?php
     $props = CFS()->get_field_info( 'impact' );
@@ -94,7 +94,7 @@ get_header(); ?>
 
 			</div>
 		
-				 <a href="http://yell.academy.red/get-involved"> <button class="get-involved"> Get Involved! </button></a>
+				 <a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"> <button class="get-involved"> Get Involved! </button></a>
 		    </div>
 			</div>
 			</div>

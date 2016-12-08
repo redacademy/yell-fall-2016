@@ -111,7 +111,7 @@ get_header(); ?>
 			
 		</main><!-- #main -->
 
-			<a href="http://yell.academy.red/get-involved"><button class="get-involved"> Get Involved! </button></a>
+			<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"><button class="get-involved"> Get Involved! </button></a>
 		</div>
 	</div>
 	<!-- #primary -->

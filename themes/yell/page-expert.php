@@ -77,7 +77,7 @@ get_header(); ?>
 							</h2>
 					</div>
 					<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
-					<a href="http://yell.academy.red/guest-speaker-form"><button class="get-involved"> Be a guest speaker! </button></a>
+					<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get-involved"><button class="get-involved"> Be a guest speaker! </button></a>
 				</div>
 				<div class="mentor-btn">
 					Mentors at YELL
@@ -93,7 +93,7 @@ get_header(); ?>
 						<li>Learn about the YELL organization and the next generation of entrepreneurs </li>
 						<li> Expand your professional network </li>
 					</ul>
-					<a href="http://yell.academy.red/mentor-form"><button class="get-involved"> Be a YELL Mentor! </button></a>
+					<a href="<?php echo esc_url( site_url( '/mentor-form/' ) ); ?>" rel="mentor form"><button class="get-involved"> Be a YELL Mentor! </button></a>
 				</div>
 			</div>
 			<div class="teacher-btn">
@@ -131,7 +131,7 @@ get_header(); ?>
 							<?php echo CFS()->get( 'spring' ); ?>
 						</div>
 					</div>
-					<a href="http://yell.academy.red/contact"><button class="get-involved"> Contact us to find out more </button></a>
+					<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="get-involved"> Contact us to find out more </button></a>
 			</div>
 		</main>
 </div>

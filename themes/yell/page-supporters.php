@@ -49,8 +49,8 @@ get_header(); ?>
 							</div>
 							<div class="btn-partners">
 							<h3> Become a Partner</h3>
-							<a href="http://yell.academy.red/general-inquiries"><button class="get-involved">Get In Touch</button></a>
-							<button class="get-involved2">Donate</button>
+							<a href="<?php echo esc_url( site_url( '/general-inquirires/' ) ); ?>" rel="general inquiries"><button class="get-involved">Get In Touch</button></a>
+							<a href="https://chimp.net/groups/yell-canada"><button class="get-involved2">Donate</button></a>
 							</div>
 				       </div>
 			 <div class="support-img">

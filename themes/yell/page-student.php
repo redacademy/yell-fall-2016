@@ -80,7 +80,7 @@ get_header(); ?>
 		<p>We are working to expand YELL all the time. Contact us HERE to let us know you’re interested!</p>
 </span>
 	</div>	
-		<a href="http://yell.academy.red/contact"><button class="yell-at"> YELL at us! ></button></a>
+		<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="yell-at"> YELL at us! ></button></a>
 	</div>
 		</main><!-- #main -->
 		</div>
