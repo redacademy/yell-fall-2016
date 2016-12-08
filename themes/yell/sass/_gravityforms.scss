@@ -36,8 +36,13 @@
 
 
 //=============================textarea styles================================
-.page-id-177 , .page-id-179{
-    .gform_page_fields { 
+
+.post-177 h1{
+    width:100%;
+}
+.gform_fields {
+
+
         h2 {
             color:$main-body-color;
             text-transform: uppercase;
@@ -48,6 +53,7 @@
             label {
                 color:$theme-peach-color;
                 font-family:$main-font-family;
+                width:80%;
             }
          }
           .ginput_container input{
@@ -59,12 +65,22 @@
             width:80%;
             td {
                 color: $theme-peach-color;
+                @include min-desktop {
+                    width:25%;
+                }
             }
           } 
-      }
-      
+      } 
+#field_1_23 {
+    .gfield_label{
+        color:$main-body-color;
+        text-transform: uppercase;
+    }
 }
-.gfrom_page_footer, input[type=button]{
+.gform_wrapper .textarea{
+    width:80%;
+}
+input[type=button]{
 width: 77%!important;
 margin-left: 2rem!important;
 text-align: center;
@@ -82,7 +98,9 @@ text-transform: uppercase;
 box-shadow: none;
 border: 3px solid $btn-border-color;
 
-
+@include min-desktop {
+    width:60%!important;
+}
 
    &:hover{
        border-color:$btn-border-color;
@@ -90,4 +108,42 @@ border: 3px solid $btn-border-color;
        background-color: darken($theme-blue-color, 10%);
    }
  }
+}
+input[type=submit] {
+width: 77%!important;
+margin-left: 2rem!important;
+text-align: center;
+height: 49px;
+background-color: $theme-orange-color;
+border-radius: 6px;
+font-size: 18px;
+font-weight: lighter;
+text-align: center;
+line-height: 22px;
+color: #FFFFFF ;
+font-family: $accent-font-family;
+text-shadow: none;
+text-transform: uppercase;
+box-shadow: none;
+border: 3px solid $btn-border-color;
+
+@include min-desktop {
+    width:60%!important;
+}
+
+   &:hover{
+       border-color:$btn-border-color;
+       box-shadow:none;
+       background-color: darken($theme-blue-color, 10%);
+   }
+ }  
+.gform_heading h3{
+    display:none;
+}
+@include min-desktop {
+.gform_page_footer {
+    display:flex;
+    width:80.5%!important;
+
+  }
 }
