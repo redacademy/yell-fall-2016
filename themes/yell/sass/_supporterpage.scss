@@ -158,7 +158,7 @@ margin: 5%;
     }
 }
 
-.child1, .child2, .child3 {
+.contact-profesh, .contact-sponsor, .contact-question {
     @include desktop {
         display:flex;
         width: 980px;
@@ -171,7 +171,7 @@ margin: 5%;
                      }
     }
 
-    .child1 {
+    .contact-profesh {
 
         @include desktop {
         p {
@@ -181,7 +181,7 @@ margin: 5%;
         }
     }
 
-    .child2 {
+    .contact-sponsor {
         @include desktop {
         p{
         margin-left:22%;

@@ -1908,7 +1908,7 @@ h3 {
       margin-right: 35%; } }
 
 @media (min-width: 1000px) {
-  .child1, .child2, .child3 {
+  .contact-profesh, .contact-sponsor, .contact-question {
     display: -ms-flexbox;
     display: flex;
     width: 980px;
@@ -1916,15 +1916,15 @@ h3 {
         justify-content: flex-end;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-    .child1 p, .child2 p, .child3 p {
+    .contact-profesh p, .contact-sponsor p, .contact-question p {
       padding-right: 3%; } }
 
 @media (min-width: 1000px) {
-  .child1 p {
+  .contact-profesh p {
     margin-left: 6.5%; } }
 
 @media (min-width: 1000px) {
-  .child2 p {
+  .contact-sponsor p {
     margin-left: 22%; } }
 
 .peachbtn {
