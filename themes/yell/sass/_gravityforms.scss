@@ -56,21 +56,28 @@
 
 //  #gf_progressbar_wrapper_1{
       
-//     width: 300px;
-//     margin: 0 auto;
-// }
+
  
 
 
 //=============================textarea styles================================
+    .gform_page_fields {
+        h2 {
+            color:$main-body-color;
+            text-transform: uppercase;
+        }
+        li {
+            border-bottom: none;
+            margin-left:2rem!important;
+            label {
+                color:$theme-peach-color;
+            }
+         }
+          .ginput_container input{
+              width:80%;
+          }
+        }
+
+    
 
 
-
-
-
-
-
-
-
-
-}
