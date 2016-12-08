@@ -63,6 +63,18 @@
     }
 }
 
+#field_1_24, #field_1_25,#field_1_26 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0!important;
+    img {
+    height: 40%;
+    width: 40%;
+    margin-bottom: 5rem;
+    }
+}
+
 .gform_wrapper .textarea{
     width:80%;
 }

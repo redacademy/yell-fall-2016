@@ -2424,6 +2424,17 @@ h5 {
   .page-id-177 #field_1_23 .gfield_label, .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
     text-transform: uppercase; }
+  .page-id-177 #field_1_24, .page-id-177 #field_1_25, .page-id-177 #field_1_26, .page-id-179 #field_1_24, .page-id-179 #field_1_25, .page-id-179 #field_1_26 {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0 !important; }
+    .page-id-177 #field_1_24 img, .page-id-177 #field_1_25 img, .page-id-177 #field_1_26 img, .page-id-179 #field_1_24 img, .page-id-179 #field_1_25 img, .page-id-179 #field_1_26 img {
+      height: 40%;
+      width: 40%;
+      margin-bottom: 5rem; }
   .page-id-177 .gform_wrapper .textarea, .page-id-179 .gform_wrapper .textarea {
     width: 80%; }
   .page-id-177 input[type=button], .page-id-179 input[type=button] {
