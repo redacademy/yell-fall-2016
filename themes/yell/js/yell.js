@@ -108,19 +108,52 @@ $('.home-hero').on('click', function(e) {
 
 //=======gravity forms progress bar change=========
 
-(function ( $ ) {
-var url = $(location).attr('href');
-var fileName = url.slice(url.lastIndexOf('/') + 1);
+// (function ( $ ) {
+// var url = $(location).attr('href');
+// var fileName = url.slice(url.lastIndexOf('/') + 1);
 
-switch (fileName){
-   case '#gf_1':
-     $('.progress-bar').css('display','none');
-	 $('.progress-bar2').css('display','block');
-     break;
-   case '#gf_2':
-   	 $('.progress-bar').css('display','none');
-     $('.progress-bar2').css('display','none');
-	 $('.progress-bar3').css('display','block');
-     break;
+// switch (fileName){
+//    case '#gf_1':
+//      $('.progress-bar').css('display','none');
+// 	 $('.progress-bar2').css('display','block');
+//      break;
+//    case '#gf_2':
+//    	 $('.progress-bar').css('display','none');
+//      $('.progress-bar2').css('display','none');
+// 	 $('.progress-bar3').css('display','block');
+//      break;
+// }
+// })(jQuery);
+
+
+
+(function ( $ ) {
+$('#gform_next_button_1_8').on('click', function(event) {
+	event.preventDefault()
+
+console.log('click works');
+
+if($('.gf_progressbar_title').text() === 'Step 2 of 3')){
+	console.log('we have hope');
 }
+
+
+})
+})(jQuery);
+
+(function ( $ ) {
+$('#gform_next_button_1_18').on('click', function(e) {
+
+if($('#gform_page_1_3').css('display') !== 'none') {
+	
+		$('.progress-bar').css('display','none');
+        $('.progress-bar2').css('display','none');
+		$('.progress-bar3').css('display','block');
+}
+else {
+    $('.progress-bar2').css('display','block');
+}
+
+
+})
 })(jQuery);
