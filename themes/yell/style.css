@@ -2456,52 +2456,33 @@ h5 {
     display: none; }
   .page-id-177 .progress-bar3, .page-id-179 .progress-bar3 {
     display: none; }
-<<<<<<< HEAD
-  .page-id-177 .page-id-177 .gform_page_fields h2, .page-id-177 .page-id-179 .gform_page_fields h2, .page-id-179 .page-id-177 .gform_page_fields h2, .page-id-179 .page-id-179 .gform_page_fields h2 {
-    color: #9B9B9B;
-    text-transform: uppercase; }
-  .page-id-177 .page-id-177 .gform_page_fields li, .page-id-177 .page-id-179 .gform_page_fields li, .page-id-179 .page-id-177 .gform_page_fields li, .page-id-179 .page-id-179 .gform_page_fields li {
-    border-bottom: none;
-    margin-left: 2rem !important; }
-    .page-id-177 .page-id-177 .gform_page_fields li label, .page-id-177 .page-id-179 .gform_page_fields li label, .page-id-179 .page-id-177 .gform_page_fields li label, .page-id-179 .page-id-179 .gform_page_fields li label {
-      color: #F4B473;
-      font-family: "Roboto", sans; }
-  .page-id-177 .page-id-177 .gform_page_fields .ginput_container input, .page-id-177 .page-id-179 .gform_page_fields .ginput_container input, .page-id-179 .page-id-177 .gform_page_fields .ginput_container input, .page-id-179 .page-id-179 .gform_page_fields .ginput_container input {
-    width: 80%; }
-  .page-id-177 .page-id-177 tbody tr, .page-id-177 .page-id-179 tbody tr, .page-id-179 .page-id-177 tbody tr, .page-id-179 .page-id-179 tbody tr {
-    width: 80%; }
-    .page-id-177 .page-id-177 tbody tr td, .page-id-177 .page-id-179 tbody tr td, .page-id-179 .page-id-177 tbody tr td, .page-id-179 .page-id-179 tbody tr td {
-      color: #F4B473; }
-  .page-id-177 .gfrom_page_footer, .page-id-177 input[type=button], .page-id-179 .gfrom_page_footer, .page-id-179 input[type=button] {
-=======
-  .page-id-177 .post-177 h1 {
+  .page-id-177 .post-177 h1, .page-id-179 .post-177 h1 {
     width: 100%; }
-  .page-id-177 .gform_fields h2 {
+  .page-id-177 .gform_fields h2, .page-id-179 .gform_fields h2 {
     color: #9B9B9B;
     text-transform: uppercase; }
-  .page-id-177 .gform_fields li {
+  .page-id-177 .gform_fields li, .page-id-179 .gform_fields li {
     border-bottom: none;
     margin-left: 2rem !important; }
-    .page-id-177 .gform_fields li label {
+    .page-id-177 .gform_fields li label, .page-id-179 .gform_fields li label {
       color: #F4B473;
       font-family: "Roboto", sans;
       width: 80%; }
-  .page-id-177 .gform_fields .ginput_container input {
+  .page-id-177 .gform_fields .ginput_container input, .page-id-179 .gform_fields .ginput_container input {
     width: 80%; }
-  .page-id-177 tbody tr {
+  .page-id-177 tbody tr, .page-id-179 tbody tr {
     width: 80%; }
-    .page-id-177 tbody tr td {
+    .page-id-177 tbody tr td, .page-id-179 tbody tr td {
       color: #F4B473; }
       @media (min-width: 600px) {
-        .page-id-177 tbody tr td {
+        .page-id-177 tbody tr td, .page-id-179 tbody tr td {
           width: 25%; } }
-  .page-id-177 #field_1_23 .gfield_label {
+  .page-id-177 #field_1_23 .gfield_label, .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
     text-transform: uppercase; }
-  .page-id-177 .gform_wrapper .textarea {
+  .page-id-177 .gform_wrapper .textarea, .page-id-179 .gform_wrapper .textarea {
     width: 80%; }
-  .page-id-177 input[type=button] {
->>>>>>> b55d853c0009efd7cb3388fdbd3f361c41ae6cdb
+  .page-id-177 input[type=button], .page-id-179 input[type=button] {
     width: 77% !important;
     margin-left: 2rem !important;
     text-align: center;
@@ -2518,14 +2499,10 @@ h5 {
     text-transform: uppercase;
     box-shadow: none;
     border: 3px solid #E8E8E8; }
-<<<<<<< HEAD
-    .page-id-177 .gfrom_page_footer:hover, .page-id-177 input[type=button]:hover, .page-id-179 .gfrom_page_footer:hover, .page-id-179 input[type=button]:hover {
-=======
     @media (min-width: 600px) {
-      .page-id-177 input[type=button] {
+      .page-id-177 input[type=button], .page-id-179 input[type=button] {
         width: 60% !important; } }
-    .page-id-177 input[type=button]:hover {
->>>>>>> b55d853c0009efd7cb3388fdbd3f361c41ae6cdb
+    .page-id-177 input[type=button]:hover, .page-id-179 input[type=button]:hover {
       border-color: #E8E8E8;
       box-shadow: none;
       background-color: #69acc1; }
