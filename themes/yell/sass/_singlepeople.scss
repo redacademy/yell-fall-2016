@@ -1,0 +1,40 @@
+.single-people-container {
+	display: flex;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  .single-people-thumb {
+	margin-right: 3rem;
+    margin: 1.5rem;
+    flex-basis: 55%;
+    }
+   .single-people-content {
+    flex-basis: 44%;
+    font-family: "merriweatherlight";
+    font-size: 1rem;
+
+    .single-people-price {
+    font-family: "novecento_normal";
+    font-size: 1.8rem;
+    margin:0;
+    }
+
+    .single-people-title {
+    	text-transform: uppercase;
+    	font-family: "novecento_demibold";
+    	font-size:2rem;
+    	color:#d99054;
+
+    	}
+    }
+}
+.people-type-header {
+
+    h1{
+    text-transform: uppercase;
+    font-family:"novecento_demibold";
+   }
+   .taxonomy-description p {
+    font-family: "merriweatherlight";
+   }
+ }

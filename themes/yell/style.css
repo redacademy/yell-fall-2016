@@ -851,7 +851,7 @@ object {
 .copyright {
   height: 35px; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .site-footer {
     display: -ms-flexbox;
     display: flex;
@@ -1528,20 +1528,20 @@ h3 {
 .timeline img {
   height: 300px; }
 
-.homepg-bg1 {
+.aboutpg-bg1 {
   background-color: white;
   background-image: url(../../images/orange-splash-about-desktop.png);
   background-repeat: no-repeat;
   background-size: 100% 350px;
   background-position-y: 10%; }
 
-.homepg-bg2 {
+.aboutpg-bg2 {
   background-image: url(../../images/blue-splash-about-mobile.png);
   background-repeat: no-repeat;
   background-size: 100% 350px;
   background-position-y: 50%; }
 
-.homepg-bg3 {
+.aboutpg-bg3 {
   background-image: url(../../images/blue-splash-about-desktop.png);
   background-repeat: no-repeat;
   background-size: 100% 350px;
