@@ -39,6 +39,7 @@
 
 .post-177 h1{
     width:100%;
+    border-bottom:none!important;
 }
 .gform_fields {
     h2 {
@@ -128,7 +129,7 @@ box-shadow: none;
 border: 3px solid $btn-border-color;
 
 @include min-desktop {
-    width:60%!important;
+    width:40%!important;
 }
 
   &:hover{
@@ -143,17 +144,19 @@ border: 3px solid $btn-border-color;
 @include min-desktop {
 .gform_page_footer {
     display:flex;
+    justify-content: flex-end;
     width:80.5%!important;
-
+    border-top: none!important;
   }
 }
 @include min-desktop {
-.gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
-display: block;
-float: left;
-width: 50%;
-}
-.gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
-display: none;
-}
+.gform_page_fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+.gform_column{
+    flex-basis:40%;
+  }
+ }
 }
