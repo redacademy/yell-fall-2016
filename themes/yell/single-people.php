@@ -1,4 +1,6 @@
 <?php
+
+/* Template Name: Single People */
 /**
  * The template for displaying all single posts.
  *
