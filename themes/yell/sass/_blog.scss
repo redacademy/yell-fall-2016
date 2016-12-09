@@ -1,6 +1,9 @@
 .blog {
     background-color: $testimonial-bg-lightgrey;
 
+    .nav-bar{
+        position:absolute;
+    }
     .cfs-hyperlink {
     text-decoration: none;
     font-family: $accent-font-family;

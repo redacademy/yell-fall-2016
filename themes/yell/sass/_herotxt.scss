@@ -6,7 +6,7 @@ h1 {
     text-transform: uppercase;
     font-size: 4.1rem;
     text-align: center;
-    font-family: Rubik,sans;
+    font-family: $accent-font-family;
     font-weight: 600;
     margin: 0 auto;
     // width: 70%;
@@ -20,4 +20,18 @@ h1 {
     @include desktop{
         font-size:4.1rem;
     }
+}
+
+.press-hero {
+    text-align: center;
+    padding-top: 15%;
+    font-family:$accent-font-family;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.7rem;
+
+    h1 {
+        font-size: 5rem;
+    }
+ 
 }

@@ -1367,6 +1367,8 @@ object {
 
 .blog {
   background-color: #F9f9f9; }
+  .blog .nav-bar {
+    position: absolute; }
   .blog .cfs-hyperlink {
     text-decoration: none;
     font-family: "Rubik", sans;
@@ -2447,7 +2449,7 @@ h5 {
   text-transform: uppercase;
   font-size: 4.1rem;
   text-align: center;
-  font-family: Rubik,sans;
+  font-family: "Rubik", sans;
   font-weight: 600;
   margin: 0 auto;
   padding-top: 5rem; }
@@ -2458,6 +2460,16 @@ h5 {
   @media (min-width: 1000px) {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
+
+.press-hero {
+  text-align: center;
+  padding-top: 15%;
+  font-family: "Rubik", sans;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.7rem; }
+  .press-hero h1 {
+    font-size: 5rem; }
 
 .page-id-161,
 .page-id-168 {
