@@ -427,12 +427,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */
-  width: 100%; }
-  @media (min-width: 600px) {
-    body {
-      width: 1300px; } }
+  background: #fff; }
 
 blockquote,
 q {
@@ -1372,6 +1367,8 @@ object {
 
 .blog {
   background-color: #F9f9f9; }
+  .blog .nav-bar {
+    position: absolute; }
   .blog .cfs-hyperlink {
     text-decoration: none;
     font-family: "Rubik", sans;
@@ -1385,7 +1382,7 @@ object {
         flex-wrap: wrap;
     -ms-flex-item-align: center;
         align-self: center;
-    margin: 0 auto;
+    margin: 100px auto;
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-pack: distribute;
@@ -1472,6 +1469,12 @@ object {
   font-family: "Roboto", sans;
   text-transform: uppercase;
   color: #9B9B9B; }
+
+.press-hero {
+  background-image: linear-gradient(to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100%), url(../../images/booksbanner.jpg);
+  height: 100vh;
+  background-position-y: 100%;
+  background-size: cover, cover; }
 
 .page-template-page-student,
 .page-template-page-expert,
@@ -2440,13 +2443,13 @@ h5 {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero h1 {
+.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero .press-hero h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
   font-size: 4.1rem;
   text-align: center;
-  font-family: Rubik,sans;
+  font-family: "Rubik", sans;
   font-weight: 600;
   margin: 0 auto;
   padding-top: 5rem; }
@@ -2457,6 +2460,16 @@ h5 {
   @media (min-width: 1000px) {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
+
+.press-hero {
+  text-align: center;
+  padding-top: 15%;
+  font-family: "Rubik", sans;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.7rem; }
+  .press-hero h1 {
+    font-size: 5rem; }
 
 .page-id-161,
 .page-id-168 {
@@ -2677,7 +2690,7 @@ h5 {
       width: 80%; }
   .page-id-177 .gform_fields .ginput_container input,
   .page-id-179 .gform_fields .ginput_container input {
-    width: 80%; }
+    width: 95% !important; }
   .page-id-177 tbody tr,
   .page-id-179 tbody tr {
     width: 80%; }
@@ -2687,7 +2700,11 @@ h5 {
       @media (min-width: 600px) {
         .page-id-177 tbody tr td,
         .page-id-179 tbody tr td {
-          width: 24.75%; } }
+          width: 47.75%; } }
+  @media (min-width: 600px) {
+    .page-id-177 #field_1_23,
+    .page-id-179 #field_1_23 {
+      margin-left: 11rem !important; } }
   .page-id-177 #field_1_23 .gfield_label,
   .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
@@ -2712,7 +2729,7 @@ h5 {
     .page-id-179 #field_1_26 img {
       height: 40%;
       width: 40%;
-      margin-bottom: 5rem; }
+      margin-bottom: 3rem; }
   .page-id-177 .gform_wrapper .textarea,
   .page-id-179 .gform_wrapper .textarea {
     width: 80%; }
@@ -2744,7 +2761,7 @@ h5 {
       box-shadow: none;
       background-color: #69acc1; }
 
-.gform_page_footer input[type=submit] {
+.gform_page_footer input[type=submit], .gform_page_footer #gform_next_button_1_8 {
   width: 77% !important;
   margin-left: 2rem !important;
   text-align: center;
@@ -2762,12 +2779,17 @@ h5 {
   box-shadow: none;
   border: 3px solid #E8E8E8; }
   @media (min-width: 600px) {
-    .gform_page_footer input[type=submit] {
+    .gform_page_footer input[type=submit], .gform_page_footer #gform_next_button_1_8 {
       width: 40% !important; } }
-  .gform_page_footer input[type=submit]:hover {
+  .gform_page_footer input[type=submit]:hover, .gform_page_footer #gform_next_button_1_8:hover {
     border-color: #E8E8E8;
     box-shadow: none;
-    background-color: #69acc1; }
+    background-color: #d1721d; }
+
+#gform_next_button_1_8 {
+  background-color: #8DC0D0 !important; }
+  #gform_next_button_1_8:hover {
+    background-color: #69acc1 !important; }
 
 .gform_heading h3 {
   display: none; }
@@ -2778,8 +2800,12 @@ h5 {
     display: flex;
     -ms-flex-pack: end;
         justify-content: flex-end;
-    width: 80.5% !important;
-    border-top: none !important; } }
+    border-top: none !important;
+    width: 80.5% !important; } }
+
+@media (min-width: 600px) {
+  #gform_page_1_1 .gform_page_footer {
+    width: 84% !important; } }
 
 @media (min-width: 600px) {
   .gform_page_fields {
@@ -2792,8 +2818,8 @@ h5 {
     -ms-flex-pack: center;
         justify-content: center; }
     .gform_page_fields .gform_column {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%; } }
+      -ms-flex-preferred-size: 35%;
+          flex-basis: 35%; } }
 
 .single img {
   border-radius: 50%; }

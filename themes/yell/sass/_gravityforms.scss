@@ -33,7 +33,7 @@
             }
         }
         .ginput_container input {
-            width: 80%;
+            width: 95%!important;
         }
     }
     tbody {
@@ -42,12 +42,15 @@
             td {
                 color: $theme-peach-color;
                 @include min-desktop {
-                    width: 24.75%;
+                    width: 47.75%;
                 }
             }
         }
     }
     #field_1_23 {
+     @include min-desktop {
+        margin-left:11rem!important;
+   }
         .gfield_label {
             color: $main-body-color;
             text-transform: uppercase;
@@ -63,7 +66,7 @@
         img {
             height: 40%;
             width: 40%;
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
     }
     .gform_wrapper .textarea {
@@ -120,10 +123,17 @@
     &:hover {
         border-color: $btn-border-color;
         box-shadow: none;
-        background-color: darken($theme-blue-color, 10%);
+        background-color: darken($theme-orange-color, 10%);
     }
 }
+#gform_next_button_1_8 {
+    @extend input[type=submit];
+    background-color:$theme-blue-color!important;
+    &:hover {
+        background-color: darken($theme-blue-color, 10%)!important;
+    }
 
+}
 .gform_heading h3 {
     display: none;
 }
@@ -132,11 +142,17 @@
     .gform_page_footer {
         display: flex;
         justify-content: flex-end;
-        width: 80.5%!important;
         border-top: none!important;
+        width:80.5%!important;
     }
 }
-
+@include min-desktop {
+    #gform_page_1_1 {
+        .gform_page_footer {
+            width:84%!important;
+        }
+    }
+}
 @include min-desktop {
     .gform_page_fields {
         display: flex;
@@ -144,7 +160,9 @@
         flex-wrap: wrap;
         justify-content: center;
         .gform_column {
-            flex-basis: 40%;
+            flex-basis: 35%;
+
+           }
+
         }
     }
-}
