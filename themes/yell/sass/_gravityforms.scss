@@ -33,7 +33,7 @@
             }
         }
         .ginput_container input {
-            width: 80%;
+            width: 95%!important;
         }
     }
     tbody {
@@ -42,12 +42,15 @@
             td {
                 color: $theme-peach-color;
                 @include min-desktop {
-                    width: 24.75%;
+                    width: 47.75%;
                 }
             }
         }
     }
     #field_1_23 {
+                @include min-desktop {
+           margin-left:11rem!important;
+         }
         .gfield_label {
             color: $main-body-color;
             text-transform: uppercase;
@@ -144,7 +147,9 @@
         flex-wrap: wrap;
         justify-content: center;
         .gform_column {
-            flex-basis: 40%;
+            flex-basis: 35%;
+
+           }
+
         }
     }
-}

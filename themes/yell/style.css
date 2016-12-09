@@ -427,12 +427,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */
-  width: 100%; }
-  @media (min-width: 600px) {
-    body {
-      width: 1300px; } }
+  background: #fff; }
 
 blockquote,
 q {
@@ -2668,7 +2663,7 @@ h5 {
       width: 80%; }
   .page-id-177 .gform_fields .ginput_container input,
   .page-id-179 .gform_fields .ginput_container input {
-    width: 80%; }
+    width: 95% !important; }
   .page-id-177 tbody tr,
   .page-id-179 tbody tr {
     width: 80%; }
@@ -2678,7 +2673,11 @@ h5 {
       @media (min-width: 600px) {
         .page-id-177 tbody tr td,
         .page-id-179 tbody tr td {
-          width: 24.75%; } }
+          width: 47.75%; } }
+  @media (min-width: 600px) {
+    .page-id-177 #field_1_23,
+    .page-id-179 #field_1_23 {
+      margin-left: 11rem !important; } }
   .page-id-177 #field_1_23 .gfield_label,
   .page-id-179 #field_1_23 .gfield_label {
     color: #9B9B9B;
@@ -2783,8 +2782,8 @@ h5 {
     -ms-flex-pack: center;
         justify-content: center; }
     .gform_page_fields .gform_column {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%; } }
+      -ms-flex-preferred-size: 35%;
+          flex-basis: 35%; } }
 
 .single img {
   border-radius: 50%; }
