@@ -18,12 +18,12 @@ get_header(); ?>
 					<div class="aboutpg-bg3">
 						<section class="about-text">
 							<h2>. About .</h2>
-							<h2>Our Mission</h2>
+							<h3>Our Mission</h3>
 							<?php echo CFS()->get( 'our_mission' ); ?>
-							<h2>Our Story</h2>
+							<h3>Our Story</h3>
 							<?php echo CFS()->get( 'our_story' ); ?>
 						</section>
-						<h2>. Our Team .</h2>
+						<h2>. Our Team .</h3>
 						<?php while ( have_posts() ) : the_post(); ?>
 						<div class="people-post">
 

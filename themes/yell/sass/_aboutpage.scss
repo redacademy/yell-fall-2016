@@ -22,6 +22,16 @@
            border-radius: 50%;
        }
    }
+   .page-template-page-about{
+       h2 {
+           color: $h2-orange-color;
+           text-align: center;
+           font-weight: lighter;
+           font-family: $accent-font-family;
+           font-size: $h2-font-size;
+           line-height: 43px;
+       }
+   }
    .aboutpage-button {
    .contact-us {
        width: 270px;

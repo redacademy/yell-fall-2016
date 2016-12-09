@@ -1507,6 +1507,14 @@ h3 {
   .people-post img {
     border-radius: 50%; }
 
+.page-template-page-about h2 {
+  color: #E48C3D;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Rubik", sans;
+  font-size: 36px;
+  line-height: 43px; }
+
 .aboutpage-button .contact-us {
   width: 270px;
   height: 49px;
