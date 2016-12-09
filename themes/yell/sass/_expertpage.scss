@@ -46,7 +46,7 @@
         width: 300px;
         margin-bottom: 15%;
     }
-    @include desktop {
+    @include min-desktop {
         .mentor-ul {
             margin-left: 2%;
         }

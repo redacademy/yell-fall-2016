@@ -117,7 +117,7 @@
         img {
             width: 90%;
 
-            @include desktop {
+            @include min-desktop {
                 width: 50%;
             }
         }
@@ -129,7 +129,7 @@
         flex-wrap:wrap;
         align-items: center;
 
-        @include desktop{
+        @include min-desktop{
             flex-wrap: nowrap;
         }
     }
@@ -162,19 +162,19 @@
         text-align: center;
         font-family: $accent-font-family;
         font-weight: 600;
-        @include desktop {
+        @include min-desktop {
             height: 800px;
         }
         h1:nth-child(1) {
             display: none;
-            @include desktop {
+            @include min-desktop {
                 display: block;
             }
         }
         h1:nth-child(2) {
             width: 100%;
             font-size: 2.5rem;
-            @include desktop {
+            @include min-desktop {
                 display: none;
             }
         }
@@ -188,7 +188,7 @@
         border: 2px solid white;
         margin: 50px auto;
         width: 400px;
-        @include desktop {
+        @include min-desktop {
             display: block;
         }
     }
@@ -240,7 +240,7 @@
     height: 55%;
     width: 80%;
     right: 50px;
-    @include desktop {
+    @include min-desktop {
         display: none;
         height: 70%;
         width: 80%;

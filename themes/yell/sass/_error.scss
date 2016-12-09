@@ -91,7 +91,7 @@
 
 .btn-wrapper {
     text-align: center;
-    @include desktop {
+    @include min-desktop {
         display: flex;
     }
 }
