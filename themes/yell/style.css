@@ -1793,7 +1793,8 @@ object {
   margin-left: 0; }
   @media (min-width: 1000px) {
     .page-template-page-expert ul {
-      margin-left: 5%; } }
+      margin-left: 15%;
+      width: 400px; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
@@ -1852,7 +1853,7 @@ object {
 
 .page-template-page-expert .speaker-info {
   display: none;
-  height: 800px;
+  height: 915px;
   -ms-flex-order: 1;
       order: 1; }
   .page-template-page-expert .speaker-info h2 {
@@ -2710,7 +2711,7 @@ h5 {
     .page-id-179 #field_1_26 img {
       height: 40%;
       width: 40%;
-      margin-bottom: 5rem; }
+      margin-bottom: 3rem; }
   .page-id-177 .gform_wrapper .textarea,
   .page-id-179 .gform_wrapper .textarea {
     width: 80%; }
@@ -2742,7 +2743,7 @@ h5 {
       box-shadow: none;
       background-color: #69acc1; }
 
-.gform_page_footer input[type=submit] {
+.gform_page_footer input[type=submit], .gform_page_footer #gform_next_button_1_8 {
   width: 77% !important;
   margin-left: 2rem !important;
   text-align: center;
@@ -2760,12 +2761,17 @@ h5 {
   box-shadow: none;
   border: 3px solid #E8E8E8; }
   @media (min-width: 600px) {
-    .gform_page_footer input[type=submit] {
+    .gform_page_footer input[type=submit], .gform_page_footer #gform_next_button_1_8 {
       width: 40% !important; } }
-  .gform_page_footer input[type=submit]:hover {
+  .gform_page_footer input[type=submit]:hover, .gform_page_footer #gform_next_button_1_8:hover {
     border-color: #E8E8E8;
     box-shadow: none;
-    background-color: #69acc1; }
+    background-color: #d1721d; }
+
+#gform_next_button_1_8 {
+  background-color: #8DC0D0 !important; }
+  #gform_next_button_1_8:hover {
+    background-color: #69acc1 !important; }
 
 .gform_heading h3 {
   display: none; }
@@ -2776,8 +2782,12 @@ h5 {
     display: flex;
     -ms-flex-pack: end;
         justify-content: flex-end;
-    width: 80.5% !important;
-    border-top: none !important; } }
+    border-top: none !important;
+    width: 80.5% !important; } }
+
+@media (min-width: 600px) {
+  #gform_page_1_1 .gform_page_footer {
+    width: 84% !important; } }
 
 @media (min-width: 600px) {
   .gform_page_fields {
