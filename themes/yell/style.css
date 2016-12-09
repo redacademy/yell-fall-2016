@@ -1798,7 +1798,8 @@ object {
   margin-left: 0; }
   @media (min-width: 1000px) {
     .page-template-page-expert ul {
-      margin-left: 5%; } }
+      margin-left: 15%;
+      width: 400px; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
@@ -1857,7 +1858,7 @@ object {
 
 .page-template-page-expert .speaker-info {
   display: none;
-  height: 800px;
+  height: 915px;
   -ms-flex-order: 1;
       order: 1; }
   .page-template-page-expert .speaker-info h2 {

@@ -10,7 +10,7 @@ function custom_people_type() {
 	$labels = array(
 		'name'                  => _x( 'People', 'Post Type General Name'),
 		'singular_name'         => _x( 'People', 'Post Type Singular Name'),
-		'menu_name'             => __( 'People Types'),
+		'menu_name'             => __( 'People'),
 		'name_admin_bar'        => __( 'People Type'),
 		'archives'              => __( 'People Archives'),
 		'parent_item_colon'     => __( 'Parent People:'),
@@ -43,6 +43,7 @@ function custom_people_type() {
 		'show_ui'               => true,
 		'show_in_menu'          => true,
 		'menu_position'         => 5,
+		'menu_icon'             => 'dashicons-id-alt',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
