@@ -1,6 +1,4 @@
 <?php
-
-/* Template Name: Single People */
 /**
  * The template for displaying all single posts.
  *
@@ -24,11 +22,9 @@ get_header(); ?>
 					</p>
 				</div>
 			</section>
-			<?php
-			?>
 				<?php endwhile; // End of the loop. ?>
 		</main>
 		<!-- #main -->
-	</section>>
+	</section>
 	<!-- #primary -->
 	<?php get_footer(); ?>
