@@ -2443,7 +2443,7 @@ h5 {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero .press-hero h1 {
+.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .press-hero h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
@@ -2461,14 +2461,14 @@ h5 {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 
-.press-hero {
+.press-hero, .about-hero {
   text-align: center;
   padding-top: 15%;
   font-family: "Rubik", sans;
   color: white;
   text-transform: uppercase;
   font-size: 3.7rem; }
-  .press-hero h1 {
+  .press-hero h1, .about-hero h1 {
     font-size: 5rem; }
 
 .page-id-161,

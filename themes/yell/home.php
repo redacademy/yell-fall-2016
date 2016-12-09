@@ -40,5 +40,6 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div>
-<a href="#" class="back-top"> Back to the top ^</a>
+<a href="#top" class="back-top" id="smoothup" title="Back to top">Back to the top ^</a>
+
 <?php get_footer(); ?>
