@@ -1385,7 +1385,7 @@ object {
         flex-wrap: wrap;
     -ms-flex-item-align: center;
         align-self: center;
-    margin: 0 auto;
+    margin: 100px auto;
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-pack: distribute;
@@ -1472,6 +1472,12 @@ object {
   font-family: "Roboto", sans;
   text-transform: uppercase;
   color: #9B9B9B; }
+
+.press-hero {
+  background-image: linear-gradient(to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100%), url(../../images/booksbanner.jpg);
+  height: 100vh;
+  background-position-y: 100%;
+  background-size: cover, cover; }
 
 .page-template-page-student,
 .page-template-page-expert,
@@ -1798,7 +1804,8 @@ object {
   margin-left: 0; }
   @media (min-width: 1000px) {
     .page-template-page-expert ul {
-      margin-left: 5%; } }
+      margin-left: 15%;
+      width: 400px; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;
@@ -1857,7 +1864,7 @@ object {
 
 .page-template-page-expert .speaker-info {
   display: none;
-  height: 800px;
+  height: 915px;
   -ms-flex-order: 1;
       order: 1; }
   .page-template-page-expert .speaker-info h2 {
@@ -2439,7 +2446,7 @@ h5 {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero h1 {
+.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero .press-hero h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
