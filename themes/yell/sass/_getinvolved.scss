@@ -1,6 +1,5 @@
 .page-template-page-get-involved {
-
-    font-family: $accent-font-family;
+   
     h1 {
         display: none;
     }
@@ -54,11 +53,18 @@
     p {
         color: #fff;
         margin-top: -11%;
-        margin-left: 39%;
+        margin-left: 31%;
         text-transform: lowercase;
         text-align: left;
         text-decoration: none;
         font-size: 14px;
+    }
+
+    h5 {
+        span {
+        position: relative;
+        left: 70px;
+        }
     }
     &:hover {
         background-color: darken($theme-blue-color, 10%);
@@ -90,10 +96,18 @@
     p {
         color: #fff;
         margin-top: -11%;
-        margin-left: 39%;
+        margin-left: 31%;
         text-transform: lowercase;
         text-align: left;
         font-size: 14px;
+    }
+
+    h5 {
+        span {
+        position: relative;
+        left: 6px;
+    }
+        
     }
     &:hover {
         background-color: darken($theme-peach-color, 10%);
@@ -125,7 +139,7 @@
     p {
         color: #fff;
         margin-top: -11%;
-        margin-left: 39%;
+        margin-left: 31%;
         text-transform: lowercase;
         text-align: left;
         font-size: 14px;
@@ -136,10 +150,15 @@
 }
 
 h5 {
-    margin-left: 38%;
+    margin-left: 31%;
     font-weight: 200;
     text-align: left;
     font-size: 24px;
+
+    span {
+    position: relative;
+    left:39px;
+    }
 }
 
 .btn-wrapper {
@@ -147,6 +166,7 @@ h5 {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    margin-bottom:15%;
     @include desktop {
         display: flex;
         flex-direction: row;

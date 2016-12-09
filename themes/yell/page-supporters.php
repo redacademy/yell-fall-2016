@@ -24,6 +24,12 @@ get_header(); ?>
 				?>
 					<?php echo CFS()->get( 'the_young' ); ?>
 			</div>
+
+			<div class="support-img">
+				<h3> Our Partners</h3>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/supporters.png" alt="Partners">
+			</div>
+			
 			<h3> Our Board </h3>
 			<section class="board-wrapper">
 				<?php 
@@ -55,10 +61,7 @@ get_header(); ?>
 					<a href="https://chimp.net/groups/yell-canada"><button class="get-involved2">Donate</button></a>
 				</div>
 			</div>
-			<div class="support-img">
-				<h3> Our Partners</h3>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/supporters.png" alt="Partners">
-			</div>
+			
 		</main>
 		<!-- #main -->
 	</div>

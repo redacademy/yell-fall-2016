@@ -1641,6 +1641,9 @@ object {
 .timeline img {
   height: 300px; }
 
+.page-id-168 .entry-content p {
+  font-family: "Rubik", sans; }
+
 .aboutpg-bg1 {
   background-color: white;
   background-image: url(../../images/orange-splash-about-desktop.png);
@@ -2097,7 +2100,7 @@ object {
         flex-wrap: wrap;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    margin: 0 auto;
+    margin: 110px auto;
     width: 575px;
     height: 30vh;
     padding-bottom: 5rem; }
@@ -2276,30 +2279,31 @@ object {
       display: -ms-flexbox;
       display: flex; } }
 
-.page-template-page-get-involved {
-  font-family: "Rubik", sans; }
-  .page-template-page-get-involved h1 {
-    display: none; }
-  .page-template-page-get-involved h3 {
-    font-family: "Rubik", sans;
-    color: #6D6D6D;
-    font-size: 14px;
-    font-weight: 300;
-    font-size: 36px;
-    border-bottom: 1px solid #D0D0D0;
-    width: 270px;
-    margin: 50px auto; }
-  .page-template-page-get-involved .involved-info {
-    margin: 0 auto;
-    text-align: center; }
-  .page-template-page-get-involved p {
-    font-size: 16px;
-    max-width: 60%;
-    color: #9B9B9B;
-    margin: 0 auto;
-    padding-bottom: 2%;
-    font-family: "Roboto", sans;
-    text-align: center; }
+.page-template-page-get-involved h1 {
+  display: none; }
+
+.page-template-page-get-involved h3 {
+  font-family: "Rubik", sans;
+  color: #6D6D6D;
+  font-size: 14px;
+  font-weight: 300;
+  font-size: 36px;
+  border-bottom: 1px solid #D0D0D0;
+  width: 270px;
+  margin: 50px auto; }
+
+.page-template-page-get-involved .involved-info {
+  margin: 0 auto;
+  text-align: center; }
+
+.page-template-page-get-involved p {
+  font-size: 16px;
+  max-width: 60%;
+  color: #9B9B9B;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  font-family: "Roboto", sans;
+  text-align: center; }
 
 .studentbtn {
   width: 345px;
@@ -2325,11 +2329,14 @@ object {
   .studentbtn p {
     color: #fff;
     margin-top: -11%;
-    margin-left: 39%;
+    margin-left: 31%;
     text-transform: lowercase;
     text-align: left;
     text-decoration: none;
     font-size: 14px; }
+  .studentbtn h5 span {
+    position: relative;
+    left: 70px; }
   .studentbtn:hover {
     background-color: #69acc1; }
 
@@ -2357,10 +2364,13 @@ object {
   .expertbtn p {
     color: #fff;
     margin-top: -11%;
-    margin-left: 39%;
+    margin-left: 31%;
     text-transform: lowercase;
     text-align: left;
     font-size: 14px; }
+  .expertbtn h5 span {
+    position: relative;
+    left: 6px; }
   .expertbtn:hover {
     background-color: #f09b44; }
 
@@ -2388,7 +2398,7 @@ object {
   .supportbtn p {
     color: #fff;
     margin-top: -11%;
-    margin-left: 39%;
+    margin-left: 31%;
     text-transform: lowercase;
     text-align: left;
     font-size: 14px; }
@@ -2396,10 +2406,13 @@ object {
     background-color: #d1721d; }
 
 h5 {
-  margin-left: 38%;
+  margin-left: 31%;
   font-weight: 200;
   text-align: left;
   font-size: 24px; }
+  h5 span {
+    position: relative;
+    left: 39px; }
 
 .btn-wrapper {
   display: -ms-flexbox;
@@ -2409,7 +2422,8 @@ h5 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  margin-bottom: 15%; }
   @media (min-width: 1000px) {
     .btn-wrapper {
       display: -ms-flexbox;
@@ -2428,8 +2442,12 @@ h5 {
   margin: 0 auto;
   padding-top: 5rem; }
 
-.supporters-hero h1 {
+.supporters-hero, .expert-hero h1 {
+  font-size: 38px;
   padding: 0; }
+  @media (min-width: 1000px) {
+    .supporters-hero, .expert-hero h1 {
+      font-size: 4.1rem; } }
 
 .page-id-161,
 .page-id-168 {
