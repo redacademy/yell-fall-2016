@@ -1336,7 +1336,8 @@ object {
   .page-template-page-supporters .menu-primary-menu-container ul li a,
   .error404 .menu-primary-menu-container ul li a,
   .page-template-page-program .menu-primary-menu-container ul li a,
-  .page-id-173 .menu-primary-menu-container ul li a {
+  .page-id-173 .menu-primary-menu-container ul li a,
+  .blog .menu-primary-menu-container ul li a {
     color: white; }
     .home .menu-primary-menu-container ul li a:hover,
     .page-template-page-about .menu-primary-menu-container ul li a:hover,
@@ -1344,7 +1345,8 @@ object {
     .page-template-page-supporters .menu-primary-menu-container ul li a:hover,
     .error404 .menu-primary-menu-container ul li a:hover,
     .page-template-page-program .menu-primary-menu-container ul li a:hover,
-    .page-id-173 .menu-primary-menu-container ul li a:hover {
+    .page-id-173 .menu-primary-menu-container ul li a:hover,
+    .blog .menu-primary-menu-container ul li a:hover {
       color: #F4B473; }
   .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
   .page-template-page-about .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
@@ -1352,7 +1354,8 @@ object {
   .page-template-page-supporters .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
   .error404 .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
   .page-template-page-program .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
-  .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a {
+  .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a,
+  .blog .menu-primary-menu-container ul li:nth-last-child(-n+1) a {
     border: 2px solid white;
     color: white; }
     .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
@@ -1361,7 +1364,8 @@ object {
     .page-template-page-supporters .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
     .error404 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
     .page-template-page-program .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
-    .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover {
+    .page-id-173 .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
+    .blog .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover {
       border-color: #F4B473;
       color: #F4B473; } }
 
