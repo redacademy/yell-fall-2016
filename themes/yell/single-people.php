@@ -16,11 +16,10 @@ get_header(); ?>
 					<h2 class="single-people-title">
 						<?php the_title();?>
 					</h2>
-				
 					<p class="single-people-description">
-						<?php the_content();?>
+						<?php echo CFS()->get( 'person_position' ); ?>
+						<?php echo CFS()->get( 'person-description' ); ?>
 					</p>
-				
 				</div>
 			</section>
 			<?php

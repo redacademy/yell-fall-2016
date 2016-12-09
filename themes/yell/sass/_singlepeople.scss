@@ -1,38 +1,36 @@
 .single {
     img {
-              border-radius: 50%;
-
+        border-radius: 50%;
     }
 }
 
 .single-people-container {
-	display: flex;
-	margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-
-  .single-people-thumb {
-	margin-right: 3rem;
-    margin: 1.5rem;
-    flex-basis: 55%;
+    .single-people-thumb {
+        margin-right: 3rem;
+        margin: 1.5rem;
+        flex-basis: 55%;
     }
-   .single-people-content {
-    flex-basis: 44%;
-    font-family:  $main-font-family;
-    font-size: 1rem;
-
-
-    .single-people-title {
-    	font-family: $accent-font-family;
-    	font-size:2rem;
-    	color:#d99054;
-
-    	}
+    .single-people-content {
+        flex-basis: 44%;
+        font-family: $main-font-family;
+        font-size: 1rem;
+        .single-people-title {
+            font-family: $accent-font-family;
+            font-size: 2rem;
+            color: #d99054;
+        }
+    }
+    .single-people-description{
+        text-align: center;
     }
 }
-.people-type-header {
 
-    h1{
-    font-family:$accent-font-family;
-   }
- 
- }
+.people-type-header {
+    h1 {
+        font-family: $accent-font-family;
+    }
+}

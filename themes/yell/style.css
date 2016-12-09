@@ -2553,6 +2553,7 @@ h5 {
   border-radius: 50%; }
 
 .single-people-container {
+  text-align: center;
   display: -ms-flexbox;
   display: flex;
   margin-top: 2rem;
@@ -2571,6 +2572,8 @@ h5 {
       font-family: "Rubik", sans;
       font-size: 2rem;
       color: #d99054; }
+  .single-people-container .single-people-description {
+    text-align: center; }
 
 .people-type-header h1 {
   font-family: "Rubik", sans; }
