@@ -1794,10 +1794,6 @@ object {
 .page-template-page-expert ul {
   text-align: left;
   margin-left: 0; }
-  @media (min-width: 1000px) {
-    .page-template-page-expert ul {
-      margin-left: 15%;
-      width: 400px; } }
 
 .page-template-page-expert .mentor-ul {
   margin-left: 22%;

@@ -40,10 +40,6 @@
     ul {
         text-align: left;
         margin-left: 0;
-        @include desktop {
-            margin-left: 15%;
-            width:400px;
-        }
     }
     .mentor-ul {
         margin-left: 22%;
