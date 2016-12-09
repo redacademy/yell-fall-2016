@@ -168,7 +168,7 @@ h5 {
     justify-content: space-around;
     flex-direction: column;
     margin-bottom:15%;
-    @include desktop {
+    @include min-desktop {
         display: flex;
         flex-direction: row;
     }

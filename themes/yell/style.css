@@ -1015,7 +1015,7 @@ object {
         align-items: center; }
   .home .chart-wrap img {
     width: 90%; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .home .chart-wrap img {
         width: 50%; } }
   .home .bubble-chart {
@@ -1027,7 +1027,7 @@ object {
         flex-wrap: wrap;
     -ms-flex-align: center;
         align-items: center; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .home .bubble-chart {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap; } }
@@ -1058,18 +1058,18 @@ object {
     text-align: center;
     font-family: "Rubik", sans;
     font-weight: 600; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .home .home-hero {
         height: 800px; } }
     .home .home-hero h1:nth-child(1) {
       display: none; }
-      @media (min-width: 1000px) {
+      @media (min-width: 600px) {
         .home .home-hero h1:nth-child(1) {
           display: block; } }
     .home .home-hero h1:nth-child(2) {
       width: 100%;
       font-size: 2.5rem; }
-      @media (min-width: 1000px) {
+      @media (min-width: 600px) {
         .home .home-hero h1:nth-child(2) {
           display: none; } }
   .home .home-hero-p {
@@ -1081,7 +1081,7 @@ object {
     border: 2px solid white;
     margin: 50px auto;
     width: 400px; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .home .home-hero-p {
         display: block; } }
   .home .testimonial-wrapper {
@@ -1128,7 +1128,7 @@ object {
   height: 55%;
   width: 80%;
   right: 50px; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     #video {
       display: none;
       height: 70%;
@@ -1510,7 +1510,7 @@ object {
     font-weight: 300;
     font-size: 24px;
     text-align: center; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .page-template-page-student .site-main h2,
       .page-template-page-expert .site-main h2,
       .page-template-page-program .site-main h2 {
@@ -1800,7 +1800,7 @@ object {
   width: 300px;
   margin-bottom: 15%; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .page-template-page-expert .mentor-ul {
     margin-left: 2%; } }
 
@@ -2010,7 +2010,7 @@ object {
     .page-template-page-contact .support-img img {
       width: 450px;
       height: 200px; }
-      @media (min-width: 1000px) {
+      @media (min-width: 600px) {
         .page-template-page-supporters .support-img img,
         .page-template-page-contact .support-img img {
           width: 850px;
@@ -2273,7 +2273,7 @@ object {
 
 .btn-wrapper {
   text-align: center; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     .btn-wrapper {
       display: -ms-flexbox;
       display: flex; } }
@@ -2422,7 +2422,7 @@ h5 {
   -ms-flex-direction: column;
       flex-direction: column;
   margin-bottom: 15%; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     .btn-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -2443,7 +2443,7 @@ h5 {
 .supporters-hero, .expert-hero h1 {
   font-size: 38px;
   padding: 0; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 

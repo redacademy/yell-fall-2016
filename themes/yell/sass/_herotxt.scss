@@ -17,7 +17,7 @@ h1 {
     font-size:38px;
     padding:0;
 
-    @include desktop{
+    @include min-desktop{
         font-size:4.1rem;
     }
 }
