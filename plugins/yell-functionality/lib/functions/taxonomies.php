@@ -23,7 +23,7 @@ function custom_taxonomy() {
 		'add_or_remove_items'        => __( 'Add or remove people', 'text_domain' ),
 		'choose_from_most_used'      => __( 'Choose from the most used', 'text_domain' ),
 		'popular_items'              => __( 'Popular people', 'text_domain' ),
-		'search_items'               => __( 'Search people', 'text_domain' ),
+		'search_items'               => __( 'Search people'),
 		'not_found'                  => __( 'Not Found', 'text_domain' ),
 		'no_terms'                   => __( 'No people', 'text_domain' ),
 		'items_list'                 => __( 'people list', 'text_domain' ),
