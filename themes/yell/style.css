@@ -1506,6 +1506,8 @@ h3 {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
     width: 335px; }
   .about-text h3 {
     font-family: "Rubik", sans;
@@ -2546,3 +2548,29 @@ h5 {
     .gform_page_fields .gform_column {
       -ms-flex-preferred-size: 40%;
           flex-basis: 40%; } }
+
+.single img {
+  border-radius: 50%; }
+
+.single-people-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .single-people-container .single-people-thumb {
+    margin-right: 3rem;
+    margin: 1.5rem;
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%; }
+  .single-people-container .single-people-content {
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+    font-family: "Roboto", sans;
+    font-size: 1rem; }
+    .single-people-container .single-people-content .single-people-title {
+      font-family: "Rubik", sans;
+      font-size: 2rem;
+      color: #d99054; }
+
+.people-type-header h1 {
+  font-family: "Rubik", sans; }

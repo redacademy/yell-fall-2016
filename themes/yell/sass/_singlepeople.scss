@@ -1,3 +1,10 @@
+.single {
+    img {
+              border-radius: 50%;
+
+    }
+}
+
 .single-people-container {
 	display: flex;
 	margin-top: 2rem;
@@ -10,18 +17,12 @@
     }
    .single-people-content {
     flex-basis: 44%;
-    font-family: "merriweatherlight";
+    font-family:  $main-font-family;
     font-size: 1rem;
 
-    .single-people-price {
-    font-family: "novecento_normal";
-    font-size: 1.8rem;
-    margin:0;
-    }
 
     .single-people-title {
-    	text-transform: uppercase;
-    	font-family: "novecento_demibold";
+    	font-family: $accent-font-family;
     	font-size:2rem;
     	color:#d99054;
 
@@ -31,10 +32,7 @@
 .people-type-header {
 
     h1{
-    text-transform: uppercase;
-    font-family:"novecento_demibold";
+    font-family:$accent-font-family;
    }
-   .taxonomy-description p {
-    font-family: "merriweatherlight";
-   }
+ 
  }
