@@ -1,6 +1,9 @@
 .blog {
     background-color: $testimonial-bg-lightgrey;
 
+    .nav-bar{
+        position:absolute;
+    }
     .cfs-hyperlink {
     text-decoration: none;
     font-family: $accent-font-family;
@@ -14,7 +17,7 @@
         display: flex;
         flex-wrap: wrap;
         align-self: center;
-        margin: 0 auto;
+        margin: 100px auto;
         justify-content: center;
         justify-content: space-around;
         // header {
@@ -115,3 +118,9 @@
     text-transform: uppercase;
     color: $main-body-color;
 }
+ .press-hero{
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url(../../images/booksbanner.jpg);
+         height:100vh;
+         background-position-y:100%;
+         background-size: cover, cover;
+ }

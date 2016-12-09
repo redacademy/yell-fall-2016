@@ -1367,6 +1367,8 @@ object {
 
 .blog {
   background-color: #F9f9f9; }
+  .blog .nav-bar {
+    position: absolute; }
   .blog .cfs-hyperlink {
     text-decoration: none;
     font-family: "Rubik", sans;
@@ -1380,7 +1382,7 @@ object {
         flex-wrap: wrap;
     -ms-flex-item-align: center;
         align-self: center;
-    margin: 0 auto;
+    margin: 100px auto;
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-pack: distribute;
@@ -1467,6 +1469,12 @@ object {
   font-family: "Roboto", sans;
   text-transform: uppercase;
   color: #9B9B9B; }
+
+.press-hero {
+  background-image: linear-gradient(to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100%), url(../../images/booksbanner.jpg);
+  height: 100vh;
+  background-position-y: 100%;
+  background-size: cover, cover; }
 
 .page-template-page-student,
 .page-template-page-expert,
@@ -2425,13 +2433,13 @@ h5 {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero h1 {
+.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .about-hero .press-hero h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
   font-size: 4.1rem;
   text-align: center;
-  font-family: Rubik,sans;
+  font-family: "Rubik", sans;
   font-weight: 600;
   margin: 0 auto;
   padding-top: 5rem; }
@@ -2442,6 +2450,16 @@ h5 {
   @media (min-width: 1000px) {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
+
+.press-hero {
+  text-align: center;
+  padding-top: 15%;
+  font-family: "Rubik", sans;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.7rem; }
+  .press-hero h1 {
+    font-size: 5rem; }
 
 .page-id-161,
 .page-id-168 {

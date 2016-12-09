@@ -1,5 +1,5 @@
 
-<div class="press-hero">News and Stories
+
 <?php
 /*
 Template Name: Press and Stories Page
@@ -8,6 +8,7 @@ Template Name: Press and Stories Page
  */
 
 get_header(); ?>
+<div class="press-hero"><h1>News and Stories</h1>
 </div>
 
 <div class="flexwrapper-blog">
