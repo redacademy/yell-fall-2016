@@ -952,7 +952,7 @@ object {
     background-size: 100% 350px;
     background-position-y: 90%; }
   .home #playbtn {
-    border: 9px solid #fff;
+    border: 2px solid #fff;
     margin: 10px auto;
     height: 100px;
     width: 100px;
@@ -960,17 +960,15 @@ object {
     border-radius: 50%;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
+    -ms-flex-align: center;
+        align-items: center; }
     .home #playbtn:hover {
       border-color: #F4B473; }
       .home #playbtn:hover i {
         color: #F4B473; }
     .home #playbtn i {
-      margin-left: 15px;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center; }
+      margin-left: 39px;
+      font-size: 30px; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -1016,14 +1014,23 @@ object {
     -ms-flex-align: center;
         align-items: center; }
   .home .chart-wrap img {
-    width: 50%; }
+    width: 90%; }
+    @media (min-width: 1000px) {
+      .home .chart-wrap img {
+        width: 50%; } }
   .home .bubble-chart {
     display: -ms-flexbox;
     display: flex;
     margin-left: 5%;
     width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-align: center;
         align-items: center; }
+    @media (min-width: 1000px) {
+      .home .bubble-chart {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap; } }
   .home .get-involved {
     width: 270px;
     height: 49px;
@@ -1061,7 +1068,7 @@ object {
           display: block; } }
     .home .home-hero h1:nth-child(2) {
       width: 100%;
-      font-size: 2.7rem; }
+      font-size: 2.5rem; }
       @media (min-width: 1000px) {
         .home .home-hero h1:nth-child(2) {
           display: none; } }
@@ -2200,7 +2207,9 @@ object {
   text-align: center;
   font-family: "Rubik", sans;
   font-weight: 600;
-  padding: 25%; }
+  padding: 25%;
+  width: 100%;
+  background-position: center; }
 
 .contactbtn {
   width: 270px;
@@ -2274,31 +2283,30 @@ object {
       display: -ms-flexbox;
       display: flex; } }
 
-.page-template-page-get-involved h1 {
-  display: none; }
-
-.page-template-page-get-involved h3 {
-  font-family: "Rubik", sans;
-  color: #6D6D6D;
-  font-size: 14px;
-  font-weight: 300;
-  font-size: 36px;
-  border-bottom: 1px solid #D0D0D0;
-  width: 270px;
-  margin: 50px auto; }
-
-.page-template-page-get-involved .involved-info {
-  margin: 0 auto;
-  text-align: center; }
-
-.page-template-page-get-involved p {
-  font-size: 16px;
-  max-width: 60%;
-  color: #9B9B9B;
-  margin: 0 auto;
-  padding-bottom: 2%;
-  font-family: "Roboto", sans;
-  text-align: center; }
+.page-template-page-get-involved {
+  background-color: #f2f2f2; }
+  .page-template-page-get-involved h1 {
+    display: none; }
+  .page-template-page-get-involved h3 {
+    font-family: "Rubik", sans;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-weight: 300;
+    font-size: 36px;
+    border-bottom: 1px solid #D0D0D0;
+    width: 270px;
+    margin: 50px auto; }
+  .page-template-page-get-involved .involved-info {
+    margin: 0 auto;
+    text-align: center; }
+  .page-template-page-get-involved p {
+    font-size: 16px;
+    max-width: 60%;
+    color: #9B9B9B;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    font-family: "Roboto", sans;
+    text-align: center; }
 
 .studentbtn {
   width: 345px;
@@ -2325,7 +2333,7 @@ object {
     color: #fff;
     margin-top: -11%;
     margin-left: 31%;
-    text-transform: lowercase;
+    text-transform: initial;
     text-align: left;
     text-decoration: none;
     font-size: 14px; }
@@ -2360,7 +2368,7 @@ object {
     color: #fff;
     margin-top: -11%;
     margin-left: 31%;
-    text-transform: lowercase;
+    text-transform: initial;
     text-align: left;
     font-size: 14px; }
   .expertbtn h5 span {
@@ -2394,7 +2402,7 @@ object {
     color: #fff;
     margin-top: -11%;
     margin-left: 31%;
-    text-transform: lowercase;
+    text-transform: initial;
     text-align: left;
     font-size: 14px; }
   .supportbtn:hover {
