@@ -1,5 +1,15 @@
 .blog {
     background-color: $testimonial-bg-lightgrey;
+
+    .cfs-hyperlink {
+    text-decoration: none;
+    font-family: $accent-font-family;
+    color: $h4-color;
+
+    span {
+        margin: 2%;
+    }
+    }
     .site-main {
         display: flex;
         flex-wrap: wrap;
