@@ -18,7 +18,7 @@ get_header(); ?>
 					</h2>
 					<p class="single-people-description">
 						<?php echo CFS()->get( 'person_position' ); ?>
-						<?php echo CFS()->get( 'person-description' ); ?>
+						<?php echo CFS()->get( 'person_description' ); ?>
 					</p>
 				</div>
 			</section>
