@@ -38,7 +38,6 @@ function custom_people_type() {
 		'label'                 => __( 'People', 'text_domain' ),
 		'description'           => __( 'People Type Description', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail', 'comments', 'custom-fields', ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
