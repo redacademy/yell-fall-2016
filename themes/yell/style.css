@@ -1490,11 +1490,6 @@ object {
   .page-template-page-program .homepg-bg3 {
     background-size: 100% 850px;
     background-position-y: 100%; }
-  @media (min-width: 600px) {
-    .page-template-page-student,
-    .page-template-page-expert,
-    .page-template-page-program {
-      width: 1300px; } }
   .page-template-page-student img,
   .page-template-page-expert img,
   .page-template-page-program img {
@@ -1969,8 +1964,7 @@ object {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
-        justify-content: space-between;
-    width: 1300px; } }
+        justify-content: space-between; } }
 
 .testimonial-wrapper3,
 .testimonial-wrapper2 {
@@ -1993,10 +1987,6 @@ object {
   text-align: center;
   background-color: white;
   width: 100%; }
-  @media (min-width: 600px) {
-    .page-template-page-supporters,
-    .page-template-page-contact {
-      width: 1300px; } }
   .page-template-page-supporters .entry-title,
   .page-template-page-contact .entry-title {
     display: none; }

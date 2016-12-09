@@ -4,9 +4,7 @@
     text-align: center;
     background-color: white;
     width: 100%;
-    @include min-desktop {
-        width: 1300px;
-    }
+    
     .entry-title {
         display: none;
     }
