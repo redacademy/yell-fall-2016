@@ -9,21 +9,23 @@ html {
 
 *,
 *:before,
-*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
 }
 
 body {
-	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
-	width:100%;
-	@include min-desktop{
-	width:1300px;
+	background: $color__background-body;
+	/* Fallback for when there is no custom background color defined. */
+	width: 100%;
+	@include min-desktop {
+		width: 1300px;
 	}
 }
- 
-blockquote, q {
-	quotes: "" "";
 
+blockquote,
+q {
+	quotes: "" "";
 	&:before,
 	&:after {
 		content: "";
@@ -37,7 +39,8 @@ hr {
 	margin-bottom: $base__space-unit;
 }
 
-ul, ol {
+ul,
+ol {
 	margin: 0 0 $base__space-unit ($base__space-unit * 2);
 }
 
@@ -49,8 +52,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: $base__space-unit;
 }
@@ -64,8 +67,10 @@ dd {
 }
 
 img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
 }
 
 table {

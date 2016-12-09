@@ -2,102 +2,94 @@
     .logo {
         height: 100px;
     }
-
 }
-    .hero-404 {
-         background: url(../../images/404.png), no-repeat center bottom;
-         height: 100vh;
-         background-size: cover;
-         color: white;
-        text-transform: uppercase;
-        font-size: 96px;
-        text-align: center;
-        font-family:$accent-font-family;
-        font-weight:600;
-        padding:25%;
+
+.hero-404 {
+    background: url(../../images/404.png), no-repeat center bottom;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-size: 96px;
+    text-align: center;
+    font-family: $accent-font-family;
+    font-weight: 600;
+    padding: 25%;
 }
 
 .contactbtn {
-width: 270px;
-height: 49px;
-background-color: $theme-orange-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-margin: 5%;
-    a{
-        color: #FFFFFF ;
+    width: 270px;
+    height: 49px;
+    background-color: $theme-orange-color;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: $accent-font-family;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid $btn-border-color;
+    margin: 5%;
+    a {
+        color: #FFFFFF;
         text-decoration: none;
-
     }
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-      background-color: darken($theme-orange-color, 10%);
-   }
-   
+    &:hover {
+        border-color: $btn-border-color;
+        box-shadow: none;
+        background-color: darken($theme-orange-color, 10%);
+    }
 }
 
 .backbtn {
-width: 270px;
-height: 49px;
-background-color: #B6B6B6;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-margin: 5%;
-    a{
-        color: #FFFFFF ;
+    width: 270px;
+    height: 49px;
+    background-color: #B6B6B6;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: $accent-font-family;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid $btn-border-color;
+    margin: 5%;
+    a {
+        color: #FFFFFF;
         text-decoration: none;
-
     }
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-      background-color: darken(#B6B6B6, 10%);
-   }
-   
+    &:hover {
+        border-color: $btn-border-color;
+        box-shadow: none;
+        background-color: darken(#B6B6B6, 10%);
+    }
 }
 
 .error-404 {
     margin-top: 5%;
-    display: flex; 
+    display: flex;
     align-items: center;
     flex-flow: column;
-
     p {
         font-size: 16px;
         max-width: 60%;
-        color:$main-body-color;
+        color: $main-body-color;
         margin: 0 auto;
         padding-bottom: 2%;
-        font-family:$main-font-family;
+        font-family: $main-font-family;
         text-align: center;
     }
 }
 
 .btn-wrapper {
-    text-align:center;
-
+    text-align: center;
     @include desktop {
-        display:flex;
+        display: flex;
     }
 }

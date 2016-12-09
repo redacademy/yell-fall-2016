@@ -1,146 +1,126 @@
-.page-template-page-supporters, .page-template-page-contact {
-
-
-    color:$main-body-color;
-      text-align:center;
-       background-color: white;
-       width: 100%;
-       @include min-desktop {
-           width:1300px;
-       }
-    
-.entry-title {
-    display:none;
-}
-        h3 {
-        font-family:$accent-font-family;
-        color:$h4-color;
-        margin:5%;
+.page-template-page-supporters,
+.page-template-page-contact {
+    color: $main-body-color;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    @include min-desktop {
+        width: 1300px;
+    }
+    .entry-title {
+        display: none;
+    }
+    h3 {
+        font-family: $accent-font-family;
+        color: $h4-color;
+        margin: 5%;
         font-size: $h4-font-size;
         font-weight: 300;
         font-size: 24px;
     }
-
-.support-img {
-
-    text-align:center;
-    margin:0 auto;
-
-    img {
-        width:450px;
-        height:200px;
-        
-
-        @include desktop {
-            width: 850px;
-            height:400px;
+    .support-img {
+        text-align: center;
+        margin: 0 auto;
+        img {
+            width: 450px;
+            height: 200px;
+            @include desktop {
+                width: 850px;
+                height: 400px;
+            }
         }
     }
-}
-
-.yell {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.get-involved {
-width: 270px;
-height: 49px;
-background-color: $theme-orange-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-margin: 5%;
-
-@include desktop {
-    margin: 0;
-}
-
-    a{
-        color: #FFFFFF ;
-        text-decoration: none;
-
-    }
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-      background-color: darken($theme-orange-color, 10%);
-   }
-   
-}
-.resource {
-     @include min-desktop {
-        height:30vh;
-     }
-    p {
+    .yell {
         width: 70%;
         margin: 0 auto;
-        @include min-desktop {
-        padding-top: 3rem;
-
+    }
+    .get-involved {
+        width: 270px;
+        height: 49px;
+        background-color: $theme-orange-color;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 22px;
+        color: #FFFFFF;
+        font-family: $accent-font-family;
+        text-shadow: none;
+        text-transform: uppercase;
+        box-shadow: none;
+        border: 3px solid $btn-border-color;
+        margin: 5%;
+        @include desktop {
+            margin: 0;
+        }
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        &:hover {
+            border-color: $btn-border-color;
+            box-shadow: none;
+            background-color: darken($theme-orange-color, 10%);
         }
     }
- }
+    .resource {
+        @include min-desktop {
+            height: 30vh;
+        }
+        p {
+            width: 70%;
+            margin: 0 auto;
+            @include min-desktop {
+                padding-top: 3rem;
+            }
+        }
+    }
 }
 
 .get-involved2 {
-width: 270px;
-height: 49px;
-background-color: $theme-blue-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-margin: 5%;
-
-@include desktop {
-    margin: 0;
-}
-
-    a{
-        color: #FFFFFF ;
-        text-decoration: none;
-
+    width: 270px;
+    height: 49px;
+    background-color: $theme-blue-color;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: $accent-font-family;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid $btn-border-color;
+    margin: 5%;
+    @include desktop {
+        margin: 0;
     }
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-      background-color: darken($theme-blue-color, 10%);
-   }
-   
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    &:hover {
+        border-color: $btn-border-color;
+        box-shadow: none;
+        background-color: darken($theme-blue-color, 10%);
+    }
 }
 
 .btn-partners {
-     @include desktop {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 575px;
-    height: 30vh;
-    padding-bottom: 5rem;
-    h3{
-      flex-basis:100%;
-      margin-top:15%;
+    @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 575px;
+        height: 30vh;
+        padding-bottom: 5rem;
+        h3 {
+            flex-basis: 100%;
+            margin-top: 15%;
+        }
     }
-   }
 }
 
 //contact styles ===============
@@ -148,98 +128,89 @@ margin: 5%;
     width: 300px;
     margin: 0 auto;
     padding-bottom: 3%;
-    
     @include desktop {
-        display:flex;
-        width:800px;
+        display: flex;
+        width: 800px;
         flex-direction: column;
-        justify-content:center;
-        margin-right:35%;
+        justify-content: center;
+        margin-right: 35%;
     }
 }
 
-.contact-profesh, .contact-sponsor, .contact-question {
+.contact-profesh,
+.contact-sponsor,
+.contact-question {
     @include desktop {
-        display:flex;
+        display: flex;
         width: 980px;
-        justify-content:flex-end;
+        justify-content: flex-end;
         flex-wrap: wrap;
-
         p {
-        padding-right:3%;
+            padding-right: 3%;
         }
-                     }
     }
+}
 
-    .contact-profesh {
-
-        @include desktop {
+.contact-profesh {
+    @include desktop {
         p {
-        margin-left: 6.5%;
-     
-        }
+            margin-left: 6.5%;
         }
     }
+}
 
-    .contact-sponsor {
-        @include desktop {
-        p{
-        margin-left:22%;
-       
-        }
+.contact-sponsor {
+    @include desktop {
+        p {
+            margin-left: 22%;
         }
     }
+}
 
 .peachbtn {
-width: 270px;
-height: 49px;
-background-color: $theme-peach-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-margin: 5%;
-
-@include desktop {
-    margin: 0;
-}
-
-    a{
-        color: #FFFFFF ;
-        text-decoration: none;
-
+    width: 270px;
+    height: 49px;
+    background-color: $theme-peach-color;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: $accent-font-family;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid $btn-border-color;
+    margin: 5%;
+    @include desktop {
+        margin: 0;
     }
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-      background-color: darken($theme-peach-color, 10%);
-   }
-   
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    &:hover {
+        border-color: $btn-border-color;
+        box-shadow: none;
+        background-color: darken($theme-peach-color, 10%);
+    }
 }
 
 @include min-desktop {
     .board-wrapper {
-    display: flex;
-    justify-content: center;
-    img{
-        height:200px;
-    }
-    p{
-        margin:0;
-    }
-    .board-members {
-     display: flex;
-     flex-direction: column;
-     margin: 3rem;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 200px;
+        }
+        p {
+            margin: 0;
+        }
+        .board-members {
+            display: flex;
+            flex-direction: column;
+            margin: 3rem;
         }
     }
-
 }

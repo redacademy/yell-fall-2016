@@ -2,6 +2,7 @@
 # Content
 --------------------------------------------------------------*/
 
+
 /* Posts and pages */
 
 .sticky {
@@ -12,7 +13,7 @@
 	margin: 0 0 $base__space-unit;
 }
 
-.updated:not(.published){
+.updated:not(.published) {
 	display: none;
 }
 
@@ -32,6 +33,7 @@
 	margin: 0 0 $base__space-unit;
 }
 
+
 /* Asides */
 
 .blog .format-aside .entry-title,
@@ -39,11 +41,13 @@
 	display: none;
 }
 
+
 /* Comments */
 
 .comment-content a {
 	word-wrap: break-word;
 }
+
 .bypostauthor {
 	display: block;
 }

@@ -1,160 +1,150 @@
-.page-id-177, .page-id-179 {
-     background-color: rgba(242, 242, 242, .5);
-
-     h1 {
-         font-family:$accent-font-family;
-        color:$h4-color;
+.page-id-177,
+.page-id-179 {
+    background-color: rgba(242, 242, 242, .5);
+    h1 {
+        font-family: $accent-font-family;
+        color: $h4-color;
         font-size: $h4-font-size;
         font-weight: 300;
         font-size: 36px;
         border-bottom: 1px solid $border-bottom-color;
-        width:470px;
+        width: 470px;
         margin: 50px auto;
-        text-align:center;
-     }
-
-
-     //============================progress bar styles=============================
-
-
-
- 
-
-
-//=============================textarea styles================================
-
-.post-177 h1{
-    width:100%;
-    border-bottom:none!important;
-}
-.gform_fields {
-    h2 {
-     color:$main-body-color;
-     text-transform: uppercase;
+        text-align: center;
+    }
+    //============================progress bar styles=============================
+    //=============================textarea styles================================
+    .post-177 h1 {
+        width: 100%;
+        border-bottom: none!important;
+    }
+    .gform_fields {
+        h2 {
+            color: $main-body-color;
+            text-transform: uppercase;
         }
-    li {
-     border-bottom: none;
-     margin-left:2rem!important;
-      label {
-       color:$theme-peach-color;
-         font-family:$main-font-family;
-         width:80%;
-         }
-   }
-.ginput_container input{
-     width:80%;
-     }
-  }
-   tbody {
-     tr {
-       width:80%;
-       td {
-          color: $theme-peach-color;
-          @include min-desktop {
-          width:24.75%;
-          }
-         }
-       }
-     } 
-#field_1_23 {
-  .gfield_label{
-     color:$main-body-color;
-     text-transform: uppercase;
+        li {
+            border-bottom: none;
+            margin-left: 2rem!important;
+            label {
+                color: $theme-peach-color;
+                font-family: $main-font-family;
+                width: 80%;
+            }
+        }
+        .ginput_container input {
+            width: 80%;
+        }
+    }
+    tbody {
+        tr {
+            width: 80%;
+            td {
+                color: $theme-peach-color;
+                @include min-desktop {
+                    width: 24.75%;
+                }
+            }
+        }
+    }
+    #field_1_23 {
+        .gfield_label {
+            color: $main-body-color;
+            text-transform: uppercase;
+        }
+    }
+    #field_1_24,
+    #field_1_25,
+    #field_1_26 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0!important;
+        img {
+            height: 40%;
+            width: 40%;
+            margin-bottom: 5rem;
+        }
+    }
+    .gform_wrapper .textarea {
+        width: 80%;
+    }
+    input[type=button] {
+        width: 77%!important;
+        margin-left: 2rem!important;
+        text-align: center;
+        height: 49px;
+        background-color: $theme-blue-color;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 22px;
+        color: #FFFFFF;
+        font-family: $accent-font-family;
+        text-shadow: none;
+        text-transform: uppercase;
+        box-shadow: none;
+        border: 3px solid $btn-border-color;
+        @include min-desktop {
+            width: 60%!important;
+        }
+        &:hover {
+            border-color: $btn-border-color;
+            box-shadow: none;
+            background-color: darken($theme-blue-color, 10%);
+        }
     }
 }
 
-#field_1_24, #field_1_25,#field_1_26 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin: 0!important;
-    img {
-    height: 40%;
-    width: 40%;
-    margin-bottom: 5rem;
-    }
-}
-
-.gform_wrapper .textarea{
-    width:80%;
-}
-
-input[type=button]{
-width: 77%!important;
-margin-left: 2rem!important;
-text-align: center;
-height: 49px;
-background-color: $theme-blue-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-
-@include min-desktop {
-    width:60%!important;
-}
-
-   &:hover{
-       border-color:$btn-border-color;
-       box-shadow:none;
-       background-color: darken($theme-blue-color, 10%);
-   }
- }
-}
 .gform_page_footer input[type=submit] {
-width: 77%!important;
-margin-left: 2rem!important;
-text-align: center;
-height: 49px;
-background-color: $theme-orange-color;
-border-radius: 6px;
-font-size: 18px;
-font-weight: lighter;
-text-align: center;
-line-height: 22px;
-color: #FFFFFF ;
-font-family: $accent-font-family;
-text-shadow: none;
-text-transform: uppercase;
-box-shadow: none;
-border: 3px solid $btn-border-color;
-
-@include min-desktop {
-    width:40%!important;
+    width: 77%!important;
+    margin-left: 2rem!important;
+    text-align: center;
+    height: 49px;
+    background-color: $theme-orange-color;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: $accent-font-family;
+    text-shadow: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: 3px solid $btn-border-color;
+    @include min-desktop {
+        width: 40%!important;
+    }
+    &:hover {
+        border-color: $btn-border-color;
+        box-shadow: none;
+        background-color: darken($theme-blue-color, 10%);
+    }
 }
 
-  &:hover{
-     border-color:$btn-border-color;
-     box-shadow:none;
-     background-color: darken($theme-blue-color, 10%);
-   }
- }  
-.gform_heading h3{
-    display:none;
+.gform_heading h3 {
+    display: none;
 }
+
 @include min-desktop {
-.gform_page_footer {
-    display:flex;
-    justify-content: flex-end;
-    width:80.5%!important;
-    border-top: none!important;
-  }
+    .gform_page_footer {
+        display: flex;
+        justify-content: flex-end;
+        width: 80.5%!important;
+        border-top: none!important;
+    }
 }
+
 @include min-desktop {
-.gform_page_fields{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-.gform_column{
-    flex-basis:40%;
-  }
- }
+    .gform_page_fields {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .gform_column {
+            flex-basis: 40%;
+        }
+    }
 }
