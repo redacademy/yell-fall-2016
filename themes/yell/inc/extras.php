@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function red_starter_body_classes( $classes ) {
+function yell_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -19,12 +19,12 @@ function red_starter_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'red_starter_body_classes' );
+add_filter( 'body_class', 'yell_body_classes' );
 
 
 
 /////////////Custom About Page background Image (hero banner)////////////
-function my_styles_method() {
+function yell_styles_method() {
 
   if(is_page( 'about' )){
 
@@ -97,10 +97,10 @@ function my_styles_method() {
        wp_add_inline_style( 'red-starter-style', $custom_css );
 
 }}
-     add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+     add_action( 'wp_enqueue_scripts', 'yell_styles_method' );
 
 /////////logo in log in page///////////
-function my_login_logo() {?>
+function yell_login_logo() {?>
 
   <style type="text/css">
     #login h1 a,
@@ -114,20 +114,20 @@ function my_login_logo() {?>
   </style>
   <?php
 }
-add_action( 'login_enqueue_scripts', 'my_login_logo' );
+add_action( 'login_enqueue_scripts', 'yell_login_logo' );
 
 
 ////////////change URL of custom logo on login page///////////
 
-function my_loginURL() {
+function yell_loginURL() {
     return '#';
 }
-add_filter('login_headerurl', 'my_loginURL');
+add_filter('login_headerurl', 'yell_loginURL');
 
 
 /////////////change the title tag of this link////////////
 
-function my_loginURLtext() {
+function yell_loginURLtext() {
     return 'YOUNG ENTREPRENEUR LEADERSHIP LAUNCHPAD';
 }
-add_filter('login_headertitle', 'my_loginURLtext');
+add_filter('login_headertitle', 'yell_loginURLtext');

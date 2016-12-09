@@ -4,14 +4,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package RED_Starter_Theme
+ * @package RED_starter_Theme
  */
 
-if ( ! function_exists( 'red_starter_setup' ) ) :
+if ( ! function_exists( 'yell_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  */
-function red_starter_setup() {
+function yell_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -36,35 +36,35 @@ function red_starter_setup() {
 	) );
 
 }
-endif; // red_starter_setup
-add_action( 'after_setup_theme', 'red_starter_setup' );
+endif; // yell_setup
+add_action( 'after_setup_theme', 'yell_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * @global int $content_width
  */
-function red_starter_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
+function yell_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'yell_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
+add_action( 'after_setup_theme', 'yell_content_width', 0 );
 
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
-function red_starter_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
+function yell_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	if ( file_exists( get_template_directory() . '/build/css/style.min.css' ) ) {
 		$stylesheet_uri = $stylesheet_dir_uri . '/build/css/style.min.css';
 	}
 
 	return $stylesheet_uri;
 }
-add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
+add_filter( 'stylesheet_uri', 'yell_minified_css', 10, 2 );
 
 /**
  * Enqueue scripts and styles.
  */
-function red_starter_scripts() {
+function yell_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 	wp_enqueue_script( 'jquery' );
@@ -76,7 +76,7 @@ function red_starter_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
+add_action( 'wp_enqueue_scripts', 'yell_scripts' );
 
 /**
  * Custom template tags for this theme.
