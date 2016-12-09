@@ -41,7 +41,8 @@
         text-align: left;
         margin-left: 0;
         @include desktop {
-            margin-left: 5%;
+            margin-left: 15%;
+            width:400px;
         }
     }
     .mentor-ul {
@@ -107,7 +108,7 @@
     }
     .speaker-info {
         display: none;
-        height: 800px;
+        height: 915px;
         order: 1;
         h2 {
             color: $theme-darkblue-color;

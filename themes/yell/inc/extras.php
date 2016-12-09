@@ -31,7 +31,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'aboout_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .about-hero{
-         background: url({$url}) no-repeat center bottom;
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:100vh;
          background-size: cover, cover;
        }";
@@ -42,7 +42,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .program-hero{
-         background: url({$url}) no-repeat center bottom;
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:100vh;
          background-size: cover, cover;
        }";
@@ -53,7 +53,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'professionals_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .expert-hero{
-         background: url({$url}) no-repeat center bottom;
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:100vh;
          background-size: cover, cover;
          
@@ -65,7 +65,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'supporters_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .supporters-hero{
-         background: url({$url}) no-repeat center bottom;
+         background-image: linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),url({$url});
          height:100vh;
          background-size: cover, cover;
        }";
@@ -75,7 +75,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .thanks-hero{
-         background:linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url({$url}) no-repeat center bottom;
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
  height:100vh;
          background-size: cover, cover;
        }";
@@ -86,7 +86,7 @@ function yell_styles_method() {
        $url = CFS()->get( 'home_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .home-hero{
-         background: url({$url}) no-repeat center bottom;
+         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:600px;
          background-size: cover, cover;
          
