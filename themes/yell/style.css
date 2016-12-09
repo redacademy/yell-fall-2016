@@ -1497,6 +1497,16 @@ h3 {
   background-size: 100% 750px;
   background-position-y: 90%; }
 
+.about-text {
+  font-family: "Roboto", sans;
+  font-size: 16px;
+  width: 335px;
+  text-align: center; }
+  .about-text h3 {
+    font-family: "Rubik", sans;
+    font-size: 24px;
+    font-weight: lighter; }
+
 .people-post {
   display: -ms-flexbox;
   display: flex;
@@ -1507,13 +1517,18 @@ h3 {
   .people-post img {
     border-radius: 50%; }
 
-.page-template-page-about h2 {
-  color: #E48C3D;
-  text-align: center;
-  font-weight: lighter;
-  font-family: "Rubik", sans;
-  font-size: 36px;
-  line-height: 43px; }
+.page-template-page-about {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .page-template-page-about h2 {
+    color: #E48C3D;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Rubik", sans;
+    font-size: 36px;
+    line-height: 43px; }
 
 .aboutpage-button .contact-us {
   width: 270px;

@@ -13,7 +13,19 @@
        background-size: 100% 750px;
        background-position-y: 90%;
    }
-
+.about-text {
+    
+    font-family: $main-font-family;
+    font-size: 16px;
+    width: 335px;
+    text-align: center;
+    
+    h3 {
+        font-family: $accent-font-family;
+        font-size: 24px;
+        font-weight: lighter;
+    }
+}
    .people-post{
        display: flex;
        flex-direction: row;
@@ -23,6 +35,8 @@
        }
    }
    .page-template-page-about{
+       display: flex;
+       flex-direction: column;
        h2 {
            color: $h2-orange-color;
            text-align: center;
