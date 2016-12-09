@@ -1,15 +1,19 @@
+
+<div class="press-hero">News and Stories
 <?php
-/**
- * The template for displaying all pages.
+/*
+Template Name: Press and Stories Page
  *
  * @package RED_Starter_Theme
  */
 
 get_header(); ?>
+</div>
+
 <div class="flexwrapper-blog">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="press-hero"></div>
+			
 
 			<?php if ( have_posts() ) : ?>
 
