@@ -1,4 +1,4 @@
-.home-hero, .program-hero, .expert-hero, .supporters-hero, .about-hero .press-hero{
+.home-hero, .program-hero, .expert-hero, .supporters-hero,  .press-hero {
 
 h1 {
     color: #fff;
@@ -22,7 +22,7 @@ h1 {
     }
 }
 
-.press-hero {
+.press-hero, .about-hero {
     text-align: center;
     padding-top: 15%;
     font-family:$accent-font-family;

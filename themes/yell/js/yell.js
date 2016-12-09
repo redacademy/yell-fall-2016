@@ -100,9 +100,55 @@ $('.home-hero').on('click', function(e) {
 			$('.home-hero-p').show();
 			  $('#playbtn').show();
         }
+
+
   
    
    
 })
+
+//  var offset = $("header").height();
+//  $('a[href*="#"]:not([href="#"])').click(function() {
+//    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//      var target = $(this.hash);
+//      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//      if (target.length) {
+//        $('html, body').animate({
+//          scrollTop: target.offset().top - offset
+//        }, 1000);
+//        return false;
+//      }
+//    }
+//  });
+
 })(jQuery);
+
+jQuery(document).ready(function($){
+
+    $(window).scroll(function(){
+
+        if ($(this).scrollTop() < 200) {
+
+            $('#smoothup') .fadeOut();
+
+        } else {
+
+            $('#smoothup') .fadeIn();
+
+        }
+
+    });
+
+    $('#smoothup').on('click', function(){
+
+        $('html, body').animate({scrollTop:0}, 'fast');
+
+        return false;
+
+        });
+
+});
+
+
+
 
