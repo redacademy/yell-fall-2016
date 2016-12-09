@@ -17,8 +17,16 @@
     
     font-family: $main-font-family;
     font-size: 16px;
-    width: 335px;
     text-align: center;
+    .about-content-container {
+
+        p {
+display: flex;
+justify-content: center;
+        width: 335px;
+
+        }
+    }
     
     h3 {
         font-family: $accent-font-family;
@@ -29,7 +37,9 @@
    .people-post{
        display: flex;
        flex-direction: row;
+       width: 286px;
        flex-wrap: wrap;
+       justify-content: center;
        img {
            border-radius: 50%;
        }

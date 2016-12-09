@@ -17,11 +17,13 @@ get_header(); ?>
 				<div class="aboutpg-bg2">
 					<div class="aboutpg-bg3">
 						<section class="about-text">
+							<div class="about-content-container">
 							<h2>. About .</h2>
 							<h3>Our Mission</h3>
-							<?php echo CFS()->get( 'our_mission' ); ?>
+							<p><?php echo CFS()->get( 'our_mission' ); ?></p>
 							<h3>Our Story</h3>
-							<?php echo CFS()->get( 'our_story' ); ?>
+							<p><?php echo CFS()->get( 'our_story' ); ?></p>
+							</div>
 						</section>
 						<h2>. Our Team .</h3>
 						<?php while ( have_posts() ) : the_post(); ?>

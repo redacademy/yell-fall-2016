@@ -1500,8 +1500,13 @@ h3 {
 .about-text {
   font-family: "Roboto", sans;
   font-size: 16px;
-  width: 335px;
   text-align: center; }
+  .about-text .about-content-container p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 335px; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1512,8 +1517,11 @@ h3 {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  width: 286px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
   .people-post img {
     border-radius: 50%; }
 
