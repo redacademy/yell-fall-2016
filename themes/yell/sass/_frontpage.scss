@@ -45,14 +45,14 @@
     // }
     //===================play button and video styles=========
     #playbtn {
-        border: 9px solid #fff;
+        border: 2px solid #fff;
         margin: 10px auto;
         height: 100px;
         width: 100px;
         text-align: center;
         border-radius: 50%;
         display: flex;
-        justify-content: center;
+        align-items:center;
         &:hover {
             border-color: $theme-peach-color;
             i {
@@ -60,8 +60,8 @@
             }
         }
         i {
-            margin-left: 15px;
-            align-self: center;
+            margin-left: 39px;
+            font-size:30px;
         }
     }
     h2 {
@@ -115,14 +115,23 @@
     }
     .chart-wrap {
         img {
-            width: 50%;
+            width: 90%;
+
+            @include desktop {
+                width: 50%;
+            }
         }
     }
     .bubble-chart {
         display: flex;
         margin-left: 5%;
         width: 90%;
+        flex-wrap:wrap;
         align-items: center;
+
+        @include desktop{
+            flex-wrap: nowrap;
+        }
     }
     .get-involved {
         width: 270px;
@@ -164,7 +173,7 @@
         }
         h1:nth-child(2) {
             width: 100%;
-            font-size: 2.7rem;
+            font-size: 2.5rem;
             @include desktop {
                 display: none;
             }
