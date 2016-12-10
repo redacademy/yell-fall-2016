@@ -886,7 +886,8 @@ object {
     width: 11rem;
     text-transform: uppercase;
     border-radius: 10px;
-    margin-right: 35%; }
+    margin-right: 35%;
+    box-shadow: none; }
   .footer-content {
     -ms-flex-order: 1;
         order: 1;
