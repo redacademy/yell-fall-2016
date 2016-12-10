@@ -20,16 +20,16 @@
 	</div>
     <div class="colophon-footer">
 	<div class="colophon-left">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><p>Home</p></a>
-		<a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about"><p>About Us</p></a>
-		<a href="<?php echo esc_url( home_url( '/programs' ) ); ?>" rel="programs"><p>Program Details</p></a>
-		<a href="<?php echo esc_url( home_url( '/students' ) ); ?>" rel="student info"><p>Info for Students</p></a>
+		<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Home</a></p>
+		<p><a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">About Us</a><p>
+		<p><a href="<?php echo esc_url( home_url( '/programs' ) ); ?>" rel="programs">Program Details</a></p>
+		<p><a href="<?php echo esc_url( home_url( '/students' ) ); ?>" rel="student info"><p>Info for Students</a></p>
     </div>
 	<div class="colophon-right">
-		<a href="<?php echo esc_url( home_url( '/professionals' ) ); ?>" rel="professionals"><p>Be a Professional</p></a>
-		<a href="<?php echo esc_url( home_url( '/supporters' ) ); ?>" rel="supporters"><p>Become a Partner</p></a>
-		<a href="<?php echo esc_url( home_url( '/press-stories-2' ) ); ?>" rel="press and stories"><p>Press and Stories</p></a>
-		<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" rel="contact"><p>Contact Us</p></a>	
+		<p><a href="<?php echo esc_url( home_url( '/professionals' ) ); ?>" rel="professionals">Be a Professional</a></p>
+		<p><a href="<?php echo esc_url( home_url( '/supporters' ) ); ?>" rel="supporters">Become a Partner</a></p>
+		<p><a href="<?php echo esc_url( home_url( '/press-stories-2' ) ); ?>" rel="press and stories">Press and Stories</a></p>
+		<p><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" rel="contact">Contact Us</a></p>
 	</div>
 	</div>
 	<div class ="site-copyright">

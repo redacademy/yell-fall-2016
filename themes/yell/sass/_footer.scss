@@ -42,6 +42,7 @@
 	  margin-top:1.5rem;
 	  font-size:2rem;
 	  color:$h2-orange-color;
+	  
 	    @include min-desktop {
 			   text-align: right;
 			   flex-basis:10%;
@@ -68,12 +69,12 @@
 		  @include min-desktop {
 			  line-height:3rem;
 		  }
-		  a{
-			  text-decoration: none;
-			  p{
-				  color:$theme-peach-color;
-				  font-family:$accent-font-family;
-			  }
+		   a{
+			color:$theme-peach-color;
+			text-decoration:none;
+			&:hover{
+			  color:$h2-orange-color;
+			 }
 		  }
 	  }
 	  .colophon-right {

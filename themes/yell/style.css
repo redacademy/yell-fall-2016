@@ -871,10 +871,10 @@ object {
         .footer-container .colophon-footer .colophon-left, .footer-container .colophon-footer .colophon-right {
           line-height: 3rem; } }
       .footer-container .colophon-footer .colophon-left a, .footer-container .colophon-footer .colophon-right a {
+        color: #F4B473;
         text-decoration: none; }
-        .footer-container .colophon-footer .colophon-left a p, .footer-container .colophon-footer .colophon-right a p {
-          color: #F4B473;
-          font-family: "Rubik", sans; }
+        .footer-container .colophon-footer .colophon-left a:hover, .footer-container .colophon-footer .colophon-right a:hover {
+          color: #E48C3D; }
   .footer-container .site-copyright {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
