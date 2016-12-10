@@ -42,7 +42,7 @@
 	  margin-top:1.5rem;
 	  font-size:2rem;
 	  color:$h2-orange-color;
-	  
+
 	    @include min-desktop {
 			   text-align: right;
 			   flex-basis:10%;
@@ -54,7 +54,7 @@
 	  display:flex;
 	  justify-content:space-around;
 	  flex-basis:100%;
-	  margin:2rem;
+	  margin:1rem;
 	  @include min-desktop {
 		  justify-content: flex-start;
 		  flex-basis:50%;
