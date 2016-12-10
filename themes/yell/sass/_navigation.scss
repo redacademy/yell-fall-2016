@@ -26,6 +26,11 @@ a {
 
 
 /* Menus */
+@include min-desktop {
+	header {
+		height:25vh;
+	}
+}
 
 .main-navigation {
 	clear: both;

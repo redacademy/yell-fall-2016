@@ -1,175 +1,92 @@
 .page-template-page-get-involved {
-    background-color: rgba(242, 242, 242, 1.0);
-   
-    h1 {
-        display: none;
-    }
-    h3 {
-        font-family: $accent-font-family;
-        color: $h4-color;
-        font-size: $h4-font-size;
-        font-weight: 300;
-        font-size: 36px;
-        border-bottom: 1px solid $border-bottom-color;
-        width: 270px;
-        margin: 50px auto;
-    }
-    .involved-info {
-        margin: 0 auto;
-        text-align: center;
-    }
-    p {
-        font-size: 16px;
-        max-width: 60%;
-        color: $main-body-color;
-        margin: 0 auto;
-        padding-bottom: 2%;
-        font-family: $main-font-family;
-        text-align: center;
-    }
-}
 
-.studentbtn {
-    width: 345px;
-    height: 143px;
-    background-color: $theme-blue-color;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 22px;
-    color: #FFFFFF;
-    font-family: $accent-font-family;
-    text-shadow: none;
-    text-align: right;
-    text-transform: uppercase;
-    box-shadow: none;
-    border: 3px solid $btn-border-color;
-    margin: 5%;
-    a {
-        color: #FFFFFF;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-    p {
-        color: #fff;
-        margin-top: -11%;
-        margin-left: 31%;
-        text-transform: initial;
-        text-align: left;
-        text-decoration: none;
-        font-size: 14px;
-    }
 
-    h5 {
-        span {
-        position: relative;
-        left: 70px;
+    .get-involved-title {
+       display: flex;
+       width: 100%;
+       max-width:1250px;
+       justify-content: center;
+       h3{
+           border-bottom: 1px solid $border-bottom-color;
+           font-size:2.7rem;
+           color: $h4-color;
+           font-family: $accent-font-family;
+           font-weight: 100;
+           margin:0;
+
+       }
+       p {
+           text-align:center;
+           font-size: 1rem;
+           color: $main-body-color;
+           font-family: $main-font-family;
+       }
+
+    }
+    
+    .btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin:1rem;
+      @include min-desktop {
+          flex-direction:row;
+          width:100%;
+          max-width:1250px;
+          justify-content: center;
+      }
+    .studentbtn {
+      border: 3px solid $btn-border-color;
+      
+      border-radius: .5rem;
+      margin-bottom: 2rem;
+      display:flex;
+      justify-content: flex-end;
+      background-color:$theme-blue-color;
+      font-family: $accent-font-family;
+
+      &:hover {
+         background-color: darken($theme-blue-color, 10%)
+      }
+      @include min-desktop {
+          flex-basis:33%;
+          margin-left:2rem;
+          margin-right:2rem;
+      }
+        a{
+            width:70%;
+            text-align: right;
+            text-decoration:none;
+            margin-right:1rem;
+            color:white;
+            .words-container {
+                text-align: left;
+                h5 {
+                    text-transform: uppercase;
+                    display:flex;
+                    justify-content: space-between;
+                    font-size: 1.3rem;
+                    font-weight: 100;
+              }
+            }
         }
     }
-    &:hover {
-        background-color: darken($theme-blue-color, 10%);
-    }
-}
-
-.expertbtn {
-    width: 345px;
-    height: 143px;
-    background-color: $theme-peach-color;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 22px;
-    color: #FFFFFF;
-    font-family: $accent-font-family;
-    text-shadow: none;
-    text-align: right;
-    text-transform: uppercase;
-    box-shadow: none;
-    border: 3px solid $btn-border-color;
-    margin: 5%;
-    a {
-        color: #FFFFFF;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-    p {
-        color: #fff;
-        margin-top: -11%;
-        margin-left: 31%;
-        text-transform: initial;
-        text-align: left;
-        font-size: 14px;
-    }
-
-    h5 {
-        span {
-        position: relative;
-        left: 6px;
-    }
-        
-    }
-    &:hover {
+    .expertbtn {
+        @extend .studentbtn;
+        background-color: $theme-peach-color;
+        &:hover {
         background-color: darken($theme-peach-color, 10%);
     }
-}
 
-.supportbtn {
-    width: 345px;
-    height: 143px;
-    background-color: $theme-orange-color;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 22px;
-    color: #FFFFFF;
-    font-family: $accent-font-family;
-    text-shadow: none;
-    text-align: right;
-    text-transform: uppercase;
-    box-shadow: none;
-    border: 3px solid $btn-border-color;
-    margin: 5%;
-    a {
-        color: #FFFFFF;
-        text-decoration: none;
-        text-transform: uppercase;
     }
-    p {
-        color: #fff;
-        margin-top: -11%;
-        margin-left: 31%;
-        text-transform: initial;
-        text-align: left;
-        font-size: 14px;
-    }
-    &:hover {
+    .supportbtn {
+       @extend .studentbtn;
+        background-color: $theme-orange-color;
+        &:hover {
         background-color: darken($theme-orange-color, 10%);
+      }
     }
-}
-
-h5 {
-    margin-left: 31%;
-    font-weight: 200;
-    text-align: left;
-    font-size: 24px;
-
-    span {
-    position: relative;
-    left:39px;
-    }
-}
-
-.btn-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-bottom:15%;
-    @include min-desktop {
-        display: flex;
-        flex-direction: row;
-    }
+  }
+  h1 {
+      display:none;
+  }
 }
