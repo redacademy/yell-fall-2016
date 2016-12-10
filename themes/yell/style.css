@@ -829,6 +829,8 @@ object {
       .footer-container .get-involved-button-footer button a {
         text-decoration: none;
         color: #E48C3D; }
+      .footer-container .get-involved-button-footer button:hover a {
+        color: white; }
   .footer-container .social-media-icons {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
