@@ -554,10 +554,6 @@ a {
     outline: 0; }
 
 /* Menus */
-@media (min-width: 600px) {
-  header {
-    height: 25vh; } }
-
 .main-navigation {
   clear: both;
   display: block;
