@@ -2683,7 +2683,10 @@ h5 {
     width: 95% !important; }
   .page-id-177 tbody tr,
   .page-id-179 tbody tr {
-    width: 80%; }
+    width: 95%; }
+    .page-id-177 tbody tr th,
+    .page-id-179 tbody tr th {
+      display: block !important; }
     .page-id-177 tbody tr td,
     .page-id-179 tbody tr td {
       color: #F4B473; }

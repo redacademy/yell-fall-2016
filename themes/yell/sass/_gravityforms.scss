@@ -38,7 +38,10 @@
     }
     tbody {
         tr {
-            width: 80%;
+            width: 95%;
+            th {
+                display:block!important;
+            }
             td {
                 color: $theme-peach-color;
                 @include min-desktop {

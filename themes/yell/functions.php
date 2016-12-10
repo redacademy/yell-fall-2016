@@ -106,7 +106,7 @@ if(!is_admin()) { // only perform on the front end
 
             // retrieve the form's field list classes for consistency
             $form = RGFormsModel::add_default_properties($form);
-            $description_class = rgar($form, 'descriptionPlacement') == 'above' ? 'description_above' : 'description_below';
+            
 
             // close current field's li and ul and begin a new list with the same form field list classes
             return '</li></ul><ul class="gform_fields '.$form['labelPlacement'].' '.$description_class.' '.$field['cssClass'].'"><li class="gfield gsection empty">';
