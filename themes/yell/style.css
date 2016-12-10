@@ -2288,7 +2288,14 @@ object {
   width: 100%;
   max-width: 1250px;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  margin-bottom: 16px; }
+  @media (min-width: 600px) {
+    .page-template-page-get-involved .get-involved-title {
+      margin: 0 auto;
+      margin-bottom: 5rem; } }
+  .page-template-page-get-involved .get-involved-title .involved-info {
+    margin-top: 2rem; }
   .page-template-page-get-involved .get-involved-title h3 {
     border-bottom: 1px solid #D0D0D0;
     font-size: 2.7rem;
@@ -2300,14 +2307,15 @@ object {
     text-align: center;
     font-size: 1rem;
     color: #9B9B9B;
-    font-family: "Roboto", sans; }
+    font-family: "Roboto", sans;
+    font-weight: lighter; }
 
 .page-template-page-get-involved .btn-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  margin: 1rem; }
+  margin: 0 1rem 5rem 1rem; }
   @media (min-width: 600px) {
     .page-template-page-get-involved .btn-wrapper {
       -ms-flex-direction: row;
@@ -2315,17 +2323,19 @@ object {
       width: 100%;
       max-width: 1250px;
       -ms-flex-pack: center;
-          justify-content: center; } }
+          justify-content: center;
+      margin: 0 auto;
+      margin-bottom: 5rem; } }
   .page-template-page-get-involved .btn-wrapper .studentbtn, .page-template-page-get-involved .btn-wrapper .expertbtn, .page-template-page-get-involved .btn-wrapper .supportbtn {
     border: 3px solid #E8E8E8;
+    height: 150px;
     border-radius: .5rem;
     margin-bottom: 2rem;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
         justify-content: flex-end;
-    background-color: #8DC0D0;
-    font-family: "Rubik", sans; }
+    background-color: #8DC0D0; }
     .page-template-page-get-involved .btn-wrapper .studentbtn:hover, .page-template-page-get-involved .btn-wrapper .expertbtn:hover, .page-template-page-get-involved .btn-wrapper .supportbtn:hover {
       background-color: #69acc1; }
     @media (min-width: 600px) {
@@ -2349,7 +2359,16 @@ object {
           -ms-flex-pack: justify;
               justify-content: space-between;
           font-size: 1.3rem;
-          font-weight: 100; }
+          font-weight: 100;
+          margin-bottom: 0;
+          font-family: "Rubik", sans;
+          font-weight: medium; }
+        .page-template-page-get-involved .btn-wrapper .studentbtn a .words-container p, .page-template-page-get-involved .btn-wrapper .expertbtn a .words-container p, .page-template-page-get-involved .btn-wrapper .supportbtn a .words-container p {
+          margin-top: 0;
+          font-family: "Rubik", sans;
+          font-weight: normal;
+          font-style: normal;
+          font-size: 14px; }
   .page-template-page-get-involved .btn-wrapper .expertbtn {
     background-color: #F4B473; }
     .page-template-page-get-involved .btn-wrapper .expertbtn:hover {

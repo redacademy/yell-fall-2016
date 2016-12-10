@@ -6,6 +6,14 @@
        width: 100%;
        max-width:1250px;
        justify-content: center;
+       margin-bottom: 16px;
+       @include min-desktop {
+          margin: 0 auto;
+          margin-bottom: 5rem;
+       }
+       .involved-info {
+          margin-top: 2rem;
+       }
        h3{
            border-bottom: 1px solid $border-bottom-color;
            font-size:2.7rem;
@@ -20,6 +28,7 @@
            font-size: 1rem;
            color: $main-body-color;
            font-family: $main-font-family;
+           font-weight: lighter;
        }
 
     }
@@ -27,22 +36,24 @@
     .btn-wrapper {
       display: flex;
       flex-direction: column;
-      margin:1rem;
+      margin: 0 1rem 5rem 1rem;
       @include min-desktop {
           flex-direction:row;
           width:100%;
           max-width:1250px;
           justify-content: center;
+          margin: 0 auto;
+          margin-bottom: 5rem;
       }
     .studentbtn {
       border: 3px solid $btn-border-color;
-      
+      height:150px;
       border-radius: .5rem;
       margin-bottom: 2rem;
       display:flex;
       justify-content: flex-end;
       background-color:$theme-blue-color;
-      font-family: $accent-font-family;
+
 
       &:hover {
          background-color: darken($theme-blue-color, 10%)
@@ -66,6 +77,16 @@
                     justify-content: space-between;
                     font-size: 1.3rem;
                     font-weight: 100;
+                    margin-bottom:0;
+                    font-family: $accent-font-family;
+                    font-weight:medium;
+                 }
+            p {
+                margin-top:0;
+                font-family: $accent-font-family;
+                font-weight:normal;
+                font-style:normal;
+                font-size:14px;
               }
             }
         }
