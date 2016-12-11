@@ -41,7 +41,7 @@ get_header(); ?>
 								the_post_thumbnail( $size = 'post-thumbnail', $attr = '');
 								echo '</div>'; 
 								the_title();?>
-									<?php echo CFS()->get( 'person_position' ); ?>
+									<p><?php echo CFS()->get( 'person_position' ); ?></p>
 									<?php endwhile; ?>
 							</div>
 							<div class="aboutpage-button">
