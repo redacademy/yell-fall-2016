@@ -30,19 +30,30 @@ get_header(); ?>
 							</div>
 						</section>
 						<h2>. Our Team .</h3>
-							<?php while ( have_posts() ) : the_post(); ?>
 							<div class="people-post">
+								<?php while ( have_posts() ) : the_post(); ?>
 								<?php endwhile; ?>
-								<?php
+								
+									<?php
+								
 								$args = array( 'post_type' => 'people_type', 'posts_per_page' => 10 ); 
 								$loop = new WP_Query( $args ); 
+								
 								while ( $loop->have_posts()) : $loop->the_post(); 
-								echo '<div class="post-thumbnail">'; 
+							
+								echo '<div class="each-person"><div class="post-thumbnail">'; 
 								the_post_thumbnail( $size = 'post-thumbnail', $attr = '');
-								echo '</div>'; 
-								the_title();?>
-									<p><?php echo CFS()->get( 'person_position' ); ?></p>
-									<?php endwhile; ?>
+								echo'</div>'; 
+								echo '<p>';
+								the_title();
+								echo '</p>';?>
+								
+										<p>
+											<?php echo CFS()->get( 'person_position' ); ?>
+										</p>
+										</div>
+										<?php endwhile; ?>
+								
 							</div>
 							<div class="aboutpage-button">
 								<h2>Want to learn more?</h2>
