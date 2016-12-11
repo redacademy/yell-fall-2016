@@ -852,7 +852,7 @@ object {
         justify-content: space-around;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin: 2rem; }
+    margin: 1rem; }
     @media (min-width: 600px) {
       .footer-container .colophon-footer {
         -ms-flex-pack: start;
