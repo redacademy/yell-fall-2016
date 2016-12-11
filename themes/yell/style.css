@@ -1676,6 +1676,10 @@ object {
     font-size: 36px;
     line-height: 43px; }
 
+.aboutpage-button h2 {
+  text-align: center;
+  padding-left: 20%; }
+
 .aboutpage-button .contact-us {
   width: 270px;
   height: 49px;
@@ -1690,8 +1694,7 @@ object {
   text-shadow: none;
   text-transform: uppercase;
   box-shadow: none;
-  border: 3px solid #E8E8E8;
-  margin-bottom: 2%; }
+  border: 3px solid #E8E8E8; }
   .aboutpage-button .contact-us:hover {
     border-color: #E8E8E8;
     box-shadow: none;
@@ -1711,8 +1714,7 @@ object {
   text-shadow: none;
   text-transform: uppercase;
   box-shadow: none;
-  border: 3px solid #E8E8E8;
-  margin: 15%; }
+  border: 3px solid #E8E8E8; }
   .aboutpage-button .programs:hover {
     border-color: #E8E8E8;
     box-shadow: none;
@@ -1730,18 +1732,11 @@ object {
     width: 575px;
     height: 30vh;
     padding-bottom: 5rem; }
-    .aboutpage-button h3 {
+    .aboutpage-button h2 {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
       margin-top: 15%; } }
 
-/*.white-blob{
-    max-height: 76px;
-    width: 1300px;
-    max-width: 1450px;
-    position: absolute;
-    bottom: 0px;
-}*/
 .page-template-page-expert .expert-info {
   text-align: center;
   text-align: center;
