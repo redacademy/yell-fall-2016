@@ -1684,6 +1684,10 @@ li a.stickytop2 {
     -ms-flex-pack: center;
         justify-content: center;
     margin: 3rem; }
+    .people-post .each-person a {
+      margin-left: 20%;
+      text-decoration: none;
+      color: #83A3B3; }
 
 .page-template-page-about {
   display: -ms-flexbox;
