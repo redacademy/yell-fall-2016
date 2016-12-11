@@ -1,4 +1,9 @@
 .single {
+    background-color:hsla(0,0%,95%,.5);
+
+    .nav-bar {
+        position:absolute;
+    }
 
     .logo {
         height: 100px;
@@ -10,27 +15,37 @@
 
 .single-people-container {
     text-align: center;
-  
+    display:flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
     .single-people-thumb {
-        margin-right: 3rem;
-        margin: 1.5rem;
-        flex-basis: 55%;
-    }
-    .single-people-content {
-        flex-basis: 44%;
+        width:70%;
+        margin: 145px auto;
         font-family: $main-font-family;
-        font-size: 1rem;
+         font-size: 1rem;
+    }
+       
         .single-people-title {
             font-family: $accent-font-family;
-            font-size: 2rem;
-            color: #d99054;
-        }
+            font-size: 14px;
+            font-weight: 100;
+            color:$testimonial-name-color;
+       
     }
 
+ 
+        p.people-position{
+            font-family: $accent-font-family;
+            font-size: 12px;
+            font-weight: 100;
+            color: $testimonial-name-color;
+        
+        }
     .single-people-description {
         text-align: center;
+        p{
+        font-family:$main-font-family;
+    }
     }
 }
 .people-type-header {

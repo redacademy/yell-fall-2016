@@ -2752,32 +2752,40 @@ li a.stickytop2 {
       -ms-flex-preferred-size: 35%;
           flex-basis: 35%; } }
 
-.single .logo {
-  height: 100px; }
-
-.single img {
-  border-radius: 50%; }
+.single {
+  background-color: rgba(242, 242, 242, 0.5); }
+  .single .nav-bar {
+    position: absolute; }
+  .single .logo {
+    height: 100px; }
+  .single img {
+    border-radius: 50%; }
 
 .single-people-container {
   text-align: center;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 2rem;
   margin-bottom: 2rem; }
   .single-people-container .single-people-thumb {
-    margin-right: 3rem;
-    margin: 1.5rem;
-    -ms-flex-preferred-size: 55%;
-        flex-basis: 55%; }
-  .single-people-container .single-people-content {
-    -ms-flex-preferred-size: 44%;
-        flex-basis: 44%;
+    width: 70%;
+    margin: 145px auto;
     font-family: "Roboto", sans;
     font-size: 1rem; }
-    .single-people-container .single-people-content .single-people-title {
-      font-family: "Rubik", sans;
-      font-size: 2rem;
-      color: #d99054; }
+  .single-people-container .single-people-title {
+    font-family: "Rubik", sans;
+    font-size: 14px;
+    font-weight: 100;
+    color: #4A4A4A; }
+  .single-people-container p.people-position {
+    font-family: "Rubik", sans;
+    font-size: 12px;
+    font-weight: 100;
+    color: #4A4A4A; }
   .single-people-container .single-people-description {
     text-align: center; }
+    .single-people-container .single-people-description p {
+      font-family: "Roboto", sans; }
 
 .people-type-header h1 {
   font-family: "Rubik", sans; }
