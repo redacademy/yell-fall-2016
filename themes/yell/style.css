@@ -2752,13 +2752,14 @@ li a.stickytop2 {
       -ms-flex-preferred-size: 35%;
           flex-basis: 35%; } }
 
+.single .logo {
+  height: 100px; }
+
 .single img {
   border-radius: 50%; }
 
 .single-people-container {
   text-align: center;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 2rem;
   margin-bottom: 2rem; }
   .single-people-container .single-people-thumb {
