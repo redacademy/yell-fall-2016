@@ -102,6 +102,21 @@
            }
        }
    }
+   .aboutpage-button {
+    @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 110px auto;
+        width: 575px;
+        height: 30vh;
+        padding-bottom: 5rem;
+        h3 {
+            flex-basis: 100%;
+            margin-top: 15%;
+        }
+    }
+}
    /*.white-blob{
     max-height: 76px;
     width: 1300px;

@@ -1718,6 +1718,23 @@ object {
     box-shadow: none;
     background-color: #d1721d; }
 
+@media (min-width: 1000px) {
+  .aboutpage-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 110px auto;
+    width: 575px;
+    height: 30vh;
+    padding-bottom: 5rem; }
+    .aboutpage-button h3 {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      margin-top: 15%; } }
+
 /*.white-blob{
     max-height: 76px;
     width: 1300px;
