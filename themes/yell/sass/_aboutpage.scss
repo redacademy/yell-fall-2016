@@ -57,6 +57,10 @@
    }
    
    .aboutpage-button {
+       h2 {
+       text-align: center;
+       padding-left: 20%;
+       }
        .contact-us {
            width: 270px;
            height: 49px;
@@ -72,7 +76,6 @@
            text-transform: uppercase;
            box-shadow: none;
            border: 3px solid $btn-border-color;
-           margin-bottom: 2%;
            &:hover {
                border-color: $btn-border-color;
                box-shadow: none;
@@ -94,7 +97,6 @@
            text-transform: uppercase;
            box-shadow: none;
            border: 3px solid $btn-border-color;
-           margin: 15%;
            &:hover {
                border-color: $btn-border-color;
                box-shadow: none;
@@ -111,18 +113,15 @@
         width: 575px;
         height: 30vh;
         padding-bottom: 5rem;
-        h3 {
+        h2{
             flex-basis: 100%;
             margin-top: 15%;
         }
     }
 }
-   /*.white-blob{
-    max-height: 76px;
-    width: 1300px;
-    max-width: 1450px;
-    position: absolute;
-    bottom: 0px;
-}*/
+  
    
-   @include min-desktop {}
+   @include min-desktop {
+
+     
+   }
