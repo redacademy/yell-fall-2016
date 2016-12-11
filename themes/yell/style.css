@@ -1651,7 +1651,8 @@ li a.stickytop2 {
         justify-content: center;
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
-    width: 335px; }
+    width: 335px;
+    margin-left: 20%; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1660,15 +1661,28 @@ li a.stickytop2 {
 .people-post {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-direction: row;
       flex-direction: row;
-  width: 286px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  margin-left: 20%; }
   .people-post img {
     border-radius: 50%; }
+  .people-post p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .people-post .each-person {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 3rem; }
 
 .page-template-page-about {
   display: -ms-flexbox;
@@ -1748,12 +1762,23 @@ li a.stickytop2 {
   .people-post {
     display: -ms-flexbox;
     display: flex;
+    width: 800px;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-pack: center;
         justify-content: center;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    margin: 3rem; } }
+    margin-left: 20%; }
+    .people-post p {
+      margin: 0; }
+    .people-post .each-person {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      margin: 3rem; } }
 
 .page-template-page-expert .expert-info {
   text-align: center;
