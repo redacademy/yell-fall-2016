@@ -1246,8 +1246,8 @@ object {
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
   .page-template-page-supporters .nav-bar img {
-    height: 9rem;
-    width: 9rem; }
+    height: 5rem;
+    width: 5rem; }
 
 .menu-primary-menu-container ul {
   height: 60%;
@@ -1346,7 +1346,8 @@ li a.stickytop2 {
 .blog {
   background-color: #F9f9f9; }
   .blog .nav-bar {
-    position: absolute; }
+    position: absolute;
+    width: 100%; }
   .blog .cfs-hyperlink {
     text-decoration: none;
     font-family: "Rubik", sans;
@@ -1651,7 +1652,8 @@ li a.stickytop2 {
         justify-content: center;
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
-    width: 335px; }
+    width: 335px;
+    margin-left: 20%; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1660,15 +1662,32 @@ li a.stickytop2 {
 .people-post {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-direction: row;
       flex-direction: row;
-  width: 286px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  margin-left: 20%; }
   .people-post img {
     border-radius: 50%; }
+  .people-post p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .people-post .each-person {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 3rem; }
+    .people-post .each-person a {
+      margin-left: 20%;
+      text-decoration: none;
+      color: #83A3B3; }
 
 .page-template-page-about {
   display: -ms-flexbox;
@@ -1743,6 +1762,28 @@ li a.stickytop2 {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
       margin-top: 15%; } }
+
+@media (min-width: 600px) {
+  .people-post {
+    display: -ms-flexbox;
+    display: flex;
+    width: 800px;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-left: 20%; }
+    .people-post p {
+      margin: 0; }
+    .people-post .each-person {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      margin: 3rem; } }
 
 .page-template-page-expert .expert-info {
   text-align: center;
@@ -2109,7 +2150,8 @@ li a.stickytop2 {
           flex-direction: column;
       -ms-flex-pack: center;
           justify-content: center;
-      margin-right: 35%; } }
+      margin-right: 35%;
+      margin-bottom: 15%; } }
 
 @media (min-width: 1000px) {
   .contact-profesh,
@@ -2371,7 +2413,7 @@ li a.stickytop2 {
 .page-template-page-get-involved h1 {
   display: none; }
 
-.home-hero h1, .program-hero h1, .expert-hero h1, .supporters-hero h1, .press-hero h1 {
+.home-hero h1, .program-hero h1, .expert-hero h1, .press-hero h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
@@ -2379,8 +2421,7 @@ li a.stickytop2 {
   text-align: center;
   font-family: "Rubik", sans;
   font-weight: 600;
-  margin: 0 auto;
-  padding-top: 5rem; }
+  margin: 0 auto; }
 
 .supporters-hero, .expert-hero h1 {
   font-size: 38px;
@@ -2389,15 +2430,23 @@ li a.stickytop2 {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 
-.press-hero, .about-hero {
+.press-hero, .about-hero, .supporters-hero {
   text-align: center;
   padding-top: 15%;
   font-family: "Rubik", sans;
   color: white;
-  text-transform: uppercase;
-  font-size: 3.7rem; }
-  .press-hero h1, .about-hero h1 {
-    font-size: 5rem; }
+  text-transform: uppercase; }
+  .press-hero h1, .about-hero h1, .supporters-hero h1 {
+    font-size: 3.7rem; }
+    @media (min-width: 1000px) {
+      .press-hero h1, .about-hero h1, .supporters-hero h1 {
+        font-size: 5rem; } }
+
+.supporters-hero h1 {
+  font-size: 2rem; }
+  @media (min-width: 1000px) {
+    .supporters-hero h1 {
+      font-size: 5rem; } }
 
 .page-id-161,
 .page-id-168 {
@@ -2774,8 +2823,10 @@ li a.stickytop2 {
     width: 70%;
     margin: 145px auto;
     font-family: "Roboto", sans;
-    font-size: 1rem;
-    background-color: white; }
+    font-size: 1rem; }
+    @media (min-width: 1000px) {
+      .single-people-container .single-people-thumb {
+        background-color: white; } }
     @media (min-width: 1000px) {
       .single-people-container .single-people-thumb p {
         margin: 6%; } }

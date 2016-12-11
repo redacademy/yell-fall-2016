@@ -30,30 +30,39 @@ get_header(); ?>
 							</div>
 						</section>
 						<h2>. Our Team .</h3>
-							<?php while ( have_posts() ) : the_post(); ?>
 							<div class="people-post">
+								<?php while ( have_posts() ) : the_post(); ?>
 								<?php endwhile; ?>
 								<?php
+								
 								$args = array( 'post_type' => 'people_type', 'posts_per_page' => 10 ); 
 								$loop = new WP_Query( $args ); 
+								
 								while ( $loop->have_posts()) : $loop->the_post(); 
-								echo '<div class="post-thumbnail">'; 
+							
+								echo '<div class="each-person"><div class="post-thumbnail">'; 
 								the_post_thumbnail( $size = 'post-thumbnail', $attr = '');
-								echo '</div>'; 
-								the_title();?>
-									<?php echo CFS()->get( 'person_position' ); ?>
-									<?php endwhile; ?>
+								echo'</div>'; 
+								echo '<p>';
+								the_title();
+								echo '</p>';?>
+									<p>
+										<?php echo CFS()->get( 'person_position' ); ?>
+									</p>
+									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">Read More ></a>
 							</div>
-							<div class="aboutpage-button">
-								<h2>Want to learn more?</h2>
-								<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="contact-us"> Contact Us ></button></a>
-								<a href="<?php echo esc_url( site_url( '/program/' ) ); ?>" rel="program"><button class="programs"> Programs ></button></a>
-							</div>
+							<?php endwhile; ?>
+					</div>
+					<div class="aboutpage-button">
+						<h2>Want to learn more?</h2>
+						<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="contact-us"> Contact Us ></button></a>
+						<a href="<?php echo esc_url( site_url( '/program/' ) ); ?>" rel="program"><button class="programs"> Programs ></button></a>
 					</div>
 				</div>
 			</div>
-		</main>
-		<!-- #main -->
+	</div>
+	</main>
+	<!-- #main -->
 	</div>
 	<!-- #primary -->
 	<?php get_footer(); ?>

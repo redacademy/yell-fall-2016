@@ -27,7 +27,9 @@
         margin: 145px auto;
         font-family: $main-font-family;
          font-size: 1rem;
+         @include desktop {
          background-color: white;
+         }
 
          p {
              @include desktop {

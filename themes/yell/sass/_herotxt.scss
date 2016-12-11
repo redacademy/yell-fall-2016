@@ -1,4 +1,4 @@
-.home-hero, .program-hero, .expert-hero, .supporters-hero,  .press-hero {
+.home-hero, .program-hero, .expert-hero,  .press-hero{
 
 h1 {
     color: #fff;
@@ -9,8 +9,7 @@ h1 {
     font-family: $accent-font-family;
     font-weight: 600;
     margin: 0 auto;
-    // width: 70%;
-    padding-top: 5rem;
+
  }
 }
 .supporters-hero, .expert-hero h1{
@@ -22,16 +21,30 @@ h1 {
     }
 }
 
-.press-hero, .about-hero {
+.press-hero, .about-hero, .supporters-hero{
     text-align: center;
     padding-top: 15%;
     font-family:$accent-font-family;
     color: white;
     text-transform: uppercase;
-    font-size: 3.7rem;
+   
 
     h1 {
-        font-size: 5rem;
+        font-size: 3.7rem;
+
+        @include desktop{
+            
+                font-size:5rem;
+            }
+        }
+    }
+
+    .supporters-hero h1{
+        font-size:2rem;
+
+        @include desktop {
+            font-size: 5rem;
+        }
+
     }
  
-}
