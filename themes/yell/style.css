@@ -1336,6 +1336,13 @@ object {
       border-color: #F4B473;
       color: #F4B473; } }
 
+ul.menu.stickytop {
+  position: fixed;
+  top: 0; }
+
+li a.stickytop2 {
+  color: #E48C3D; }
+
 .blog {
   background-color: #F9f9f9; }
   .blog .nav-bar {

@@ -143,3 +143,20 @@
         }
     }
 }
+
+// sticky nav bar class
+
+ul.menu.stickytop {
+    position:fixed;
+    top:0;
+
+
+}
+
+li a.stickytop2 {
+    color:$theme-orange-color;
+}
+  
+
+    
+

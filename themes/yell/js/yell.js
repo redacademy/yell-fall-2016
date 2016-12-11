@@ -10,6 +10,20 @@
 	$('#primary-menu ul').focusout(function(){
 		$('#primary-menu ul').animate({width:toggle});
 	})
+
+	  $(window).scroll(function() {
+		
+        if ($(this).scrollTop() >= 690) {
+			console.log('scrolll');
+            $('ul.menu').addClass('stickytop');
+			 $('li a').addClass('stickytop2');
+        }
+        else {
+            $('ul.menu').removeClass('stickytop');
+			 $('li a').removeClass('stickytop2');
+        }
+    });
+
 })( jQuery );
 
 
@@ -110,6 +124,8 @@ $('.home-hero').on('click', function(e) {
 })(jQuery);
 
 
+
+
 //smooth scroll=============================================
 
 jQuery(document).ready(function($){
@@ -137,7 +153,6 @@ jQuery(document).ready(function($){
         });
 
 });
-
 
 
 
