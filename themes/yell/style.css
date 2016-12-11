@@ -2774,8 +2774,10 @@ li a.stickytop2 {
     width: 70%;
     margin: 145px auto;
     font-family: "Roboto", sans;
-    font-size: 1rem;
-    background-color: white; }
+    font-size: 1rem; }
+    @media (min-width: 1000px) {
+      .single-people-container .single-people-thumb {
+        background-color: white; } }
     @media (min-width: 1000px) {
       .single-people-container .single-people-thumb p {
         margin: 6%; } }
