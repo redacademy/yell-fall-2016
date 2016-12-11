@@ -20,7 +20,7 @@ get_header(); ?>
 
 					<p class="single-people-description">
 						
-						<p><?php echo CFS()->get( 'person_description' ); ?></p>
+						<?php echo CFS()->get( 'person_description' ); ?>
 					</p>
 				</div>
 				
