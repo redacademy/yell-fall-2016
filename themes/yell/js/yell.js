@@ -10,14 +10,11 @@
 		$('.fa-arrow-circle-o-left').toggle();
 		
 })
-$('.button-click').toggle(function() {
-$(this).animate({width: '80%'}).css("background-color","#F4B473");
+    $('.menu-toggle').toggle(function() {
+        $(this).animate({width: '80%'}).css("background-color","#F4B473");
 }, function() {
-$(this).animate({width: ''})
+        $(this).animate({width: ''})
 })
-	$('#primary-menu ul').focusout(function(){
-		$('#primary-menu ul').animate({width:toggle});
-	})
 
 	  $(window).scroll(function() {
 		
