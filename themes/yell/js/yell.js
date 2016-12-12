@@ -1,15 +1,15 @@
 ( function( $ ) {
-
 	$('.menu-toggle').on('click', function(event) {
 		event.preventDefault();
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();
 		$('.main-navigation ul').css("background-color","#e8e8e8","width","80%");
-		$('button').css("display","flex");
+		$('button').css("display","flex","width","80%");
+		$('.button-click').toggle().toggleClass('.button-click-toggle').animate({width:'toggle'});
 		$('.fa-bars').toggle();
 		$('.back').toggle();
 		$('.fa-arrow-circle-o-left').toggle();
 
-})
+  })
 
 	$('#primary-menu ul').focusout(function(){
 		$('#primary-menu ul').animate({width:toggle});

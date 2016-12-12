@@ -1420,6 +1420,11 @@ li a.stickytop2 {
   margin-left: 10px !important;
   color: white !important; }
 
+.button-click-toggle {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  background-color: red; }
+
 .blog {
   background-color: #F9f9f9; }
   .blog .entry-header img {
