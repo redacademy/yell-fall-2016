@@ -41,11 +41,11 @@
    }
    
    .people-post {
+       width: 286px;
        display: flex;
        justify-content: center;
        flex-direction: row;
        flex-wrap: wrap;
-       margin-left: 20%;
        font-family: $accent-font-family;
        img {
            border-radius: 50%;
@@ -57,18 +57,21 @@
        .each-person {
            justify-content: center;
            margin: 3rem;
+           width: 121px;
            a {
-               margin-left: 16%;
+               margin-left: 9%;
                text-decoration: none;
                color: #83A3B3;
                padding-top: 12%;
                font-weight: lighter;
            }
            .the-title {
-               font-size: 21px;
+               font-size: 15px;
+               margin-bottom: 0;
            }
            .people-position {
-               font-size: 14px;
+               font-size: 11px;
+               margin-top: 0px;
            }
        }
    }
@@ -78,15 +81,21 @@
        flex-direction: column;
        h2 {
            color: $h2-orange-color;
-           text-align: center;
            font-weight: lighter;
            font-family: $accent-font-family;
            font-size: $h2-font-size;
            line-height: 43px;
-           border-bottom: 1px solid $main-body-color;
-           width: 550px;
-           margin-bottom: 9%;
-           padding: 2%;
+           width: 297px;
+           text-align: center;
+
+           
+           @include desktop {
+
+               border-bottom: 1px solid $main-body-color;
+               width: 550px;
+               margin-bottom: 9%;
+               padding: 2%;
+           }
        }
    }
    
@@ -109,28 +118,6 @@
    .contact-us {
        width: 270px;
        height: 49px;
-       background-color: $theme-blue-color;
-       border-radius: 6px;
-       font-size: 18px;
-       font-weight: lighter;
-       text-align: center;
-       line-height: 22px;
-       color: #FFFFFF;
-       font-family: $accent-font-family;
-       text-shadow: none;
-       text-transform: uppercase;
-       box-shadow: none;
-       border: 3px solid $btn-border-color;
-       &:hover {
-           border-color: $btn-border-color;
-           box-shadow: none;
-           background-color: darken($theme-blue-color, 10%);
-       }
-   }
-   
-   .programs {
-       width: 270px;
-       height: 49px;
        background-color: $theme-orange-color;
        border-radius: 6px;
        font-size: 18px;
@@ -143,10 +130,48 @@
        text-transform: uppercase;
        box-shadow: none;
        border: 3px solid $btn-border-color;
+       margin: 5%;
+       @include desktop {
+           margin: 0;
+       }
+       a {
+           color: #FFFFFF;
+           text-decoration: none;
+       }
        &:hover {
            border-color: $btn-border-color;
            box-shadow: none;
            background-color: darken($theme-orange-color, 10%);
+       }
+   }
+   
+   .programs {
+       width: 270px;
+       height: 49px;
+       background-color: $theme-blue-color;
+       border-radius: 6px;
+       font-size: 18px;
+       font-weight: lighter;
+       text-align: center;
+       line-height: 22px;
+       color: #FFFFFF;
+       font-family: $accent-font-family;
+       text-shadow: none;
+       text-transform: uppercase;
+       box-shadow: none;
+       border: 3px solid $btn-border-color;
+       margin: 5%;
+       @include desktop {
+           margin: 0;
+       }
+       a {
+           color: #FFFFFF;
+           text-decoration: none;
+       }
+       &:hover {
+           border-color: $btn-border-color;
+           box-shadow: none;
+           background-color: darken($theme-blue-color, 10%);
        }
    }
    
