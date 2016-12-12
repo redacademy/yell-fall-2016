@@ -18,7 +18,7 @@ $(this).animate({width: ''})
 	$('#primary-menu ul').focusout(function(){
 		$('#primary-menu ul').animate({width:toggle});
 	})
-
+// sticky nav.............................................................
 	  $(window).scroll(function() {
 		
         if ($(this).scrollTop() >= 690) {

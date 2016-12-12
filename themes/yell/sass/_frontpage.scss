@@ -1,5 +1,25 @@
 .home {
     text-align: center;
+
+     h2 {
+        font-family: $accent-font-family;
+        color: $theme-orange-color;
+        font-weight: 300;
+        font-size: 36px;
+    }
+    h4 {
+        font-family: $accent-font-family;
+        color: $h4-color;
+        font-size: $h4-font-size;
+        font-weight: 300;
+    }
+    p {
+        font-size: 16px;
+        max-width: 80%;
+        color: $main-body-color;
+        margin: 0 auto;
+        padding-bottom: 2%;
+    }
     .testimonial {
         p {
             margin-right: 14%;
@@ -32,17 +52,26 @@
         background-size: 100% 350px;
         background-position-y: 90%;
     }
-    // .white-blob {
-    // img {
-    // height: 95px;
+//     .white-blob {
+
+//         background-image: url(../../images/white-blob-desktop.png);
+//         height: 100px;
+//         width: 100%;
+//         background-size: contain;
+//         background-repeat: no-repeat;
+//         bottom: -42px;
+//         position: absolute;
+// }
+
+//         @include min-desktop {
+//         background-size: cover;
+//         bottom: -17px;
+//         }
+
+ }
+    
+
  
-    // max-width: 1450px;
-    // @include desktop {
-    // margin: 15.5% auto;
-    // max-height: 76px;
-    // }
-    // }
-    // }
     //===================play button and video styles=========
     #playbtn {
         border: 2px solid #fff;
@@ -64,25 +93,8 @@
             font-size:30px;
         }
     }
-    h2 {
-        font-family: $accent-font-family;
-        color: $theme-orange-color;
-        font-weight: 300;
-        font-size: 36px;
-    }
-    h4 {
-        font-family: $accent-font-family;
-        color: $h4-color;
-        font-size: $h4-font-size;
-        font-weight: 300;
-    }
-    p {
-        font-size: 16px;
-        max-width: 80%;
-        color: $main-body-color;
-        margin: 0 auto;
-        padding-bottom: 2%;
-    }
+   
+    
     .more-about {
         width: 270px;
         height: 49px;
@@ -228,7 +240,7 @@
         align-self: flex-end;
         border-radius: 6px;
         color: $testimonial-name-color;
-    }
+    
 }
 
 //video styles ========================
