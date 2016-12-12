@@ -1787,22 +1787,24 @@ li a.stickytop2 {
     border-bottom: 1px solid #9B9B9B;
     width: 550px;
     margin-bottom: 9%;
-    margin-left: 30.5%;
     padding: 2%; }
 
-.aboutpage-button {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-  .aboutpage-button button {
-    margin-bottom: 5%; }
-  .aboutpage-button h2 {
-    text-align: center; }
+@media (min-width: 1000px) {
+  .aboutpage-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 110px auto;
+    width: 575px;
+    height: 30vh;
+    padding-bottom: 5rem; }
+    .aboutpage-button h3 {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      margin-top: 15%; } }
 
 .contact-us {
   width: 270px;
@@ -1843,23 +1845,6 @@ li a.stickytop2 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #d1721d; }
-
-@media (min-width: 1000px) {
-  .aboutpage-button {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin: 110px auto;
-    width: 575px;
-    height: 30vh;
-    padding-bottom: 5rem; }
-    .aboutpage-button h2 {
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-      margin-top: 15%; } }
 
 @media (min-width: 600px) {
   .people-post {

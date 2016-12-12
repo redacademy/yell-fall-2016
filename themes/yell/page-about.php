@@ -18,7 +18,7 @@ get_header(); ?>
 					<div class="aboutpg-bg3">
 						<section class="about-text">
 							<div class="about-content-container">
-								<h2>. About .</h2>
+								<h2>About</h2>
 								
 								<div class="our-mission">
 									<h3>Our Mission</h3>
@@ -32,7 +32,7 @@ get_header(); ?>
 								</p>
 							</div>
 						</section>
-						<h2>. Our Team .</h3>
+						<h2>Our Team</h3>
 							<div class="people-post">
 								<?php while ( have_posts() ) : the_post(); ?>
 								<?php endwhile; ?>
