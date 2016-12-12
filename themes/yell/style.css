@@ -1729,8 +1729,11 @@ li a.stickytop2 {
     display: flex;
     margin: 1% auto;
     margin-bottom: 3%;
-    width: 598px;
+    width: 349px;
     color: #9B9B9B; }
+    @media (min-width: 1000px) {
+      .about-text .about-content-container p {
+        width: 598px; } }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1742,7 +1745,7 @@ li a.stickytop2 {
     text-align: left; }
 
 .people-post {
-  width: 286px;
+  width: 340px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1751,7 +1754,8 @@ li a.stickytop2 {
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: "Rubik", sans; }
+  font-family: "Rubik", sans;
+  margin: 6%; }
   .people-post img {
     border-radius: 50%; }
   .people-post p {
@@ -1762,7 +1766,7 @@ li a.stickytop2 {
   .people-post .each-person {
     -ms-flex-pack: center;
         justify-content: center;
-    margin: 3rem;
+    margin: 1rem;
     width: 121px; }
     .people-post .each-person a {
       margin-left: 9%;
@@ -1789,7 +1793,8 @@ li a.stickytop2 {
     font-size: 36px;
     line-height: 43px;
     width: 297px;
-    text-align: center; }
+    text-align: center;
+    margin: 12%; }
     @media (min-width: 1000px) {
       .page-template-page-about h2 {
         border-bottom: 1px solid #9B9B9B;
@@ -1797,22 +1802,27 @@ li a.stickytop2 {
         margin-bottom: 9%;
         padding: 2%; } }
 
-@media (min-width: 1000px) {
-  .aboutpage-button {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin: 110px auto;
-    width: 575px;
-    height: 30vh;
-    padding-bottom: 5rem; }
-    .aboutpage-button h3 {
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-      margin-top: 15%; } }
+.aboutpage-button {
+  margin: 12%;
+  margin-bottom: 32%; }
+  .aboutpage-button h2 {
+    margin: 0%; }
+  @media (min-width: 1000px) {
+    .aboutpage-button {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin: 110px auto;
+      width: 575px;
+      height: 30vh;
+      padding-bottom: 5rem; }
+      .aboutpage-button h3 {
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+        margin-top: 15%; } }
 
 .contact-us {
   width: 270px;
