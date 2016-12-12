@@ -1760,17 +1760,19 @@ li a.stickytop2 {
     -ms-flex-pack: center;
         justify-content: center; }
   .people-post .each-person {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
     -ms-flex-pack: center;
         justify-content: center;
     margin: 3rem; }
     .people-post .each-person a {
-      margin-left: 20%;
+      margin-left: 16%;
       text-decoration: none;
-      color: #83A3B3; }
+      color: #83A3B3;
+      padding-top: 12%;
+      font-weight: lighter; }
+    .people-post .each-person .the-title {
+      font-size: 21px; }
+    .people-post .each-person .people-position {
+      font-size: 14px; }
 
 .page-template-page-about {
   display: -ms-flexbox;

@@ -19,12 +19,11 @@
        text-align: center;
        .about-content-container {
            p {
-    display: flex;
-    margin: 1% auto;
-    margin-bottom: 3%;
-    width: 598px;
-    color: $main-body-color;
-
+               display: flex;
+               margin: 1% auto;
+               margin-bottom: 3%;
+               width: 598px;
+               color: $main-body-color;
            }
        }
        h3 {
@@ -33,15 +32,17 @@
            font-weight: lighter;
        }
    }
+   
    .our-mission {
        margin-bottom: 5%;
-       p{
-       text-align: left;
+       p {
+           text-align: left;
        }
    }
+   
    .people-post {
-    display: flex;
-    justify-content: center;
+       display: flex;
+       justify-content: center;
        flex-direction: row;
        flex-wrap: wrap;
        margin-left: 20%;
@@ -49,21 +50,25 @@
        img {
            border-radius: 50%;
        }
-  
        p {
-                display: flex;
-       justify-content: center;
+           display: flex;
+           justify-content: center;
        }
        .each-person {
-           display: flex;
-           flex-direction: column;
            justify-content: center;
            margin: 3rem;
            a {
-               margin-left: 20%;
+               margin-left: 16%;
                text-decoration: none;
                color: #83A3B3;
-
+               padding-top: 12%;
+               font-weight: lighter;
+           }
+           .the-title {
+               font-size: 21px;
+           }
+           .people-position {
+               font-size: 14px;
            }
        }
    }
@@ -83,96 +88,77 @@
            margin-bottom: 9%;
            padding: 2%;
        }
-   } 
+   }
    
    .aboutpage-button {
-
-    @include desktop {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 110px auto;
-        width: 575px;
-        height: 30vh;
-        padding-bottom: 5rem;
-        h3 {
-            flex-basis: 100%;
-            margin-top: 15%;
-        }
-    }
-}
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: space-between;
-
-
-
-
-//     button {
-//         margin-bottom: 5%;
-//     }
-//        h2 {
-//            text-align: center;
-        
-//        }
-//    }
-   
-
-       
-       .contact-us {
-           width: 270px;
-           height: 49px;
-           background-color: $theme-blue-color;
-           border-radius: 6px;
-           font-size: 18px;
-           font-weight: lighter;
-           text-align: center;
-           line-height: 22px;
-           color: #FFFFFF;
-           font-family: $accent-font-family;
-           text-shadow: none;
-           text-transform: uppercase;
-           box-shadow: none;
-           border: 3px solid $btn-border-color;
-           &:hover {
-               border-color: $btn-border-color;
-               box-shadow: none;
-               background-color: darken($theme-blue-color, 10%);
+       @include desktop {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           margin: 110px auto;
+           width: 575px;
+           height: 30vh;
+           padding-bottom: 5rem;
+           h3 {
+               flex-basis: 100%;
+               margin-top: 15%;
            }
        }
-       .programs {
-           width: 270px;
-           height: 49px;
-           background-color: $theme-orange-color;
-           border-radius: 6px;
-           font-size: 18px;
-           font-weight: lighter;
-           text-align: center;
-           line-height: 22px;
-           color: #FFFFFF;
-           font-family: $accent-font-family;
-           text-shadow: none;
-           text-transform: uppercase;
-           box-shadow: none;
-           border: 3px solid $btn-border-color;
-           &:hover {
-               border-color: $btn-border-color;
-               box-shadow: none;
-               background-color: darken($theme-orange-color, 10%);
-           }
-       }
+   }
    
+   .contact-us {
+       width: 270px;
+       height: 49px;
+       background-color: $theme-blue-color;
+       border-radius: 6px;
+       font-size: 18px;
+       font-weight: lighter;
+       text-align: center;
+       line-height: 22px;
+       color: #FFFFFF;
+       font-family: $accent-font-family;
+       text-shadow: none;
+       text-transform: uppercase;
+       box-shadow: none;
+       border: 3px solid $btn-border-color;
+       &:hover {
+           border-color: $btn-border-color;
+           box-shadow: none;
+           background-color: darken($theme-blue-color, 10%);
+       }
+   }
+   
+   .programs {
+       width: 270px;
+       height: 49px;
+       background-color: $theme-orange-color;
+       border-radius: 6px;
+       font-size: 18px;
+       font-weight: lighter;
+       text-align: center;
+       line-height: 22px;
+       color: #FFFFFF;
+       font-family: $accent-font-family;
+       text-shadow: none;
+       text-transform: uppercase;
+       box-shadow: none;
+       border: 3px solid $btn-border-color;
+       &:hover {
+           border-color: $btn-border-color;
+           box-shadow: none;
+           background-color: darken($theme-orange-color, 10%);
+       }
+   }
    
    @include min-desktop {
        .people-post {
            display: flex;
-              width: 800px;
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: center;
-       margin-left: 20%;
+           width: 800px;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: center;
+           margin-left: 20%;
            p {
                margin: 0;
            }

@@ -32,7 +32,7 @@ get_header(); ?>
 								</p>
 							</div>
 						</section>
-						<h2>Our Team</h3>
+						<h2>Our Team</h2>
 							<div class="people-post">
 								<?php while ( have_posts() ) : the_post(); ?>
 								<?php endwhile; ?>
@@ -46,10 +46,10 @@ get_header(); ?>
 								echo '<div class="each-person"><div class="post-thumbnail">'; 
 								the_post_thumbnail( $size = 'post-thumbnail', $attr = '');
 								echo'</div>'; 
-								echo '<p>';
+								echo '<p class="the-title">';
 								the_title();
 								echo '</p>';?>
-									<p>
+									<p class="people-position">
 										<?php echo CFS()->get( 'person_position' ); ?>
 									</p>
 									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">READ MORE ></a>
