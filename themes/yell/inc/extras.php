@@ -141,7 +141,9 @@ function yell_styles_method() {
          background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:600px;
          background-size: cover, cover;
-         
+         -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 90%, 74% 90%, 20% 100%, 0 100%, 0 0);
+         clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 90%, 74% 90%, 20% 100%, 0 100%, 0 0);
+
        }";
 
    
