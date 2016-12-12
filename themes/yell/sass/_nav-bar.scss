@@ -31,7 +31,7 @@
             a{
                 z-index:1;
                    font-family:$main-font-family;
-                    weight:600;
+                    font-weight:600;
 
             }
             .button-click-toggle{
@@ -155,7 +155,7 @@
                     border: 2px solid white;
                     color: white;
                     font-family:$main-font-family;
-                    weight:600;
+                    font-weight:600;
                     &:hover {
                         border-color: $theme-peach-color;
                         color: $theme-peach-color;
