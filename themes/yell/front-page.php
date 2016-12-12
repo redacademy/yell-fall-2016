@@ -33,6 +33,11 @@ get_header(); ?>
     $props = CFS()->get_field_info( 'impact' );
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
+	
+<p>The first unified effort to bring <br>mentor-based entrepreneurship &amp; leadership education to high <br>schools across Canada.</p>
+</div>
+
+						<div class="eds-animate animated bounceIn" data-eds-entry-animation="bounceIn" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
 								<div class="chart-wrap">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/hill.png" alt="hill chart">
 									<div class="bubble-chart">
@@ -40,6 +45,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri(); ?>/images/legend.png" alt="Bubble legend">
 									</div>
 								</div>
+							</div>
 								<div class="testimonial-flex">
 									<div class="testimonial-wrapper">
 										<img src="	<?php echo CFS()->get ('image_1') ;  ?>" class="testimonial-img">
