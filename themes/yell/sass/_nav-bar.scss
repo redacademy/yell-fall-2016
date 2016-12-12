@@ -27,6 +27,11 @@
         }
 
         .button-click {
+
+            a{
+                z-index:10000;
+
+            }
             .button-click-toggle{
                 display:none;
             }

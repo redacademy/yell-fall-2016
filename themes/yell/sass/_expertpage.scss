@@ -1,4 +1,7 @@
 .page-template-page-expert {
+    p { 
+        font-family: $main-font-family;
+    }
     .expert-info {
         text-align: center;
         text-align: center;
@@ -22,7 +25,7 @@
         text-transform: uppercase;
         box-shadow: none;
         border: 3px solid $btn-border-color;
-        margin: 5%;
+        margin: 4%;
         &:hover {
             border-color: $btn-border-color;
             box-shadow: none;
@@ -49,6 +52,7 @@
     @include min-desktop {
         .mentor-ul {
             margin-left: 2%;
+            font-family: $main-font-family;
         }
     }
     .mentor {
@@ -93,6 +97,7 @@
             color: $theme-darkblue-color;
             margin-top: 8%;
         }
+        
         @include desktop {
             display: block;
             margin-left: 10%;
@@ -116,7 +121,18 @@
             margin-top: 5%;
             margin-bottom: 5%;
         }
+ 
+        ul{
+            li {
+            font-family:$main-font-family;
+
+            @include desktop{
+                margin-left: 60px;
+                width:485px;
+            }
+        }
     }
+}
     .mentor-btn {
         width: 100%;
         height: 90px;

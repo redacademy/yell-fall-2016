@@ -11,6 +11,10 @@
 
 })
 
+	$('#primary-menu ul').focusout(function(){
+		$('#primary-menu ul').animate({width:toggle});
+	})
+// sticky nav.............................................................
 
 	  $(window).scroll(function() {
 		

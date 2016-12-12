@@ -1,6 +1,12 @@
 .blog {
     background-color: $testimonial-bg-lightgrey;
 
+    .entry-header{
+        img {
+            height: 300px;
+        }
+    }
+
     .nav-bar{
         position:absolute;
         width:100%;

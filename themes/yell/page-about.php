@@ -18,18 +18,21 @@ get_header(); ?>
 					<div class="aboutpg-bg3">
 						<section class="about-text">
 							<div class="about-content-container">
-								<h2>. About .</h2>
-								<h3>Our Mission</h3>
+								<h2>About</h2>
+								
+								<div class="our-mission">
+									<h3>Our Mission</h3>
 								<p>
 									<?php echo CFS()->get( 'our_mission' ); ?>
 								</p>
+								</div>
 								<h3>Our Story</h3>
 								<p>
 									<?php echo CFS()->get( 'our_story' ); ?>
 								</p>
 							</div>
 						</section>
-						<h2>. Our Team .</h3>
+						<h2>Our Team</h2>
 							<div class="people-post">
 								<?php while ( have_posts() ) : the_post(); ?>
 								<?php endwhile; ?>
@@ -43,13 +46,13 @@ get_header(); ?>
 								echo '<div class="each-person"><div class="post-thumbnail">'; 
 								the_post_thumbnail( $size = 'post-thumbnail', $attr = '');
 								echo'</div>'; 
-								echo '<p>';
+								echo '<p class="the-title">';
 								the_title();
 								echo '</p>';?>
-									<p>
+									<p class="people-position">
 										<?php echo CFS()->get( 'person_position' ); ?>
 									</p>
-									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">Read More ></a>
+									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">READ MORE ></a>
 							</div>
 							<?php endwhile; ?>
 					</div>

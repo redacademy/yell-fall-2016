@@ -58,7 +58,7 @@ get_header(); ?>
 					</div>
 					<!--end of testimonial section-->
 					<div class="expert-info">
-						<?php echo CFS()->get( 'expert_paragraph' ); ?>
+						<p><?php echo CFS()->get( 'expert_paragraph' ); ?></p>
 					</div>
 					<div class="expert-wrapper">
 						<div class="speaker-btn">Guest Speakers at YELL
@@ -67,8 +67,9 @@ get_header(); ?>
 							<div class="speaker-infom">
 								<h2>Guest Speakers at YELL
 								</h2>
+								<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
 							</div>
-							<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
+							
 							<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get-involved"><button class="get-involved"> Be a guest speaker! </button></a>
 						</div>
 						<div class="mentor-btn">
