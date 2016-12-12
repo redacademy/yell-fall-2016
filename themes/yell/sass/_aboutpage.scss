@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 598px;
 
            }
        }
@@ -40,6 +40,7 @@
        flex-direction: row;
        flex-wrap: wrap;
        margin-left: 20%;
+       font-family: $accent-font-family;
        img {
            border-radius: 50%;
        }
@@ -72,6 +73,9 @@
            font-family: $accent-font-family;
            font-size: $h2-font-size;
            line-height: 43px;
+           border-bottom: solid $main-body-color;
+           border-width: 1px;
+           margin-bottom: 10%;
        }
    } 
    

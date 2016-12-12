@@ -1651,7 +1651,7 @@ li a.stickytop2 {
     -ms-flex-pack: center;
         justify-content: center;
     margin: 0 auto;
-    width: 60%; }
+    width: 598px; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1666,7 +1666,8 @@ li a.stickytop2 {
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 20%; }
+  margin-left: 20%;
+  font-family: "Rubik", sans; }
   .people-post img {
     border-radius: 50%; }
   .people-post p {
@@ -1698,7 +1699,10 @@ li a.stickytop2 {
     font-weight: lighter;
     font-family: "Rubik", sans;
     font-size: 36px;
-    line-height: 43px; }
+    line-height: 43px;
+    border-bottom: solid #9B9B9B;
+    border-width: 1px;
+    margin-bottom: 10%; }
 
 .aboutpage-button {
   display: -ms-flexbox;

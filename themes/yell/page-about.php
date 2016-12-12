@@ -49,7 +49,7 @@ get_header(); ?>
 									<p>
 										<?php echo CFS()->get( 'person_position' ); ?>
 									</p>
-									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">Read More ></a>
+									<a href="<?php echo get_post_type_archive_link( 'single-people_type' ); ?>">READ MORE ></a>
 							</div>
 							<?php endwhile; ?>
 					</div>
