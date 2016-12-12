@@ -1650,10 +1650,8 @@ li a.stickytop2 {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
-    width: 335px;
-    margin-left: 20%; }
+    margin: 0 auto;
+    width: 60%; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1702,11 +1700,21 @@ li a.stickytop2 {
     font-size: 36px;
     line-height: 43px; }
 
-.aboutpage-button h2 {
-  text-align: center;
-  padding-left: 20%; }
+.aboutpage-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .aboutpage-button button {
+    margin-bottom: 5%; }
+  .aboutpage-button h2 {
+    text-align: center; }
 
-.aboutpage-button .contact-us {
+.contact-us {
   width: 270px;
   height: 49px;
   background-color: #8DC0D0;
@@ -1721,12 +1729,12 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8; }
-  .aboutpage-button .contact-us:hover {
+  .contact-us:hover {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
 
-.aboutpage-button .programs {
+.programs {
   width: 270px;
   height: 49px;
   background-color: #E48C3D;
@@ -1741,7 +1749,7 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8; }
-  .aboutpage-button .programs:hover {
+  .programs:hover {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #d1721d; }
