@@ -1696,14 +1696,19 @@ li a.stickytop2 {
   .about-text .about-content-container p {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    margin: 0 auto;
-    width: 598px; }
+    margin: 1% auto;
+    margin-bottom: 3%;
+    width: 598px;
+    color: #9B9B9B; }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
     font-weight: lighter; }
+
+.our-mission {
+  margin-bottom: 5%; }
+  .our-mission p {
+    text-align: left; }
 
 .people-post {
   display: -ms-flexbox;
@@ -1748,9 +1753,11 @@ li a.stickytop2 {
     font-family: "Rubik", sans;
     font-size: 36px;
     line-height: 43px;
-    border-bottom: solid #9B9B9B;
-    border-width: 1px;
-    margin-bottom: 10%; }
+    border-bottom: 1px solid #9B9B9B;
+    width: 550px;
+    margin-bottom: 9%;
+    margin-left: 30.5%;
+    padding: 2%; }
 
 .aboutpage-button {
   display: -ms-flexbox;

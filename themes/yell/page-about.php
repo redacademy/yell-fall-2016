@@ -19,10 +19,13 @@ get_header(); ?>
 						<section class="about-text">
 							<div class="about-content-container">
 								<h2>. About .</h2>
-								<h3>Our Mission</h3>
+								
+								<div class="our-mission">
+									<h3>Our Mission</h3>
 								<p>
 									<?php echo CFS()->get( 'our_mission' ); ?>
 								</p>
+								</div>
 								<h3>Our Story</h3>
 								<p>
 									<?php echo CFS()->get( 'our_story' ); ?>
