@@ -22,8 +22,12 @@
                display: flex;
                margin: 1% auto;
                margin-bottom: 3%;
-               width: 598px;
+               width: 349px;
                color: $main-body-color;
+               @include desktop {
+                  width: 598px;
+
+               }
            }
        }
        h3 {
@@ -41,12 +45,13 @@
    }
    
    .people-post {
-       width: 286px;
+       width: 340px;
        display: flex;
        justify-content: center;
        flex-direction: row;
        flex-wrap: wrap;
        font-family: $accent-font-family;
+       margin: 6%;
        img {
            border-radius: 50%;
        }
@@ -56,7 +61,7 @@
        }
        .each-person {
            justify-content: center;
-           margin: 3rem;
+           margin: 1rem;
            width: 121px;
            a {
                margin-left: 9%;
@@ -87,6 +92,7 @@
            line-height: 43px;
            width: 297px;
            text-align: center;
+           margin: 12%;
 
            
            @include desktop {
@@ -100,6 +106,11 @@
    }
    
    .aboutpage-button {
+       margin: 12%;
+       margin-bottom: 32%;
+      h2 {
+          margin: 0%;
+      }
        @include desktop {
            display: flex;
            flex-wrap: wrap;
