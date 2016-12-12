@@ -1422,6 +1422,8 @@ li a.stickytop2 {
 
 .blog {
   background-color: #F9f9f9; }
+  .blog .entry-header img {
+    height: 300px; }
   .blog .nav-bar {
     position: absolute;
     width: 100%; }
