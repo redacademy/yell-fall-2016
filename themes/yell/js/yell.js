@@ -7,7 +7,7 @@
 		$('.button-click').animate({width:'80%'}).css("background-color","red");
 		$('.fa-bars').toggle();
 		$('.back').toggle();
-		$('.fa-arrow-circle-o-left').toggle();
+		$('.fa-arrow-circle-o-left').toggle(); 
 
   })
 
