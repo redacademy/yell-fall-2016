@@ -19,7 +19,6 @@
        text-align: center;
        .about-content-container {
            p {
-    
     display: flex;
     margin: 1% auto;
     margin-bottom: 3%;
@@ -40,7 +39,6 @@
        text-align: left;
        }
    }
-   
    .people-post {
     display: flex;
     justify-content: center;
@@ -83,28 +81,42 @@
            border-bottom: 1px solid $main-body-color;
            width: 550px;
            margin-bottom: 9%;
-           margin-left: 30.5%;
            padding: 2%;
        }
    } 
    
    .aboutpage-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 
-
-
-
-    button {
-        margin-bottom: 5%;
+    @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 110px auto;
+        width: 575px;
+        height: 30vh;
+        padding-bottom: 5rem;
+        h3 {
+            flex-basis: 100%;
+            margin-top: 15%;
+        }
     }
-       h2 {
-           text-align: center;
+}
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+
+
+
+
+//     button {
+//         margin-bottom: 5%;
+//     }
+//        h2 {
+//            text-align: center;
         
-       }
-   }
+//        }
+//    }
    
 
        
@@ -151,22 +163,6 @@
            }
        }
    
-   
-   .aboutpage-button {
-       @include desktop {
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: space-between;
-           margin: 110px auto;
-           width: 575px;
-           height: 30vh;
-           padding-bottom: 5rem;
-           h2 {
-               flex-basis: 100%;
-               margin-top: 15%;
-           }
-       }
-   }
    
    @include min-desktop {
        .people-post {
