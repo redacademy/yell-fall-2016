@@ -1883,6 +1883,9 @@ li a.stickytop2 {
           flex-direction: column;
       margin: 3rem; } }
 
+.page-template-page-expert p {
+  font-family: "Roboto", sans; }
+
 .page-template-page-expert .expert-info {
   text-align: center;
   text-align: center;
@@ -1906,7 +1909,7 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-  margin: 5%; }
+  margin: 4%; }
   .page-template-page-expert .get-involved:hover {
     border-color: #E8E8E8;
     box-shadow: none;
@@ -1931,7 +1934,8 @@ li a.stickytop2 {
 
 @media (min-width: 600px) {
   .page-template-page-expert .mentor-ul {
-    margin-left: 2%; } }
+    margin-left: 2%;
+    font-family: "Roboto", sans; } }
 
 .page-template-page-expert .mentor {
   width: 300px;
@@ -1992,6 +1996,12 @@ li a.stickytop2 {
   .page-template-page-expert .speaker-info p {
     margin-top: 5%;
     margin-bottom: 5%; }
+  .page-template-page-expert .speaker-info ul li {
+    font-family: "Roboto", sans; }
+    @media (min-width: 1000px) {
+      .page-template-page-expert .speaker-info ul li {
+        margin-left: 60px;
+        width: 485px; } }
 
 .page-template-page-expert .mentor-btn {
   width: 100%;
@@ -2528,23 +2538,25 @@ li a.stickytop2 {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 
-.press-hero, .about-hero, .supporters-hero {
+.press-hero, .about-hero, .supporters-hero, .expert-hero {
   text-align: center;
   padding-top: 15%;
   font-family: "Rubik", sans;
   color: white;
   text-transform: uppercase; }
-  .press-hero h1, .about-hero h1, .supporters-hero h1 {
+  .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1 {
     font-size: 3.7rem; }
     @media (min-width: 1000px) {
-      .press-hero h1, .about-hero h1, .supporters-hero h1 {
-        font-size: 5rem; } }
+      .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1 {
+        font-size: 5rem;
+        margin-top: 5%; } }
 
 .supporters-hero h1 {
   font-size: 2rem; }
   @media (min-width: 1000px) {
     .supporters-hero h1 {
-      font-size: 5rem; } }
+      font-size: 5rem;
+      margin-top: -2%; } }
 
 .page-id-161,
 .page-id-168 {
