@@ -1734,8 +1734,11 @@ li a.stickytop2 {
     display: flex;
     margin: 1% auto;
     margin-bottom: 3%;
-    width: 598px;
+    width: 349px;
     color: #9B9B9B; }
+    @media (min-width: 1000px) {
+      .about-text .about-content-container p {
+        width: 598px; } }
   .about-text h3 {
     font-family: "Rubik", sans;
     font-size: 24px;
@@ -1747,6 +1750,7 @@ li a.stickytop2 {
     text-align: left; }
 
 .people-post {
+  width: 340px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1755,8 +1759,8 @@ li a.stickytop2 {
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 20%;
-  font-family: "Rubik", sans; }
+  font-family: "Rubik", sans;
+  margin: 6%; }
   .people-post img {
     border-radius: 50%; }
   .people-post p {
@@ -1767,17 +1771,20 @@ li a.stickytop2 {
   .people-post .each-person {
     -ms-flex-pack: center;
         justify-content: center;
-    margin: 3rem; }
+    margin: 1rem;
+    width: 121px; }
     .people-post .each-person a {
-      margin-left: 16%;
+      margin-left: 9%;
       text-decoration: none;
       color: #83A3B3;
       padding-top: 12%;
       font-weight: lighter; }
     .people-post .each-person .the-title {
-      font-size: 21px; }
+      font-size: 15px;
+      margin-bottom: 0; }
     .people-post .each-person .people-position {
-      font-size: 14px; }
+      font-size: 11px;
+      margin-top: 0px; }
 
 .page-template-page-about {
   display: -ms-flexbox;
@@ -1786,54 +1793,43 @@ li a.stickytop2 {
       flex-direction: column; }
   .page-template-page-about h2 {
     color: #E48C3D;
-    text-align: center;
     font-weight: lighter;
     font-family: "Rubik", sans;
     font-size: 36px;
     line-height: 43px;
-    border-bottom: 1px solid #9B9B9B;
-    width: 550px;
-    margin-bottom: 9%;
-    padding: 2%; }
+    width: 297px;
+    text-align: center;
+    margin: 12%; }
+    @media (min-width: 1000px) {
+      .page-template-page-about h2 {
+        border-bottom: 1px solid #9B9B9B;
+        width: 550px;
+        margin-bottom: 9%;
+        padding: 2%; } }
 
-@media (min-width: 1000px) {
-  .aboutpage-button {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin: 110px auto;
-    width: 575px;
-    height: 30vh;
-    padding-bottom: 5rem; }
-    .aboutpage-button h3 {
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-      margin-top: 15%; } }
+.aboutpage-button {
+  margin: 12%;
+  margin-bottom: 32%; }
+  .aboutpage-button h2 {
+    margin: 0%; }
+  @media (min-width: 1000px) {
+    .aboutpage-button {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin: 110px auto;
+      width: 575px;
+      height: 30vh;
+      padding-bottom: 5rem; }
+      .aboutpage-button h3 {
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+        margin-top: 15%; } }
 
 .contact-us {
-  width: 270px;
-  height: 49px;
-  background-color: #8DC0D0;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
-  line-height: 22px;
-  color: #FFFFFF;
-  font-family: "Rubik", sans;
-  text-shadow: none;
-  text-transform: uppercase;
-  box-shadow: none;
-  border: 3px solid #E8E8E8; }
-  .contact-us:hover {
-    border-color: #E8E8E8;
-    box-shadow: none;
-    background-color: #69acc1; }
-
-.programs {
   width: 270px;
   height: 49px;
   background-color: #E48C3D;
@@ -1847,11 +1843,45 @@ li a.stickytop2 {
   text-shadow: none;
   text-transform: uppercase;
   box-shadow: none;
-  border: 3px solid #E8E8E8; }
-  .programs:hover {
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  @media (min-width: 1000px) {
+    .contact-us {
+      margin: 0; } }
+  .contact-us a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .contact-us:hover {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #d1721d; }
+
+.programs {
+  width: 270px;
+  height: 49px;
+  background-color: #8DC0D0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-family: "Rubik", sans;
+  text-shadow: none;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 3px solid #E8E8E8;
+  margin: 5%; }
+  @media (min-width: 1000px) {
+    .programs {
+      margin: 0; } }
+  .programs a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .programs:hover {
+    border-color: #E8E8E8;
+    box-shadow: none;
+    background-color: #69acc1; }
 
 @media (min-width: 600px) {
   .people-post {
