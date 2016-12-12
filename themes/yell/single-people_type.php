@@ -24,6 +24,7 @@ get_header(); ?>
 					</p>
 				</div>
 				
+					<a href="#" rel="home" onclick="history.back(-1)"><button class="backbtn">< Back </button></a>
 			</section>
 				<!--<?php endwhile; // End of the loop. ?>-->
 		</main>

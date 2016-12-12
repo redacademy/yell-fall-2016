@@ -2927,6 +2927,8 @@ li a.stickytop2 {
   text-align: center;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 2rem; }
   .single-people-container .single-people-thumb {
