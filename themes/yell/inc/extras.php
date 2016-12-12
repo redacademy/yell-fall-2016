@@ -34,6 +34,8 @@ function yell_styles_method() {
          background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
          height:100vh;
          background-size: cover, cover;
+         background-position-y:75%;
+         width:100%;
        }
        
        #menu-item-79{
