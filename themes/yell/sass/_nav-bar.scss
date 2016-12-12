@@ -29,7 +29,9 @@
         .button-click {
 
             a{
-                z-index:10000;
+                z-index:1;
+                   font-family:$main-font-family;
+                    weight:600;
 
             }
             .button-click-toggle{
@@ -152,6 +154,8 @@
                 a {
                     border: 2px solid white;
                     color: white;
+                    font-family:$main-font-family;
+                    weight:600;
                     &:hover {
                         border-color: $theme-peach-color;
                         color: $theme-peach-color;
