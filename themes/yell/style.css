@@ -919,7 +919,8 @@ object {
   .home .testimonial-wrapper2 img,
   .home .testimonial-wrapper3 img {
     height: 275px;
-    border-radius: 4%; }
+    border-radius: 4%;
+    margin-bottom: 10px; }
   .home .homepg-bg1 {
     background-color: rgba(242, 242, 242, 0.5);
     background-image: url(../../images/orange-splash.png);
@@ -1080,7 +1081,7 @@ object {
   color: #9B9B9B;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 25px auto;
   margin-top: 5%;
   font-family: "Roboto", sans; }
   .testimonial p {
@@ -1091,7 +1092,7 @@ object {
   font-family: "Roboto", sans;
   opacity: 0.33;
   padding: 2.5%;
-  margin: 0 auto;
+  margin: 139px auto;
   position: absolute;
   width: 345px;
   height: 70px;
@@ -2113,11 +2114,11 @@ li a.stickytop2 {
     padding-left: 1%;
     float: right; }
 
-.student-name {
+.page-template-page-expert .student-name {
   font-family: "Roboto", sans;
   opacity: 0.33;
   padding: 2.5%;
-  margin: 0 auto;
+  margin: 33px auto;
   position: absolute;
   width: 345px;
   height: 70px;

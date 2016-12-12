@@ -220,12 +220,12 @@
         float: right;
     }
 }
-
+.page-template-page-expert {
 .student-name {
     font-family: $main-font-family;
     opacity: 0.33;
     padding: 2.5%;
-    margin: 0 auto;
+    margin: 33px auto;
     position: absolute;
     width: 345px;
     height: 70px;
@@ -233,6 +233,7 @@
     align-self: flex-end;
     border-radius: 6px;
     color: $testimonial-name-color;
+}
 }
 
 .testimonial-flex {

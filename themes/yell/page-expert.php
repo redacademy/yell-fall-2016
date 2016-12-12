@@ -28,10 +28,11 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_1_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_1_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 						<div class="testimonial-wrapper2">
 							<div class="testimonial">
@@ -39,10 +40,11 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_2_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_2_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 						<div class="testimonial-wrapper3">
 							<div class="testimonial">
@@ -50,10 +52,11 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_3_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 					</div>
 					<!--end of testimonial section-->
