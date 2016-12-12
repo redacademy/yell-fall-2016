@@ -7,7 +7,7 @@
 		$('.button-click').toggle().toggleClass('.button-click-toggle').animate({width:'toggle'});
 		$('.fa-bars').toggle();
 		$('.back').toggle();
-		$('.fa-arrow-circle-o-left').toggle();
+		$('.fa-arrow-circle-o-left').toggle(); 
 
   })
 

@@ -871,10 +871,11 @@ object {
         .footer-container .colophon-footer .colophon-left, .footer-container .colophon-footer .colophon-right {
           line-height: 3rem; } }
       .footer-container .colophon-footer .colophon-left a, .footer-container .colophon-footer .colophon-right a {
-        color: #F4B473;
+        color: #E48C3D;
+        font-family: "Roboto", sans;
         text-decoration: none; }
         .footer-container .colophon-footer .colophon-left a:hover, .footer-container .colophon-footer .colophon-right a:hover {
-          color: #E48C3D; }
+          color: #F4B473; }
   .footer-container .site-copyright {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -886,7 +887,8 @@ object {
             order: 3; } }
     .footer-container .site-copyright p {
       font-size: 12.5px;
-      color: #F4B473; }
+      color: #E48C3D;
+      margin-left: 3%; }
       @media (min-width: 600px) {
         .footer-container .site-copyright p {
           text-align: right;
@@ -933,7 +935,8 @@ object {
     background-image: url(../../images/orange-splash2.png);
     background-repeat: no-repeat;
     background-size: 100% 350px;
-    background-position-y: 90%; }
+    background-position-y: 90%;
+    font-family: "Roboto", sans; }
 
 #playbtn {
   border: 2px solid #fff;
@@ -2560,16 +2563,16 @@ li a.stickytop2 {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 
-.press-hero, .about-hero, .supporters-hero, .expert-hero {
+.press-hero, .about-hero, .supporters-hero, .expert-hero, .program-hero {
   text-align: center;
   padding-top: 15%;
   font-family: "Rubik", sans;
   color: white;
   text-transform: uppercase; }
-  .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1 {
+  .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
     font-size: 3.7rem; }
     @media (min-width: 1000px) {
-      .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1 {
+      .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
         font-size: 5rem;
         margin-top: 5%; } }
 
@@ -2577,7 +2580,7 @@ li a.stickytop2 {
   font-size: 2rem; }
   @media (min-width: 1000px) {
     .supporters-hero h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       margin-top: -2%; } }
 
 .page-id-161,

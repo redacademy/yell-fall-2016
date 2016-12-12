@@ -17,7 +17,7 @@
 .page-id-179 {
     .nav-bar {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
         background-color: $btn-border-color;
         @include min-desktop {
             justify-content: flex-start;

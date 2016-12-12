@@ -21,7 +21,7 @@ h1 {
     }
 }
 
-.press-hero, .about-hero, .supporters-hero, .expert-hero{
+.press-hero, .about-hero, .supporters-hero, .expert-hero, .program-hero{
     text-align: center;
     padding-top: 15%;
     font-family:$accent-font-family;
@@ -44,7 +44,7 @@ h1 {
         font-size:2rem;
 
         @include desktop {
-            font-size: 5rem;
+            font-size: 4rem;
             margin-top: -2%;
         }
 

@@ -27,7 +27,7 @@ get_header(); ?>
     $props = CFS()->get_field_info( 'what_yell' );
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
-							<?php echo CFS()->get( 'what_yell' ); ?>
+							<p><?php echo CFS()->get( 'what_yell' ); ?></p>
 							<a href="<?php echo esc_url( site_url( '/about/' ) ); ?>" rel="about"><button class="more-about"> More About Yell ></button></a>
 							<?php
     $props = CFS()->get_field_info( 'impact' );
