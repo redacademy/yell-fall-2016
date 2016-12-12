@@ -4,7 +4,7 @@
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();
 		$('.main-navigation ul').css("background-color","#e8e8e8","width","80%");
 		$('button').css("display","flex","width","80%");
-		$('.button-click').toggle().toggleClass('.button-click-toggle').animate({width:'toggle'});
+		$('.button-click').animate({width:'80%','background-color':'red'});
 		$('.fa-bars').toggle();
 		$('.back').toggle();
 		$('.fa-arrow-circle-o-left').toggle();
