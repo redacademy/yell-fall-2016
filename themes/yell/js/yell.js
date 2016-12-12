@@ -4,8 +4,16 @@
 		event.preventDefault();
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();
 		$('.main-navigation ul').css("background-color","#e8e8e8");
+		$('button').css("display","flex");
+		$('.fa-bars').toggle();
+		$('.back').toggle();
+		$('.fa-arrow-circle-o-left').toggle();
 		
-
+})
+$('.button-click').toggle(function() {
+$(this).animate({width: '80%'}).css("background-color","#F4B473");
+}, function() {
+$(this).animate({width: ''})
 })
 	$('#primary-menu ul').focusout(function(){
 		$('#primary-menu ul').animate({width:toggle});

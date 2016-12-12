@@ -25,9 +25,15 @@
             margin-top: 2rem;
             margin-left: 2rem;
         }
+
+        .button-click {
+            .button-click-toggle{
+                display:none;
+            }
+        }
         button {
             height: 5rem;
-            width: 5rem;
+            width: 100%;
             border: none;
             background-color: transparent;
             box-shadow: none;
@@ -36,7 +42,13 @@
                 font-size: 3rem;
                 color: $hero-font-color;
             }
+            .fa-arrow-circle-o-left{
+                display:none;
+                color: white;
+            
+            }
         }
+
         img {
             height: 5rem;
             width: 5rem;
@@ -46,8 +58,9 @@
                 width: 9rem;
             }
         }
-    }
-}
+      }
+   }
+
 
 .home,
 .page-template-page-about,
@@ -156,7 +169,16 @@ ul.menu.stickytop {
 li a.stickytop2 {
     color:$theme-orange-color;
 }
-  
+.back {
+    display:none;
+    width: 100%;
+    text-align: center;
+    font-size:24px!important;
+    margin-right: 2rem!important;
+    margin-top: 1rem!important;
+    text-transform: uppercase;
+    margin-left: 10px!important;
+    color:white!important;
+} 
 
-    
 
