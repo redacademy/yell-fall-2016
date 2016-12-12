@@ -13,7 +13,7 @@
 
 	$('#primary-menu ul').focusout(function(){
 		$('#primary-menu ul').animate({width:toggle});
-	
+	    $('.button-click').toggle('width','20%');
 	})
 
 // sticky nav.............................................................
