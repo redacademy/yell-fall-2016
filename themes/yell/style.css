@@ -1184,7 +1184,7 @@ object {
   .page-id-179 .nav-bar .button-click a {
     z-index: 1;
     font-family: "Roboto", sans;
-    weight: 600; }
+    font-weight: 600; }
   .home .nav-bar .button-click .button-click-toggle,
   .page-template-page-about .nav-bar .button-click .button-click-toggle,
   .page-template-page-contact .nav-bar .button-click .button-click-toggle,
@@ -1398,7 +1398,7 @@ object {
     border: 2px solid white;
     color: white;
     font-family: "Roboto", sans;
-    weight: 600; }
+    font-weight: 600; }
     .home .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
     .page-template-page-about .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
     .page-template-page-expert .menu-primary-menu-container ul li:nth-last-child(-n+1) a:hover,
