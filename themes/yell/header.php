@@ -23,7 +23,7 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 				   <div class="nav-bar" id="nav">	
 					   <div class="button-click">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?><i class="fa fa-bars" aria-hidden="true"></i></button>
+							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?><i class="fa fa-bars" aria-hidden="true"></i><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i><p class="back">Back</p></button>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					
 					  </div>

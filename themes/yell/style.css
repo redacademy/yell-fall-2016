@@ -1150,6 +1150,24 @@ object {
       background-color: transparent;
       margin-top: 2rem;
       margin-left: 2rem; } }
+  .home .nav-bar .button-click .button-click-toggle,
+  .page-template-page-about .nav-bar .button-click .button-click-toggle,
+  .page-template-page-contact .nav-bar .button-click .button-click-toggle,
+  .page-template-page-expert .nav-bar .button-click .button-click-toggle,
+  .blog .nav-bar .button-click .button-click-toggle,
+  .page-template-page-program .nav-bar .button-click .button-click-toggle,
+  .page-template-page-student .nav-bar .button-click .button-click-toggle,
+  .page-template-page-supporters .nav-bar .button-click .button-click-toggle,
+  .single-post .nav-bar .button-click .button-click-toggle,
+  .error404 .nav-bar .button-click .button-click-toggle,
+  .page-id-123 .nav-bar .button-click .button-click-toggle,
+  .page-id-161 .nav-bar .button-click .button-click-toggle,
+  .page-id-173 .nav-bar .button-click .button-click-toggle,
+  .page-id-168 .nav-bar .button-click .button-click-toggle,
+  .page-1d-179 .nav-bar .button-click .button-click-toggle,
+  .page-id-177 .nav-bar .button-click .button-click-toggle,
+  .page-id-179 .nav-bar .button-click .button-click-toggle {
+    display: none; }
   .home .nav-bar button,
   .page-template-page-about .nav-bar button,
   .page-template-page-contact .nav-bar button,
@@ -1168,7 +1186,7 @@ object {
   .page-id-177 .nav-bar button,
   .page-id-179 .nav-bar button {
     height: 5rem;
-    width: 5rem;
+    width: 100%;
     border: none;
     background-color: transparent;
     box-shadow: none;
@@ -1192,6 +1210,25 @@ object {
     .page-id-179 .nav-bar button i {
       font-size: 3rem;
       color: #ffffff; }
+    .home .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-about .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-contact .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-expert .nav-bar button .fa-arrow-circle-o-left,
+    .blog .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-program .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-student .nav-bar button .fa-arrow-circle-o-left,
+    .page-template-page-supporters .nav-bar button .fa-arrow-circle-o-left,
+    .single-post .nav-bar button .fa-arrow-circle-o-left,
+    .error404 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-123 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-161 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-173 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-168 .nav-bar button .fa-arrow-circle-o-left,
+    .page-1d-179 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-177 .nav-bar button .fa-arrow-circle-o-left,
+    .page-id-179 .nav-bar button .fa-arrow-circle-o-left {
+      display: none;
+      color: white; }
   .home .nav-bar img,
   .page-template-page-about .nav-bar img,
   .page-template-page-contact .nav-bar img,
@@ -1342,6 +1379,17 @@ ul.menu.stickytop {
 
 li a.stickytop2 {
   color: #E48C3D; }
+
+.back {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-size: 24px !important;
+  margin-right: 2rem !important;
+  margin-top: 1rem !important;
+  text-transform: uppercase;
+  margin-left: 10px !important;
+  color: white !important; }
 
 .blog {
   background-color: #F9f9f9; }
