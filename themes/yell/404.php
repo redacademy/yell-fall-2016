@@ -12,8 +12,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<div class="hero-404">404 oops!
-			<div class="white-blob">
-				</div>
 		</div>
 			<section class="error-404 not-found">
 				<p> Sorry we’re having trouble finding what you’re looking for.
