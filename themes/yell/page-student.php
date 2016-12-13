@@ -16,7 +16,7 @@ get_header(); ?>
 				<div class="homepg-bg1">
 
 	<div class="studentflex-wrapper">
-		<span class="pglabel"> <h3>Students Apply</h3></span>
+		<span class="pglabel"> <h3>Information for Students</h3></span>
 			<?php
     $props = CFS()->get_field_info( 'what_yell' );
     echo '<h2>' . $props['label'] . '</h2>';
@@ -32,7 +32,10 @@ get_header(); ?>
 		<div class="yell-program">
     <?php echo CFS()->get( 'yell_program' ); ?>
 		</div>
-
+	<div class="program-timeline">
+		<h2>Program Timeline</h2>
+		<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt= "timeline">  
+	</div>
 	<h2> Program Structure</h2>
 	<div class="expert-wrapper">
 		<div class="program-brain">
@@ -55,9 +58,6 @@ get_header(); ?>
 	     <h5> Spring Semester</h5>
     <?php echo CFS()->get( 'spring' ); ?>
 		</div>
-	</div>
-	<div class="timeline">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt= "timeline">  
 	</div>
 	<div class="register-sect">	
 		<h2> How do I register?</h2>

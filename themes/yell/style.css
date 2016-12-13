@@ -1609,10 +1609,8 @@ li a.stickytop2 {
       .page-template-page-student .site-main h2,
       .page-template-page-expert .site-main h2,
       .page-template-page-program .site-main h2 {
-        border-bottom: 1px solid #D0D0D0;
-        border-bottom: 1px solid #d0d0d0;
-        width: 300px;
-        margin: 4% auto; } }
+        width: 100%;
+        text-align: center; } }
   .page-template-page-student .site-main h3,
   .page-template-page-expert .site-main h3,
   .page-template-page-program .site-main h3 {
@@ -1620,10 +1618,10 @@ li a.stickytop2 {
     color: #6D6D6D;
     font-size: 14px;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 24px;
     border-bottom: 1px solid #D0D0D0;
     width: 360px;
-    margin: 4% auto; }
+    margin: 0 auto; }
   .page-template-page-student .site-main h5,
   .page-template-page-expert .site-main h5,
   .page-template-page-program .site-main h5 {
@@ -1643,25 +1641,32 @@ li a.stickytop2 {
     padding-bottom: 2%;
     font-family: "Roboto", sans;
     text-align: center; }
-  .page-template-page-student .what-yell p,
-  .page-template-page-expert .what-yell p,
-  .page-template-page-program .what-yell p {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 5%;
-    max-width: 100%; }
-  @media (min-width: 1000px) {
-    .page-template-page-student .what-yell p:first-child,
-    .page-template-page-expert .what-yell p:first-child,
-    .page-template-page-program .what-yell p:first-child {
-      width: 800px;
+  .page-template-page-student .what-yell,
+  .page-template-page-expert .what-yell,
+  .page-template-page-program .what-yell {
+    margin-bottom: 10rem; }
+    .page-template-page-student .what-yell p,
+    .page-template-page-expert .what-yell p,
+    .page-template-page-program .what-yell p {
+      font-size: 14px;
       text-align: center;
-      margin: 0 auto; } }
-  .page-template-page-student .what-yell img,
-  .page-template-page-expert .what-yell img,
-  .page-template-page-program .what-yell img {
-    width: 440px;
-    height: 270px; }
+      max-width: 100%; }
+    .page-template-page-student .what-yell h2,
+    .page-template-page-expert .what-yell h2,
+    .page-template-page-program .what-yell h2 {
+      font-size: 3rem; }
+    @media (min-width: 1000px) {
+      .page-template-page-student .what-yell p:first-child,
+      .page-template-page-expert .what-yell p:first-child,
+      .page-template-page-program .what-yell p:first-child {
+        width: 800px;
+        text-align: center;
+        margin: 0 auto; } }
+    .page-template-page-student .what-yell img,
+    .page-template-page-expert .what-yell img,
+    .page-template-page-program .what-yell img {
+      width: 440px;
+      height: 270px; }
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
@@ -1692,7 +1697,7 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-  margin: 15%; }
+  margin: 5%; }
   .yell-at:hover,
   .back-home:hover {
     border-color: #E8E8E8;
@@ -1745,6 +1750,14 @@ li a.stickytop2 {
 .timeline img {
   height: 300px; }
 
+.program-timeline {
+  background-image: url(../../images/orange-splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  background-position-y: 10%; }
+  .program-timeline img {
+    height: 300px; }
+
 .page-id-168 .entry-content p {
   font-family: "Rubik", sans; }
 
@@ -1773,6 +1786,9 @@ li a.stickytop2 {
 
 .post-21 h2 {
   font-size: 3rem; }
+
+.yell-program {
+  margin: 0 15%; }
 
 .aboutpg-bg1 {
   background-color: white;

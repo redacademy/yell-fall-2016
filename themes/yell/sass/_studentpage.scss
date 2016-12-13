@@ -30,10 +30,9 @@
               text-align: center;
               text-transform:capitalize;
               @include min-desktop {
-                  border-bottom: 1px solid $border-bottom-color;
-                  border-bottom: 1px solid #d0d0d0;
-                  width: 300px;
-                  margin: 4% auto;
+                  width: 100%;
+                  text-align:center;
+                  
               }
           }
           h3 {
@@ -41,10 +40,10 @@
               color: $h4-color;
               font-size: $h4-font-size;
               font-weight: 300;
-              font-size: 36px;
+              font-size: 24px;
               border-bottom: 1px solid $border-bottom-color;
               width: 360px;
-              margin: 4% auto;
+              margin: 0 auto;
           }
           h5 {
               font-family: $accent-font-family;
@@ -65,11 +64,15 @@
           }
       }
       .what-yell {
+              margin-bottom: 10rem;
           p {
               font-size: 14px;
               text-align: center;
-              margin-top: 5%;
               max-width: 100%;
+            
+          }
+          h2 {
+              font-size:3rem;
           }
           p:first-child {
               @include desktop {
@@ -112,7 +115,7 @@
       text-transform: uppercase;
       box-shadow: none;
       border: 3px solid $btn-border-color;
-      margin: 15%;
+      margin: 5%;
       &:hover {
           border-color: $btn-border-color;
           box-shadow: none;
@@ -183,6 +186,16 @@
           height: 300px;
       }
   }
+  .program-timeline {
+        background-image: url(../../images/orange-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 400px;
+        background-position-y: 10%;
+
+      img {
+          height:300px;
+      }
+  }
   .page-id-168{
    .entry-content {
 
@@ -219,4 +232,7 @@
      h2 {
        font-size:3rem;
    }
+   }
+   .yell-program {
+       margin: 0 15%;
    }
