@@ -869,7 +869,7 @@ object {
       line-height: 2rem; }
       @media (min-width: 600px) {
         .footer-container .colophon-footer .colophon-left, .footer-container .colophon-footer .colophon-right {
-          line-height: 3rem; } }
+          line-height: 2rem; } }
       .footer-container .colophon-footer .colophon-left a, .footer-container .colophon-footer .colophon-right a {
         color: #E48C3D;
         font-family: "Roboto", sans;
@@ -879,7 +879,6 @@ object {
   .footer-container .site-copyright {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: 1.5rem;
     text-transform: uppercase; }
     @media (min-width: 600px) {
       .footer-container .site-copyright {
@@ -1311,13 +1310,15 @@ object {
 .page-template-page-about .nav-bar,
 .page-template-page-expert .nav-bar,
 .page-template-page-program .nav-bar,
-.page-template-page-supporters .nav-bar {
+.page-template-page-supporters .nav-bar,
+.blog- .nav-bar {
   background-color: transparent; }
   .home .nav-bar img,
   .page-template-page-about .nav-bar img,
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
-  .page-template-page-supporters .nav-bar img {
+  .page-template-page-supporters .nav-bar img,
+  .blog- .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
@@ -1410,9 +1411,21 @@ object {
       border-color: #F4B473;
       color: #F4B473; } }
 
-ul.menu.stickytop {
-  position: fixed;
-  top: 0; }
+@media (min-width: 600px) {
+  ul.menu.stickytop {
+    position: fixed;
+    top: 0;
+    background-color: #e8e8e8;
+    background-color: #e8e8e8;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 1rem;
+    width: 100%; }
+    ul.menu.stickytop li a {
+      color: #E48C3D; } }
 
 li a.stickytop2 {
   color: #E48C3D; }
@@ -1587,8 +1600,9 @@ li a.stickytop2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
     font-weight: 300;
-    font-size: 24px;
-    text-align: center; }
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize; }
     @media (min-width: 600px) {
       .page-template-page-student .site-main h2,
       .page-template-page-expert .site-main h2,
@@ -1644,8 +1658,13 @@ li a.stickytop2 {
   .page-template-page-student .what-yell img,
   .page-template-page-expert .what-yell img,
   .page-template-page-program .what-yell img {
+<<<<<<< HEAD
     width: 400px;
     height: auto; }
+=======
+    width: 60%;
+    height: 50%; }
+>>>>>>> 2d3a2075606b8ef93cceef4e0958854e613d5162
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
@@ -1746,6 +1765,8 @@ li a.stickytop2 {
   font-family: "Roboto", sans;
   font-size: 16px;
   text-align: center; }
+  .about-text .about-content-container h3 {
+    text-transform: uppercase; }
   .about-text .about-content-container p {
     display: -ms-flexbox;
     display: flex;
@@ -1763,6 +1784,9 @@ li a.stickytop2 {
 
 .our-mission {
   margin-bottom: 5%; }
+  @media (min-width: 1000px) {
+    .our-mission {
+      margin-bottom: 0%; } }
   .our-mission p {
     text-align: left; }
 
@@ -1816,13 +1840,15 @@ li a.stickytop2 {
     line-height: 43px;
     width: 297px;
     text-align: center;
-    margin: 12%; }
+    margin: 5%;
+    margin-left: 12%; }
     @media (min-width: 1000px) {
       .page-template-page-about h2 {
         border-bottom: 1px solid #9B9B9B;
         width: 550px;
         margin-bottom: 9%;
-        padding: 2%; } }
+        padding-bottom: 2%;
+        margin-left: 30%; } }
 
 .aboutpage-button {
   margin: 12%;
@@ -1840,11 +1866,13 @@ li a.stickytop2 {
       margin: 110px auto;
       width: 575px;
       height: 30vh;
-      padding-bottom: 5rem; }
-      .aboutpage-button h3 {
+      margin-bottom: 10%; }
+      .aboutpage-button h2 {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
-        margin-top: 15%; } }
+        margin-top: 15%;
+        border-bottom: none;
+        margin-bottom: 5%; } }
 
 .contact-us {
   width: 270px;
@@ -1899,6 +1927,10 @@ li a.stickytop2 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
+
+@media (min-width: 1000px) {
+  .about-btns {
+    margin-bottom: 6%; } }
 
 @media (min-width: 600px) {
   .people-post {

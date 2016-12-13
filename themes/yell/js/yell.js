@@ -4,17 +4,16 @@
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();
 		$('.main-navigation ul').css("background-color","#e8e8e8","width","80%");
 		$('button').css("display","flex","width","80%");
-		$('.button-click').animate({width:'80%'}).css("background-color","red");
+		$('.button-click').animate({width:'80%'});
 		$('.fa-bars').toggle();
 		$('.back').toggle();
 		$('.fa-arrow-circle-o-left').toggle(); 
 
   })
+  	$('.button-toggle').on('click', function(event) {
+		$('.main-navigation ul').animate({width: 'toggle'}).focus();	
+	  })
 
-	$('#primary-menu ul').focusout(function(){
-		$('#primary-menu ul').animate({width:toggle});
-	    $('.button-click').toggle('width','20%');
-	})
 
 // sticky nav.............................................................
 
@@ -24,6 +23,7 @@
 			
             $('ul.menu').addClass('stickytop');
 			 $('li a').addClass('stickytop2');
+			 $('.nav-bar').css("margin","0");
         }
         else {
             $('ul.menu').removeClass('stickytop');
