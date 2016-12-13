@@ -2670,8 +2670,8 @@ li a.stickytop2 {
     font-size: 3.7rem; }
     @media (min-width: 1000px) {
       .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
-        font-size: 5rem;
-        margin-top: 5%; } }
+        font-size: 4rem;
+        margin-top: 10%; } }
 
 .supporters-hero h1 {
   font-size: 2rem; }
