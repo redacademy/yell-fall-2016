@@ -100,7 +100,9 @@
            line-height: 43px;
            width: 297px;
            text-align: center;
-           margin: 12%;
+           margin: 5%;
+           margin-left: 12%;
+
 
            
            @include desktop {
@@ -108,7 +110,8 @@
                border-bottom: 1px solid $main-body-color;
                width: 550px;
                margin-bottom: 9%;
-               padding: 2%;
+               padding-bottom: 2%;
+               margin-left: 30%;
            }
        }
    }
@@ -125,7 +128,7 @@
            margin: 110px auto;
            width: 575px;
            height: 30vh;
-           padding-bottom: 5rem;
+           margin-bottom: 10%;
            h2 {
                flex-basis: 100%;
                margin-top: 15%;
@@ -194,7 +197,13 @@
            background-color: darken($theme-blue-color, 10%);
        }
    }
-   
+   @include desktop {
+       .about-btns {
+                  margin-bottom: 6%;
+
+       }
+   }
+
    @include min-desktop {
        .people-post {
            display: flex;
