@@ -12,6 +12,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="about-hero">
 				<h1>Learn Develop Engage</h1>
+				<div class="white-blob">
+			 
+			 </div>
 			</div>
 			<div class="aboutpg-bg1">
 				<div class="aboutpg-bg2">

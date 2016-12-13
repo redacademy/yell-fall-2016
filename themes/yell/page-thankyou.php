@@ -11,6 +11,8 @@ get_header(); ?>
 			<div class="thanks-hero">
 				<div class="header-container">
 					<h1>Thank you for Getting Involved!</h1>
+					<div class="white-blob">
+						</div>
 				</div>
 			</div>
 			<div class="thanks-body">

@@ -27,12 +27,17 @@ get_header(); ?>
     $props = CFS()->get_field_info( 'what_yell' );
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
-							<?php echo CFS()->get( 'what_yell' ); ?>
+							<p><?php echo CFS()->get( 'what_yell' ); ?></p>
 							<a href="<?php echo esc_url( site_url( '/about/' ) ); ?>" rel="about"><button class="more-about"> More About Yell ></button></a>
 							<?php
     $props = CFS()->get_field_info( 'impact' );
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
+	
+<p>The first unified effort to bring <br>mentor-based entrepreneurship &amp; leadership education to high <br>schools across Canada.</p>
+</div>
+
+						<div class="eds-animate animated bounceIn" data-eds-entry-animation="bounceIn" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
 								<div class="chart-wrap">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/hill.png" alt="hill chart">
 									<div class="bubble-chart">
@@ -40,6 +45,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri(); ?>/images/legend.png" alt="Bubble legend">
 									</div>
 								</div>
+							</div>
 								<div class="testimonial-flex">
 									<div class="testimonial-wrapper">
 										<img src="	<?php echo CFS()->get ('image_1') ;  ?>" class="testimonial-img">
@@ -47,10 +53,11 @@ get_header(); ?>
 											<p>
 												<?php echo CFS()->get( 'testimonial_1_text' ); ?>
 											</p>
-										</div>
-										<div class="student-name">
+											<div class="student-name">
 											<?php echo CFS()->get( 'testimonial_1_name' ); ?>
 										</div>
+										</div>
+										
 									</div>
 									<div class="testimonial-wrapper2">
 										<img src="	<?php echo CFS()->get ('image_2') ;  ?>" class="testimonial-img">
@@ -58,10 +65,11 @@ get_header(); ?>
 											<p>
 												<?php echo CFS()->get( 'testimonial_2_text' ); ?>
 											</p>
-										</div>
-										<div class="student-name">
+											<div class="student-name">
 											<?php echo CFS()->get( 'testimonial_2_name' ); ?>
 										</div>
+										</div>
+										
 									</div>
 									<div class="testimonial-wrapper3">
 										<img src="	<?php echo CFS()->get ('image_3') ;  ?>" class="testimonial-img">
@@ -69,10 +77,11 @@ get_header(); ?>
 											<p>
 												<?php echo CFS()->get( 'testimonial_3_text' ); ?>
 											</p>
-										</div>
-										<div class="student-name">
+											<div class="student-name">
 											<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 										</div>
+										</div>
+										
 									</div>
 								</div>
 								<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"> <button class="get-involved"> Get Involved! </button></a>

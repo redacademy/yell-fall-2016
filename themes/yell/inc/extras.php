@@ -81,6 +81,7 @@ function yell_styles_method() {
          background-image: linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),url({$url});
          height:100vh;
          background-size: cover, cover;
+         background-position-y:50%;
        }
        
        #menu-item-86{
@@ -139,7 +140,7 @@ function yell_styles_method() {
        $custom_css = "
        .home-hero{
          background-image: linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
-         height:600px;
+         height:700px;
          background-size: cover, cover, cover;
         
        }";

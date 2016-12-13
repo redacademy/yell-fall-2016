@@ -31,6 +31,7 @@
         img {
             height: 275px;
             border-radius: 4%;
+            margin-bottom: 10px;
         }
     }
     .homepg-bg1 {
@@ -51,23 +52,9 @@
         background-repeat: no-repeat;
         background-size: 100% 350px;
         background-position-y: 90%;
+        font-family: $main-font-family;
     }
-//     .white-blob {
-
-//         background-image: url(../../images/white-blob-desktop.png);
-//         height: 100px;
-//         width: 100%;
-//         background-size: contain;
-//         background-repeat: no-repeat;
-//         bottom: -42px;
-//         position: absolute;
-// }
-
-//         @include min-desktop {
-//         background-size: cover;
-//         bottom: -17px;
-//         }
-
+ 
  }
     
 
@@ -220,7 +207,7 @@
         color: $main-body-color;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
         border-radius: 6px;
-        margin: 0 auto;
+        margin: 25px auto;
         margin-top: 5%;
         font-family: $main-font-family;
         p {
@@ -231,8 +218,8 @@
     .student-name {
         font-family: $main-font-family;
         opacity: 0.33;
-        padding: 2.5%;
-        margin: 0 auto;
+        padding: 2.5%; 
+        margin: 139px auto;
         position: absolute;
         width: 345px;
         height: 70px;

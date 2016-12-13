@@ -1,5 +1,5 @@
 .blog {
-    background-color: $testimonial-bg-lightgrey;
+   
 
     .entry-header{
         img {
@@ -27,9 +27,7 @@
         margin: 100px auto;
         justify-content: center;
         justify-content: space-around;
-        // header {
-        //     display:none;
-        // }
+       
     }
     .readmore {
         margin-left: 72%;
@@ -91,18 +89,7 @@
     width: 355px;
 }
 
-.back-top {
-    font-family: $accent-font-family;
-    font-weight: 200;
-    text-align: center;
-    text-decoration: none;
-    color: $link-to-top-grey;
-    display: flex;
-    justify-content: center;
-    &:hover {
-        color: darken($link-to-top-grey, 10%);
-    }
-}
+
 
 .entry-meta {
     h4 {
@@ -131,3 +118,19 @@
          background-position-y:100%;
          background-size: cover, cover;
  }
+
+.back-top {
+    font-family: $accent-font-family;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    color: $link-to-top-grey;
+    display: flex;
+    justify-content: center;
+    &:hover {
+        color: darken($link-to-top-grey, 10%);
+    }
+    &:visited {
+        color: $link-to-top-grey;
+    }
+}

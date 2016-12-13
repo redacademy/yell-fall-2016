@@ -13,6 +13,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="supporters-hero">
 				<h1> We are invested in building and keeping great entrepeneurial talent in Canada</h1>
+				<div class="white-blob">
+					</div>
 			</div>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>

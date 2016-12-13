@@ -13,6 +13,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="expert-hero">
 				<h1>A bright future for all Canadian communities</h1>
+				<div class="white-blob">
+					</div>
 			</div>
 			<div class="homepg-bg1">
 				<div class="homepg-bg3">
@@ -28,10 +30,11 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_1_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_1_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 						<div class="testimonial-wrapper2">
 							<div class="testimonial">
@@ -39,10 +42,11 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_2_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_2_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 						<div class="testimonial-wrapper3">
 							<div class="testimonial">
@@ -50,15 +54,19 @@ get_header(); ?>
 								<p>
 									<?php echo CFS()->get( 'testimonial_3_text' ); ?>
 								</p>
-							</div>
-							<div class="student-name">
+								<div class="student-name">
 								<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 							</div>
+							</div>
+							
 						</div>
 					</div>
 					<!--end of testimonial section-->
+					<div class="eds-animate animated pulse" data-eds-entry-animation="pulse" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
+
 					<div class="expert-info">
 						<p><?php echo CFS()->get( 'expert_paragraph' ); ?></p>
+					</div>
 					</div>
 					<div class="expert-wrapper">
 						<div class="speaker-btn">Guest Speakers at YELL
