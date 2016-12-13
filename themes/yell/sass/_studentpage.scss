@@ -12,6 +12,7 @@
       .homepg-bg3 {
           background-size: 100% 850px;
           background-position-y: 100%;
+
       }
       color:$main-body-color;
       text-align:center;
@@ -20,12 +21,12 @@
       img {
           height: 200px;
       }
-      .site-main {
+      .site-main  {
           h2 {
               font-family: $accent-font-family;
               color: $theme-orange-color;
               font-weight: 300;
-              font-size: 3rem;
+              font-size: 24px;
               text-align: center;
               text-transform:capitalize;
               @include min-desktop {
@@ -214,3 +215,8 @@
             }
         }
   }
+   .post-21{
+     h2 {
+       font-size:3rem;
+   }
+   }
