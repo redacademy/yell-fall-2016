@@ -35,7 +35,7 @@ get_header(); ?>
 
 	<h2> Program Structure</h2>
 	<div class="expert-wrapper">
-		<div class="program">
+		<div class="program-brain">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/guage.png" alt= "accelerator">  
     <h3> Business Accelerator</h3>
 	<h5> Fall Semester</h5>
