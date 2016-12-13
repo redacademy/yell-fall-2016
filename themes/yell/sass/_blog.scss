@@ -5,6 +5,9 @@
         img {
             height: 300px;
         }
+        h2 {
+            color:$h4-color;
+        }
     }
 
     .nav-bar{
@@ -14,13 +17,13 @@
     .cfs-hyperlink {
     text-decoration: none;
     font-family: $accent-font-family;
-    color: $h4-color;
+    color: $theme-orange-color;
 
     span {
         margin: 2%;
 
         &:hover {
-            color:$theme-orange-color;
+             color: darken($theme-orange-color, 10%);
         }
     }
     }
@@ -59,9 +62,6 @@
             font-family: $accent-font-family;
             font-weight: 300;
             color: $theme-orange-color;
-            // &:hover {
-            //     color: $theme-peach-color;
-            // }
         }
     }
     .entry-content {

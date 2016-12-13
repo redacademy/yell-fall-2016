@@ -1451,6 +1451,9 @@ li a.stickytop2 {
 .blog .entry-header img {
   height: 300px; }
 
+.blog .entry-header h2 {
+  color: #6D6D6D; }
+
 .blog .nav-bar {
   position: absolute;
   width: 100%; }
@@ -1458,11 +1461,11 @@ li a.stickytop2 {
 .blog .cfs-hyperlink {
   text-decoration: none;
   font-family: "Rubik", sans;
-  color: #6D6D6D; }
+  color: #E48C3D; }
   .blog .cfs-hyperlink span {
     margin: 2%; }
     .blog .cfs-hyperlink span:hover {
-      color: #E48C3D; }
+      color: #d1721d; }
 
 .blog .site-main {
   display: -ms-flexbox;
@@ -1697,11 +1700,7 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-<<<<<<< HEAD
-  margin: 5%; }
-=======
   margin: 6%; }
->>>>>>> c370579461f1e9edc895c045770c4e2a652657c0
   .yell-at:hover,
   .back-home:hover {
     border-color: #E8E8E8;

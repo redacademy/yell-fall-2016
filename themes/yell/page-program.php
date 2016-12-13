@@ -27,7 +27,7 @@ get_header(); ?>
 						echo '<h2>' . $props['label'] . '</h2>';
 						?>
 						<div class="what-yell">
-							<h2>Timeline</h2>
+		
 							<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt="timeline">
 						</div>
 						<!--program info-->
