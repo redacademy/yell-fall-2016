@@ -21,7 +21,7 @@
 		
         if ($(this).scrollTop() >= 690) {
 			
-            $('ul.menu').addClass('stickytop').css("width","100%");
+            $('ul.menu').addClass('stickytop');
 			 $('li a').addClass('stickytop2');
 			 $('.nav-bar').css("margin","0");
         }

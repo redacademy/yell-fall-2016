@@ -1311,14 +1311,14 @@ object {
 .page-template-page-expert .nav-bar,
 .page-template-page-program .nav-bar,
 .page-template-page-supporters .nav-bar,
-.blog .nav-bar {
+.blog- .nav-bar {
   background-color: transparent; }
   .home .nav-bar img,
   .page-template-page-about .nav-bar img,
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
   .page-template-page-supporters .nav-bar img,
-  .blog .nav-bar img {
+  .blog- .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
@@ -1422,7 +1422,8 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    padding: 1rem; }
+    padding: 1rem;
+    width: 100%; }
     ul.menu.stickytop li a {
       color: #E48C3D; } }
 
