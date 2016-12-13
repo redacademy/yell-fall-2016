@@ -35,7 +35,7 @@ function yell_styles_method() {
         background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
          linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
           url({$url});
-         height:700px;
+         height:800px;
          background-size: 100%, cover, cover;
          background-position: 0 104%, center center , center center;
          background-repeat: no-repeat;

@@ -2681,10 +2681,10 @@ li a.stickytop2 {
         font-size: 4rem;
         margin: 10%; } }
 
-.program-hero h1 {
+.program-hero h1, .about-hero h1 {
   margin: 50% auto; }
   @media (min-width: 1000px) {
-    .program-hero h1 {
+    .program-hero h1, .about-hero h1 {
       width: 400px;
       margin: 0 auto; } }
 
