@@ -1057,8 +1057,8 @@ object {
   font-weight: 600;
   border-radius: 5px;
   border: 2px solid white;
-  margin: 21px auto;
-  width: 400px; }
+  margin: 15px auto;
+  width: 457px; }
   @media (min-width: 600px) {
     .home-hero-p {
       display: block; } }
@@ -2818,13 +2818,13 @@ li a.stickytop2 {
   .nf-field-element input[type='button']:hover {
     background-color: #69acc1; }
 
-.page-id-173 .header-container {
+.page-template-page-thankyou .header-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
   justify-content: flex-end;
   width: 100%; }
-  .page-id-173 .header-container h1 {
+  .page-template-page-thankyou .header-container h1 {
     color: #fff;
     font-size: 3rem;
     line-height: 73px;
@@ -2835,7 +2835,7 @@ li a.stickytop2 {
     align-self: flex-end;
     margin-top: 5rem; }
     @media (min-width: 600px) {
-      .page-id-173 .header-container h1 {
+      .page-template-page-thankyou .header-container h1 {
         -ms-flex-item-align: center;
             -ms-grid-row-align: center;
             align-self: center;
