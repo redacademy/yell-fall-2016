@@ -1415,8 +1415,8 @@ object {
   ul.menu.stickytop {
     position: fixed;
     top: 0;
-    background-color: #e8e8e8;
-    background-color: #e8e8e8;
+    background-color: #f2f2f2;
+    opacity: 0.9;
     margin: 0;
     display: -ms-flexbox;
     display: flex;
@@ -1425,7 +1425,9 @@ object {
     padding: 1rem;
     width: 100%; }
     ul.menu.stickytop li a {
-      color: #E48C3D; } }
+      color: #E48C3D; }
+      ul.menu.stickytop li a:nth-last-child(-n+1) {
+        color: #F4B473; } }
 
 li a.stickytop2 {
   color: #E48C3D; }
