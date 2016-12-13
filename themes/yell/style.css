@@ -1057,7 +1057,7 @@ object {
   font-weight: 600;
   border-radius: 5px;
   border: 2px solid white;
-  margin: 50px auto;
+  margin: 21px auto;
   width: 400px; }
   @media (min-width: 600px) {
     .home-hero-p {
@@ -2655,10 +2655,15 @@ li a.stickytop2 {
   font-weight: 600;
   margin: 0 auto; }
 
+@media (min-width: 1000px) {
+  .home-hero h1 {
+    font-size: 50px;
+    width: 1000px; } }
+
 .supporters-hero, .expert-hero h1 {
   font-size: 38px;
   padding: 0; }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .supporters-hero, .expert-hero h1 {
       font-size: 4.1rem; } }
 
@@ -2675,18 +2680,9 @@ li a.stickytop2 {
         font-size: 4rem;
         margin: 10%; } }
 
-.white-blob {
-  background-image: url(../../images/white-blob-separator.svg);
-  height: 100px;
-  width: 100%;
+@media (min-width: 1000px) {
   background-size: cover;
-  background-repeat: no-repeat;
-  bottom: -157px;
-  position: absolute; }
-
-@media (min-width: 600px) {
-  background-size: cover;
-  bottom: -139px; }
+  top: 636px; }
 
 .page-template-page-about .white-blob,
 .page-template-page-program .white-blob,

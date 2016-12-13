@@ -78,7 +78,9 @@ function yell_styles_method() {
        $url = CFS()->get( 'supporters_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
        .supporters-hero{
-         background-image: linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),url({$url});
+         background-image: 
+          linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url});
          height:100vh;
          background-size: cover, cover;
          background-position-y:50%;
@@ -137,11 +139,17 @@ function yell_styles_method() {
 
  }elseif(is_page( '' )){
        $url = CFS()->get( 'home_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
        .home-hero{
-         background-image: linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
+         background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url})
+          ;
          height:700px;
-         background-size: cover, cover, cover;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
         
        }";
 
