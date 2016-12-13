@@ -1660,10 +1660,8 @@ li a.stickytop2 {
   .page-template-page-student .what-yell img,
   .page-template-page-expert .what-yell img,
   .page-template-page-program .what-yell img {
-
-    width: 400px;
-    height: auto; }
-
+    width: 440px;
+    height: 270px; }
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
@@ -1694,7 +1692,7 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-  margin: 15%; }
+  margin: 6%; }
   .yell-at:hover,
   .back-home:hover {
     border-color: #E8E8E8;
@@ -2833,29 +2831,39 @@ li a.stickytop2 {
   .page-id-173 .header-container h1 {
     color: #fff;
     font-size: 3rem;
+    line-height: 73px;
     font-family: "Rubik", sans;
     text-transform: uppercase;
     text-align: center;
     -ms-flex-item-align: end;
-    align-self: flex-end; }
+    align-self: flex-end;
+    margin-top: 5rem; }
     @media (min-width: 600px) {
       .page-id-173 .header-container h1 {
         -ms-flex-item-align: center;
             -ms-grid-row-align: center;
             align-self: center;
-        width: 100%; } }
+        width: 100%;
+        font-size: 80px;
+        margin-top: 4rem; } }
 
 .thanks-body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 3rem;
   -ms-flex-pack: center;
       justify-content: center; }
+  .thanks-body .back-home {
+    margin-bottom: 5rem;
+    margin-top: 3rem; }
   .thanks-body h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
+    font-weight: lighter;
+    color: #9B9B9B;
     padding-top: 2rem;
     font-family: "Roboto", sans; }
     @media (min-width: 600px) {
@@ -2865,6 +2873,7 @@ li a.stickytop2 {
 
 .back-home a {
   text-decoration: none;
+  font-weight: lighter;
   color: white; }
   .back-home a:visited {
     color: white; }
