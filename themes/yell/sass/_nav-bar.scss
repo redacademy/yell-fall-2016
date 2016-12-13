@@ -73,7 +73,8 @@
 .page-template-page-about,
 .page-template-page-expert,
 .page-template-page-program,
-.page-template-page-supporters {
+.page-template-page-supporters,
+.blog {
     .nav-bar {
         background-color: transparent;
         img {
@@ -167,7 +168,7 @@
 }
 
 // sticky nav bar class
-
+@include min-desktop {
 ul.menu.stickytop {
     position:fixed;
     top:0;
@@ -176,11 +177,13 @@ ul.menu.stickytop {
     margin: 0;
     display: flex;
     justify-content: center;
-    padding:1rem;        
+    padding:1rem;   
+   
 
     li a{
         color:$h2-orange-color;
     }
+}
 }
 
 li a.stickytop2 {
