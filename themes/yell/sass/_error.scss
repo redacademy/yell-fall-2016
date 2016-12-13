@@ -6,7 +6,8 @@
 
 .hero-404 {
     background: url(../../images/404.png), no-repeat center bottom;
-    height: 100vh;
+    height: 318px;
+    width: 388px;
     background-size: cover;
     color: white;
     text-transform: uppercase;
@@ -16,6 +17,10 @@
     font-weight: 600;
     width:100%;
     background-position:center;
+    @include desktop {
+        height: 900px;
+        width: 1454px;
+    }
 }
 
 .contactbtn {

@@ -19,7 +19,10 @@
       background-color : white;
       width: 100%;
       img {
+          height: 175px;
+        @include desktop{
           height: 200px;
+        }
       }
       .site-main  {
           h2 {
@@ -43,7 +46,7 @@
               font-size: 24px;
               border-bottom: 1px solid $border-bottom-color;
               width: 360px;
-              margin: 0 auto;
+              margin: 22px auto;
           }
           h5 {
               font-family: $accent-font-family;

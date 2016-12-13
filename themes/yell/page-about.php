@@ -24,6 +24,7 @@ get_header(); ?>
 								<h2>About</h2>
 								<div class="our-mission">
 									<h3>Our Mission</h3>
+									
 									<p>
 										<?php echo CFS()->get( 'our_mission' ); ?>
 									</p>
