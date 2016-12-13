@@ -1816,7 +1816,8 @@ li a.stickytop2 {
     margin: 1% auto;
     margin-bottom: 3%;
     width: 349px;
-    color: #9B9B9B; }
+    color: #9B9B9B;
+    text-align: left; }
     @media (min-width: 1000px) {
       .about-text .about-content-container p {
         width: 598px; } }
