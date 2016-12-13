@@ -2658,7 +2658,8 @@ li a.stickytop2 {
 @media (min-width: 1000px) {
   .home-hero h1 {
     font-size: 50px;
-    width: 1000px; } }
+    width: 1000px;
+    margin: 0 auto; } }
 
 .supporters-hero, .expert-hero h1 {
   font-size: 38px;
