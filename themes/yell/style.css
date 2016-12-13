@@ -1833,13 +1833,15 @@ li a.stickytop2 {
     line-height: 43px;
     width: 297px;
     text-align: center;
-    margin: 12%; }
+    margin: 5%;
+    margin-left: 12%; }
     @media (min-width: 1000px) {
       .page-template-page-about h2 {
         border-bottom: 1px solid #9B9B9B;
         width: 550px;
         margin-bottom: 9%;
-        padding: 2%; } }
+        padding-bottom: 2%;
+        margin-left: 30%; } }
 
 .aboutpage-button {
   margin: 12%;
@@ -1857,7 +1859,7 @@ li a.stickytop2 {
       margin: 110px auto;
       width: 575px;
       height: 30vh;
-      padding-bottom: 5rem; }
+      margin-bottom: 10%; }
       .aboutpage-button h2 {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
@@ -1918,6 +1920,10 @@ li a.stickytop2 {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #69acc1; }
+
+@media (min-width: 1000px) {
+  .about-btns {
+    margin-bottom: 6%; } }
 
 @media (min-width: 600px) {
   .people-post {
