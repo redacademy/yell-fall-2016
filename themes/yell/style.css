@@ -1412,7 +1412,17 @@ object {
 
 ul.menu.stickytop {
   position: fixed;
-  top: 0; }
+  top: 0;
+  background-color: #e8e8e8;
+  background-color: #e8e8e8;
+  margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 1rem; }
+  ul.menu.stickytop li a {
+    color: #E48C3D; }
 
 li a.stickytop2 {
   color: #E48C3D; }

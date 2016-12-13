@@ -11,8 +11,7 @@
 
   })
   	$('.button-toggle').on('click', function(event) {
-		$('.main-navigation ul').animate({width: 'toggle'}).focus();
-		
+		$('.main-navigation ul').animate({width: 'toggle'}).focus();	
 	  })
 
 
@@ -22,8 +21,9 @@
 		
         if ($(this).scrollTop() >= 690) {
 			
-            $('ul.menu').addClass('stickytop');
+            $('ul.menu').addClass('stickytop').css("width","100%");
 			 $('li a').addClass('stickytop2');
+			 $('.nav-bar').css("margin","0");
         }
         else {
             $('ul.menu').removeClass('stickytop');

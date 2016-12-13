@@ -171,8 +171,16 @@
 ul.menu.stickytop {
     position:fixed;
     top:0;
+    background-color:#e8e8e8;
+    background-color: #e8e8e8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding:1rem;        
 
-
+    li a{
+        color:$h2-orange-color;
+    }
 }
 
 li a.stickytop2 {
