@@ -1,14 +1,54 @@
 .page-template-page-expert {
+
+    .what-yell {
+        p {
+            width:500px;
+            margin:50px auto;
+        }
+    }
+
+    .yell-program {
+        p{
+            text-align:left;
+            max-width:none;
+            @include desktop{
+                text-align:center;
+            }
+        }
+        h2 {
+            margin-left: 17%;
+            @include desktop {
+                margin-left: 0;
+            }
+
+        }
+    }
+
+    h2 {
+    margin: 54px auto;
+    font-size:32px;
+
+    }
     p { 
         font-family: $main-font-family;
+        margin:5%;
     }
     .expert-info {
         text-align: center;
         text-align: center;
         margin-top: 5%;
-        width: 60%;
         margin: 0 auto;
         padding: 5%;
+        max-width: none;
+
+        @include desktop {
+            width:60%;
+        }
+
+        p {
+          
+            max-width: none;
+        }
     }
     .get-involved {
         width: 320px;
@@ -40,19 +80,37 @@
         font-size: 24px;
         text-align: center;
     }
+
+    h2 {
+        font-family:$accent-font-family;
+        font-weight:300;
+        color:$theme-orange-color;
+    }
+
+    h3, h5 {
+        font-family: $accent-font-family;
+        font-weight:300;
+        text-transform:uppercase;
+        
+    }
+
+    
     ul {
         text-align: left;
         margin-left: 0;
     }
     .mentor-ul {
-        margin-left: 22%;
+        margin-left: 10%;
         width: 300px;
         margin-bottom: 15%;
+        font-family: $main-font-family;
     }
     @include min-desktop {
         .mentor-ul {
-            margin-left: 2%;
-            font-family: $main-font-family;
+        margin-bottom: 8.5%;
+        margin-left: 22%;
+        margin-top: 13%;
+            
         }
     }
     .mentor {
@@ -61,6 +119,7 @@
         p {
             font-size: 12px;
             text-align: center;
+            margin:5%;
         }
         h5 {
             border-bottom: 1px solid $h2-orange-color;
@@ -88,38 +147,59 @@
         display: none;
         height: 850px;
         img {
-            width: 400px;
-            margin-top: 5%;
+            width: 300px;
+            margin: 5%;
             border: 1px solid $btn-border-color;
             border-radius: 4px;
         }
         h2 {
+            display:none;
+            @include desktop {
+            display:block;
             color: $theme-darkblue-color;
-            margin-top: 8%;
+            text-transform: uppercase;
+            font-size: 32px;
+            border-bottom: 1px solid $border-bottom-color;
+            width: 400px;
+            margin: 0 auto;
+            }
+           
         }
         
         @include desktop {
             display: block;
-            margin-left: 10%;
             order: 0;
-            img {
-                width: 100%;
-            }
         }
     }
     .speaker-info {
         display: none;
-        height: 915px;
+        height: 850px;
         order: 1;
         h2 {
+            display:none;
+            @include desktop {
+            display:block;
             color: $theme-darkblue-color;
+            text-transform: uppercase;
+            font-size: 32px;
+            border-bottom: 1px solid $border-bottom-color;
+            width: 400px;
+            margin: 0 auto;
+            }
+
         }
         @include desktop {
             display: block;
         }
         p {
-            margin-top: 5%;
-            margin-bottom: 5%;
+            margin:5%;
+            margin-left:15%;
+            text-align:left;
+            @include desktop {
+             width: 400px;
+             margin: 5% auto;
+             margin-bottom:12%;
+            }
         }
  
         ul{
@@ -171,26 +251,41 @@
     .speaker-btn,
     .mentor-btn,
     .teacher-btn {
-        margin: 0 auto;
+        margin: 5px auto;
         display: flex;
         flex-direction: column;
         max-width: 400px;
         justify-content: center;
+
         @include desktop {
             display: none;
+        }
+        p, i {
+            color: white;
+
         }
     }
 }
 
 .expert-wrapper {
-    &:first-child img {
+
+    
+
+    &:first-child(1) img {
         height: 165px;
     }
     @include desktop {
         display: flex;
+    
     }
 }
 
+.program {
+    p{
+    margin-right:3%;
+    text-align:left;
+}
+}
 //testimonial styles ====================
 .testimonial-wrapper {
     display: flex;
@@ -203,21 +298,28 @@
 
 .testimonial {
     img {
-        height: 100px;
+        height: 110px;
         padding: 3%;
+        border-radius:15px;
     }
     width: 345px;
-    height: 209px;
+    height: 208px;
     background-color:#f1f1f1;
     color: $main-body-color;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
     font-family:$main-font-family;
-    p {
-        margin-top: 12px;
-        padding-left: 1%;
+
+    @include desktop {
+        height:213px;
+    }
+    .testi-text {
+       margin-top: -107px;
+     padding-left: 5%;
         float: right;
+        max-width:60%;
+        text-align:left;
     }
 }
 .page-template-page-expert, {
@@ -228,7 +330,7 @@
     margin: 33px auto;
     position: absolute;
     width: 345px;
-    height: 70px;
+    height: 60px;
     background-color: #d8d8d8;
     align-self: flex-end;
     border-radius: 6px;

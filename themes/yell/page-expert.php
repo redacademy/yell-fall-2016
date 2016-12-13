@@ -27,7 +27,7 @@ get_header(); ?>
 						<div class="testimonial-wrapper">
 							<div class="testimonial">
 								<img src="	<?php echo CFS()->get ('testimonial_1_image') ;  ?>" class="testimonial-img">
-								<p>
+								<p class="testi-text">
 									<?php echo CFS()->get( 'testimonial_1_text' ); ?>
 								</p>
 								<div class="student-name">
@@ -39,7 +39,7 @@ get_header(); ?>
 						<div class="testimonial-wrapper2">
 							<div class="testimonial">
 								<img src="	<?php echo CFS()->get ('testimonial_2_image') ;  ?>" class="testimonial-img">
-								<p>
+								<p class="testi-text">
 									<?php echo CFS()->get( 'testimonial_2_text' ); ?>
 								</p>
 								<div class="student-name">
@@ -51,7 +51,7 @@ get_header(); ?>
 						<div class="testimonial-wrapper3">
 							<div class="testimonial">
 								<img src="	<?php echo CFS()->get ('testimonial_3_image') ;  ?>" class="testimonial-img">
-								<p>
+								<p class="testi-text">
 									<?php echo CFS()->get( 'testimonial_3_text' ); ?>
 								</p>
 								<div class="student-name">
@@ -70,11 +70,11 @@ get_header(); ?>
 					</div>
 					</div>
 					<div class="expert-wrapper">
-						<div class="speaker-btn">Guest Speakers at YELL
+						<div class="speaker-btn"><p>Guest Speakers at YELL  <i class="fa fa-caret-down" aria-hidden="true"></i></p>
 						</div>
 						<div class="speaker-info">
 							<div class="speaker-infom">
-								<h2>Guest Speakers at YELL
+								<h2>Guest Speakers at YELL 
 								</h2>
 								<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
 							</div>
@@ -82,7 +82,7 @@ get_header(); ?>
 							<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get-involved"><button class="get-involved"> Be a guest speaker! </button></a>
 						</div>
 						<div class="mentor-btn">
-							Mentors at YELL
+							<p>Mentors at YELL  <i class="fa fa-caret-down" aria-hidden="true"></i></p>
 						</div>
 						<div class="mentor-info">
 							<h2> Mentors at YELL</h2>
@@ -100,7 +100,7 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="teacher-btn">
-						Details For Teachers
+						<p>Details For Teachers <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
 					</div>
 					<div class="teacher-info">
 						<div class="what-yell">
@@ -108,7 +108,7 @@ get_header(); ?>
 						</div>
 						<?php
 			$props = CFS()->get_field_info( 'yell_program' );
-			echo '<h3>' . $props['label'] . '</h3>';
+			echo '<h2>' . $props['label'] . '</h2>';
 			?>
 							<div class="yell-program">
 								<?php echo CFS()->get( 'yell_program' ); ?>

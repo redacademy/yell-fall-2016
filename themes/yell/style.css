@@ -1663,31 +1663,24 @@ li a.stickytop2 {
     .page-template-page-expert .what-yell h2,
     .page-template-page-program .what-yell h2 {
       font-size: 3rem; }
-    @media (min-width: 1000px) {
-      .page-template-page-student .what-yell p:first-child,
-      .page-template-page-expert .what-yell p:first-child,
-      .page-template-page-program .what-yell p:first-child {
-        width: 800px;
-        text-align: center;
-        margin: 0 auto; } }
-    .page-template-page-student .what-yell img,
-    .page-template-page-expert .what-yell img,
-    .page-template-page-program .what-yell img {
+    .page-template-page-student .what-yell p:first-child img,
+    .page-template-page-expert .what-yell p:first-child img,
+    .page-template-page-program .what-yell p:first-child img {
       width: 440px;
       height: 270px; }
-  .page-template-page-student .register-blurb p,
-  .page-template-page-expert .register-blurb p,
-  .page-template-page-program .register-blurb p {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 5%; }
-  .page-template-page-student .pglabel h3,
-  .page-template-page-expert .pglabel h3,
-  .page-template-page-program .pglabel h3 {
-    text-transform: uppercase;
-    font-family: "Rubik", sans;
-    font-weight: 300;
-    margin-bottom: 10%; }
+    .page-template-page-student .what-yell .register-blurb p,
+    .page-template-page-expert .what-yell .register-blurb p,
+    .page-template-page-program .what-yell .register-blurb p {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 5%; }
+    .page-template-page-student .what-yell .pglabel h3,
+    .page-template-page-expert .what-yell .pglabel h3,
+    .page-template-page-program .what-yell .pglabel h3 {
+      text-transform: uppercase;
+      font-family: "Rubik", sans;
+      font-weight: 300;
+      margin-bottom: 10%; }
 
 .yell-at,
 .back-home {
@@ -2011,16 +2004,43 @@ li a.stickytop2 {
     .program-hero {
       background-position-x: 100%; } }
 
+.page-template-page-expert .what-yell p {
+  width: 500px;
+  margin: 50px auto; }
+
+.page-template-page-expert .yell-program p {
+  text-align: left;
+  max-width: none; }
+  @media (min-width: 1000px) {
+    .page-template-page-expert .yell-program p {
+      text-align: center; } }
+
+.page-template-page-expert .yell-program h2 {
+  margin-left: 17%; }
+  @media (min-width: 1000px) {
+    .page-template-page-expert .yell-program h2 {
+      margin-left: 0; } }
+
+.page-template-page-expert h2 {
+  margin: 54px auto;
+  font-size: 32px; }
+
 .page-template-page-expert p {
-  font-family: "Roboto", sans; }
+  font-family: "Roboto", sans;
+  margin: 5%; }
 
 .page-template-page-expert .expert-info {
   text-align: center;
   text-align: center;
   margin-top: 5%;
-  width: 60%;
   margin: 0 auto;
-  padding: 5%; }
+  padding: 5%;
+  max-width: none; }
+  @media (min-width: 1000px) {
+    .page-template-page-expert .expert-info {
+      width: 60%; } }
+  .page-template-page-expert .expert-info p {
+    max-width: none; }
 
 .page-template-page-expert .get-involved {
   width: 320px;
@@ -2051,26 +2071,39 @@ li a.stickytop2 {
   font-size: 24px;
   text-align: center; }
 
+.page-template-page-expert h2 {
+  font-family: "Rubik", sans;
+  font-weight: 300;
+  color: #E48C3D; }
+
+.page-template-page-expert h3, .page-template-page-expert h5 {
+  font-family: "Rubik", sans;
+  font-weight: 300;
+  text-transform: uppercase; }
+
 .page-template-page-expert ul {
   text-align: left;
   margin-left: 0; }
 
 .page-template-page-expert .mentor-ul {
-  margin-left: 22%;
+  margin-left: 10%;
   width: 300px;
-  margin-bottom: 15%; }
+  margin-bottom: 15%;
+  font-family: "Roboto", sans; }
 
 @media (min-width: 600px) {
   .page-template-page-expert .mentor-ul {
-    margin-left: 2%;
-    font-family: "Roboto", sans; } }
+    margin-bottom: 8.5%;
+    margin-left: 22%;
+    margin-top: 13%; } }
 
 .page-template-page-expert .mentor {
   width: 300px;
   margin: 0 auto; }
   .page-template-page-expert .mentor p {
     font-size: 12px;
-    text-align: center; }
+    text-align: center;
+    margin: 5%; }
   .page-template-page-expert .mentor h5 {
     border-bottom: 1px solid #E48C3D; }
 
@@ -2095,35 +2128,55 @@ li a.stickytop2 {
   display: none;
   height: 850px; }
   .page-template-page-expert .mentor-info img {
-    width: 400px;
-    margin-top: 5%;
+    width: 300px;
+    margin: 5%;
     border: 1px solid #E8E8E8;
     border-radius: 4px; }
   .page-template-page-expert .mentor-info h2 {
-    color: #84A4B3;
-    margin-top: 8%; }
+    display: none; }
+    @media (min-width: 1000px) {
+      .page-template-page-expert .mentor-info h2 {
+        display: block;
+        color: #84A4B3;
+        text-transform: uppercase;
+        font-size: 32px;
+        border-bottom: 1px solid #D0D0D0;
+        width: 400px;
+        margin: 0 auto; } }
   @media (min-width: 1000px) {
     .page-template-page-expert .mentor-info {
       display: block;
-      margin-left: 10%;
       -ms-flex-order: 0;
-          order: 0; }
-      .page-template-page-expert .mentor-info img {
-        width: 100%; } }
+          order: 0; } }
 
 .page-template-page-expert .speaker-info {
   display: none;
-  height: 915px;
+  height: 850px;
   -ms-flex-order: 1;
       order: 1; }
   .page-template-page-expert .speaker-info h2 {
-    color: #84A4B3; }
+    display: none; }
+    @media (min-width: 1000px) {
+      .page-template-page-expert .speaker-info h2 {
+        display: block;
+        color: #84A4B3;
+        text-transform: uppercase;
+        font-size: 32px;
+        border-bottom: 1px solid #D0D0D0;
+        width: 400px;
+        margin: 0 auto; } }
   @media (min-width: 1000px) {
     .page-template-page-expert .speaker-info {
       display: block; } }
   .page-template-page-expert .speaker-info p {
-    margin-top: 5%;
-    margin-bottom: 5%; }
+    margin: 5%;
+    margin-left: 15%;
+    text-align: left; }
+    @media (min-width: 1000px) {
+      .page-template-page-expert .speaker-info p {
+        width: 400px;
+        margin: 5% auto;
+        margin-bottom: 12%; } }
   .page-template-page-expert .speaker-info ul li {
     font-family: "Roboto", sans; }
     @media (min-width: 1000px) {
@@ -2167,7 +2220,7 @@ li a.stickytop2 {
 .page-template-page-expert .speaker-btn,
 .page-template-page-expert .mentor-btn,
 .page-template-page-expert .teacher-btn {
-  margin: 0 auto;
+  margin: 5px auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -2180,14 +2233,24 @@ li a.stickytop2 {
     .page-template-page-expert .mentor-btn,
     .page-template-page-expert .teacher-btn {
       display: none; } }
+  .page-template-page-expert .speaker-btn p, .page-template-page-expert .speaker-btn i,
+  .page-template-page-expert .mentor-btn p,
+  .page-template-page-expert .mentor-btn i,
+  .page-template-page-expert .teacher-btn p,
+  .page-template-page-expert .teacher-btn i {
+    color: white; }
 
-.expert-wrapper:first-child img {
+.expert-wrapper:first-child(1) img {
   height: 165px; }
 
 @media (min-width: 1000px) {
   .expert-wrapper {
     display: -ms-flexbox;
     display: flex; } }
+
+.program p {
+  margin-right: 3%;
+  text-align: left; }
 
 .testimonial-wrapper {
   display: -ms-flexbox;
@@ -2201,7 +2264,7 @@ li a.stickytop2 {
 
 .testimonial {
   width: 345px;
-  height: 209px;
+  height: 208px;
   background-color: #f1f1f1;
   color: #9B9B9B;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -2209,12 +2272,18 @@ li a.stickytop2 {
   margin: 0 auto;
   font-family: "Roboto", sans; }
   .testimonial img {
-    height: 100px;
-    padding: 3%; }
-  .testimonial p {
-    margin-top: 12px;
-    padding-left: 1%;
-    float: right; }
+    height: 110px;
+    padding: 3%;
+    border-radius: 15px; }
+  @media (min-width: 1000px) {
+    .testimonial {
+      height: 213px; } }
+  .testimonial .testi-text {
+    margin-top: -107px;
+    padding-left: 5%;
+    float: right;
+    max-width: 60%;
+    text-align: left; }
 
 .page-template-page-expert .student-name {
   font-family: "Roboto", sans;
@@ -2223,7 +2292,7 @@ li a.stickytop2 {
   margin: 33px auto;
   position: absolute;
   width: 345px;
-  height: 70px;
+  height: 60px;
   background-color: #d8d8d8;
   -ms-flex-item-align: end;
       align-self: flex-end;
