@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     font-family: $accent-font-family;
     font-weight: 600;
-    margin: 0 auto;
+    margin: 50px auto;
 
  }
 }
@@ -37,7 +37,7 @@ h1 {
    
 
     h1 {
-        font-size: 3.7rem;
+        font-size: 3rem;
 
         @include desktop{
             
@@ -47,41 +47,30 @@ h1 {
         }
     }
 
- 
+.program-hero h1 {
+    margin: 50% auto;
+    @include desktop {
+    width: 400px;
+    margin: 0 auto;
+}
+}
 
-// white blob
+.supporters-hero h1 {
 
-//    .white-blob {
-
-//         background-image: url(../../images/white-blob-separator.svg);
-//         height: 100px;
-//         width: 100%;
-//         background-size: cover;
-//         background-repeat: no-repeat;
-//         top: 651px;
-//         position: absolute;
-// }
-
-        @include desktop {
-        background-size: cover;
-        top:636px;
-        
-        }
-
-.page-template-page-about, 
-.page-template-page-program, 
-.blog,
-.error404,
-.page-template-page-thankyou,
-.page-template-page-supporters
-{
-    .white-blob {
-        bottom:-54px;
+    @include desktop {
+    width:1120px;
+    margin: -84px auto;
+    font-size:3.9rem;
     }
 }
 
-.page-template-page-expert{
-    .white-blob {
-        bottom: -58px;
+.expert-hero h1 {
+    margin-top: 34%;
+
+    @include desktop {
+        font-size: 4rem;
+    width: 1000px;
+    margin: 1% auto;
     }
 }
+

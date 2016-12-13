@@ -29,14 +29,17 @@ function yell_styles_method() {
   if(is_page( 'about' )){
 
        $url = CFS()->get( 'aboout_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
        .about-hero{
-         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
-         height:100vh;
-         background-size: cover, cover;
-         background-position-y:75%;
-         width:100%;
-       }
+        background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url});
+         height:700px;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
+         }
        
        #menu-item-79{
          text-decoration:underline;
@@ -46,12 +49,17 @@ function yell_styles_method() {
 }elseif(is_page( 'programs' )){
 
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
-       .program-hero{
-         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
-         height:100vh;
-         background-size: cover, cover;
-       }
+       .program-hero {
+        background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url});
+         height:700px;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
+         }
        
        #menu-item-84{
          text-decoration:underline;
@@ -61,11 +69,16 @@ function yell_styles_method() {
  } elseif(is_page( 'professionals' )){
 
        $url = CFS()->get( 'professionals_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
        .expert-hero{
-         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
-         height:100vh;
-         background-size: cover, cover;
+        background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url});
+         height:700px;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
          }
          #menu-item-81{
          text-decoration:underline;
@@ -76,14 +89,16 @@ function yell_styles_method() {
  } elseif(is_page( 'supporters' )){
 
        $url = CFS()->get( 'supporters_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
        .supporters-hero{
-         background-image: 
-          linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+     background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
           url({$url});
-         height:100vh;
-         background-size: cover, cover;
-         background-position-y:50%;
+         height:700px;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
        }
        
        #menu-item-86{
@@ -101,11 +116,16 @@ function yell_styles_method() {
        wp_add_inline_style( 'red-starter-style', $custom_css );
  }elseif(is_page( 'thank-you' )){
        $url = CFS()->get( 'program_background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $theme_path = get_stylesheet_directory_uri();
        $custom_css = "
        .thanks-hero{
-         background-image:linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ), url({$url});
- height:100vh;
-         background-size: cover, cover;
+          background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
+         linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
+          url({$url});
+         height:700px;
+         background-size: 100%, cover, cover;
+         background-position: 0 104%, center center , center center;
+         background-repeat: no-repeat;
        }";
 
    wp_add_inline_style( 'red-starter-style', $custom_css );
@@ -144,8 +164,7 @@ function yell_styles_method() {
        .home-hero{
          background-image: url(" . $theme_path . "/images/white-blob-separator.svg),
          linear-gradient( to bottom, rgba(139, 192, 208, 0.5) 0%, rgba(139, 192, 208, 0.5) 100% ),
-          url({$url})
-          ;
+          url({$url});
          height:700px;
          background-size: 100%, cover, cover;
          background-position: 0 104%, center center , center center;

@@ -901,7 +901,7 @@ object {
     color: #E48C3D;
     border-bottom: 1px solid #D0D0D0;
     width: 350px;
-    margin: 5% auto;
+    margin: 0% auto;
     font-weight: 300;
     font-size: 36px; }
   .home h4 {
@@ -1057,8 +1057,8 @@ object {
   font-weight: 600;
   border-radius: 5px;
   border: 2px solid white;
-  margin: 21px auto;
-  width: 400px; }
+  margin: 15px auto;
+  width: 457px; }
   @media (min-width: 600px) {
     .home-hero-p {
       display: block; } }
@@ -2653,7 +2653,7 @@ li a.stickytop2 {
   text-align: center;
   font-family: "Rubik", sans;
   font-weight: 600;
-  margin: 0 auto; }
+  margin: 50px auto; }
 
 @media (min-width: 1000px) {
   .home-hero h1 {
@@ -2674,26 +2674,32 @@ li a.stickytop2 {
   color: white;
   text-transform: uppercase; }
   .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
-    font-size: 3.7rem; }
+    font-size: 3rem; }
     @media (min-width: 1000px) {
       .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
         font-size: 4rem;
         margin: 10%; } }
 
+.program-hero h1 {
+  margin: 50% auto; }
+  @media (min-width: 1000px) {
+    .program-hero h1 {
+      width: 400px;
+      margin: 0 auto; } }
+
 @media (min-width: 1000px) {
-  background-size: cover;
-  top: 636px; }
+  .supporters-hero h1 {
+    width: 1120px;
+    margin: -84px auto;
+    font-size: 3.9rem; } }
 
-.page-template-page-about .white-blob,
-.page-template-page-program .white-blob,
-.blog .white-blob,
-.error404 .white-blob,
-.page-template-page-thankyou .white-blob,
-.page-template-page-supporters .white-blob {
-  bottom: -54px; }
-
-.page-template-page-expert .white-blob {
-  bottom: -58px; }
+.expert-hero h1 {
+  margin-top: 34%; }
+  @media (min-width: 1000px) {
+    .expert-hero h1 {
+      font-size: 4rem;
+      width: 1000px;
+      margin: 1% auto; } }
 
 .page-id-161,
 .page-id-168 {
