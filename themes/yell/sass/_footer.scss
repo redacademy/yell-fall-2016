@@ -67,7 +67,7 @@
 		  flex-basis:50%;
 		  line-height:2rem;
 		  @include min-desktop {
-			  line-height:3rem;
+			  line-height:2rem;
 		  }
 		   a{
 			color:$theme-orange-color;
@@ -84,7 +84,6 @@
   }
   .site-copyright {
 	  flex-basis:100%;
-	  margin-bottom:1.5rem;
 	  text-transform:uppercase;
 	  @include min-desktop {
 		order:3;

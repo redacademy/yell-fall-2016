@@ -869,7 +869,7 @@ object {
       line-height: 2rem; }
       @media (min-width: 600px) {
         .footer-container .colophon-footer .colophon-left, .footer-container .colophon-footer .colophon-right {
-          line-height: 3rem; } }
+          line-height: 2rem; } }
       .footer-container .colophon-footer .colophon-left a, .footer-container .colophon-footer .colophon-right a {
         color: #E48C3D;
         font-family: "Roboto", sans;
@@ -879,7 +879,6 @@ object {
   .footer-container .site-copyright {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: 1.5rem;
     text-transform: uppercase; }
     @media (min-width: 600px) {
       .footer-container .site-copyright {
