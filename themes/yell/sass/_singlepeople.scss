@@ -29,6 +29,9 @@
         font-family: $main-font-family;
          font-size: 1rem;
          @include desktop {
+            img {
+               margin-left: 35%;
+            }
          background-color: white;
          }
 
@@ -50,13 +53,14 @@
     }
        
         .single-people-title {
+            display: flex;
+            justify-content: center;
             font-family: $accent-font-family;
-            font-size: 14px;
+            font-size: 26px;
             font-weight: 100;
             color:$testimonial-name-color;
 
             @include desktop {
-                margin-left:8%;
             }
        
     }
@@ -69,22 +73,14 @@
             color: $testimonial-name-color;
 
             @include desktop {
-                margin-left:9%;
+                margin-left:41%;
             }
         
         }
-    // .single-people-description {
-    //     text-align: center;
-        
-    //     p{
-    //     font-family:$main-font-family;
 
-        
-    // }
-    // }
-}
 .people-type-header {
     h1 {
         font-family: $accent-font-family;
     }
+}
 }
