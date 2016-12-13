@@ -8,15 +8,23 @@ h1 {
     text-align: center;
     font-family: $accent-font-family;
     font-weight: 600;
-    margin: 0 auto;
+    margin: 50px auto;
 
  }
+}
+
+.home-hero h1 {
+    @include desktop{
+    font-size:50px;
+    width:1000px;
+    margin: 0 auto;
+}
 }
 .supporters-hero, .expert-hero h1{
     font-size:38px;
     padding:0;
 
-    @include min-desktop{
+    @include desktop{
         font-size:4.1rem;
     }
 }
@@ -30,7 +38,7 @@ h1 {
    
 
     h1 {
-        font-size: 3.7rem;
+        font-size: 3rem;
 
         @include desktop{
             
@@ -40,40 +48,30 @@ h1 {
         }
     }
 
- 
-
-// white blob
-
-   .white-blob {
-
-        background-image: url(../../images/white-blob-separator.svg);
-        height: 100px;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        bottom: -157px;
-        position: absolute;
+.program-hero h1 {
+    margin: 50% auto;
+    @include desktop {
+    width: 400px;
+    margin: 0 auto;
+}
 }
 
-        @include min-desktop {
-        background-size: cover;
-        bottom: -139px; 
-        }
+.supporters-hero h1 {
 
-.page-template-page-about, 
-.page-template-page-program, 
-.blog,
-.error404,
-.page-template-page-thankyou,
-.page-template-page-supporters
-{
-    .white-blob {
-        bottom:-54px;
+    @include desktop {
+    width:1120px;
+    margin: -84px auto;
+    font-size:3.9rem;
     }
 }
 
-.page-template-page-expert{
-    .white-blob {
-        bottom: -58px;
+.expert-hero h1 {
+    margin-top: 34%;
+
+    @include desktop {
+        font-size: 4rem;
+    width: 1000px;
+    margin: 1% auto;
     }
 }
+

@@ -15,11 +15,14 @@ get_header(); ?>
 				<iframe id="video" src="https://www.youtube.com/embed/DEiw8i6yu7Q" frameborder="0"></iframe>
 				<div id="playbtn"> <i class="fa fa-play" aria-hidden="true"></i></div>
 				<div class="home-hero-p"> 
-					The first unified effort to bring mentor - based entrepreneurship & leadership education to high schools across Canada</div>
-				<div class="white-blob">
-			 
-			 </div>
+					The first unified effort to bring mentor - based entrepreneurship & leadership education to high schools across Canada
+					</div>
+			
 			</div>
+
+				<!--<div class="white-blob">
+			 
+			 </div>-->
 			<div class="homepg-bg1">
 				<div class="homepg-bg2">
 					<div class="homepg-bg3">
@@ -34,7 +37,7 @@ get_header(); ?>
     echo '<h2>' . $props['label'] . '</h2>';
     ?>
 	
-<p>The first unified effort to bring <br>mentor-based entrepreneurship &amp; leadership education to high <br>schools across Canada.</p>
+<p>What are students saying about YELL?</p>
 </div>
 
 						<div class="eds-animate animated bounceIn" data-eds-entry-animation="bounceIn" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
