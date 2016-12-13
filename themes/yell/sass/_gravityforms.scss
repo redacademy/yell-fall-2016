@@ -26,14 +26,19 @@
         li {
             border-bottom: none;
             margin-left: 2rem!important;
+            }
             label {
                 color: $theme-peach-color;
                 font-family: $main-font-family;
                 width: 80%;
+
             }
         }
         .ginput_container input {
             width: 95%!important;
+            &:focus {
+                outline:none;
+            }
         }
     }
     tbody {
@@ -73,7 +78,10 @@
         }
     }
     .gform_wrapper .textarea {
-        width: 80%;
+        width: 80%!important;
+        &:focus {
+            outline:none;
+        }
     }
     input[type=button] {
         width: 77%!important;
@@ -101,7 +109,7 @@
             background-color: darken($theme-blue-color, 10%);
         }
     }
-}
+
 
 .gform_page_footer input[type=submit] {
     width: 77%!important;
