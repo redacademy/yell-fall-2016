@@ -12,11 +12,18 @@ h1 {
 
  }
 }
+
+.home-hero h1 {
+    @include desktop{
+    font-size:50px;
+    width:1000px;
+}
+}
 .supporters-hero, .expert-hero h1{
     font-size:38px;
     padding:0;
 
-    @include min-desktop{
+    @include desktop{
         font-size:4.1rem;
     }
 }
@@ -44,20 +51,21 @@ h1 {
 
 // white blob
 
-   .white-blob {
+//    .white-blob {
 
-        background-image: url(../../images/white-blob-separator.svg);
-        height: 100px;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        bottom: -157px;
-        position: absolute;
-}
+//         background-image: url(../../images/white-blob-separator.svg);
+//         height: 100px;
+//         width: 100%;
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         top: 651px;
+//         position: absolute;
+// }
 
-        @include min-desktop {
+        @include desktop {
         background-size: cover;
-        bottom: -139px; 
+        top:636px;
+        
         }
 
 .page-template-page-about, 
