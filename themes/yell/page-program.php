@@ -13,6 +13,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="program-hero">
 				<h1>Program Structure</h1>
+				<div class="white-blob">
+					</div>
 			</div>
 			<div class="homepg-bg1">
 				<div class="homepg-bg3">

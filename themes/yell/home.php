@@ -9,6 +9,8 @@ Template Name: Press and Stories Page
 
 get_header(); ?>
 <div class="press-hero"><h1>News and Stories</h1>
+<div class="white-blob">
+					</div>
 </div>
 
 <div class="flexwrapper-blog">

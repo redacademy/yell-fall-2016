@@ -31,6 +31,7 @@
     .yell {
         width: 70%;
         margin: 0 auto;
+        font-family:$main-font-family;
     }
     .get-involved {
         width: 270px;
@@ -61,7 +62,9 @@
             background-color: darken($theme-orange-color, 10%);
         }
     }
+  
     .resource {
+          font-family:$main-font-family;
         @include min-desktop {
             height: 30vh;
         }
@@ -126,6 +129,7 @@
     width: 300px;
     margin: 0 auto;
     padding-bottom: 3%;
+    font-family:$main-font-family;
     @include desktop {
         display: flex;
         width: 800px;
@@ -205,6 +209,10 @@
         }
         p {
             margin: 0;
+            font-family:$accent-font-family;
+            &:nth-child(3) {
+                font-size:12px;
+            }
         }
         .board-members {
             display: flex;

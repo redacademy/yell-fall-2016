@@ -50,3 +50,39 @@ h1 {
 
     }
  
+
+// white blob
+
+   .white-blob {
+
+        background-image: url(../../images/white-blob-separator.svg);
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        bottom: -157px;
+        position: absolute;
+}
+
+        @include min-desktop {
+        background-size: cover;
+        bottom: -139px; 
+        }
+
+.page-template-page-about, 
+.page-template-page-program, 
+.blog,
+.error404,
+.page-template-page-thankyou,
+.page-template-page-supporters
+{
+    .white-blob {
+        bottom:-54px;
+    }
+}
+
+.page-template-page-expert{
+    .white-blob {
+        bottom: -58px;
+    }
+}

@@ -13,6 +13,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="expert-hero">
 				<h1>A bright future for all Canadian communities</h1>
+				<div class="white-blob">
+					</div>
 			</div>
 			<div class="homepg-bg1">
 				<div class="homepg-bg3">
