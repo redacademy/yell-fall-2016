@@ -1658,13 +1658,8 @@ li a.stickytop2 {
   .page-template-page-student .what-yell img,
   .page-template-page-expert .what-yell img,
   .page-template-page-program .what-yell img {
-<<<<<<< HEAD
     width: 400px;
     height: auto; }
-=======
-    width: 60%;
-    height: 50%; }
->>>>>>> 2d3a2075606b8ef93cceef4e0958854e613d5162
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
