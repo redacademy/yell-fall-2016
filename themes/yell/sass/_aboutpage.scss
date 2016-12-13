@@ -22,6 +22,7 @@
                   text-transform: uppercase;
 
        }
+    
            p {
                display: flex;
                margin: 1% auto;
@@ -37,6 +38,7 @@
        h3 {
            font-family: $accent-font-family;
            font-size: 24px;
+           margin-top:8%;
            font-weight: lighter;
        }
    }
@@ -100,8 +102,9 @@
            line-height: 43px;
            width: 297px;
            text-align: center;
-           margin: 5%;
-           margin-left: 12%;
+           margin: 5% auto;
+           padding-bottom:5%;
+       
 
 
            
@@ -109,9 +112,9 @@
 
                border-bottom: 1px solid $main-body-color;
                width: 550px;
-               margin-bottom: 9%;
+               margin-bottom: 12%;
                padding-bottom: 2%;
-               margin-left: 30%;
+              margin: 0 auto;
            }
        }
    }
