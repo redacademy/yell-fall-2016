@@ -1311,14 +1311,14 @@ object {
 .page-template-page-expert .nav-bar,
 .page-template-page-program .nav-bar,
 .page-template-page-supporters .nav-bar,
-.blog- .nav-bar {
+.blog .nav-bar {
   background-color: transparent; }
   .home .nav-bar img,
   .page-template-page-about .nav-bar img,
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
   .page-template-page-supporters .nav-bar img,
-  .blog- .nav-bar img {
+  .blog .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
@@ -1660,7 +1660,6 @@ li a.stickytop2 {
   .page-template-page-program .what-yell img {
     width: 440px;
     height: 270px; }
-
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
