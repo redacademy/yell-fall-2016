@@ -1311,13 +1311,15 @@ object {
 .page-template-page-about .nav-bar,
 .page-template-page-expert .nav-bar,
 .page-template-page-program .nav-bar,
-.page-template-page-supporters .nav-bar {
+.page-template-page-supporters .nav-bar,
+.blog .nav-bar {
   background-color: transparent; }
   .home .nav-bar img,
   .page-template-page-about .nav-bar img,
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
-  .page-template-page-supporters .nav-bar img {
+  .page-template-page-supporters .nav-bar img,
+  .blog .nav-bar img {
     height: 5rem;
     width: 5rem; }
 
@@ -1410,19 +1412,20 @@ object {
       border-color: #F4B473;
       color: #F4B473; } }
 
-ul.menu.stickytop {
-  position: fixed;
-  top: 0;
-  background-color: #e8e8e8;
-  background-color: #e8e8e8;
-  margin: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  padding: 1rem; }
-  ul.menu.stickytop li a {
-    color: #E48C3D; }
+@media (min-width: 600px) {
+  ul.menu.stickytop {
+    position: fixed;
+    top: 0;
+    background-color: #e8e8e8;
+    background-color: #e8e8e8;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 1rem; }
+    ul.menu.stickytop li a {
+      color: #E48C3D; } }
 
 li a.stickytop2 {
   color: #E48C3D; }

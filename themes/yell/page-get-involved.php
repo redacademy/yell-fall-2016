@@ -19,9 +19,9 @@ get_header(); ?>
 </div>
 </section>
 <div class="btn-wrapper">
-	<div class="studentbtn"><a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"><span class="words-container"><h5>Student <span class="arrow">></span></h5><p> Become a future student at YELL</p></span></a></div>
+	<div class="studentbtn"><a href="<?php echo esc_url( site_url( '/students/' ) ); ?>" rel="get involved"><span class="words-container"><h5>Student <span class="arrow">></span></h5><p> Become a future student at YELL</p></span></a></div>
 	<div class="expertbtn"><a href="<?php echo esc_url( site_url( '/guest-speaker-form/' ) ); ?>" rel="guest form"><span class="words-container"><h5>Professional <span>></span></h5><p> You are an entrepeneur or a guest speaker</p></span></a></div>
-	<div class="supportbtn"><a href="<?php echo esc_url( site_url( '/support/' ) ); ?>" rel="support"><span class="words-container"><h5>Supporter <span>><span></h5><p> Help support or fund  YELL</p></span></a></div>
+	<div class="supportbtn"><a href="<?php echo esc_url( site_url( '/mentor-form/' ) ); ?>" rel="support"><span class="words-container"><h5>Supporter <span>><span></h5><p> Help support or fund  YELL</p></span></a></div>
 </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
