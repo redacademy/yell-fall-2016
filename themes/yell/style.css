@@ -2459,7 +2459,8 @@ li a.stickytop2 {
 
 .hero-404 {
   background: url(../../images/404.png), no-repeat center bottom;
-  height: 100vh;
+  height: 318px;
+  width: 388px;
   background-size: cover;
   color: white;
   text-transform: uppercase;
@@ -2469,6 +2470,10 @@ li a.stickytop2 {
   font-weight: 600;
   width: 100%;
   background-position: center; }
+  @media (min-width: 1000px) {
+    .hero-404 {
+      height: 900px;
+      width: 1454px; } }
 
 .contactbtn {
   width: 270px;
