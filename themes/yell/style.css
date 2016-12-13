@@ -900,6 +900,9 @@ object {
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
+    border-bottom: 1px solid #D0D0D0;
+    width: 350px;
+    margin: 5% auto;
     font-weight: 300;
     font-size: 36px; }
   .home h4 {
@@ -922,8 +925,6 @@ object {
     border-radius: 4%;
     margin-bottom: 10px; }
   .home .homepg-bg1 {
-    background-color: rgba(242, 242, 242, 0.5);
-    background-image: url(../../images/orange-splash.png);
     background-repeat: no-repeat;
     background-size: 100% 350px;
     background-position-y: 10%; }
@@ -973,8 +974,7 @@ object {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-  margin-bottom: 2%;
-  margin: 15%; }
+  margin-bottom: 2%; }
   .more-about:hover {
     border-color: #E8E8E8;
     box-shadow: none;
@@ -1446,6 +1446,8 @@ li a.stickytop2 {
   color: #6D6D6D; }
   .blog .cfs-hyperlink span {
     margin: 2%; }
+    .blog .cfs-hyperlink span:hover {
+      color: #E48C3D; }
 
 .blog .site-main {
   display: -ms-flexbox;
@@ -1485,8 +1487,6 @@ li a.stickytop2 {
     font-family: "Rubik", sans;
     font-weight: 300;
     color: #E48C3D; }
-    .blog .entry-title a:hover {
-      color: #F4B473; }
 
 .blog .entry-content p {
   font-size: 14px;
@@ -1644,7 +1644,8 @@ li a.stickytop2 {
   .page-template-page-student .what-yell img,
   .page-template-page-expert .what-yell img,
   .page-template-page-program .what-yell img {
-    width: 400px; }
+    width: 400px;
+    height: auto; }
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
