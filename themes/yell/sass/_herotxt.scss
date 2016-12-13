@@ -35,20 +35,11 @@ h1 {
         @include desktop{
             
                 font-size:4rem;
-                margin-top:10%;
+                margin:10%;
             }
         }
     }
 
-    .supporters-hero h1{
-        font-size:2rem;
-
-        @include desktop {
-            font-size: 4rem;
-            margin-top: -2%;
-        }
-
-    }
  
 
 // white blob

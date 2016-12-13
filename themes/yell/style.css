@@ -2671,14 +2671,7 @@ li a.stickytop2 {
     @media (min-width: 1000px) {
       .press-hero h1, .about-hero h1, .supporters-hero h1, .expert-hero h1, .program-hero h1 {
         font-size: 4rem;
-        margin-top: 10%; } }
-
-.supporters-hero h1 {
-  font-size: 2rem; }
-  @media (min-width: 1000px) {
-    .supporters-hero h1 {
-      font-size: 4rem;
-      margin-top: -2%; } }
+        margin: 10%; } }
 
 .white-blob {
   background-image: url(../../images/white-blob-separator.svg);
