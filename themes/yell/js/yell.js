@@ -19,7 +19,7 @@
 
 	  $(window).scroll(function() {
 		
-        if ($(this).scrollTop() >= 690) {
+        if ($(this).scrollTop() >= 850) {
 			
             $('ul.menu').addClass('stickytop');
 			 $('li a').addClass('stickytop2');
