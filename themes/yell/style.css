@@ -1583,7 +1583,7 @@ li a.stickytop2 {
   .page-template-page-student .homepg-bg1,
   .page-template-page-expert .homepg-bg1,
   .page-template-page-program .homepg-bg1 {
-    background-color: rgba(242, 242, 242, 0.5);
+    background-color: white;
     background-size: 100% 850px; }
   .page-template-page-student .homepg-bg3,
   .page-template-page-expert .homepg-bg3,
@@ -1658,8 +1658,8 @@ li a.stickytop2 {
   .page-template-page-student .what-yell img,
   .page-template-page-expert .what-yell img,
   .page-template-page-program .what-yell img {
-    width: 60%;
-    height: 50%; }
+    width: 440px;
+    height: 270px; }
   .page-template-page-student .register-blurb p,
   .page-template-page-expert .register-blurb p,
   .page-template-page-program .register-blurb p {
@@ -1697,7 +1697,7 @@ li a.stickytop2 {
     box-shadow: none;
     background-color: #69acc1; }
 
-.get-involved {
+.page-template-page-program .get-involved {
   width: 270px;
   height: 49px;
   background-color: #E48C3D;
@@ -1711,9 +1711,9 @@ li a.stickytop2 {
   text-shadow: none;
   text-transform: uppercase;
   box-shadow: none;
-  border: 3px solid #E8E8E8;
-  margin: 15%; }
-  .get-involved:hover {
+  margin: 10% !important;
+  border: 3px solid #E8E8E8; }
+  .page-template-page-program .get-involved:hover {
     border-color: #E8E8E8;
     box-shadow: none;
     background-color: #d1721d; }
@@ -1725,7 +1725,10 @@ li a.stickytop2 {
   margin-left: 7%; }
 
 .charts {
-  padding: 5%; }
+  background-image: url(../../images/blue-splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position-y: 10%; }
 
 #dynamic_select {
   background-color: white;
@@ -1742,6 +1745,29 @@ li a.stickytop2 {
 
 .page-id-168 .entry-content p {
   font-family: "Rubik", sans; }
+
+.page-template-page-program .expert-wrapper {
+  background-image: url(../../images/orange-splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+  background-position-y: 10%; }
+
+@media (min-width: 600px) {
+  .charts-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 10%; }
+    .charts-container .chart-left img {
+      height: 350px; }
+    .charts-container .chart-right {
+      display: -ms-flexbox;
+      display: flex; }
+      .charts-container .chart-right img {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center; } }
 
 .aboutpg-bg1 {
   background-color: white;

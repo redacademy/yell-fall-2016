@@ -27,23 +27,23 @@ get_header(); ?>
 						echo '<h2>' . $props['label'] . '</h2>';
 						?>
 						<div class="what-yell">
-							<?php echo CFS()->get( 'timeline' ); ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt="timeline">
 						</div>
 						<!--program info-->
 						<div class="expert-wrapper">
-							<div class="program">
+							<div class="program-accelerator">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/guage.png" alt="accelerator">
 								<h3> Business Accelerator</h3>
 								<h5> Fall Semester</h5>
 								<?php echo CFS()->get( 'fall' ); ?>
 							</div>
-							<div class="program">
+							<div class="program-brain">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/idea-incubator.png" alt="brain">
 								<h3> Idea Incubator</h3>
 								<h5> Winter Semester</h5>
 								<?php echo CFS()->get( 'winter' ); ?>
 							</div>
-							<div class="program">
+							<div class="program-fish">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/fish.png" alt="fish bowls">
 								<h3> Venture Challenge</h3>
 								<h5> Spring Semester</h5>
@@ -53,10 +53,13 @@ get_header(); ?>
 						<div class="charts">
 							<?php $fields=CFS()->get( 'impact_loop' );
 							foreach ( $fields as $field ) { ?>
-							<?php echo '<img src="' . $field['impact_chart'] . '" class="impact-chart">';  ?>
-							<?php echo '<img src="' . $field['impact_desc'] . '" class="impact-chart">'; } ?>
+						   <div class="charts-container">
+							<div class="chart-left"><?php echo '<img src="' . $field['impact_chart'] . '" class="impact-chart">';  ?></div>
+							<div class="chart-right"><?php echo '<img src="' . $field['impact_desc'] . '" class="impact-chart">'; } ?></div>
 						</div>
+						
 						<!--testimonials-->
+						<div class="testimonial-container">
 						<h3> Student Testimonials</h3>
 						<div class="testimonial-flex">
 							<div class="testimonial-wrapper">
@@ -91,10 +94,12 @@ get_header(); ?>
 								<div class="student-name">
 									<?php echo CFS()->get( 'testimonial_3_name' ); ?>
 								</div>
-							</div>
-						</div>
+							
+						
+				
 		</main>
 		<!-- #main -->
+		
 		<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"><button class="get-involved"> Get Involved! </button></a>
 		</div>
 		</div>

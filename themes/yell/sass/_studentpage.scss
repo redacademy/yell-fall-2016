@@ -6,7 +6,7 @@
           display: none;
       }
       .homepg-bg1 {
-          background-color: rgba(242, 242, 242, .5);
+          background-color:white;
           background-size: 100% 850px;
       }
       .homepg-bg3 {
@@ -78,8 +78,8 @@
               }
           }
           img {
-              width: 60%;
-              height:50%;
+              width: 440px;
+              height:270px;
           }
       }
       .register-blurb p {
@@ -122,7 +122,8 @@
   // .white-blob img{
   //     height:auto;
   // }
-  .get-involved {
+
+   .page-template-page-program .get-involved {
       width: 270px;
       height: 49px;
       background-color: $theme-orange-color;
@@ -136,8 +137,8 @@
       text-shadow: none;
       text-transform: uppercase;
       box-shadow: none;
+      margin:10%!important;
       border: 3px solid $btn-border-color;
-      margin: 15%;
       &:hover {
           border-color: $btn-border-color;
           box-shadow: none;
@@ -152,12 +153,17 @@
               margin-top: -91px;
               max-width: 100%;
               margin-left: 7%;
+            }
           }
       }
-  }
+  
   
   .charts {
-      padding: 5%;
+        background-image: url(../../images/blue-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 700px;
+        background-position-y: 10%;
+    
   }
   
   #dynamic_select {
@@ -183,4 +189,28 @@
     font-family: $accent-font-family;
         }
     }
+  }
+  .page-template-page-program .expert-wrapper {
+        background-image: url(../../images/orange-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 800px;
+        background-position-y: 10%;
+  }
+
+  @include min-desktop {
+          .charts-container {
+            display:flex;
+            justify-content: space-around;
+            margin: 0 10%;
+            .chart-left img{
+                height:350px;
+            }
+            .chart-right {
+                display:flex;
+                img{
+                    align-self:center;
+
+                }
+            }
+        }
   }
