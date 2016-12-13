@@ -18,6 +18,10 @@
        font-size: 16px;
        text-align: center;
        .about-content-container {
+            h3 {
+                  text-transform: uppercase;
+
+       }
            p {
                display: flex;
                margin: 1% auto;
@@ -39,6 +43,10 @@
    
    .our-mission {
        margin-bottom: 5%;
+      
+       @include desktop {
+           margin-bottom: 0%;
+       }
        p {
            text-align: left;
        }
@@ -104,7 +112,6 @@
            }
        }
    }
-   
    .aboutpage-button {
        margin: 12%;
        margin-bottom: 32%;
@@ -119,9 +126,11 @@
            width: 575px;
            height: 30vh;
            padding-bottom: 5rem;
-           h3 {
+           h2 {
                flex-basis: 100%;
                margin-top: 15%;
+               border-bottom: none;
+               margin-bottom: 5%;
            }
        }
    }

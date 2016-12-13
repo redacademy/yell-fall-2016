@@ -1729,6 +1729,8 @@ li a.stickytop2 {
   font-family: "Roboto", sans;
   font-size: 16px;
   text-align: center; }
+  .about-text .about-content-container h3 {
+    text-transform: uppercase; }
   .about-text .about-content-container p {
     display: -ms-flexbox;
     display: flex;
@@ -1746,6 +1748,9 @@ li a.stickytop2 {
 
 .our-mission {
   margin-bottom: 5%; }
+  @media (min-width: 1000px) {
+    .our-mission {
+      margin-bottom: 0%; } }
   .our-mission p {
     text-align: left; }
 
@@ -1824,10 +1829,12 @@ li a.stickytop2 {
       width: 575px;
       height: 30vh;
       padding-bottom: 5rem; }
-      .aboutpage-button h3 {
+      .aboutpage-button h2 {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%;
-        margin-top: 15%; } }
+        margin-top: 15%;
+        border-bottom: none;
+        margin-bottom: 5%; } }
 
 .contact-us {
   width: 270px;
