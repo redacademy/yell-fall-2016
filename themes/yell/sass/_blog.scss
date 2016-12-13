@@ -18,6 +18,10 @@
 
     span {
         margin: 2%;
+
+        &:hover {
+            color:$theme-orange-color;
+        }
     }
     }
     .site-main {
@@ -55,9 +59,9 @@
             font-family: $accent-font-family;
             font-weight: 300;
             color: $theme-orange-color;
-            &:hover {
-                color: $theme-peach-color;
-            }
+            // &:hover {
+            //     color: $theme-peach-color;
+            // }
         }
     }
     .entry-content {
