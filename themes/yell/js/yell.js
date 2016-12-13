@@ -30,7 +30,6 @@
 			 $('li a').removeClass('stickytop2');
         }
     });
-
 })( jQuery );
 
 
