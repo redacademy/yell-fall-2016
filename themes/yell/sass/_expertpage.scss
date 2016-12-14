@@ -359,12 +359,16 @@
 }
 }
 .page-template-page-program {
+    .testimonial {
+        margin: -48px auto;
+
+    }
     .student-name {
-        font-family: $main-font-family;
+    font-family: $main-font-family;
     opacity: 0.33;
     padding: 2.5%;
-    margin: 0 auto;
-    position: absolute;
+    margin: -21px auto;
+    position: relative;
     width: 345px;
     height: 70px;
     background-color: #d8d8d8;

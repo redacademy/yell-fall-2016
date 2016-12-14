@@ -1640,7 +1640,7 @@ li a.stickytop2 {
     font-size: 24px;
     border-bottom: 1px solid #D0D0D0;
     width: 360px;
-    margin: 22px auto; }
+    margin: 75px auto; }
   .page-template-page-student .site-main h5,
   .page-template-page-expert .site-main h5,
   .page-template-page-program .site-main h5 {
@@ -1742,9 +1742,12 @@ li a.stickytop2 {
 
 .page-template-page-program .testimonial p {
   text-align: left;
-  margin-top: -91px;
+  margin-top: 35px;
   max-width: 100%;
   margin-left: 7%; }
+
+.page-template-page-program .student-name {
+  position: relative; }
 
 .charts {
   background-image: url(../../images/blue-splash.png);
@@ -2340,12 +2343,15 @@ li a.stickytop2 {
   border-radius: 6px;
   color: #4A4A4A; }
 
+.page-template-page-program .testimonial {
+  margin: -48px auto; }
+
 .page-template-page-program .student-name {
   font-family: "Roboto", sans;
   opacity: 0.33;
   padding: 2.5%;
-  margin: 0 auto;
-  position: absolute;
+  margin: -21px auto;
+  position: relative;
   width: 345px;
   height: 70px;
   background-color: #d8d8d8;
