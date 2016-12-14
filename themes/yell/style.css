@@ -2583,7 +2583,6 @@ li a.stickytop2 {
     .board-wrapper img {
       height: 200px; }
     .board-wrapper p {
-      margin: 0;
       font-family: "Rubik", sans; }
       .board-wrapper p:nth-child(3) {
         font-size: 12px; }
@@ -2592,7 +2591,9 @@ li a.stickytop2 {
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
-      margin: 3rem; } }
+      margin: 3rem; }
+    .board-wrapper p {
+      font-family: "Rubik", sans; } }
 
 .contact-details {
   display: -ms-flexbox;
@@ -2858,11 +2859,11 @@ li a.stickytop2 {
         font-size: 4rem;
         margin: 10%; } }
 
-.program-hero h1, .about-hero h1 {
+.program-hero h1, .about-hero h1, .press-hero h1 {
   margin: 50% auto;
   width: 300px; }
   @media (min-width: 1000px) {
-    .program-hero h1, .about-hero h1 {
+    .program-hero h1, .about-hero h1, .press-hero h1 {
       width: 400px;
       margin: 0 auto; } }
 

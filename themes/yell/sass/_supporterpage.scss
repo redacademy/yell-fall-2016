@@ -204,11 +204,12 @@
     .board-wrapper {
         display: flex;
         justify-content: center;
+     
         img {
             height: 200px;
         }
         p {
-            margin: 0;
+       
             font-family:$accent-font-family;
             &:nth-child(3) {
                 font-size:12px;
@@ -218,7 +219,11 @@
             display: flex;
             flex-direction: column;
             margin: 3rem;
-        }
+            }
+            p {
+                font-family:$accent-font-family;
+            }
+        
     }
 }
  .contact-details{
