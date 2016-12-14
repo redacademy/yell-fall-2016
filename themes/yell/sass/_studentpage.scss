@@ -250,3 +250,14 @@
        margin: 0 15%;
    }
    
+   .cant-find {
+       a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color:$theme-orange-color;
+
+        &:hover {
+            color:$theme-peach-color;
+        }
+   }
+   }

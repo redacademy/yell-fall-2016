@@ -76,8 +76,10 @@ get_header(); ?>
 						
 
 								<!--end of school district loop-->
+<div class="cant-find">
 		<h3> Didn't find your school district?</h3>
-		<p>We are working to expand YELL all the time. Contact us HERE to let us know you’re interested!</p>
+		<p>We are working to expand YELL all the time. Contact us <a href="<?php echo esc_url( site_url( '/students-get-involved/' ) ); ?>" rel="student contact">here</a> to let us know you’re interested!</p>
+</div>
 </span>
 	</div>	
 		<a href="<?php echo esc_url( site_url( '/contact/' ) ); ?>" rel="contact"><button class="yell-at"> YELL at us! ></button></a>
