@@ -1432,7 +1432,7 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    padding: 1rem;
+    padding: 2.5rem;
     width: 100%; }
     ul.menu.stickytop li a {
       color: #E48C3D; }
