@@ -11,17 +11,24 @@
     background-size: cover;
     color: white;
     text-transform: uppercase;
-    font-size: 76px;
+    font-size: 60px;
     text-align: center;
     font-family: $accent-font-family;
     font-weight: 600;
     width:100%;
     background-position: center; 
-   
+    .h2-404 {
+            padding: 14%;
+            
+        }
     @include desktop {
         height: 900px;
         width: 1454px;
         font-size: 96px;
+        .h2-404 {
+            padding: 12%;
+
+        }
     }
 }
 
@@ -89,7 +96,7 @@
 }
 
 .error-404 {
-    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -102,9 +109,7 @@
         font-family: $main-font-family;
         text-align: center;
         margin-top: 12%;
-        @include desktop {
-            margin-top: 1%;
-        }
+      
     }
 }
 
