@@ -9,8 +9,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="home-hero">
 
-				<h1 class="home-hero-txt">Empowering the next generation of Canadian problem solvers</h1>
-				<h1 class="home-hero-mobile"> Young Entrepreneurial Leadership Launchpad</h1>
+			<h1 class="home-hero-txt">Empowering the next generation of Canadian problem solvers</h1>
+			<h1 class="home-hero-mobile"> Young Entrepreneurial Leadership Launchpad</h1>
 				<!--embedding youtube video-->
 				<iframe id="video" src="https://www.youtube.com/embed/DEiw8i6yu7Q" frameborder="0"></iframe>
 				<div id="playbtn"> <i class="fa fa-play" aria-hidden="true"></i></div>
@@ -84,7 +84,7 @@ get_header(); ?>
 										
 									</div>
 								</div>
-								<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"> <button class="get-involved"> Get Involved! </button></a>
+								<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get involved"> <button class="get-involved">Get Involved!</button></a>
 					</div>
 				</div>
 			</div>

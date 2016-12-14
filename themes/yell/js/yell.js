@@ -3,7 +3,7 @@
 		event.preventDefault();
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();
 		$('.main-navigation ul').css("background-color","#e8e8e8","width","80%");
-		$('button').css("display","flex","width","80%");
+		$('.menu-toggle').css("display","flex","width","80%");
 		$('.button-click').animate({width:'80%'});
 		$('.fa-bars').toggle();
 		$('.back').toggle();
