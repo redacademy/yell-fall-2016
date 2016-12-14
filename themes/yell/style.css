@@ -1125,6 +1125,7 @@ object {
 .page-template-page-program .nav-bar,
 .page-template-page-student .nav-bar,
 .page-template-page-supporters .nav-bar,
+.single-people_type .nav-bar,
 .single-post .nav-bar,
 .error404 .nav-bar,
 .page-id-123 .nav-bar,
@@ -1148,6 +1149,7 @@ object {
     .page-template-page-program .nav-bar,
     .page-template-page-student .nav-bar,
     .page-template-page-supporters .nav-bar,
+    .single-people_type .nav-bar,
     .single-post .nav-bar,
     .error404 .nav-bar,
     .page-id-123 .nav-bar,
@@ -1170,6 +1172,7 @@ object {
   .page-template-page-program .nav-bar .button-click a,
   .page-template-page-student .nav-bar .button-click a,
   .page-template-page-supporters .nav-bar .button-click a,
+  .single-people_type .nav-bar .button-click a,
   .single-post .nav-bar .button-click a,
   .error404 .nav-bar .button-click a,
   .page-id-123 .nav-bar .button-click a,
@@ -1190,6 +1193,7 @@ object {
   .page-template-page-program .nav-bar .button-click .button-click-toggle,
   .page-template-page-student .nav-bar .button-click .button-click-toggle,
   .page-template-page-supporters .nav-bar .button-click .button-click-toggle,
+  .single-people_type .nav-bar .button-click .button-click-toggle,
   .single-post .nav-bar .button-click .button-click-toggle,
   .error404 .nav-bar .button-click .button-click-toggle,
   .page-id-123 .nav-bar .button-click .button-click-toggle,
@@ -1208,6 +1212,7 @@ object {
   .page-template-page-program .nav-bar button,
   .page-template-page-student .nav-bar button,
   .page-template-page-supporters .nav-bar button,
+  .single-people_type .nav-bar button,
   .single-post .nav-bar button,
   .error404 .nav-bar button,
   .page-id-123 .nav-bar button,
@@ -1231,6 +1236,7 @@ object {
     .page-template-page-program .nav-bar button i,
     .page-template-page-student .nav-bar button i,
     .page-template-page-supporters .nav-bar button i,
+    .single-people_type .nav-bar button i,
     .single-post .nav-bar button i,
     .error404 .nav-bar button i,
     .page-id-123 .nav-bar button i,
@@ -1250,6 +1256,7 @@ object {
     .page-template-page-program .nav-bar button .fa-arrow-circle-o-left,
     .page-template-page-student .nav-bar button .fa-arrow-circle-o-left,
     .page-template-page-supporters .nav-bar button .fa-arrow-circle-o-left,
+    .single-people_type .nav-bar button .fa-arrow-circle-o-left,
     .single-post .nav-bar button .fa-arrow-circle-o-left,
     .error404 .nav-bar button .fa-arrow-circle-o-left,
     .page-id-123 .nav-bar button .fa-arrow-circle-o-left,
@@ -1269,6 +1276,7 @@ object {
   .page-template-page-program .nav-bar img,
   .page-template-page-student .nav-bar img,
   .page-template-page-supporters .nav-bar img,
+  .single-people_type .nav-bar img,
   .single-post .nav-bar img,
   .error404 .nav-bar img,
   .page-id-123 .nav-bar img,
@@ -1289,6 +1297,7 @@ object {
       .page-template-page-program .nav-bar img,
       .page-template-page-student .nav-bar img,
       .page-template-page-supporters .nav-bar img,
+      .single-people_type .nav-bar img,
       .single-post .nav-bar img,
       .error404 .nav-bar img,
       .page-id-123 .nav-bar img,
@@ -1308,6 +1317,7 @@ object {
 .page-template-page-about .nav-bar,
 .page-template-page-expert .nav-bar,
 .page-template-page-program .nav-bar,
+.single-people_type .nav-bar,
 .page-template-page-supporters .nav-bar,
 .blog .nav-bar {
   background-color: transparent; }
@@ -1315,6 +1325,7 @@ object {
   .page-template-page-about .nav-bar img,
   .page-template-page-expert .nav-bar img,
   .page-template-page-program .nav-bar img,
+  .single-people_type .nav-bar img,
   .page-template-page-supporters .nav-bar img,
   .blog .nav-bar img {
     height: 5rem;
@@ -2848,7 +2859,8 @@ li a.stickytop2 {
         margin: 10%; } }
 
 .program-hero h1, .about-hero h1 {
-  margin: 50% auto; }
+  margin: 50% auto;
+  width: 300px; }
   @media (min-width: 1000px) {
     .program-hero h1, .about-hero h1 {
       width: 400px;
