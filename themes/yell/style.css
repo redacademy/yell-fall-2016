@@ -2490,17 +2490,21 @@ li a.stickytop2 {
   background-size: cover;
   color: white;
   text-transform: uppercase;
-  font-size: 76px;
+  font-size: 60px;
   text-align: center;
   font-family: "Rubik", sans;
   font-weight: 600;
   width: 100%;
   background-position: center; }
+  .hero-404 .h2-404 {
+    padding: 14%; }
   @media (min-width: 1000px) {
     .hero-404 {
       height: 900px;
       width: 1454px;
-      font-size: 96px; } }
+      font-size: 96px; }
+      .hero-404 .h2-404 {
+        padding: 12%; } }
 
 .contactbtn {
   width: 270px;
@@ -2560,7 +2564,7 @@ li a.stickytop2 {
     background-color: #9d9d9d; }
 
 .error-404 {
-  margin-top: 5%;
+  margin-bottom: 5%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -2576,9 +2580,6 @@ li a.stickytop2 {
     font-family: "Roboto", sans;
     text-align: center;
     margin-top: 12%; }
-    @media (min-width: 1000px) {
-      .error-404 p {
-        margin-top: 1%; } }
 
 .btn-wrapper {
   text-align: center; }
