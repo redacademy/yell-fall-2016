@@ -2569,12 +2569,12 @@ li a.stickytop2 {
 
 .hero-404 {
   background: url(../../images/404.png), no-repeat center bottom;
-  height: 318px;
-  width: 388px;
+  height: 500px;
+  z-index: -1;
   background-size: cover;
   color: white;
   text-transform: uppercase;
-  font-size: 96px;
+  font-size: 76px;
   text-align: center;
   font-family: "Rubik", sans;
   font-weight: 600;
@@ -2583,7 +2583,8 @@ li a.stickytop2 {
   @media (min-width: 1000px) {
     .hero-404 {
       height: 900px;
-      width: 1454px; } }
+      width: 1454px;
+      font-size: 96px; } }
 
 .contactbtn {
   width: 270px;
@@ -2600,7 +2601,12 @@ li a.stickytop2 {
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
-  margin: 5%; }
+  margin: 5%;
+  margin-bottom: 17%;
+  margin-top: 1%; }
+  @media (min-width: 1000px) {
+    .contactbtn {
+      margin: 5%; } }
   .contactbtn a {
     color: #FFFFFF;
     text-decoration: none; }
@@ -2625,6 +2631,10 @@ li a.stickytop2 {
   box-shadow: none;
   border: 3px solid #E8E8E8;
   margin: 5%; }
+  @media (min-width: 1000px) {
+    .backbtn {
+      margin-bottom: 3%;
+      margin-left: -3%; } }
   .backbtn a {
     color: #FFFFFF;
     text-decoration: none; }
@@ -2648,7 +2658,11 @@ li a.stickytop2 {
     margin: 0 auto;
     padding-bottom: 2%;
     font-family: "Roboto", sans;
-    text-align: center; }
+    text-align: center;
+    margin-top: 12%; }
+    @media (min-width: 1000px) {
+      .error-404 p {
+        margin-top: 1%; } }
 
 .btn-wrapper {
   text-align: center; }
