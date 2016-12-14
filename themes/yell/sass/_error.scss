@@ -6,20 +6,22 @@
 
 .hero-404 {
     background: url(../../images/404.png), no-repeat center bottom;
-    height: 318px;
-    width: 388px;
+    height: 500px;
+    z-index:-1;
     background-size: cover;
     color: white;
     text-transform: uppercase;
-    font-size: 96px;
+    font-size: 76px;
     text-align: center;
     font-family: $accent-font-family;
     font-weight: 600;
     width:100%;
-    background-position:center;
+    background-position: center; 
+   
     @include desktop {
         height: 900px;
         width: 1454px;
+        font-size: 96px;
     }
 }
 
@@ -39,6 +41,11 @@
     box-shadow: none;
     border: 3px solid $btn-border-color;
     margin: 5%;
+    margin-bottom: 17%;
+    margin-top: 1%;
+    @include desktop {
+        margin: 5%;
+    }
     a {
         color: #FFFFFF;
         text-decoration: none;
@@ -66,6 +73,10 @@
     box-shadow: none;
     border: 3px solid $btn-border-color;
     margin: 5%;
+    @include desktop {
+        margin-bottom: 3%;
+        margin-left: -3%;
+    }
     a {
         color: #FFFFFF;
         text-decoration: none;
@@ -90,6 +101,10 @@
         padding-bottom: 2%;
         font-family: $main-font-family;
         text-align: center;
+        margin-top: 12%;
+        @include desktop {
+            margin-top: 1%;
+        }
     }
 }
 
