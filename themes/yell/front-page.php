@@ -20,9 +20,7 @@ get_header(); ?>
 			
 			</div>
 
-				<!--<div class="white-blob">
-			 
-			 </div>-->
+			
 			<div class="homepg-bg1">
 				<div class="homepg-bg2">
 					<div class="homepg-bg3">

@@ -13,8 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="expert-hero">
 				<h1>A bright future for all Canadian communities</h1>
-				<div class="white-blob">
-					</div>
+				
 			</div>
 			<div class="homepg-bg1">
 				<div class="homepg-bg3">
@@ -69,7 +68,7 @@ get_header(); ?>
 						<p><?php echo CFS()->get( 'expert_paragraph' ); ?></p>
 					</div>
 					</div>
-					<div class="expert-wrapper">
+					<div class="professional-wrapper">
 						<div class="speaker-btn"><p>Guest Speakers at YELL  <i class="fa fa-caret-down" aria-hidden="true"></i></p>
 						</div>
 						<div class="speaker-info">

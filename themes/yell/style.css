@@ -923,10 +923,6 @@ object {
     height: 275px;
     border-radius: 4%;
     margin-bottom: 10px; }
-  .home .homepg-bg1 {
-    background-repeat: no-repeat;
-    background-size: 100% 350px;
-    background-position-y: 10%; }
   .home .homepg-bg2 {
     background-image: url(../../images/blue-splash.png);
     background-repeat: no-repeat;
@@ -1643,7 +1639,6 @@ li a.stickytop2 {
   .page-template-page-expert .site-main p,
   .page-template-page-program .site-main p {
     font-size: 16px;
-    max-width: 60%;
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%;
@@ -2005,6 +2000,19 @@ li a.stickytop2 {
     .program-hero {
       background-position-x: 100%; } }
 
+.page-template-page-expert .homepg-bg1 {
+  background-image: url(../../images/orange-splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  background-position-y: 10%; }
+
+.page-template-page-expert .homepg-bg3 {
+  background-image: url(../../images/blue-splash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  background-position-y: 90%;
+  font-family: "Roboto", sans; }
+
 .page-template-page-expert .what-yell p {
   width: 500px;
   margin: 50px auto; }
@@ -2241,17 +2249,24 @@ li a.stickytop2 {
   .page-template-page-expert .teacher-btn i {
     color: white; }
 
+@media (min-width: 1000px) {
+  .professional-wrapper {
+    display: -ms-flexbox;
+    display: flex; } }
+
 .expert-wrapper:first-child(1) img {
   height: 165px; }
 
 @media (min-width: 1000px) {
   .expert-wrapper {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    width: 65%; } }
 
-.program p {
-  margin-right: 3%;
-  text-align: left; }
+@media (min-width: 1000px) {
+  .program-brain, .program {
+    width: 60%;
+    margin: 5%; } }
 
 .testimonial-wrapper {
   display: -ms-flexbox;
@@ -2805,6 +2820,12 @@ li a.stickytop2 {
 .page-id-161,
 .page-id-168 {
   background-color: #F9f9f9; }
+  .page-id-161 textarea, .page-id-161 input, .page-id-161 button, .page-id-161 select,
+  .page-id-168 textarea,
+  .page-id-168 input,
+  .page-id-168 button,
+  .page-id-168 select {
+    outline: none; }
   .page-id-161 h3,
   .page-id-168 h3 {
     display: none; }
@@ -2870,7 +2891,7 @@ li a.stickytop2 {
   .page-id-161 p,
   .page-id-168 p {
     font-size: 16px;
-    max-width: 54%;
+    max-width: 72%;
     color: #9B9B9B;
     margin: 0 auto;
     padding-bottom: 2%; }
@@ -2880,7 +2901,8 @@ li a.stickytop2 {
   background-color: white;
   color: #E48C3D;
   font-family: "Roboto", sans;
-  font-size: 14px; }
+  font-size: 14px;
+  height: 50px; }
 
 .nf-element {
   height: 50px; }
@@ -2897,16 +2919,18 @@ li a.stickytop2 {
   font-weight: lighter; }
 
 .nf-field-element input[type='button'] {
+  width: 100% !important;
+  margin-left: 0rem !important;
   background-color: #8DC0D0;
   border-radius: 6px;
   font-size: 18px;
-  font-weight: lighter;
   text-align: center;
+  font-weight: lighter;
+  width: 200px;
   line-height: 22px;
   color: #FFFFFF;
   font-family: "Rubik", sans;
   text-shadow: none;
-  text-align: right;
   text-transform: uppercase;
   box-shadow: none;
   border: 3px solid #E8E8E8;
@@ -2918,6 +2942,7 @@ li a.stickytop2 {
   .nf-field-element input[type='button'] p {
     color: #fff;
     margin-top: -11%;
+    text-align: center;
     margin-left: 39%;
     text-transform: lowercase;
     text-align: left;

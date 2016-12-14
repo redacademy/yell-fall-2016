@@ -1,5 +1,21 @@
 .page-template-page-expert {
 
+      .homepg-bg1 {
+       
+        background-image: url(../../images/orange-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 450px;
+        background-position-y: 10%;
+    }
+
+     .homepg-bg3 {
+        background-image: url(../../images/blue-splash.png);
+        background-repeat: no-repeat;
+        background-size: 100% 450px;
+        background-position-y: 90%;
+        font-family: $main-font-family;
+    }
+
     .what-yell {
         p {
             width:500px;
@@ -266,7 +282,11 @@
         }
     }
 }
-
+.professional-wrapper {
+    @include desktop {
+        display:flex;
+    }
+}
 .expert-wrapper {
 
     
@@ -276,14 +296,14 @@
     }
     @include desktop {
         display: flex;
+        width:65%;
     
     }
 }
-
-.program {
-    p{
-    margin-right:3%;
-    text-align:left;
+.program-brain, .program {
+    @include desktop {
+    width: 60%;
+    margin: 5%;
 }
 }
 //testimonial styles ====================
