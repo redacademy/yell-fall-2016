@@ -1432,7 +1432,7 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    padding: 1rem;
+    padding: 2.5rem;
     width: 100%; }
     ul.menu.stickytop li a {
       color: #E48C3D; }
@@ -2395,7 +2395,7 @@ li a.stickytop2 {
     .program-fish {
       -ms-flex-preferred-size: 30%;
           flex-basis: 30%;
-      padding: 3%; } }
+      padding: 2%; } }
 
 .page-template-page-supporters,
 .page-template-page-contact {
@@ -3266,10 +3266,6 @@ input[type=button] {
 
 .single {
   background-color: rgba(242, 242, 242, 0.5); }
-  .single .nav-bar {
-    position: absolute; }
-  .single .logo {
-    height: 100px; }
   .single img {
     border-radius: 50%; }
     @media (min-width: 1000px) {
