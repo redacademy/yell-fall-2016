@@ -1610,7 +1610,8 @@ li a.stickytop2 {
     font-weight: 300;
     font-size: 24px;
     text-align: center;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    margin: 85px auto; }
     @media (min-width: 600px) {
       .page-template-page-student .site-main h2,
       .page-template-page-expert .site-main h2,
@@ -2022,9 +2023,6 @@ li a.stickytop2 {
 .page-template-page-expert .what-yell p {
   width: 500px;
   margin: 50px auto; }
-
-.page-template-page-expert .what-yell img {
-  height: 300px; }
 
 .page-template-page-expert .yell-program p {
   text-align: left;
