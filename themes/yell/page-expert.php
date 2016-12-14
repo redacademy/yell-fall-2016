@@ -78,7 +78,7 @@ get_header(); ?>
 								<?php echo CFS()->get( 'guest_speakers_at_yell' ); ?>
 							</div>
 							
-							<a href="<?php echo esc_url( site_url( '/get-involved/' ) ); ?>" rel="get-involved"><button class="get-involved"> Be a guest speaker! </button></a>
+							<a href="<?php echo esc_url( site_url( '/guest-speaker-form/' ) ); ?>" rel="get-involved"><button class="get-involved"> Be a guest speaker! </button></a>
 						</div>
 						<div class="mentor-btn">
 							<p>Mentors at YELL  <i class="fa fa-caret-down" aria-hidden="true"></i></p>
