@@ -21,6 +21,9 @@
             width:500px;
             margin:50px auto;
         }
+        img {
+            height:300px;
+        }
     }
 
     .yell-program {
@@ -296,7 +299,7 @@
     }
     @include desktop {
         display: flex;
-        width:65%;
+        // width:65%;
     
     }
 }
@@ -392,4 +395,22 @@
         margin: 0 auto;
         max-width: 345px;
     }
+}
+
+.program-cols {
+   
+
+    @include desktop {
+    display:flex;
+    margin:0 auto;
+    }
+
+}
+
+.program-fish{
+     width:100%;
+    @include desktop{
+    flex-basis:30%;
+    padding:3%;
+}
 }

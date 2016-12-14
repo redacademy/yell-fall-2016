@@ -31,32 +31,30 @@ get_header(); ?>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/program-timeline.png" alt="timeline">
 						</div>
 						<!--program info-->
-						<div class="expert-wrapper">
-							<div class="eds-animate animated slideInDown" data-eds-entry-animation="slideInDown" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
-
-							<div class="program-accelerator">
+						<div class="program-cols">
+							<div class="program-fish">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/guage.png" alt="accelerator">
-								</div>
+							
 								<h3> Business Accelerator</h3>
 								<h5> Fall Semester</h5>
 								<?php echo CFS()->get( 'fall' ); ?>
 							</div>
-							<div class="eds-animate animated slideInDown" data-eds-entry-animation="slideInDown" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
-							<div class="program-brain">
+							
+							<div class="program-fish">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/idea-incubator.png" alt="brain">
-								</div>
+								
 								<h3> Idea Incubator</h3>
 								<h5> Winter Semester</h5>
 								<?php echo CFS()->get( 'winter' ); ?>
 							</div>
-							<div class="eds-animate animated slideInDown" data-eds-entry-animation="slideInDown" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
-
+							
 							<div class="program-fish">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/fish.png" alt="fish bowls">
-								</div>
+								
 								<h3> Venture Challenge</h3>
 								<h5> Spring Semester</h5>
 								<?php echo CFS()->get( 'spring' ); ?>
+							</div>
 							</div>
 						</div>
 						<div class="charts">

@@ -1649,13 +1649,17 @@ li a.stickytop2 {
   .page-template-page-student .what-yell,
   .page-template-page-expert .what-yell,
   .page-template-page-program .what-yell {
-    margin-bottom: 10rem; }
+    margin-bottom: 1rem; }
     .page-template-page-student .what-yell p,
     .page-template-page-expert .what-yell p,
     .page-template-page-program .what-yell p {
       font-size: 14px;
       text-align: center;
       max-width: 100%; }
+    .page-template-page-student .what-yell img,
+    .page-template-page-expert .what-yell img,
+    .page-template-page-program .what-yell img {
+      height: 300px; }
     .page-template-page-student .what-yell h2,
     .page-template-page-expert .what-yell h2,
     .page-template-page-program .what-yell h2 {
@@ -2019,6 +2023,9 @@ li a.stickytop2 {
   width: 500px;
   margin: 50px auto; }
 
+.page-template-page-expert .what-yell img {
+  height: 300px; }
+
 .page-template-page-expert .yell-program p {
   text-align: left;
   max-width: none; }
@@ -2262,8 +2269,7 @@ li a.stickytop2 {
 @media (min-width: 1000px) {
   .expert-wrapper {
     display: -ms-flexbox;
-    display: flex;
-    width: 65%; } }
+    display: flex; } }
 
 @media (min-width: 1000px) {
   .program-brain, .program {
@@ -2352,6 +2358,20 @@ li a.stickytop2 {
       margin-bottom: 2%;
       margin: 0 auto;
       max-width: 345px; } }
+
+@media (min-width: 1000px) {
+  .program-cols {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto; } }
+
+.program-fish {
+  width: 100%; }
+  @media (min-width: 1000px) {
+    .program-fish {
+      -ms-flex-preferred-size: 30%;
+          flex-basis: 30%;
+      padding: 3%; } }
 
 .page-template-page-supporters,
 .page-template-page-contact {
