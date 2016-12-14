@@ -40,7 +40,7 @@ get_header(); ?>
 
 						<div class="eds-animate animated bounceIn" data-eds-entry-animation="bounceIn" data-eds-entry-delay="0" data-eds-entry-duration="0.5" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="1" data-eds-keep="yes" data-eds-animate-on="scroll" data-eds-scroll-offset="75" style="animation-duration: 0.5s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;">
 								<div class="chart-wrap">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/hill.png" alt="hill chart">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/hills.png" alt="hill chart">
 									<div class="bubble-chart">
 										<img src="<?php echo get_template_directory_uri(); ?>/images/bubble.png" alt="Bubble chart">
 										<img src="<?php echo get_template_directory_uri(); ?>/images/legend.png" alt="Bubble legend">
