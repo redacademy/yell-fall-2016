@@ -896,6 +896,8 @@ object {
 
 .home {
   text-align: center; }
+  .home .student-name {
+    margin: 29px auto; }
   .home h2 {
     font-family: "Rubik", sans;
     color: #E48C3D;
@@ -2490,8 +2492,7 @@ li a.stickytop2 {
           flex-direction: column;
       -ms-flex-pack: center;
           justify-content: center;
-      margin-right: 35%;
-      margin-bottom: 15%; } }
+      margin-right: 35%; } }
 
 @media (min-width: 1000px) {
   .contact-profesh,
@@ -2563,6 +2564,23 @@ li a.stickytop2 {
       -ms-flex-direction: column;
           flex-direction: column;
       margin: 3rem; } }
+
+.contact-details {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap; }
+  .contact-details a {
+    text-decoration: none;
+    color: #8DC0D0;
+    font-family: "Roboto", sans;
+    font-weight: 100;
+    font-size: 18px; }
+  .contact-details i {
+    color: #E48C3D;
+    font-size: 20px;
+    margin-right: 1%; }
 
 .error404 .logo {
   height: 100px; }

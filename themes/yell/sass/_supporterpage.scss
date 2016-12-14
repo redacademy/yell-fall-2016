@@ -136,7 +136,7 @@
         flex-direction: column;
         justify-content: center;
         margin-right: 35%;
-        margin-bottom:15%;
+    
     }
 }
 
@@ -221,3 +221,22 @@
         }
     }
 }
+ .contact-details{
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+
+    a{
+        text-decoration:none;
+        color:$theme-blue-color;
+        font-family:$main-font-family;
+        font-weight:100;
+        font-size:18px
+    }
+
+    i {
+        color:$theme-orange-color;
+        font-size:20px;
+        margin-right:1%;
+    }
+ }

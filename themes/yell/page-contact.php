@@ -29,13 +29,15 @@ get_header(); ?>
 					<p> Have questions? Send us a message.</p>
 					<a href="<?php echo esc_url( site_url( '/general-inquiries/' ) ); ?>" rel="general inquiries"><button class="get-involved2">General Inquiries</button></a>
 				</div>
+		</div>
+
 				<div class="contact-details">
-				<a href="<?php echo CFS()->get( 'contact_phone' ); ?>" ><?php echo CFS()->get( 'contact_phone' ); ?></a>
-				<a href="mailto<?php echo CFS()->get( 'contact_email' ); ?>"><?php echo CFS()->get( 'contact_email' ); ?></a> 
+				<a href="<?php echo CFS()->get( 'contact_phone' ); ?>" ><p><i class="fa fa-phone-square" aria-hidden="true"></i> <?php echo CFS()->get( 'contact_phone' ); ?></p></a>
+				<a href="mailto<?php echo CFS()->get( 'contact_email' ); ?>"><p><i class="fa fa-envelope" aria-hidden="true"></i> <?php echo CFS()->get( 'contact_email' ); ?></p></a> 
 				</div>
 
 		</main>
 		<!-- #main -->
-		</div>
+		
 		<!-- #primary -->
 		<?php get_footer(); ?>

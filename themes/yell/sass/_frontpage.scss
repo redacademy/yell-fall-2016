@@ -1,6 +1,9 @@
 .home {
+    
     text-align: center;
-
+    .student-name {
+        margin:29px auto;
+    }
      h2 {
         font-family: $accent-font-family;
         color: $theme-orange-color;
