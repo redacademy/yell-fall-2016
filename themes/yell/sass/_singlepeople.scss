@@ -1,6 +1,10 @@
 .single {
     background-color:hsla(0,0%,95%,.5);
 
+    .backbtn {
+        margin-left: 0%;
+    }
+
     .nav-bar {
         position:absolute;
         width:100%;
@@ -8,6 +12,7 @@
         top:0;
     }
 
+ 
     .logo { 
         height: 100px;
     }
