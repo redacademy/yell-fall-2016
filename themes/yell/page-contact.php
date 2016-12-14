@@ -18,7 +18,7 @@ get_header(); ?>
 			<div class="contactinfo">
 				<div class="contact-profesh">
 					<p> Are you a professional who wants to take part of YELL?</p>
-					<a href="<?php echo esc_url( site_url( '/professionals/' ) ); ?>" rel="professionals" ">	<button class="peachbtn ">Professionals</button></a>
+					<a href="<?php echo esc_url( site_url( '/professionals/' ) ); ?>" rel="professionals">	<button class="peachbtn">Professionals</button></a>
 			</div>
 			<div class="contact-sponsor ">
 			<p> Are you a potential sponsor, business
@@ -29,6 +29,11 @@ get_header(); ?>
 					<p> Have questions? Send us a message.</p>
 					<a href="<?php echo esc_url( site_url( '/general-inquiries/' ) ); ?>" rel="general inquiries"><button class="get-involved2">General Inquiries</button></a>
 				</div>
+				<div class="contact-details">
+				<a href="<?php echo CFS()->get( 'contact_phone' ); ?>" ><?php echo CFS()->get( 'contact_phone' ); ?></a>
+				<a href="mailto<?php echo CFS()->get( 'contact_email' ); ?>"><?php echo CFS()->get( 'contact_email' ); ?></a> 
+				</div>
+
 		</main>
 		<!-- #main -->
 		</div>
