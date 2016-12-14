@@ -3266,6 +3266,13 @@ input[type=button] {
 
 .single {
   background-color: rgba(242, 242, 242, 0.5); }
+  .single .nav-bar {
+    position: absolute;
+    width: 100%;
+    background-color: #E8E8E8;
+    top: 0; }
+  .single .logo {
+    height: 100px; }
   .single img {
     border-radius: 50%; }
     @media (min-width: 1000px) {
