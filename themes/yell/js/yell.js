@@ -14,7 +14,6 @@
 		$('.main-navigation ul').animate({width: 'toggle'}).focus();	
 	  })
 
-
 // sticky nav.............................................................
 
 	  $(window).scroll(function() {
@@ -31,7 +30,6 @@
         }
     });
 })( jQuery );
-
 
 // show and hide content on click for experts page
 ( function( $ ) {

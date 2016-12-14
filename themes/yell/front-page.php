@@ -19,7 +19,6 @@ get_header(); ?>
 					</div>
 			
 			</div>
-
 			
 			<div class="homepg-bg1">
 				<div class="homepg-bg2">
