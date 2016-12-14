@@ -1,7 +1,21 @@
 .single {
     background-color:hsla(0,0%,95%,.5);
 
-   
+    .backbtn {
+        margin-left: 0%;
+    }
+
+    .nav-bar {
+        position:absolute;
+        width:100%;
+        background-color:$btn-border-color;
+        top:0;
+    }
+
+ 
+    .logo { 
+        height: 100px;
+    }
     img {
         border-radius: 50%;
 
