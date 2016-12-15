@@ -2649,7 +2649,7 @@ li a.stickytop2 {
   @media (min-width: 1000px) {
     .hero-404 {
       height: 900px;
-      width: 1454px;
+      width: 100%;
       font-size: 96px; }
       .hero-404 .h2-404 {
         padding: 12%; } }
