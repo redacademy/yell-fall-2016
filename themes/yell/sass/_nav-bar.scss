@@ -62,8 +62,8 @@
             width: 5rem;
             @include min-desktop {
                 align-self: left;
-                height: 9rem;
-                width: 9rem;
+                height: 7rem;
+                width: 7rem;
             }
         }
       }
@@ -80,8 +80,8 @@
     .nav-bar {
         background-color: transparent;
         img {
-            height: 5rem;
-            width: 5rem;
+            height: 7rem;
+            width: 7rem;
         }
     }
 }
@@ -95,7 +95,7 @@
         padding-top: 2rem;
         height: 10%;
         justify-content: flex-end;
-        width: 1200px;
+        width: 100%;
     }
     li {
         border-bottom: 1px solid $link-to-top-grey;
@@ -111,6 +111,7 @@
             background-color: $theme-peach-color;
             @include min-desktop {
                 background-color: transparent;
+                margin-right: 6%;
             }
             a {
                 color: white;

@@ -940,7 +940,7 @@ object {
 
 #playbtn {
   border: 2px solid #fff;
-  margin: 10px auto;
+  margin: -5px auto;
   height: 100px;
   width: 100px;
   text-align: center;
@@ -1311,8 +1311,8 @@ object {
         -ms-flex-item-align: left;
             -ms-grid-row-align: left;
             align-self: left;
-        height: 9rem;
-        width: 9rem; } }
+        height: 7rem;
+        width: 7rem; } }
 
 .home .nav-bar,
 .page-template-page-about .nav-bar,
@@ -1329,8 +1329,8 @@ object {
   .single-people_type .nav-bar img,
   .page-template-page-supporters .nav-bar img,
   .blog .nav-bar img {
-    height: 5rem;
-    width: 5rem; }
+    height: 7rem;
+    width: 7rem; }
 
 .menu-primary-menu-container ul {
   height: 60%;
@@ -1344,7 +1344,7 @@ object {
       height: 10%;
       -ms-flex-pack: end;
           justify-content: flex-end;
-      width: 1200px; } }
+      width: 100%; } }
   .menu-primary-menu-container ul li {
     border-bottom: 1px solid rgba(155, 155, 155, 0.52);
     line-height: 3rem;
@@ -1359,7 +1359,8 @@ object {
       background-color: #F4B473; }
       @media (min-width: 600px) {
         .menu-primary-menu-container ul li:nth-last-child(-n+1) {
-          background-color: transparent; } }
+          background-color: transparent;
+          margin-right: 6%; } }
       .menu-primary-menu-container ul li:nth-last-child(-n+1) a {
         color: white; }
         @media (min-width: 600px) {
@@ -2282,7 +2283,9 @@ li a.stickytop2 {
 @media (min-width: 1000px) {
   .professional-wrapper {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 .expert-wrapper:first-child(1) img {
   height: 165px; }
@@ -2387,6 +2390,8 @@ li a.stickytop2 {
   .program-cols {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
     margin: 0 auto; } }
 
 .program-fish {
@@ -2648,7 +2653,7 @@ li a.stickytop2 {
   @media (min-width: 1000px) {
     .hero-404 {
       height: 900px;
-      width: 1454px;
+      width: 100%;
       font-size: 96px; }
       .hero-404 .h2-404 {
         padding: 12%; } }
