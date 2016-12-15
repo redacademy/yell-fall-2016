@@ -286,6 +286,7 @@
 .professional-wrapper {
     @include desktop {
         display:flex;
+        justify-content:center;
     }
 }
 .expert-wrapper {
@@ -404,7 +405,9 @@
 
     @include desktop {
     display:flex;
+     justify-content:center;
     margin:0 auto;
+
     }
 
 }

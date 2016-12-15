@@ -2283,7 +2283,9 @@ li a.stickytop2 {
 @media (min-width: 1000px) {
   .professional-wrapper {
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 .expert-wrapper:first-child(1) img {
   height: 165px; }
@@ -2388,6 +2390,8 @@ li a.stickytop2 {
   .program-cols {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
     margin: 0 auto; } }
 
 .program-fish {
