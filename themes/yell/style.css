@@ -3266,11 +3266,16 @@ input[type=button] {
 
 .single {
   background-color: rgba(242, 242, 242, 0.5); }
+  .single .backbtn {
+    margin-left: 0%; }
   .single .nav-bar {
     position: absolute;
     width: 100%;
     background-color: #E8E8E8;
     top: 0; }
+    @media (min-width: 1000px) {
+      .single .nav-bar {
+        background-color: transparent; } }
   .single .logo {
     height: 100px; }
   .single img {
