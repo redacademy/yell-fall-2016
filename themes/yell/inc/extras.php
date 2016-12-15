@@ -37,7 +37,7 @@ function yell_styles_method() {
           url({$url});
          height:800px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
          }
        
@@ -57,7 +57,7 @@ function yell_styles_method() {
           url({$url});
          height:700px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
          }
        
@@ -77,7 +77,7 @@ function yell_styles_method() {
           url({$url});
          height:700px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
          }
          #menu-item-81{
@@ -97,7 +97,7 @@ function yell_styles_method() {
           url({$url});
          height:700px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
        }
        
@@ -124,7 +124,7 @@ function yell_styles_method() {
           url({$url});
          height:700px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
        }";
 
@@ -167,7 +167,7 @@ function yell_styles_method() {
           url({$url});
          height:700px;
          background-size: 100%, cover, cover;
-         background-position: 0 141%, center center , center center;
+         background-position: 0 129%, center center , center center;
          background-repeat: no-repeat;
         
        }";
