@@ -3273,7 +3273,7 @@ input[type=button] {
     width: 100%;
     background-color: #E8E8E8;
     top: 0; }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
       .single .nav-bar {
         background-color: transparent; } }
   .single .logo {
