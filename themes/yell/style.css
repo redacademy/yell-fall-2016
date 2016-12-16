@@ -1333,7 +1333,7 @@ object {
     width: 7rem; }
 
 .menu-primary-menu-container ul {
-  height: 60%;
+  height: 392px;
   width: 80%;
   z-index: 1; }
   @media (min-width: 600px) {
@@ -2395,7 +2395,8 @@ li a.stickytop2 {
     margin: 0 auto; } }
 
 .program-fish {
-  width: 100%; }
+  width: 100%;
+  padding: 5%; }
   @media (min-width: 1000px) {
     .program-fish {
       -ms-flex-preferred-size: 30%;
